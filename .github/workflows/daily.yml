@@ -1,0 +1,74 @@
+name: Hourly wallet watchlist
+
+on:
+  schedule:
+    # Hourly, on the hour. GitHub may delay scheduled runs by a few minutes
+    # during high platform load -- normal, not something you can control.
+    # https://crontab.guru if you want to change this later.
+    - cron: "0 * * * *"
+  workflow_dispatch: {}  # lets you click "Run workflow" in the Actions tab on demand
+
+permissions:
+  contents: write   # to commit the daily report JSON back into the repo
+  pages: write       # to deploy the dashboard
+  id-token: write    # required by actions/deploy-pages
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline (discover, score, filter, rank)
+        working-directory: src
+        run: python3 main.py --top-n ${{ vars.TOP_N || 8 }} --max-candidates ${{ vars.MAX_CANDIDATES || 60 }}
+
+      - name: Render dashboard
+        working-directory: src
+        run: python3 render_dashboard.py
+
+      - name: Commit today's report back to the repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Wallet watchlist update: run ${{ github.run_id }}"
+          file_pattern: "reports/*.json dashboard/index.html"
+
+      # --- Discord notification: ONLY fires if a wallet scored >= threshold ---
+      # Set a repo secret named DISCORD_WEBHOOK_URL under Settings -> Secrets
+      # and variables -> Actions to enable this. Threshold defaults to 80;
+      # override with a repo Variable named SCORE_THRESHOLD if you want a
+      # different bar. Silence on a given run is expected and fine -- it
+      # means nothing cleared the bar that hour, not that something broke.
+      - name: Notify Discord (only if a wallet scored high enough)
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DASHBOARD_URL: "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+        run: python3 src/notify.py --threshold ${{ vars.SCORE_THRESHOLD || 80 }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
