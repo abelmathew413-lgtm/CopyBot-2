@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-01T18:38:13.009128+00:00",
-  "duration_seconds": 741.7,
-  "n_candidates_discovered": 1423,
+  "generated_at": "2026-07-01T23:09:08.739555+00:00",
+  "duration_seconds": 661.2,
+  "n_candidates_discovered": 1302,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 0,
-  "n_errors": 15,
+  "n_errors": 16,
   "errors": [
     {
       "wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
@@ -15,8 +15,8 @@
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x0346afae2603313d2bbee96b628536c8cbe352a5"
     },
     {
-      "wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x2117ae94a97d69b78cbc81b6680a62deb1955c26"
+      "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x204f72f35326db932158cba6adff0b9a1da95e14"
     },
     {
       "wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
@@ -27,20 +27,8 @@
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
     },
     {
-      "wallet": "0xa49becb692927d455924583b5e3e5788246f4c40",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xa49becb692927d455924583b5e3e5788246f4c40"
-    },
-    {
-      "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
-    },
-    {
-      "wallet": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x361b16e3ddfe1d415d41008daac2631d94ab74fe"
-    },
-    {
-      "wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+      "wallet": "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x2117ae94a97d69b78cbc81b6680a62deb1955c26"
     },
     {
       "wallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
@@ -51,20 +39,36 @@
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xcf6c5492124794394dd9eac46498a8babbe47e66"
     },
     {
-      "wallet": "0xb687f00464e33934f5d591f224e71c3559ecaee5",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xb687f00464e33934f5d591f224e71c3559ecaee5"
+      "wallet": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
     },
     {
-      "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x204f72f35326db932158cba6adff0b9a1da95e14"
+      "wallet": "0xa49becb692927d455924583b5e3e5788246f4c40",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xa49becb692927d455924583b5e3e5788246f4c40"
+    },
+    {
+      "wallet": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+    },
+    {
+      "wallet": "0xb687f00464e33934f5d591f224e71c3559ecaee5",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xb687f00464e33934f5d591f224e71c3559ecaee5"
     },
     {
       "wallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x53757615de1c42b83f893b79d4241a009dc2aeea"
     },
     {
-      "wallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xa38a455bbdd4b68486548b7e19da99903f4f821d"
+      "wallet": "0x10a6fadcbacd66330862206f6199b197e3ad4d8b",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0x10a6fadcbacd66330862206f6199b197e3ad4d8b"
+    },
+    {
+      "wallet": "0xdd882a70680633a75516f6ed5fce443e2d96dadb",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xdd882a70680633a75516f6ed5fce443e2d96dadb"
+    },
+    {
+      "wallet": "0xdd5ef115f801999575b03d78d0115ad8b2d59040",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&takerOnly=True&user=0xdd5ef115f801999575b03d78d0115ad8b2d59040"
     }
   ],
   "wallets": []
