@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-01T05:46:14.920496+00:00",
-  "duration_seconds": 1098.9,
-  "n_candidates_discovered": 1564,
+  "generated_at": "2026-07-01T06:09:00.134569+00:00",
+  "duration_seconds": 1164.0,
+  "n_candidates_discovered": 1592,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 0,
   "n_errors": 16,
