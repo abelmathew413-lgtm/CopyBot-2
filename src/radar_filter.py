@@ -89,14 +89,12 @@ def assess_radar_status(
     # not a pass -- since the whole point of this gate is "don't surface
     # someone already getting attention," it's safer to exclude an unverified
     # wallet than risk surfacing a wallet that's actually highly visible.
-    if max_views is not None:
-        if profile_views is None:
-            is_under_radar = False
-            reasons.append("view count unknown (scrape failed or no public handle) -- excluded conservatively")
-        elif profile_views > max_views:
+     if max_views is not None:
+        if profile_views is not None and profile_views > max_views:
             is_under_radar = False
             reasons.append(f"{profile_views:,} profile views exceeds {max_views} cap")
 
+            
     # Small/efficient portfolio is the core signal: high return relative to
     # capital deployed, without needing a large book to do it.
     if capital_efficiency is not None and capital_efficiency < min_capital_efficiency:
