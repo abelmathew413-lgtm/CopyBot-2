@@ -58,7 +58,7 @@ def assess_radar_status(
     profile_views: Optional[int] = None,  # from views_scraper.get_profile_views(); None = unknown
     max_views: Optional[int] = 250,  # hard cap per spec; set None to disable this gate entirely
     max_account_age_days: Optional[float] = None,  # None = no age requirement, just informative
-    min_capital_efficiency: float = 0.05,
+    min_capital_efficiency: float = 0.0,
     max_acceptable_rank: int = 1000,  # API leaderboard offset cap -- being ranked deep or absent counts
 ) -> RadarAssessment:
     leaderboard_ranks = leaderboard_ranks or {}
@@ -89,7 +89,7 @@ def assess_radar_status(
     # not a pass -- since the whole point of this gate is "don't surface
     # someone already getting attention," it's safer to exclude an unverified
     # wallet than risk surfacing a wallet that's actually highly visible.
-     if max_views is not None:
+    if max_views is not None:
         if profile_views is not None and profile_views > max_views:
             is_under_radar = False
             reasons.append(f"{profile_views:,} profile views exceeds {max_views} cap")
@@ -103,7 +103,7 @@ def assess_radar_status(
 
     # If they DO show up on a leaderboard, being ranked very high (e.g. top 20
     # overall, all-time) is the opposite of under-the-radar.
-    if best_rank is not None and best_rank <= 20:
+    if best_rank is not None and best_rank <= 3:
         is_under_radar = False
         reasons.append(f"ranked #{best_rank} on a public leaderboard (too visible)")
 
