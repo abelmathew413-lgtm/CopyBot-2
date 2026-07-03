@@ -275,6 +275,19 @@ def score_wallet(
     if disqualified:
         composite = -1.0
 
+    # Kelly edge: p - (1-p)/b where b = average win multiple
+    # Used by the dashboard's bet-sizing formula
+    kelly_edge = 0.0
+    if win_rate is not None and win_rate > 0:
+        wins = [p for p in closed_positions if p.get("realizedPnl", 0) > 0]
+        win_multiples = []
+        for p in wins:
+            avg_price = p.get("avgPrice", 0)
+            if avg_price and 0.01 < avg_price < 0.99:
+                win_multiples.append(min(50.0, (1.0 / avg_price) - 1.0))
+        avg_win_multiple = sum(win_multiples) / len(win_multiples) if win_multiples else 1.0
+        kelly_edge = max(-1.0, min(1.0, win_rate - (1 - win_rate) / avg_win_multiple))
+
     diagnostics = {
         "avg_clv": avg_clv,
         "n_clv_with_data": n_clv_with_data,
@@ -290,6 +303,7 @@ def score_wallet(
         "capital_concentration_hhi": capital_concentration,
         "win_rate_adj": win_rate,
         "avg_trades_per_day_30d": avg_trades_per_day,
+        "kelly_edge": kelly_edge,
     }
 
     return ScoreBreakdown(

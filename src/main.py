@@ -88,21 +88,18 @@ def build_report(top_n: int = 8, max_candidates: int = 150, verbose: bool = True
 
     for i, (wallet, meta) in enumerate(ranked_candidates):
         try:
-            log(f"  [{i+1}/{len(ranked_candidates)}] scoring {wallet} ({meta.get('userName')})...")
+            log(f"  [{i+1}/{len(ranked_candidates)}] checking {wallet} ({meta.get('userName')})...")
             profile = pc.get_public_profile(wallet)
             open_positions = pc.get_all_current_positions(wallet)
             closed_positions = pc.get_all_closed_positions(wallet)
-            trades = pc.get_all_trades(wallet)
 
-            score = score_wallet(
-                closed_positions=closed_positions,
-                trades=trades,
-                open_positions_count=len(open_positions),
-            )
-            if score.disqualified:
-                log(f"      disqualified: {score.disqualify_reasons}")
-                continue
-
+            # Cheap gate FIRST: account age, capital efficiency, leaderboard
+            # rank, and the views scrape are all far cheaper than full scoring
+            # (which includes CLV -- up to ~80 API calls per wallet on its
+            # own). Most candidates get rejected right here, so checking this
+            # before scoring saves the bulk of the runtime/API budget. This
+            # ordering matters a lot once this runs every 20 minutes instead
+            # of once a day.
             radar = assess_radar_status(
                 profile=profile,
                 open_positions=open_positions,
@@ -112,6 +109,16 @@ def build_report(top_n: int = 8, max_candidates: int = 150, verbose: bool = True
             )
             if not radar.is_under_radar:
                 log(f"      not under-the-radar: {radar.reasons}")
+                continue
+
+            trades = pc.get_all_trades(wallet)
+            score = score_wallet(
+                closed_positions=closed_positions,
+                trades=trades,
+                open_positions_count=len(open_positions),
+            )
+            if score.disqualified:
+                log(f"      disqualified: {score.disqualify_reasons}")
                 continue
 
             entries = pricing.recommend_entries_for_wallet(open_positions[:25])  # cap per-wallet detail
@@ -132,6 +139,7 @@ def build_report(top_n: int = 8, max_candidates: int = 150, verbose: bool = True
                 "score": {
                     "composite": round(score.composite, 4),
                     "score_100": composite_to_100(score.composite),
+                    "kelly_edge": round(score.diagnostics["kelly_edge"], 4) if score.diagnostics.get("kelly_edge") is not None else None,
                     "weights_used": {k: round(v, 4) for k, v in score.weights_used.items()},
                     "consistency_adjustment": score.consistency_adjustment,
                     "clv": round(score.diagnostics["avg_clv"], 4) if score.diagnostics["avg_clv"] is not None else None,
@@ -171,6 +179,7 @@ def build_report(top_n: int = 8, max_candidates: int = 150, verbose: bool = True
                         "conviction": e.conviction,
                         "pick_score": e.pick_score,
                         "recommended": e.recommended,
+                        "their_position_value": e.__dict__.get("their_position_value", 0),
                     }
                     for e in entries
                 ],

@@ -56,9 +56,9 @@ def assess_radar_status(
     closed_positions: list[dict],
     leaderboard_ranks: Optional[dict[str, int]] = None,  # e.g. {"OVERALL_WEEK": 340}
     profile_views: Optional[int] = None,  # from views_scraper.get_profile_views(); None = unknown
-    max_views: Optional[int] = 250,  # hard cap per spec; set None to disable this gate entirely
+    max_views: Optional[int] = 1000,  # wallets with confirmed views above this are excluded
     max_account_age_days: Optional[float] = None,  # None = no age requirement, just informative
-    min_capital_efficiency: float = 0.0,
+    min_capital_efficiency: float = 0.05,
     max_acceptable_rank: int = 1000,  # API leaderboard offset cap -- being ranked deep or absent counts
 ) -> RadarAssessment:
     leaderboard_ranks = leaderboard_ranks or {}
@@ -84,17 +84,18 @@ def assess_radar_status(
 
     is_under_radar = True
 
-    # Hard views gate: <=250 views on their own Polymarket profile page.
-    # Unknown views (scrape failed, no public handle) are treated as a FAIL,
-    # not a pass -- since the whole point of this gate is "don't surface
-    # someone already getting attention," it's safer to exclude an unverified
-    # wallet than risk surfacing a wallet that's actually highly visible.
+    # Views gate: <=250 views on their Polymarket profile page is the target.
+    # If we CONFIRMED they have >250 views, exclude them.
+    # If views are UNKNOWN (scrape failed / no public handle), let them through
+    # with a flag -- you're doing manual copy trading so you can check their
+    # profile yourself. Silently dropping potentially great wallets just because
+    # the scrape couldn't run is worse than occasionally surfacing someone
+    # with slightly more visibility than ideal.
     if max_views is not None:
         if profile_views is not None and profile_views > max_views:
             is_under_radar = False
             reasons.append(f"{profile_views:,} profile views exceeds {max_views} cap")
 
-            
     # Small/efficient portfolio is the core signal: high return relative to
     # capital deployed, without needing a large book to do it.
     if capital_efficiency is not None and capital_efficiency < min_capital_efficiency:
@@ -103,7 +104,7 @@ def assess_radar_status(
 
     # If they DO show up on a leaderboard, being ranked very high (e.g. top 20
     # overall, all-time) is the opposite of under-the-radar.
-    if best_rank is not None and best_rank <= 3:
+    if best_rank is not None and best_rank <= 20:
         is_under_radar = False
         reasons.append(f"ranked #{best_rank} on a public leaderboard (too visible)")
 

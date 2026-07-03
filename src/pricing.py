@@ -110,7 +110,19 @@ def recommend_entry(
 
 
 def recommend_entries_for_wallet(open_positions: list[dict]) -> list[EntryRecommendation]:
-    return [recommend_entry(p, token_id=p.get("asset")) for p in open_positions]
+    # Only show positions that still have real current value > $0.50 AND
+    # a current price between 1 and 99 cents -- positions outside that range
+    # are almost certainly already resolved (price snapped to 0 or 1).
+    active = [
+        p for p in open_positions
+        if (p.get("currentValue") or 0) > 0.50
+        and 0.01 < float(p.get("curPrice") or 0.5) < 0.99
+    ]
+    entries = [recommend_entry(p, token_id=p.get("asset")) for p in active]
+    # Attach position value so the dashboard bet-sizing formula can use it
+    for p, e in zip(active, entries):
+        e.__dict__["their_position_value"] = _position_size(p)
+    return entries
 
 
 def _position_size(position: dict) -> float:
