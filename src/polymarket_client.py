@@ -173,7 +173,7 @@ def get_trades(
     side: Optional[str] = None,
 ) -> list[dict]:
     """GET /trades -- raw fills. Used to compute trades/day cadence."""
-        params: dict = {"limit": min(limit, 10000), "offset": offset}
+    params: dict = {"limit": min(limit, 10000), "offset": offset}
     if user:
         params["user"] = user
     if market:
