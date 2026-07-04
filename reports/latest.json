@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-04T12:20:21.251407+00:00",
-  "duration_seconds": 424.4,
-  "n_candidates_discovered": 1155,
+  "generated_at": "2026-07-04T16:44:13.354967+00:00",
+  "duration_seconds": 376.0,
+  "n_candidates_discovered": 1149,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 12,
   "n_errors": 3,
@@ -55,9 +55,9 @@
         "avg_trades_per_day_30d": 6.4
       },
       "radar": {
-        "account_age_days": 26.6,
-        "portfolio_value": 1331824.49,
-        "capital_efficiency": 0.1478,
+        "account_age_days": 26.8,
+        "portfolio_value": 1358364.3,
+        "capital_efficiency": 0.147,
         "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
@@ -78,8 +78,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.65 -> 0.62); replicating their entry is still reasonably representative.",
-          "conviction": 0.098,
-          "pick_score": 0.098,
+          "conviction": 0.0973,
+          "pick_score": 0.0973,
           "recommended": true,
           "their_position_value": 374998.6477
         },
@@ -87,18 +87,18 @@
           "market_title": "Will Spain win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1363,
-          "current_price": 0.1225,
-          "fair_value_estimate": 0.1225,
+          "current_price": 0.1265,
+          "fair_value_estimate": 0.1255,
           "suggested_entry_range": [
-            0.119,
-            0.139
+            0.121,
+            0.141
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.14 -> 0.12); replicating their entry is still reasonably representative.",
-          "conviction": 0.0637,
-          "pick_score": 0.0637,
+          "note": "Price is close to their entry (0.14 -> 0.13); replicating their entry is still reasonably representative.",
+          "conviction": 0.0653,
+          "pick_score": 0.0653,
           "recommended": true,
-          "their_position_value": 243624.6347
+          "their_position_value": 251579.7249
         },
         {
           "market_title": "Will Colombia win the 2026 FIFA World Cup?",
@@ -112,8 +112,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.02 -> 0.03); replicating their entry is still reasonably representative.",
-          "conviction": 0.0269,
-          "pick_score": 0.0269,
+          "conviction": 0.0268,
+          "pick_score": 0.0268,
           "recommended": true,
           "their_position_value": 103093.5802
         },
@@ -121,18 +121,18 @@
           "market_title": "Will Canada vs. Morocco end in a draw?",
           "outcome": "Yes",
           "their_entry_price": 0.28,
-          "current_price": 0.2849,
-          "fair_value_estimate": 0.285,
+          "current_price": 0.295,
+          "fair_value_estimate": 0.295,
           "suggested_entry_range": [
-            0.272,
-            0.292
+            0.277,
+            0.297
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.28 -> 0.28); replicating their entry is still reasonably representative.",
-          "conviction": 0.0196,
-          "pick_score": 0.0196,
+          "note": "Price is close to their entry (0.28 -> 0.29); replicating their entry is still reasonably representative.",
+          "conviction": 0.023,
+          "pick_score": 0.023,
           "recommended": false,
-          "their_position_value": 75056.1943
+          "their_position_value": 88499.9537
         },
         {
           "market_title": "Will Brazil vs. Norway end in a draw?",
@@ -146,44 +146,44 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.26 -> 0.27); replicating their entry is still reasonably representative.",
-          "conviction": 0.0195,
-          "pick_score": 0.0195,
+          "conviction": 0.0194,
+          "pick_score": 0.0194,
           "recommended": false,
-          "their_position_value": 74558.8093
+          "their_position_value": 74691.4991
         },
         {
           "market_title": "Will Brazil win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.0724,
-          "current_price": 0.0635,
-          "fair_value_estimate": 0.0635,
+          "current_price": 0.0665,
+          "fair_value_estimate": 0.0665,
           "suggested_entry_range": [
-            0.058,
-            0.078
+            0.059,
+            0.079
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.07 -> 0.06); replicating their entry is still reasonably representative.",
-          "conviction": 0.0158,
-          "pick_score": 0.0158,
+          "note": "Price is close to their entry (0.07 -> 0.07); replicating their entry is still reasonably representative.",
+          "conviction": 0.0164,
+          "pick_score": 0.0164,
           "recommended": false,
-          "their_position_value": 60324.9855
+          "their_position_value": 63174.9848
         },
         {
           "market_title": "Will England win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1116,
-          "current_price": 0.0725,
-          "fair_value_estimate": 0.073,
+          "current_price": 0.0665,
+          "fair_value_estimate": 0.0665,
           "suggested_entry_range": [
-            0.073,
+            0.067,
             0.112
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.11 -> 0.07); replicating their entry is still reasonably representative.",
-          "conviction": 0.0109,
-          "pick_score": 0.0109,
+          "conviction": 0.0099,
+          "pick_score": 0.0099,
           "recommended": false,
-          "their_position_value": 41687.4774
+          "their_position_value": 38237.4793
         },
         {
           "market_title": "Will USA win the 2026 FIFA World Cup?",
@@ -206,52 +206,35 @@
           "market_title": "Will France win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1718,
-          "current_price": 0.3505,
-          "fair_value_estimate": 0.3505,
+          "current_price": 0.3515,
+          "fair_value_estimate": 0.3485,
           "suggested_entry_range": [
-            0.172,
+            0.17,
             0.35
           ],
           "flagged_chasing": true,
-          "note": "Price has moved up 0.18 (104%) since their entry of 0.17 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0366,
+          "note": "Price has moved up 0.18 (105%) since their entry of 0.17 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0365,
           "pick_score": 0.0073,
           "recommended": false,
-          "their_position_value": 140199.9117
+          "their_position_value": 140599.9115
         },
         {
           "market_title": "Will Argentina win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.0859,
-          "current_price": 0.1705,
-          "fair_value_estimate": 0.1705,
+          "current_price": 0.1685,
+          "fair_value_estimate": 0.1695,
           "suggested_entry_range": [
             0.086,
-            0.171
+            0.169
           ],
           "flagged_chasing": true,
-          "note": "Price has moved up 0.08 (98%) since their entry of 0.09 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.035,
-          "pick_score": 0.007,
+          "note": "Price has moved up 0.08 (96%) since their entry of 0.09 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0343,
+          "pick_score": 0.0069,
           "recommended": false,
-          "their_position_value": 133761.4136
-        },
-        {
-          "market_title": "Will Belgium win the 2026 FIFA World Cup?",
-          "outcome": "Yes",
-          "their_entry_price": 0.0123,
-          "current_price": 0.0115,
-          "fair_value_estimate": 0.0115,
-          "suggested_entry_range": [
-            0.002,
-            0.022
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.01 -> 0.01); replicating their entry is still reasonably representative.",
-          "conviction": 0.0044,
-          "pick_score": 0.0044,
-          "recommended": false,
-          "their_position_value": 15051.3773
+          "their_position_value": 132192.3647
         },
         {
           "market_title": "Will Morocco win the 2026 FIFA World Cup?",
@@ -265,10 +248,27 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.03 -> 0.03); replicating their entry is still reasonably representative.",
-          "conviction": 0.0039,
-          "pick_score": 0.0039,
+          "conviction": 0.0049,
+          "pick_score": 0.0049,
           "recommended": false,
-          "their_position_value": 13833.2469
+          "their_position_value": 19049.9707
+        },
+        {
+          "market_title": "Will Belgium win the 2026 FIFA World Cup?",
+          "outcome": "Yes",
+          "their_entry_price": 0.0123,
+          "current_price": 0.0125,
+          "fair_value_estimate": 0.0125,
+          "suggested_entry_range": [
+            0.002,
+            0.022
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.01 -> 0.01); replicating their entry is still reasonably representative.",
+          "conviction": 0.0044,
+          "pick_score": 0.0044,
+          "recommended": false,
+          "their_position_value": 16360.1927
         },
         {
           "market_title": "Will Mexico vs. England end in a draw?",
@@ -282,75 +282,10 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.30 -> 0.30); replicating their entry is still reasonably representative.",
-          "conviction": 0.0036,
-          "pick_score": 0.0036,
+          "conviction": 0.0042,
+          "pick_score": 0.0042,
           "recommended": false,
-          "their_position_value": 6795.3372
-        }
-      ]
-    },
-    {
-      "wallet": "0x4cb5a6cf70340f068148a740f9ec96cbea75ef29",
-      "userName": "ZizzWizz",
-      "display_name": "ZizzWizz",
-      "profile_url": "https://polymarket.com/@ZizzWizz",
-      "score": {
-        "composite": 0.5389,
-        "score_100": 77,
-        "kelly_edge": 0.2074,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.3325,
-        "n_clv_with_data": 11,
-        "n_clv_attempted": 11,
-        "sharpe": 1.1258,
-        "roi_lifetime": 0.2428,
-        "roi_180d": 0.2428,
-        "roi_90d": 0.2428,
-        "roi_30d": 0.2428,
-        "max_drawdown_fraction": 0.0308,
-        "n_resolved": 11,
-        "n_distinct_markets": 11,
-        "capital_concentration_hhi": 0.1542,
-        "win_rate_adj": 0.6226,
-        "avg_trades_per_day_30d": 3.3
-      },
-      "radar": {
-        "account_age_days": 31.8,
-        "portfolio_value": 210207.18,
-        "capital_efficiency": 0.1788,
-        "best_leaderboard_rank": 23,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 3,
-      "entry_recommendations": [
-        {
-          "market_title": "Wimbledon WTA: Alexandra Eala vs Iga Swiatek",
-          "outcome": "Iga Swiatek",
-          "their_entry_price": 0.7732,
-          "current_price": 0.785,
-          "fair_value_estimate": 0.785,
-          "suggested_entry_range": [
-            0.769,
-            0.789
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.77 -> 0.79); replicating their entry is still reasonably representative.",
-          "conviction": 0.4505,
-          "pick_score": 0.4505,
-          "recommended": true,
-          "their_position_value": 210207.1848
+          "their_position_value": 7047.109
         }
       ]
     },
@@ -386,11 +321,11 @@
         "n_distinct_markets": 31,
         "capital_concentration_hhi": 0.049,
         "win_rate_adj": 0.7928,
-        "avg_trades_per_day_30d": 2.53
+        "avg_trades_per_day_30d": 2.5
       },
       "radar": {
-        "account_age_days": 56.1,
-        "portfolio_value": 387181.85,
+        "account_age_days": 56.3,
+        "portfolio_value": 382585.61,
         "capital_efficiency": 0.218,
         "best_leaderboard_rank": 21,
         "profile_views": null,
@@ -404,59 +339,59 @@
           "market_title": "Canada vs. Morocco: Team to Advance",
           "outcome": "Morocco",
           "their_entry_price": 0.715,
-          "current_price": 0.725,
-          "fair_value_estimate": 0.725,
+          "current_price": 0.715,
+          "fair_value_estimate": 0.715,
           "suggested_entry_range": [
-            0.71,
-            0.73
+            0.705,
+            0.725
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.71 -> 0.72); replicating their entry is still reasonably representative.",
-          "conviction": 0.139,
-          "pick_score": 0.139,
+          "note": "Price is close to their entry (0.71 -> 0.71); replicating their entry is still reasonably representative.",
+          "conviction": 0.1374,
+          "pick_score": 0.1374,
           "recommended": true,
-          "their_position_value": 300964.7318
+          "their_position_value": 296813.4941
         },
         {
           "market_title": "Will Argentina win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1573,
-          "current_price": 0.1705,
-          "fair_value_estimate": 0.1705,
+          "current_price": 0.1685,
+          "fair_value_estimate": 0.1695,
           "suggested_entry_range": [
-            0.154,
-            0.174
+            0.153,
+            0.173
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.16 -> 0.17); replicating their entry is still reasonably representative.",
-          "conviction": 0.0299,
-          "pick_score": 0.0299,
+          "conviction": 0.0297,
+          "pick_score": 0.0297,
           "recommended": true,
-          "their_position_value": 64826.2794
+          "their_position_value": 64065.8538
         },
         {
           "market_title": "Will Spain win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.103,
-          "current_price": 0.1225,
-          "fair_value_estimate": 0.1225,
+          "current_price": 0.1265,
+          "fair_value_estimate": 0.1255,
           "suggested_entry_range": [
-            0.103,
-            0.123
+            0.102,
+            0.126
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.10 -> 0.12); replicating their entry is still reasonably representative.",
-          "conviction": 0.0055,
-          "pick_score": 0.0055,
+          "note": "Price is close to their entry (0.10 -> 0.13); replicating their entry is still reasonably representative.",
+          "conviction": 0.0057,
+          "pick_score": 0.0057,
           "recommended": true,
-          "their_position_value": 11883.8805
+          "their_position_value": 12271.9256
         },
         {
           "market_title": "Will Novak Djokovic be the 2026 Men\u2019s Wimbledon winner?",
           "outcome": "Yes",
           "their_entry_price": 0.1465,
-          "current_price": 0.144,
-          "fair_value_estimate": 0.144,
+          "current_price": 0.1429,
+          "fair_value_estimate": 0.143,
           "suggested_entry_range": [
             0.135,
             0.155
@@ -466,7 +401,7 @@
           "conviction": 0.0044,
           "pick_score": 0.0044,
           "recommended": false,
-          "their_position_value": 9506.9631
+          "their_position_value": 9434.3405
         }
       ]
     },
@@ -502,12 +437,12 @@
         "n_distinct_markets": 74,
         "capital_concentration_hhi": 0.028,
         "win_rate_adj": 0.9273,
-        "avg_trades_per_day_30d": 4.43
+        "avg_trades_per_day_30d": 4.53
       },
       "radar": {
-        "account_age_days": 15.0,
-        "portfolio_value": 820080.45,
-        "capital_efficiency": 0.092,
+        "account_age_days": 15.1,
+        "portfolio_value": 941973.82,
+        "capital_efficiency": 0.0903,
         "best_leaderboard_rank": 36,
         "profile_views": null,
         "reasons": [
@@ -528,10 +463,10 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.92 -> 0.93); replicating their entry is still reasonably representative.",
-          "conviction": 0.2414,
-          "pick_score": 0.2414,
+          "conviction": 0.2321,
+          "pick_score": 0.2321,
           "recommended": true,
-          "their_position_value": 318741.0047
+          "their_position_value": 334716.0507
         },
         {
           "market_title": "Will France win on 2026-07-04?",
@@ -545,112 +480,112 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.83 -> 0.83); replicating their entry is still reasonably representative.",
-          "conviction": 0.1089,
-          "pick_score": 0.1089,
+          "conviction": 0.1158,
+          "pick_score": 0.1158,
           "recommended": true,
-          "their_position_value": 143790.2666
+          "their_position_value": 166999.4158
         },
         {
           "market_title": "Will Canada win on 2026-07-04?",
           "outcome": "No",
-          "their_entry_price": 0.806,
-          "current_price": 0.835,
-          "fair_value_estimate": 0.835,
+          "their_entry_price": 0.8191,
+          "current_price": 0.8149,
+          "fair_value_estimate": 0.815,
           "suggested_entry_range": [
-            0.806,
-            0.835
+            0.807,
+            0.827
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.81 -> 0.83); replicating their entry is still reasonably representative.",
-          "conviction": 0.0696,
-          "pick_score": 0.0696,
+          "note": "Price is close to their entry (0.82 -> 0.81); replicating their entry is still reasonably representative.",
+          "conviction": 0.1017,
+          "pick_score": 0.1017,
           "recommended": true,
-          "their_position_value": 91849.2343
+          "their_position_value": 146681.8476
+        },
+        {
+          "market_title": "Canada vs. Morocco: Team to Advance",
+          "outcome": "Morocco",
+          "their_entry_price": 0.7183,
+          "current_price": 0.715,
+          "fair_value_estimate": 0.715,
+          "suggested_entry_range": [
+            0.707,
+            0.727
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.72 -> 0.71); replicating their entry is still reasonably representative.",
+          "conviction": 0.0595,
+          "pick_score": 0.0595,
+          "recommended": false,
+          "their_position_value": 85799.9819
         },
         {
           "market_title": "Will Argentina win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1278,
-          "current_price": 0.1705,
-          "fair_value_estimate": 0.1705,
+          "current_price": 0.1695,
+          "fair_value_estimate": 0.1685,
           "suggested_entry_range": [
-            0.128,
-            0.171
+            0.127,
+            0.169
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.13 -> 0.17); replicating their entry is still reasonably representative.",
-          "conviction": 0.0387,
-          "pick_score": 0.0387,
+          "conviction": 0.0353,
+          "pick_score": 0.0353,
           "recommended": false,
-          "their_position_value": 51149.9999
-        },
-        {
-          "market_title": "Canada vs. Morocco: Team to Advance",
-          "outcome": "Morocco",
-          "their_entry_price": 0.71,
-          "current_price": 0.725,
-          "fair_value_estimate": 0.725,
-          "suggested_entry_range": [
-            0.708,
-            0.728
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.71 -> 0.72); replicating their entry is still reasonably representative.",
-          "conviction": 0.0384,
-          "pick_score": 0.0384,
-          "recommended": false,
-          "their_position_value": 50749.9817
+          "their_position_value": 50849.9999
         },
         {
           "market_title": "Will Spain win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.136,
-          "current_price": 0.1225,
-          "fair_value_estimate": 0.1225,
+          "current_price": 0.1255,
+          "fair_value_estimate": 0.1235,
           "suggested_entry_range": [
-            0.119,
-            0.139
+            0.12,
+            0.14
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.14 -> 0.12); replicating their entry is still reasonably representative.",
-          "conviction": 0.0278,
-          "pick_score": 0.0278,
+          "note": "Price is close to their entry (0.14 -> 0.13); replicating their entry is still reasonably representative.",
+          "conviction": 0.0261,
+          "pick_score": 0.0261,
           "recommended": false,
-          "their_position_value": 36749.9914
-        },
-        {
-          "market_title": "Will England win the 2026 FIFA World Cup?",
-          "outcome": "Yes",
-          "their_entry_price": 0.125,
-          "current_price": 0.073,
-          "fair_value_estimate": 0.0725,
-          "suggested_entry_range": [
-            0.073,
-            0.125
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.12 -> 0.07); replicating their entry is still reasonably representative.",
-          "conviction": 0.0166,
-          "pick_score": 0.0166,
-          "recommended": false,
-          "their_position_value": 21899.9932
+          "their_position_value": 37649.9912
         },
         {
           "market_title": "Will France win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.196,
-          "current_price": 0.3505,
-          "fair_value_estimate": 0.3515,
+          "current_price": 0.3495,
+          "fair_value_estimate": 0.3485,
           "suggested_entry_range": [
-            0.197,
-            0.351
+            0.196,
+            0.349
           ],
           "flagged_chasing": true,
-          "note": "Price has moved up 0.15 (79%) since their entry of 0.20 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0796,
-          "pick_score": 0.0159,
+          "note": "Price has moved up 0.15 (78%) since their entry of 0.20 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0727,
+          "pick_score": 0.0145,
           "recommended": false,
-          "their_position_value": 105149.9741
+          "their_position_value": 104849.9742
+        },
+        {
+          "market_title": "Will England win the 2026 FIFA World Cup?",
+          "outcome": "Yes",
+          "their_entry_price": 0.125,
+          "current_price": 0.0665,
+          "fair_value_estimate": 0.0665,
+          "suggested_entry_range": [
+            0.067,
+            0.125
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.12 -> 0.07); replicating their entry is still reasonably representative.",
+          "conviction": 0.01,
+          "pick_score": 0.01,
+          "recommended": false,
+          "their_position_value": 14426.5592
         }
       ]
     },
@@ -689,9 +624,9 @@
         "avg_trades_per_day_30d": 1.33
       },
       "radar": {
-        "account_age_days": 7.8,
-        "portfolio_value": 562.44,
-        "capital_efficiency": 0.2692,
+        "account_age_days": 8.0,
+        "portfolio_value": 3661.32,
+        "capital_efficiency": 0.2686,
         "best_leaderboard_rank": 28,
         "profile_views": null,
         "reasons": [
@@ -712,10 +647,10 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.48 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.0004,
-          "pick_score": 0.0004,
+          "conviction": 0.0028,
+          "pick_score": 0.0028,
           "recommended": true,
-          "their_position_value": 562.4436
+          "their_position_value": 3661.3179
         }
       ]
     },
@@ -725,9 +660,9 @@
       "display_name": "easymoney9",
       "profile_url": "https://polymarket.com/@easymoney9",
       "score": {
-        "composite": 0.3959,
+        "composite": 0.3941,
         "score_100": 70,
-        "kelly_edge": 0.2675,
+        "kelly_edge": 0.2579,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -738,66 +673,83 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.006,
+        "clv": -0.0062,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.5525,
-        "roi_lifetime": 0.2299,
-        "roi_180d": 0.2299,
-        "roi_90d": 0.2299,
-        "roi_30d": 0.2349,
+        "sharpe": 0.5465,
+        "roi_lifetime": 0.229,
+        "roi_180d": 0.229,
+        "roi_90d": 0.229,
+        "roi_30d": 0.234,
         "max_drawdown_fraction": 0.0189,
-        "n_resolved": 177,
-        "n_distinct_markets": 156,
-        "capital_concentration_hhi": 0.0172,
-        "win_rate_adj": 0.6769,
-        "avg_trades_per_day_30d": 2.83
+        "n_resolved": 178,
+        "n_distinct_markets": 157,
+        "capital_concentration_hhi": 0.0171,
+        "win_rate_adj": 0.6726,
+        "avg_trades_per_day_30d": 2.87
       },
       "radar": {
-        "account_age_days": 81.2,
-        "portfolio_value": 43723.85,
-        "capital_efficiency": 0.161,
+        "account_age_days": 81.4,
+        "portfolio_value": 158477.3,
+        "capital_efficiency": 0.155,
         "best_leaderboard_rank": 39,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 74,
+      "open_positions_count": 75,
       "entry_recommendations": [
         {
           "market_title": "Canada vs. Morocco: Team to Advance",
           "outcome": "Morocco",
-          "their_entry_price": 0.7,
-          "current_price": 0.725,
-          "fair_value_estimate": 0.725,
+          "their_entry_price": 0.7091,
+          "current_price": 0.715,
+          "fair_value_estimate": 0.715,
           "suggested_entry_range": [
-            0.7,
-            0.725
+            0.702,
+            0.722
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.70 -> 0.72); replicating their entry is still reasonably representative.",
-          "conviction": 0.0467,
-          "pick_score": 0.0467,
+          "note": "Price is close to their entry (0.71 -> 0.71); replicating their entry is still reasonably representative.",
+          "conviction": 0.1076,
+          "pick_score": 0.1076,
           "recommended": true,
-          "their_position_value": 32625
+          "their_position_value": 83011.9853
         },
         {
           "market_title": "Will Morocco win on 2026-07-04?",
           "outcome": "Yes",
-          "their_entry_price": 0.54,
-          "current_price": 0.555,
-          "fair_value_estimate": 0.555,
+          "their_entry_price": 0.5262,
+          "current_price": 0.525,
+          "fair_value_estimate": 0.525,
           "suggested_entry_range": [
-            0.538,
-            0.558
+            0.516,
+            0.536
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.54 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.0159,
-          "pick_score": 0.0159,
+          "note": "Price is close to their entry (0.53 -> 0.53); replicating their entry is still reasonably representative.",
+          "conviction": 0.0878,
+          "pick_score": 0.0878,
           "recommended": true,
-          "their_position_value": 11098.8525
+          "their_position_value": 67763.4554
+        },
+        {
+          "market_title": "Will Canada vs. Morocco end in a draw?",
+          "outcome": "No",
+          "their_entry_price": 0.71,
+          "current_price": 0.705,
+          "fair_value_estimate": 0.705,
+          "suggested_entry_range": [
+            0.698,
+            0.718
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.71 -> 0.70); replicating their entry is still reasonably representative.",
+          "conviction": 0.01,
+          "pick_score": 0.01,
+          "recommended": true,
+          "their_position_value": 7701.8547
         }
       ]
     },
@@ -836,7 +788,7 @@
         "avg_trades_per_day_30d": 7.53
       },
       "radar": {
-        "account_age_days": 166.1,
+        "account_age_days": 166.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.151,
         "best_leaderboard_rank": 26,
@@ -883,16 +835,81 @@
         "avg_trades_per_day_30d": 2.43
       },
       "radar": {
-        "account_age_days": 17.7,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1313,
+        "account_age_days": 17.9,
+        "portfolio_value": 320635.93,
+        "capital_efficiency": 0.114,
         "best_leaderboard_rank": 31,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 3,
+      "open_positions_count": 4,
+      "entry_recommendations": [
+        {
+          "market_title": "Will Canada win on 2026-07-04?",
+          "outcome": "No",
+          "their_entry_price": 0.84,
+          "current_price": 0.8149,
+          "fair_value_estimate": 0.815,
+          "suggested_entry_range": [
+            0.815,
+            0.84
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.84 -> 0.81); replicating their entry is still reasonably representative.",
+          "conviction": 0.7022,
+          "pick_score": 0.7022,
+          "recommended": true,
+          "their_position_value": 320635.9262
+        }
+      ]
+    },
+    {
+      "wallet": "0xc57f19fd86e4531560980d1cd73310c9fbfbc909",
+      "userName": "CK61",
+      "display_name": "CK61",
+      "profile_url": "https://polymarket.com/@CK61",
+      "score": {
+        "composite": 0.3186,
+        "score_100": 66,
+        "kelly_edge": -0.0192,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0391,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 0.2753,
+        "roi_lifetime": 0.1646,
+        "roi_180d": 0.1646,
+        "roi_90d": 0.1646,
+        "roi_30d": 0.1646,
+        "max_drawdown_fraction": 0.0243,
+        "n_resolved": 55,
+        "n_distinct_markets": 35,
+        "capital_concentration_hhi": 0.0593,
+        "win_rate_adj": 0.5042,
+        "avg_trades_per_day_30d": 2.97
+      },
+      "radar": {
+        "account_age_days": 10.5,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.153,
+        "best_leaderboard_rank": 40,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 13,
       "entry_recommendations": []
     }
   ]
