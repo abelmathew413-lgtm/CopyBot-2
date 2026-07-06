@@ -1,12 +1,64 @@
 {
-  "generated_at": "2026-07-06T13:10:32.945103+00:00",
-  "duration_seconds": 407.2,
-  "n_candidates_discovered": 1522,
+  "generated_at": "2026-07-06T21:04:13.985163+00:00",
+  "duration_seconds": 314.4,
+  "n_candidates_discovered": 1478,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 11,
-  "n_errors": 0,
-  "errors": [],
+  "n_passed_filters": 10,
+  "n_errors": 1,
+  "errors": [
+    {
+      "wallet": "0xcf6c5492124794394dd9eac46498a8babbe47e66",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&user=0xcf6c5492124794394dd9eac46498a8babbe47e66"
+    }
+  ],
   "wallets": [
+    {
+      "wallet": "0x5966db1fe50763c9e3c014d756369bad07e1f804",
+      "userName": "0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241",
+      "display_name": "0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241",
+      "profile_url": "https://polymarket.com/@0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241",
+      "score": {
+        "composite": 0.6405,
+        "score_100": 82,
+        "kelly_edge": 0.6385,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.1101,
+        "n_clv_with_data": 25,
+        "n_clv_attempted": 40,
+        "sharpe": 1.1827,
+        "roi_lifetime": 0.4262,
+        "roi_180d": 0.4262,
+        "roi_90d": 0.4262,
+        "roi_30d": 0.4297,
+        "max_drawdown_fraction": 0.0007,
+        "n_resolved": 117,
+        "n_distinct_markets": 117,
+        "capital_concentration_hhi": 0.0222,
+        "win_rate_adj": 0.8293,
+        "avg_trades_per_day_30d": 3.73
+      },
+      "radar": {
+        "account_age_days": 66.2,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2754,
+        "best_leaderboard_rank": 26,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 66,
+      "entry_recommendations": []
+    },
     {
       "wallet": "0x65018f9fc473f6e920b8929a375d39c26a461220",
       "userName": "cnyek",
@@ -39,13 +91,13 @@
         "n_distinct_markets": 32,
         "capital_concentration_hhi": 0.0498,
         "win_rate_adj": 0.7985,
-        "avg_trades_per_day_30d": 3.03
+        "avg_trades_per_day_30d": 3.2
       },
       "radar": {
-        "account_age_days": 58.2,
-        "portfolio_value": 292914.15,
-        "capital_efficiency": 0.2158,
-        "best_leaderboard_rank": 45,
+        "account_age_days": 58.5,
+        "portfolio_value": 689774.37,
+        "capital_efficiency": 0.2073,
+        "best_leaderboard_rank": 46,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -56,70 +108,70 @@
         {
           "market_title": "Portugal vs. Spain: Team to Advance",
           "outcome": "Spain",
-          "their_entry_price": 0.6733,
-          "current_price": 0.665,
-          "fair_value_estimate": 0.665,
+          "their_entry_price": 0.6519,
+          "current_price": 0.9895,
+          "fair_value_estimate": 0.9995,
           "suggested_entry_range": [
-            0.659,
-            0.679
+            0.657,
+            0.995
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.67 -> 0.67); replicating their entry is still reasonably representative.",
-          "conviction": 0.0949,
-          "pick_score": 0.0949,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.34 (52%) since their entry of 0.65 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.2309,
+          "pick_score": 0.0462,
           "recommended": true,
-          "their_position_value": 208767.2595
+          "their_position_value": 599627.8789
         },
         {
           "market_title": "Will Argentina win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1573,
-          "current_price": 0.1655,
-          "fair_value_estimate": 0.1655,
+          "current_price": 0.1705,
+          "fair_value_estimate": 0.1705,
           "suggested_entry_range": [
-            0.151,
-            0.171
+            0.154,
+            0.174
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.16 -> 0.17); replicating their entry is still reasonably representative.",
-          "conviction": 0.0286,
-          "pick_score": 0.0286,
+          "conviction": 0.025,
+          "pick_score": 0.025,
           "recommended": true,
-          "their_position_value": 62925.2155
+          "their_position_value": 64826.2794
         },
         {
           "market_title": "Will Spain win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.103,
-          "current_price": 0.1265,
-          "fair_value_estimate": 0.1265,
+          "current_price": 0.1695,
+          "fair_value_estimate": 0.1785,
           "suggested_entry_range": [
-            0.103,
-            0.127
+            0.107,
+            0.174
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.10 -> 0.13); replicating their entry is still reasonably representative.",
-          "conviction": 0.0056,
-          "pick_score": 0.0056,
+          "note": "Price is close to their entry (0.10 -> 0.17); replicating their entry is still reasonably representative.",
+          "conviction": 0.0063,
+          "pick_score": 0.0063,
           "recommended": true,
-          "their_position_value": 12271.9256
+          "their_position_value": 16443.4102
         },
         {
           "market_title": "Will Novak Djokovic be the 2026 Men\u2019s Wimbledon winner?",
           "outcome": "Yes",
           "their_entry_price": 0.1463,
-          "current_price": 0.122,
-          "fair_value_estimate": 0.122,
+          "current_price": 0.121,
+          "fair_value_estimate": 0.121,
           "suggested_entry_range": [
-            0.122,
+            0.121,
             0.146
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.15 -> 0.12); replicating their entry is still reasonably representative.",
-          "conviction": 0.004,
-          "pick_score": 0.004,
+          "conviction": 0.0034,
+          "pick_score": 0.0034,
           "recommended": false,
-          "their_position_value": 8899.5964
+          "their_position_value": 8826.6488
         },
         {
           "market_title": "United States vs. Belgium: Team to Advance",
@@ -172,20 +224,72 @@
         "n_distinct_markets": 11,
         "capital_concentration_hhi": 0.156,
         "win_rate_adj": 0.523,
-        "avg_trades_per_day_30d": 6.27
+        "avg_trades_per_day_30d": 6.97
       },
       "radar": {
-        "account_age_days": 4.6,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1401,
-        "best_leaderboard_rank": 48,
+        "account_age_days": 4.9,
+        "portfolio_value": 127070.38,
+        "capital_efficiency": 0.1185,
+        "best_leaderboard_rank": 45,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 52,
-      "entry_recommendations": []
+      "open_positions_count": 59,
+      "entry_recommendations": [
+        {
+          "market_title": "Exact Score: Portugal 0 - 1 Spain?",
+          "outcome": "Yes",
+          "their_entry_price": 0.1717,
+          "current_price": 0.95,
+          "fair_value_estimate": 0.995,
+          "suggested_entry_range": [
+            0.194,
+            0.973
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.78 (453%) since their entry of 0.17 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.1072,
+          "pick_score": 0.0214,
+          "recommended": true,
+          "their_position_value": 119189.5526
+        },
+        {
+          "market_title": "Exact Score: Portugal 1 - 1 Spain?",
+          "outcome": "Yes",
+          "their_entry_price": 0.1116,
+          "current_price": 0.025,
+          "fair_value_estimate": 0.0005,
+          "suggested_entry_range": [
+            0.013,
+            0.099
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.09 (78%) since their entry of 0.11 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0038,
+          "pick_score": 0.0008,
+          "recommended": true,
+          "their_position_value": 4260.5142
+        },
+        {
+          "market_title": "Exact Score: Portugal 0 - 2 Spain?",
+          "outcome": "Yes",
+          "their_entry_price": 0.1078,
+          "current_price": 0.0254,
+          "fair_value_estimate": 0.0005,
+          "suggested_entry_range": [
+            0.013,
+            0.095
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.08 (76%) since their entry of 0.11 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0031,
+          "pick_score": 0.0006,
+          "recommended": true,
+          "their_position_value": 3439.9414
+        }
+      ]
     },
     {
       "wallet": "0xe221be3b45dfe5ed562ee9dc16f47205728e06f6",
@@ -219,19 +323,19 @@
         "n_distinct_markets": 23,
         "capital_concentration_hhi": 0.0713,
         "win_rate_adj": 0.7901,
-        "avg_trades_per_day_30d": 2.27
+        "avg_trades_per_day_30d": 2.5
       },
       "radar": {
-        "account_age_days": 9.9,
-        "portfolio_value": 35068.25,
-        "capital_efficiency": 0.2556,
-        "best_leaderboard_rank": 27,
+        "account_age_days": 10.2,
+        "portfolio_value": 138837.14,
+        "capital_efficiency": 0.2312,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 23,
+      "open_positions_count": 27,
       "entry_recommendations": [
         {
           "market_title": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
@@ -245,109 +349,44 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.48 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.0154,
-          "pick_score": 0.0154,
+          "conviction": 0.0401,
+          "pick_score": 0.0401,
           "recommended": true,
-          "their_position_value": 35068.2543
-        }
-      ]
-    },
-    {
-      "wallet": "0xa6d188fb70c2e2e9ad411c42c02379ed3020286a",
-      "userName": "zhuz632",
-      "display_name": "zhuz632",
-      "profile_url": "https://polymarket.com/@zhuz632",
-      "score": {
-        "composite": 0.4718,
-        "score_100": 74,
-        "kelly_edge": 0.425,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0192,
-        "n_clv_with_data": 40,
-        "n_clv_attempted": 40,
-        "sharpe": 0.7644,
-        "roi_lifetime": 0.3249,
-        "roi_180d": 0.3249,
-        "roi_90d": 0.3249,
-        "roi_30d": 0.3245,
-        "max_drawdown_fraction": 0.0256,
-        "n_resolved": 100,
-        "n_distinct_markets": 80,
-        "capital_concentration_hhi": 0.0317,
-        "win_rate_adj": 0.7112,
-        "avg_trades_per_day_30d": 18.3
-      },
-      "radar": {
-        "account_age_days": 32.9,
-        "portfolio_value": 6573.32,
-        "capital_efficiency": 0.1835,
-        "best_leaderboard_rank": 28,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 73,
-      "entry_recommendations": [
-        {
-          "market_title": "United States vs. Belgium: O/U 9.5 Total Corners",
-          "outcome": "Over",
-          "their_entry_price": 0.52,
-          "current_price": 0.515,
-          "fair_value_estimate": 0.515,
-          "suggested_entry_range": [
-            0.508,
-            0.528
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.52 -> 0.52); replicating their entry is still reasonably representative.",
-          "conviction": 0.0032,
-          "pick_score": 0.0032,
-          "recommended": true,
-          "their_position_value": 3260.98
+          "their_position_value": 37721.68
         },
         {
-          "market_title": "Portugal vs. Spain: O/U 9.5 Total Corners",
-          "outcome": "Over",
-          "their_entry_price": 0.51,
-          "current_price": 0.535,
-          "fair_value_estimate": 0.535,
+          "market_title": "Portugal vs. Spain: Team to Advance",
+          "outcome": "Portugal",
+          "their_entry_price": 0.35,
+          "current_price": 0.025,
+          "fair_value_estimate": 0.024,
           "suggested_entry_range": [
-            0.51,
-            0.535
+            0.025,
+            0.349
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.51 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.0019,
-          "pick_score": 0.0019,
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.32 (93%) since their entry of 0.35 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0163,
+          "pick_score": 0.0033,
           "recommended": true,
-          "their_position_value": 1956.495
+          "their_position_value": 6944.4329
         },
         {
-          "market_title": "Portugal vs. Spain: O/U 9.5 Total Corners",
-          "outcome": "Under",
-          "their_entry_price": 0.5,
-          "current_price": 0.465,
-          "fair_value_estimate": 0.465,
+          "market_title": "Cristiano Ronaldo: 1+ goals",
+          "outcome": "Yes",
+          "their_entry_price": 0.34,
+          "current_price": 0.028,
+          "fair_value_estimate": 0.007,
           "suggested_entry_range": [
-            0.465,
-            0.5
+            0.018,
+            0.33
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.50 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.0013,
-          "pick_score": 0.0013,
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.31 (92%) since their entry of 0.34 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.003,
+          "pick_score": 0.0006,
           "recommended": true,
-          "their_position_value": 1355.847
+          "their_position_value": 1057.756
         }
       ]
     },
@@ -357,9 +396,9 @@
       "display_name": "easymoney9",
       "profile_url": "https://polymarket.com/@easymoney9",
       "score": {
-        "composite": 0.4128,
+        "composite": 0.4115,
         "score_100": 71,
-        "kelly_edge": 0.2933,
+        "kelly_edge": 0.2841,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -370,66 +409,83 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0014,
+        "clv": 0.0015,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.5813,
-        "roi_lifetime": 0.2425,
-        "roi_180d": 0.2425,
-        "roi_90d": 0.2425,
-        "roi_30d": 0.2476,
+        "sharpe": 0.5765,
+        "roi_lifetime": 0.2413,
+        "roi_180d": 0.2413,
+        "roi_90d": 0.2413,
+        "roi_30d": 0.2462,
         "max_drawdown_fraction": 0.0169,
-        "n_resolved": 188,
-        "n_distinct_markets": 166,
-        "capital_concentration_hhi": 0.0159,
-        "win_rate_adj": 0.6892,
-        "avg_trades_per_day_30d": 2.77
+        "n_resolved": 189,
+        "n_distinct_markets": 167,
+        "capital_concentration_hhi": 0.0158,
+        "win_rate_adj": 0.6851,
+        "avg_trades_per_day_30d": 2.73
       },
       "radar": {
-        "account_age_days": 83.3,
-        "portfolio_value": 18048.07,
-        "capital_efficiency": 0.1755,
-        "best_leaderboard_rank": 32,
+        "account_age_days": 83.6,
+        "portfolio_value": 97843.65,
+        "capital_efficiency": 0.1709,
+        "best_leaderboard_rank": 34,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 76,
+      "open_positions_count": 77,
       "entry_recommendations": [
+        {
+          "market_title": "Will United States win on 2026-07-06?",
+          "outcome": "Yes",
+          "their_entry_price": 0.39,
+          "current_price": 0.385,
+          "fair_value_estimate": 0.385,
+          "suggested_entry_range": [
+            0.378,
+            0.398
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.39 -> 0.39); replicating their entry is still reasonably representative.",
+          "conviction": 0.0409,
+          "pick_score": 0.0409,
+          "recommended": true,
+          "their_position_value": 28789.8896
+        },
         {
           "market_title": "Will Portugal vs. Spain end in a draw?",
           "outcome": "No",
-          "their_entry_price": 0.73,
-          "current_price": 0.735,
-          "fair_value_estimate": 0.735,
+          "their_entry_price": 0.7271,
+          "current_price": 0.985,
+          "fair_value_estimate": 0.9995,
           "suggested_entry_range": [
-            0.722,
-            0.742
+            0.734,
+            0.992
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.73 -> 0.73); replicating their entry is still reasonably representative.",
-          "conviction": 0.0229,
-          "pick_score": 0.0229,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.26 (35%) since their entry of 0.73 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.098,
+          "pick_score": 0.0196,
           "recommended": true,
-          "their_position_value": 14699.7432
+          "their_position_value": 68948.8087
         },
         {
           "market_title": "Portugal vs. Spain: Team to Advance",
           "outcome": "Portugal",
           "their_entry_price": 0.33,
-          "current_price": 0.335,
-          "fair_value_estimate": 0.335,
+          "current_price": 0.0105,
+          "fair_value_estimate": 0.0005,
           "suggested_entry_range": [
-            0.323,
-            0.343
+            0.006,
+            0.325
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.33 -> 0.34); replicating their entry is still reasonably representative.",
-          "conviction": 0.0052,
-          "pick_score": 0.0052,
-          "recommended": true,
-          "their_position_value": 3348.325
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.32 (97%) since their entry of 0.33 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0001,
+          "pick_score": 0.0,
+          "recommended": false,
+          "their_position_value": 104.9475
         }
       ]
     },
@@ -465,12 +521,12 @@
         "n_distinct_markets": 27,
         "capital_concentration_hhi": 0.0689,
         "win_rate_adj": 0.728,
-        "avg_trades_per_day_30d": 4.3
+        "avg_trades_per_day_30d": 4.33
       },
       "radar": {
-        "account_age_days": 26.0,
-        "portfolio_value": 315410.28,
-        "capital_efficiency": 0.1497,
+        "account_age_days": 26.3,
+        "portfolio_value": 282341.5,
+        "capital_efficiency": 0.1496,
         "best_leaderboard_rank": 33,
         "profile_views": null,
         "reasons": [
@@ -483,35 +539,18 @@
           "market_title": "Will Portugal vs. Spain end in a draw?",
           "outcome": "No",
           "their_entry_price": 0.74,
-          "current_price": 0.735,
-          "fair_value_estimate": 0.735,
+          "current_price": 0.985,
+          "fair_value_estimate": 0.9995,
           "suggested_entry_range": [
-            0.728,
-            0.748
+            0.747,
+            0.992
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.74 -> 0.73); replicating their entry is still reasonably representative.",
-          "conviction": 0.1344,
-          "pick_score": 0.1344,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.24 (33%) since their entry of 0.74 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.1843,
+          "pick_score": 0.0369,
           "recommended": true,
-          "their_position_value": 197327.5668
-        },
-        {
-          "market_title": "Will Spain win on 2026-07-06?",
-          "outcome": "No",
-          "their_entry_price": 0.49,
-          "current_price": 0.485,
-          "fair_value_estimate": 0.485,
-          "suggested_entry_range": [
-            0.477,
-            0.497
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.49 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.0721,
-          "pick_score": 0.0721,
-          "recommended": true,
-          "their_position_value": 105809.6817
+          "their_position_value": 264445.7868
         },
         {
           "market_title": "Will Argentina win on 2026-07-07?",
@@ -525,27 +564,27 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.29 -> 0.28); replicating their entry is still reasonably representative.",
-          "conviction": 0.0083,
-          "pick_score": 0.0083,
+          "conviction": 0.0085,
+          "pick_score": 0.0085,
           "recommended": true,
           "their_position_value": 12226.2156
         },
         {
-          "market_title": "Will Portugal win on 2026-07-06?",
+          "market_title": "Will Spain win on 2026-07-06?",
           "outcome": "No",
-          "their_entry_price": 0.77,
-          "current_price": 0.775,
-          "fair_value_estimate": 0.775,
+          "their_entry_price": 0.49,
+          "current_price": 0.025,
+          "fair_value_estimate": 0.0005,
           "suggested_entry_range": [
-            0.762,
-            0.782
+            0.013,
+            0.478
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.77 -> 0.78); replicating their entry is still reasonably representative.",
-          "conviction": 0.0,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 46.8177
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.46 (95%) since their entry of 0.49 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0039,
+          "pick_score": 0.0008,
+          "recommended": true,
+          "their_position_value": 5609.1138
         }
       ]
     },
@@ -581,30 +620,48 @@
         "n_distinct_markets": 163,
         "capital_concentration_hhi": 0.0209,
         "win_rate_adj": 0.5878,
-        "avg_trades_per_day_30d": 14.13
+        "avg_trades_per_day_30d": 14.2
       },
       "radar": {
-        "account_age_days": 18.9,
-        "portfolio_value": 0,
+        "account_age_days": 19.2,
+        "portfolio_value": 6311.42,
         "capital_efficiency": 0.0671,
-        "best_leaderboard_rank": 22,
+        "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 0,
-      "entry_recommendations": []
+      "open_positions_count": 2,
+      "entry_recommendations": [
+        {
+          "market_title": "Portugal vs. Spain: Team to Advance",
+          "outcome": "Spain",
+          "their_entry_price": 0.64,
+          "current_price": 0.975,
+          "fair_value_estimate": 0.9855,
+          "suggested_entry_range": [
+            0.645,
+            0.98
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.33 (52%) since their entry of 0.64 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.9988,
+          "pick_score": 0.1998,
+          "recommended": true,
+          "their_position_value": 6303.921
+        }
+      ]
     },
     {
-      "wallet": "0x73bcd24d510ff4e4d5feac6aec763c5511e246ce",
-      "userName": "0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
-      "display_name": "0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
-      "profile_url": "https://polymarket.com/@0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
+      "wallet": "0x447d7eb8ecb8930e7b5f353b4298e2562d905eea",
+      "userName": "GRINGOMATE",
+      "display_name": "GRINGOMATE",
+      "profile_url": "https://polymarket.com/@GRINGOMATE",
       "score": {
-        "composite": 0.2724,
+        "composite": 0.2647,
         "score_100": 64,
-        "kelly_edge": 0.0313,
+        "kelly_edge": -0.4682,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -615,119 +672,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0071,
+        "clv": 0.0152,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.1576,
-        "roi_lifetime": 0.1275,
-        "roi_180d": 0.1275,
-        "roi_90d": 0.0947,
-        "roi_30d": 0.089,
-        "max_drawdown_fraction": 0.0975,
-        "n_resolved": 234,
-        "n_distinct_markets": 202,
-        "capital_concentration_hhi": 0.0156,
-        "win_rate_adj": 0.5043,
-        "avg_trades_per_day_30d": 8.53
+        "sharpe": 0.0095,
+        "roi_lifetime": 0.1489,
+        "roi_180d": 0.1489,
+        "roi_90d": 0.1489,
+        "roi_30d": 0.1536,
+        "max_drawdown_fraction": 0.0181,
+        "n_resolved": 104,
+        "n_distinct_markets": 103,
+        "capital_concentration_hhi": 0.0386,
+        "win_rate_adj": 0.4056,
+        "avg_trades_per_day_30d": 4.43
       },
       "radar": {
-        "account_age_days": 182.1,
-        "portfolio_value": 107499.94,
-        "capital_efficiency": 0.1128,
-        "best_leaderboard_rank": 23,
+        "account_age_days": 49.3,
+        "portfolio_value": 14.06,
+        "capital_efficiency": 0.1476,
+        "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 28,
-      "entry_recommendations": [
-        {
-          "market_title": "Portugal vs. Spain: Spain O/U 1.5",
-          "outcome": "Under",
-          "their_entry_price": 0.4852,
-          "current_price": 0.485,
-          "fair_value_estimate": 0.485,
-          "suggested_entry_range": [
-            0.475,
-            0.495
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.49 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.1137,
-          "pick_score": 0.1137,
-          "recommended": true,
-          "their_position_value": 50593.936
-        },
-        {
-          "market_title": "Portugal vs. Spain: Team to Advance",
-          "outcome": "Portugal",
-          "their_entry_price": 0.33,
-          "current_price": 0.335,
-          "fair_value_estimate": 0.335,
-          "suggested_entry_range": [
-            0.323,
-            0.343
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.33 -> 0.34); replicating their entry is still reasonably representative.",
-          "conviction": 0.0634,
-          "pick_score": 0.0634,
-          "recommended": true,
-          "their_position_value": 28190.2374
-        },
-        {
-          "market_title": "United States vs. Belgium: United States 1st Half O/U 0.5",
-          "outcome": "Over",
-          "their_entry_price": 0.48,
-          "current_price": 0.485,
-          "fair_value_estimate": 0.485,
-          "suggested_entry_range": [
-            0.472,
-            0.492
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.48 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.0294,
-          "pick_score": 0.0294,
-          "recommended": true,
-          "their_position_value": 13072.6869
-        },
-        {
-          "market_title": "United States vs. Belgium: Belgium 1st Half O/U 0.5",
-          "outcome": "Over",
-          "their_entry_price": 0.4636,
-          "current_price": 0.455,
-          "fair_value_estimate": 0.455,
-          "suggested_entry_range": [
-            0.449,
-            0.469
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.46 -> 0.46); replicating their entry is still reasonably representative.",
-          "conviction": 0.0281,
-          "pick_score": 0.0281,
-          "recommended": false,
-          "their_position_value": 12491.1467
-        },
-        {
-          "market_title": "Portugal vs. Spain: Spain O/U 5.5 Corners",
-          "outcome": "Under",
-          "their_entry_price": 0.5,
-          "current_price": 0.505,
-          "fair_value_estimate": 0.505,
-          "suggested_entry_range": [
-            0.492,
-            0.512
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.50 -> 0.51); replicating their entry is still reasonably representative.",
-          "conviction": 0.0071,
-          "pick_score": 0.0071,
-          "recommended": false,
-          "their_position_value": 3151.9373
-        }
-      ]
+      "open_positions_count": 1,
+      "entry_recommendations": []
     }
   ]
 }
