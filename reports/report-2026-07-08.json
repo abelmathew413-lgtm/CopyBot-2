@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-08T08:01:46.943506+00:00",
-  "duration_seconds": 293.9,
-  "n_candidates_discovered": 1385,
+  "generated_at": "2026-07-08T16:02:39.654855+00:00",
+  "duration_seconds": 457.6,
+  "n_candidates_discovered": 1388,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 8,
   "n_errors": 1,
   "errors": [
     {
-      "wallet": "0xcf6c5492124794394dd9eac46498a8babbe47e66",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&user=0xcf6c5492124794394dd9eac46498a8babbe47e66"
+      "wallet": "0x0d18e30e252008d83f51dae00d36873ddd9e24a6",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&user=0x0d18e30e252008d83f51dae00d36873ddd9e24a6"
     }
   ],
   "wallets": [
@@ -18,7 +18,7 @@
       "display_name": "RJW1",
       "profile_url": "https://polymarket.com/@RJW1",
       "score": {
-        "composite": 0.6021,
+        "composite": 0.6024,
         "score_100": 80,
         "kelly_edge": 0.87,
         "weights_used": {
@@ -34,10 +34,10 @@
         "clv": 0.0116,
         "n_clv_with_data": 32,
         "n_clv_attempted": 40,
-        "sharpe": 2.9092,
+        "sharpe": 2.9022,
         "roi_lifetime": 0.5226,
         "roi_180d": 0.5226,
-        "roi_90d": 0.5269,
+        "roi_90d": 0.5302,
         "roi_30d": 0.5109,
         "max_drawdown_fraction": 0.0096,
         "n_resolved": 70,
@@ -47,9 +47,9 @@
         "avg_trades_per_day_30d": 2.67
       },
       "radar": {
-        "account_age_days": 100.8,
-        "portfolio_value": 935734.91,
-        "capital_efficiency": 0.2247,
+        "account_age_days": 101.1,
+        "portfolio_value": 955179.23,
+        "capital_efficiency": 0.2243,
         "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
@@ -62,52 +62,52 @@
           "market_title": "Will France win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1641,
-          "current_price": 0.3275,
+          "current_price": 0.3265,
           "fair_value_estimate": 0.3265,
           "suggested_entry_range": [
             0.164,
             0.327
           ],
           "flagged_chasing": true,
-          "note": "Price has moved up 0.16 (100%) since their entry of 0.16 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.2281,
-          "pick_score": 0.0456,
+          "note": "Price has moved up 0.16 (99%) since their entry of 0.16 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.2262,
+          "pick_score": 0.0452,
           "recommended": true,
-          "their_position_value": 807374.2711
+          "their_position_value": 804909.0062
         },
         {
           "market_title": "Will France win on 2026-07-09?",
           "outcome": "Yes",
-          "their_entry_price": 0.6144,
+          "their_entry_price": 0.6135,
           "current_price": 0.615,
           "fair_value_estimate": 0.615,
           "suggested_entry_range": [
-            0.605,
-            0.625
+            0.604,
+            0.624
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.61 -> 0.61); replicating their entry is still reasonably representative.",
-          "conviction": 0.0306,
-          "pick_score": 0.0306,
+          "conviction": 0.0368,
+          "pick_score": 0.0368,
           "recommended": true,
-          "their_position_value": 108444.9741
+          "their_position_value": 130823.1601
         },
         {
           "market_title": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.2518,
-          "current_price": 0.425,
-          "fair_value_estimate": 0.425,
+          "current_price": 0.415,
+          "fair_value_estimate": 0.415,
           "suggested_entry_range": [
             0.252,
-            0.425
+            0.415
           ],
           "flagged_chasing": true,
-          "note": "Price has moved up 0.17 (69%) since their entry of 0.25 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0056,
+          "note": "Price has moved up 0.16 (65%) since their entry of 0.25 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0055,
           "pick_score": 0.0011,
           "recommended": true,
-          "their_position_value": 19915.6637
+          "their_position_value": 19447.0599
         }
       ]
     },
@@ -146,7 +146,7 @@
         "avg_trades_per_day_30d": 18.23
       },
       "radar": {
-        "account_age_days": 34.6,
+        "account_age_days": 35.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.1849,
         "best_leaderboard_rank": 33,
@@ -190,20 +190,38 @@
         "n_distinct_markets": 47,
         "capital_concentration_hhi": 0.0646,
         "win_rate_adj": 0.7283,
-        "avg_trades_per_day_30d": 9.77
+        "avg_trades_per_day_30d": 9.83
       },
       "radar": {
-        "account_age_days": 18.6,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1759,
+        "account_age_days": 18.9,
+        "portfolio_value": 25830.41,
+        "capital_efficiency": 0.1751,
         "best_leaderboard_rank": 32,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 32,
-      "entry_recommendations": []
+      "open_positions_count": 33,
+      "entry_recommendations": [
+        {
+          "market_title": "Wimbledon ATP: Flavio Cobolli vs Arthur Fery",
+          "outcome": "Arthur Fery",
+          "their_entry_price": 0.5517,
+          "current_price": 0.775,
+          "fair_value_estimate": 0.885,
+          "suggested_entry_range": [
+            0.607,
+            0.83
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.22 (40%) since their entry of 0.55 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.012,
+          "pick_score": 0.0024,
+          "recommended": true,
+          "their_position_value": 25830.4083
+        }
+      ]
     },
     {
       "wallet": "0xc6a63ad5a788a576d4acc9911c50fef9fde49458",
@@ -240,7 +258,7 @@
         "avg_trades_per_day_30d": 2.67
       },
       "radar": {
-        "account_age_days": 30.5,
+        "account_age_days": 30.8,
         "portfolio_value": 37625,
         "capital_efficiency": 0.2287,
         "best_leaderboard_rank": 22,
@@ -305,7 +323,7 @@
         "avg_trades_per_day_30d": 3.33
       },
       "radar": {
-        "account_age_days": 126.0,
+        "account_age_days": 126.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.1512,
         "best_leaderboard_rank": 33,
@@ -352,7 +370,7 @@
         "avg_trades_per_day_30d": 1.23
       },
       "radar": {
-        "account_age_days": 8.1,
+        "account_age_days": 8.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.185,
         "best_leaderboard_rank": 28,
@@ -399,7 +417,7 @@
         "avg_trades_per_day_30d": 14.53
       },
       "radar": {
-        "account_age_days": 20.7,
+        "account_age_days": 21.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.0671,
         "best_leaderboard_rank": 25,
@@ -443,10 +461,10 @@
         "n_distinct_markets": 218,
         "capital_concentration_hhi": 0.0136,
         "win_rate_adj": 0.5252,
-        "avg_trades_per_day_30d": 8.4
+        "avg_trades_per_day_30d": 8.2
       },
       "radar": {
-        "account_age_days": 183.9,
+        "account_age_days": 184.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.1333,
         "best_leaderboard_rank": 29,
