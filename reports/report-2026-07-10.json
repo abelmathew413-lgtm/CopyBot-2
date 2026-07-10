@@ -1,20 +1,11 @@
 {
-  "generated_at": "2026-07-10T10:44:17.305384+00:00",
-  "duration_seconds": 425.0,
-  "n_candidates_discovered": 1334,
+  "generated_at": "2026-07-10T17:38:05.832003+00:00",
+  "duration_seconds": 466.5,
+  "n_candidates_discovered": 1296,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 9,
-  "n_errors": 2,
-  "errors": [
-    {
-      "wallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&user=0xe16d3f2a5807999b358affd9445c3a09e45e5e30"
-    },
-    {
-      "wallet": "0x0d18e30e252008d83f51dae00d36873ddd9e24a6",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&user=0x0d18e30e252008d83f51dae00d36873ddd9e24a6"
-    }
-  ],
+  "n_passed_filters": 12,
+  "n_errors": 0,
+  "errors": [],
   "wallets": [
     {
       "wallet": "0x5966db1fe50763c9e3c014d756369bad07e1f804",
@@ -51,10 +42,10 @@
         "avg_trades_per_day_30d": 4.13
       },
       "radar": {
-        "account_age_days": 69.8,
+        "account_age_days": 70.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2801,
-        "best_leaderboard_rank": 21,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -62,6 +53,88 @@
       },
       "open_positions_count": 67,
       "entry_recommendations": []
+    },
+    {
+      "wallet": "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+      "userName": "Djdjdjekekek",
+      "display_name": "Djdjdjekekek",
+      "profile_url": "https://polymarket.com/@Djdjdjekekek",
+      "score": {
+        "composite": 0.4922,
+        "score_100": 75,
+        "kelly_edge": 0.4762,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0695,
+        "n_clv_with_data": 36,
+        "n_clv_attempted": 40,
+        "sharpe": 0.8353,
+        "roi_lifetime": 0.2819,
+        "roi_180d": 0.2819,
+        "roi_90d": 0.2819,
+        "roi_30d": 0.2819,
+        "max_drawdown_fraction": 0.0366,
+        "n_resolved": 50,
+        "n_distinct_markets": 49,
+        "capital_concentration_hhi": 0.0608,
+        "win_rate_adj": 0.7381,
+        "avg_trades_per_day_30d": 10.73
+      },
+      "radar": {
+        "account_age_days": 21.0,
+        "portfolio_value": 4519.1,
+        "capital_efficiency": 0.179,
+        "best_leaderboard_rank": 40,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 38,
+      "entry_recommendations": [
+        {
+          "market_title": "Spain vs. Belgium: Team to Advance",
+          "outcome": "Spain",
+          "their_entry_price": 0.7475,
+          "current_price": 0.7462,
+          "fair_value_estimate": 0.74625,
+          "suggested_entry_range": [
+            0.737,
+            0.757
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.75 -> 0.75); replicating their entry is still reasonably representative.",
+          "conviction": 0.0011,
+          "pick_score": 0.0011,
+          "recommended": true,
+          "their_position_value": 1965.349
+        },
+        {
+          "market_title": "Counter-Strike: Inner Circle Esports vs magic - Map 2 Winner",
+          "outcome": "magic",
+          "their_entry_price": 0.6295,
+          "current_price": 0.255,
+          "fair_value_estimate": 0.215,
+          "suggested_entry_range": [
+            0.235,
+            0.609
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.37 (59%) since their entry of 0.63 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0014,
+          "pick_score": 0.0003,
+          "recommended": true,
+          "their_position_value": 2553.7499
+        }
+      ]
     },
     {
       "wallet": "0xc6a63ad5a788a576d4acc9911c50fef9fde49458",
@@ -95,13 +168,13 @@
         "n_distinct_markets": 23,
         "capital_concentration_hhi": 0.0672,
         "win_rate_adj": 0.7102,
-        "avg_trades_per_day_30d": 3.03
+        "avg_trades_per_day_30d": 2.87
       },
       "radar": {
-        "account_age_days": 32.6,
-        "portfolio_value": 210723.93,
-        "capital_efficiency": 0.2227,
-        "best_leaderboard_rank": 31,
+        "account_age_days": 32.9,
+        "portfolio_value": 214630.24,
+        "capital_efficiency": 0.2226,
+        "best_leaderboard_rank": 30,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -113,52 +186,52 @@
           "market_title": "Will Spain win on 2026-07-10?",
           "outcome": "Yes",
           "their_entry_price": 0.6,
-          "current_price": 0.5962,
-          "fair_value_estimate": 0.59625,
+          "current_price": 0.6087,
+          "fair_value_estimate": 0.60875,
           "suggested_entry_range": [
-            0.588,
-            0.608
+            0.594,
+            0.614
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.60 -> 0.60); replicating their entry is still reasonably representative.",
-          "conviction": 0.0283,
-          "pick_score": 0.0283,
+          "note": "Price is close to their entry (0.60 -> 0.61); replicating their entry is still reasonably representative.",
+          "conviction": 0.0289,
+          "pick_score": 0.0289,
           "recommended": true,
-          "their_position_value": 149049.3829
+          "their_position_value": 152174.3699
         },
         {
           "market_title": "Spread: Spain (-1.5)",
           "outcome": "Spain",
           "their_entry_price": 0.34,
-          "current_price": 0.3487,
-          "fair_value_estimate": 0.34875,
+          "current_price": 0.3562,
+          "fair_value_estimate": 0.35625,
           "suggested_entry_range": [
-            0.334,
-            0.354
+            0.338,
+            0.358
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.34 -> 0.35); replicating their entry is still reasonably representative.",
-          "conviction": 0.0052,
-          "pick_score": 0.0052,
+          "note": "Price is close to their entry (0.34 -> 0.36); replicating their entry is still reasonably representative.",
+          "conviction": 0.0053,
+          "pick_score": 0.0053,
           "recommended": true,
-          "their_position_value": 27386.7237
+          "their_position_value": 27975.7699
         },
         {
           "market_title": "Spain leading at halftime?",
           "outcome": "Yes",
           "their_entry_price": 0.44,
-          "current_price": 0.445,
-          "fair_value_estimate": 0.445,
+          "current_price": 0.435,
+          "fair_value_estimate": 0.435,
           "suggested_entry_range": [
-            0.432,
-            0.453
+            0.427,
+            0.448
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.44 -> 0.45); replicating their entry is still reasonably representative.",
-          "conviction": 0.0039,
-          "pick_score": 0.0039,
+          "note": "Price is close to their entry (0.44 -> 0.43); replicating their entry is still reasonably representative.",
+          "conviction": 0.004,
+          "pick_score": 0.004,
           "recommended": true,
-          "their_position_value": 20681.9188
+          "their_position_value": 20874.1967
         },
         {
           "market_title": "Norway vs. England: Team to Advance",
@@ -214,10 +287,10 @@
         "avg_trades_per_day_30d": 6.03
       },
       "radar": {
-        "account_age_days": 20.9,
-        "portfolio_value": 795285.22,
-        "capital_efficiency": 0.0953,
-        "best_leaderboard_rank": 38,
+        "account_age_days": 21.2,
+        "portfolio_value": 891670.71,
+        "capital_efficiency": 0.0945,
+        "best_leaderboard_rank": 36,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -229,18 +302,35 @@
           "market_title": "Spain vs. Belgium: Team to Advance",
           "outcome": "Spain",
           "their_entry_price": 0.74,
-          "current_price": 0.7362,
-          "fair_value_estimate": 0.73625,
+          "current_price": 0.7462,
+          "fair_value_estimate": 0.74625,
           "suggested_entry_range": [
-            0.728,
-            0.748
+            0.733,
+            0.753
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.74 -> 0.74); replicating their entry is still reasonably representative.",
-          "conviction": 0.1267,
-          "pick_score": 0.1267,
+          "note": "Price is close to their entry (0.74 -> 0.75); replicating their entry is still reasonably representative.",
+          "conviction": 0.1217,
+          "pick_score": 0.1217,
           "recommended": true,
-          "their_position_value": 220859.2856
+          "their_position_value": 223859.2759
+        },
+        {
+          "market_title": "Will Belgium win on 2026-07-10?",
+          "outcome": "No",
+          "their_entry_price": 0.8361,
+          "current_price": 0.8437,
+          "fair_value_estimate": 0.84375,
+          "suggested_entry_range": [
+            0.83,
+            0.85
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.84 -> 0.84); replicating their entry is still reasonably representative.",
+          "conviction": 0.1149,
+          "pick_score": 0.1149,
+          "recommended": true,
+          "their_position_value": 211343.4877
         },
         {
           "market_title": "Norway vs. England: Team to Advance",
@@ -254,78 +344,61 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.66 -> 0.65); replicating their entry is still reasonably representative.",
-          "conviction": 0.0927,
-          "pick_score": 0.0927,
+          "conviction": 0.0878,
+          "pick_score": 0.0878,
           "recommended": true,
           "their_position_value": 161549.7186
-        },
-        {
-          "market_title": "Will Belgium win on 2026-07-10?",
-          "outcome": "No",
-          "their_entry_price": 0.8327,
-          "current_price": 0.8412,
-          "fair_value_estimate": 0.84125,
-          "suggested_entry_range": [
-            0.827,
-            0.847
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.83 -> 0.84); replicating their entry is still reasonably representative.",
-          "conviction": 0.0644,
-          "pick_score": 0.0644,
-          "recommended": true,
-          "their_position_value": 112296.8476
         },
         {
           "market_title": "Will Argentina win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1278,
-          "current_price": 0.1875,
-          "fair_value_estimate": 0.1875,
+          "current_price": 0.1785,
+          "fair_value_estimate": 0.1785,
           "suggested_entry_range": [
             0.128,
-            0.188
+            0.178
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.13 -> 0.19); replicating their entry is still reasonably representative.",
-          "conviction": 0.0323,
-          "pick_score": 0.0323,
+          "note": "Price is close to their entry (0.13 -> 0.18); replicating their entry is still reasonably representative.",
+          "conviction": 0.0291,
+          "pick_score": 0.0291,
           "recommended": false,
-          "their_position_value": 56249.9999
+          "their_position_value": 53549.9999
         },
         {
           "market_title": "Will England win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.148,
-          "current_price": 0.1595,
-          "fair_value_estimate": 0.1595,
+          "current_price": 0.1525,
+          "fair_value_estimate": 0.1525,
           "suggested_entry_range": [
-            0.144,
-            0.164
+            0.14,
+            0.16
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.15 -> 0.16); replicating their entry is still reasonably representative.",
-          "conviction": 0.0306,
-          "pick_score": 0.0306,
+          "note": "Price is close to their entry (0.15 -> 0.15); replicating their entry is still reasonably representative.",
+          "conviction": 0.0278,
+          "pick_score": 0.0278,
           "recommended": false,
-          "their_position_value": 53399.2706
+          "their_position_value": 51055.729
         },
         {
           "market_title": "Will Spain win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.136,
-          "current_price": 0.1675,
-          "fair_value_estimate": 0.1675,
+          "current_price": 0.1655,
+          "fair_value_estimate": 0.1655,
           "suggested_entry_range": [
             0.136,
-            0.167
+            0.165
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.14 -> 0.17); replicating their entry is still reasonably representative.",
-          "conviction": 0.0288,
-          "pick_score": 0.0288,
+          "conviction": 0.027,
+          "pick_score": 0.027,
           "recommended": false,
-          "their_position_value": 50249.9882
+          "their_position_value": 49649.9884
         },
         {
           "market_title": "Will France win the 2026 FIFA World Cup?",
@@ -339,8 +412,8 @@
           ],
           "flagged_chasing": true,
           "note": "Price has moved up 0.19 (97%) since their entry of 0.20 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0664,
-          "pick_score": 0.0133,
+          "conviction": 0.0629,
+          "pick_score": 0.0126,
           "recommended": false,
           "their_position_value": 115649.9715
         },
@@ -348,35 +421,35 @@
           "market_title": "Argentina vs. Switzerland: Team to Advance",
           "outcome": "Argentina",
           "their_entry_price": 0.7369,
-          "current_price": 0.7437,
-          "fair_value_estimate": 0.74375,
+          "current_price": 0.7462,
+          "fair_value_estimate": 0.74625,
           "suggested_entry_range": [
-            0.73,
-            0.75
+            0.732,
+            0.752
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.74 -> 0.74); replicating their entry is still reasonably representative.",
-          "conviction": 0.0084,
-          "pick_score": 0.0084,
+          "note": "Price is close to their entry (0.74 -> 0.75); replicating their entry is still reasonably representative.",
+          "conviction": 0.008,
+          "pick_score": 0.008,
           "recommended": false,
-          "their_position_value": 14695.8807
+          "their_position_value": 14745.2819
         },
         {
           "market_title": "Will Norway win on 2026-07-11?",
           "outcome": "No",
           "their_entry_price": 0.7725,
-          "current_price": 0.7712,
-          "fair_value_estimate": 0.77125,
+          "current_price": 0.7662,
+          "fair_value_estimate": 0.76625,
           "suggested_entry_range": [
-            0.762,
-            0.782
+            0.759,
+            0.779
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.77 -> 0.77); replicating their entry is still reasonably representative.",
-          "conviction": 0.0059,
-          "pick_score": 0.0059,
+          "conviction": 0.0056,
+          "pick_score": 0.0056,
           "recommended": false,
-          "their_position_value": 10334.2568
+          "their_position_value": 10267.2556
         }
       ]
     },
@@ -415,7 +488,7 @@
         "avg_trades_per_day_30d": 4.3
       },
       "radar": {
-        "account_age_days": 58.0,
+        "account_age_days": 58.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.1935,
         "best_leaderboard_rank": 34,
@@ -433,9 +506,9 @@
       "display_name": "0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
       "profile_url": "https://polymarket.com/@0xE30E74595517de48f1FB19f4553dd3d9F1E96B87-1772612985000",
       "score": {
-        "composite": 0.357,
-        "score_100": 68,
-        "kelly_edge": 0.295,
+        "composite": 0.3936,
+        "score_100": 70,
+        "kelly_edge": 0.301,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -446,25 +519,25 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0471,
-        "n_clv_with_data": 4,
-        "n_clv_attempted": 39,
-        "sharpe": 0.8282,
-        "roi_lifetime": 0.2724,
-        "roi_180d": 0.2724,
-        "roi_90d": 0.2652,
-        "roi_30d": 0.332,
-        "max_drawdown_fraction": 0.0096,
-        "n_resolved": 39,
-        "n_distinct_markets": 35,
-        "capital_concentration_hhi": 0.0546,
-        "win_rate_adj": 0.7027,
-        "avg_trades_per_day_30d": 2.23
+        "clv": -0.0118,
+        "n_clv_with_data": 5,
+        "n_clv_attempted": 40,
+        "sharpe": 0.8302,
+        "roi_lifetime": 0.2688,
+        "roi_180d": 0.2688,
+        "roi_90d": 0.261,
+        "roi_30d": 0.3142,
+        "max_drawdown_fraction": 0.0093,
+        "n_resolved": 40,
+        "n_distinct_markets": 36,
+        "capital_concentration_hhi": 0.0526,
+        "win_rate_adj": 0.7093,
+        "avg_trades_per_day_30d": 2.27
       },
       "radar": {
-        "account_age_days": 128.1,
+        "account_age_days": 128.4,
         "portfolio_value": 0,
-        "capital_efficiency": 0.1634,
+        "capital_efficiency": 0.1629,
         "best_leaderboard_rank": 23,
         "profile_views": null,
         "reasons": [
@@ -475,14 +548,14 @@
       "entry_recommendations": []
     },
     {
-      "wallet": "0x73bcd24d510ff4e4d5feac6aec763c5511e246ce",
-      "userName": "0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
-      "display_name": "0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
-      "profile_url": "https://polymarket.com/@0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
+      "wallet": "0x28059b3fb7af7ed76d83dc9121bbb72ec7cf76ed",
+      "userName": "RISK-IS-NEVER-OK",
+      "display_name": "RISK-IS-NEVER-OK",
+      "profile_url": "https://polymarket.com/@RISK-IS-NEVER-OK",
       "score": {
-        "composite": 0.2965,
-        "score_100": 65,
-        "kelly_edge": 0.0972,
+        "composite": 0.3215,
+        "score_100": 66,
+        "kelly_edge": 0.0109,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -493,78 +566,78 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0073,
-        "n_clv_with_data": 40,
+        "clv": 0.0708,
+        "n_clv_with_data": 37,
         "n_clv_attempted": 40,
-        "sharpe": 0.2053,
-        "roi_lifetime": 0.1557,
-        "roi_180d": 0.1557,
-        "roi_90d": 0.1295,
-        "roi_30d": 0.1219,
-        "max_drawdown_fraction": 0.0834,
-        "n_resolved": 263,
-        "n_distinct_markets": 224,
-        "capital_concentration_hhi": 0.0131,
-        "win_rate_adj": 0.529,
-        "avg_trades_per_day_30d": 7.77
+        "sharpe": 0.071,
+        "roi_lifetime": 0.1004,
+        "roi_180d": 0.1028,
+        "roi_90d": 0.1028,
+        "roi_30d": 0.1345,
+        "max_drawdown_fraction": 0.0412,
+        "n_resolved": 574,
+        "n_distinct_markets": 541,
+        "capital_concentration_hhi": 0.0118,
+        "win_rate_adj": 0.4627,
+        "avg_trades_per_day_30d": 14.43
       },
       "radar": {
-        "account_age_days": 186.0,
-        "portfolio_value": 499.03,
-        "capital_efficiency": 0.1351,
-        "best_leaderboard_rank": 40,
+        "account_age_days": 611.0,
+        "portfolio_value": 275.24,
+        "capital_efficiency": 0.0983,
+        "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 32,
+      "open_positions_count": 24,
       "entry_recommendations": [
         {
-          "market_title": "Valorant: 100 Thieves vs MIBR LOS (BO3) - Esports World Cup Playoffs",
-          "outcome": "MIBR LOS",
-          "their_entry_price": 0.53,
-          "current_price": 0.535,
-          "fair_value_estimate": 0.535,
-          "suggested_entry_range": [
-            0.522,
-            0.542
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.53 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.0007,
-          "pick_score": 0.0007,
-          "recommended": true,
-          "their_position_value": 464.4887
-        },
-        {
-          "market_title": "Norway vs. England: England 1st Half O/U 0.5",
+          "market_title": "Spain vs. Belgium: O/U 2.5",
           "outcome": "Under",
           "their_entry_price": 0.46,
-          "current_price": 0.47,
-          "fair_value_estimate": 0.47,
+          "current_price": 0.4562,
+          "fair_value_estimate": 0.45625,
           "suggested_entry_range": [
-            0.455,
-            0.475
+            0.448,
+            0.468
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.46 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.0001,
-          "pick_score": 0.0001,
+          "note": "Price is close to their entry (0.46 -> 0.46); replicating their entry is still reasonably representative.",
+          "conviction": 0.0013,
+          "pick_score": 0.0013,
           "recommended": true,
-          "their_position_value": 34.5406
+          "their_position_value": 246.1472
+        },
+        {
+          "market_title": "Wimbledon ATP: Jannik Sinner vs Novak Djokovic",
+          "outcome": "Novak Djokovic",
+          "their_entry_price": 0.1556,
+          "current_price": 0.0115,
+          "fair_value_estimate": 0.013,
+          "suggested_entry_range": [
+            0.012,
+            0.156
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.14 (93%) since their entry of 0.16 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0002,
+          "pick_score": 0.0,
+          "recommended": false,
+          "their_position_value": 29.0444
         }
       ]
     },
     {
-      "wallet": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
-      "userName": "Woaifacai",
-      "display_name": "Woaifacai",
-      "profile_url": "https://polymarket.com/@Woaifacai",
+      "wallet": "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
+      "userName": "Eztennis",
+      "display_name": "Eztennis",
+      "profile_url": "https://polymarket.com/@Eztennis",
       "score": {
-        "composite": 0.2894,
-        "score_100": 65,
-        "kelly_edge": 0.2068,
+        "composite": 0.3084,
+        "score_100": 66,
+        "kelly_edge": 0.0475,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -575,80 +648,51 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0261,
+        "clv": 0.042,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.1056,
-        "roi_lifetime": 0.0672,
-        "roi_180d": 0.0672,
-        "roi_90d": 0.0672,
-        "roi_30d": 0.0672,
-        "max_drawdown_fraction": 0.0286,
-        "n_resolved": 184,
-        "n_distinct_markets": 173,
-        "capital_concentration_hhi": 0.0207,
-        "win_rate_adj": 0.5809,
-        "avg_trades_per_day_30d": 14.57
+        "sharpe": 0.1102,
+        "roi_lifetime": 0.1189,
+        "roi_180d": 0.1189,
+        "roi_90d": 0.1176,
+        "roi_30d": 0.1006,
+        "max_drawdown_fraction": 0.0451,
+        "n_resolved": 198,
+        "n_distinct_markets": 194,
+        "capital_concentration_hhi": 0.019,
+        "win_rate_adj": 0.4859,
+        "avg_trades_per_day_30d": 23.13
       },
       "radar": {
-        "account_age_days": 22.8,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.0672,
-        "best_leaderboard_rank": 29,
+        "account_age_days": 179.8,
+        "portfolio_value": 9555.49,
+        "capital_efficiency": 0.0904,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 1,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x547f2917d51f2e63ab382dcf641d4e0240162937",
-      "userName": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-      "display_name": "0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-      "profile_url": "https://polymarket.com/@0x547f2917D51F2e63ab382DCF641d4E0240162937-1782667852436",
-      "score": {
-        "composite": 0.288,
-        "score_100": 65,
-        "kelly_edge": -0.128,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0154,
-        "n_clv_with_data": 31,
-        "n_clv_attempted": 40,
-        "sharpe": 0.2015,
-        "roi_lifetime": 0.1624,
-        "roi_180d": 0.1624,
-        "roi_90d": 0.1624,
-        "roi_30d": 0.1624,
-        "max_drawdown_fraction": 0.0192,
-        "n_resolved": 68,
-        "n_distinct_markets": 67,
-        "capital_concentration_hhi": 0.0261,
-        "win_rate_adj": 0.6356,
-        "avg_trades_per_day_30d": 12.67
-      },
-      "radar": {
-        "account_age_days": 11.7,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1259,
-        "best_leaderboard_rank": 42,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 14,
-      "entry_recommendations": []
+      "open_positions_count": 13,
+      "entry_recommendations": [
+        {
+          "market_title": "Wimbledon ATP: Jannik Sinner vs Novak Djokovic",
+          "outcome": "Novak Djokovic",
+          "their_entry_price": 0.1799,
+          "current_price": 0.0135,
+          "fair_value_estimate": 0.0125,
+          "suggested_entry_range": [
+            0.013,
+            0.179
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.17 (92%) since their entry of 0.18 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0007,
+          "pick_score": 0.0001,
+          "recommended": true,
+          "their_position_value": 9555.4924
+        }
+      ]
     }
   ]
 }
