@@ -1,18 +1,14 @@
 {
-  "generated_at": "2026-07-12T20:09:02.070263+00:00",
-  "duration_seconds": 382.1,
-  "n_candidates_discovered": 1282,
+  "generated_at": "2026-07-12T22:41:35.862871+00:00",
+  "duration_seconds": 482.0,
+  "n_candidates_discovered": 1272,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 12,
-  "n_errors": 2,
+  "n_errors": 1,
   "errors": [
     {
       "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&user=0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
-    },
-    {
-      "wallet": "0x0d18e30e252008d83f51dae00d36873ddd9e24a6",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&user=0x0d18e30e252008d83f51dae00d36873ddd9e24a6"
     }
   ],
   "wallets": [
@@ -51,10 +47,10 @@
         "avg_trades_per_day_30d": 4.13
       },
       "radar": {
-        "account_age_days": 72.2,
+        "account_age_days": 72.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2801,
-        "best_leaderboard_rank": 25,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -89,18 +85,18 @@
         "roi_lifetime": 0.5207,
         "roi_180d": 0.5207,
         "roi_90d": 0.5274,
-        "roi_30d": 0.5096,
+        "roi_30d": 0.5101,
         "max_drawdown_fraction": 0.0089,
         "n_resolved": 72,
         "n_distinct_markets": 72,
         "capital_concentration_hhi": 0.0275,
         "win_rate_adj": 0.9254,
-        "avg_trades_per_day_30d": 2.93
+        "avg_trades_per_day_30d": 2.9
       },
       "radar": {
-        "account_age_days": 105.3,
-        "portfolio_value": 1278622.92,
-        "capital_efficiency": 0.2164,
+        "account_age_days": 105.4,
+        "portfolio_value": 1284407.65,
+        "capital_efficiency": 0.216,
         "best_leaderboard_rank": 38,
         "profile_views": null,
         "reasons": [
@@ -121,8 +117,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.42 -> 0.41); replicating their entry is still reasonably representative.",
-          "conviction": 0.0735,
-          "pick_score": 0.0735,
+          "conviction": 0.0734,
+          "pick_score": 0.0734,
           "recommended": true,
           "their_position_value": 290498.9586
         },
@@ -138,10 +134,27 @@
           ],
           "flagged_chasing": true,
           "note": "Price has moved up 0.22 (137%) since their entry of 0.16 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.2423,
-          "pick_score": 0.0485,
+          "conviction": 0.242,
+          "pick_score": 0.0484,
           "recommended": true,
           "their_position_value": 957755.4331
+        },
+        {
+          "market_title": "Spread: England (-1.5)",
+          "outcome": "England",
+          "their_entry_price": 0.16,
+          "current_price": 0.165,
+          "fair_value_estimate": 0.165,
+          "suggested_entry_range": [
+            0.152,
+            0.173
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.16 -> 0.17); replicating their entry is still reasonably representative.",
+          "conviction": 0.0018,
+          "pick_score": 0.0018,
+          "recommended": true,
+          "their_position_value": 7121.9413
         },
         {
           "market_title": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
@@ -157,7 +170,7 @@
           "note": "Price has moved up 0.31 (124%) since their entry of 0.25 -- buying now means chasing, not replicating their original risk/reward.",
           "conviction": 0.0067,
           "pick_score": 0.0013,
-          "recommended": true,
+          "recommended": false,
           "their_position_value": 26471.4317
         },
         {
@@ -176,23 +189,6 @@
           "pick_score": 0.0006,
           "recommended": false,
           "their_position_value": 2559.8863
-        },
-        {
-          "market_title": "Spread: England (-1.5)",
-          "outcome": "England",
-          "their_entry_price": 0.16,
-          "current_price": 0.165,
-          "fair_value_estimate": 0.165,
-          "suggested_entry_range": [
-            0.152,
-            0.173
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.16 -> 0.17); replicating their entry is still reasonably representative.",
-          "conviction": 0.0003,
-          "pick_score": 0.0003,
-          "recommended": false,
-          "their_position_value": 1337.206
         }
       ]
     },
@@ -231,8 +227,8 @@
         "avg_trades_per_day_30d": 1.07
       },
       "radar": {
-        "account_age_days": 29.4,
-        "portfolio_value": 24487.21,
+        "account_age_days": 29.5,
+        "portfolio_value": 24716.97,
         "capital_efficiency": 0.235,
         "best_leaderboard_rank": 24,
         "profile_views": null,
@@ -246,18 +242,18 @@
           "market_title": "Will Spain win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.183,
-          "current_price": 0.2025,
-          "fair_value_estimate": 0.2025,
+          "current_price": 0.2044,
+          "fair_value_estimate": 0.2045,
           "suggested_entry_range": [
             0.183,
-            0.203
+            0.204
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.18 -> 0.20); replicating their entry is still reasonably representative.",
-          "conviction": 0.0159,
-          "pick_score": 0.0159,
+          "conviction": 0.016,
+          "pick_score": 0.016,
           "recommended": true,
-          "their_position_value": 24487.2112
+          "their_position_value": 24716.9678
         }
       ]
     },
@@ -267,9 +263,9 @@
       "display_name": "Themsnw",
       "profile_url": "https://polymarket.com/@Themsnw",
       "score": {
-        "composite": 0.5347,
-        "score_100": 77,
-        "kelly_edge": 0.4668,
+        "composite": 0.5477,
+        "score_100": 78,
+        "kelly_edge": 0.4776,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -280,26 +276,26 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0745,
+        "clv": 0.0815,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
-        "sharpe": 1.1341,
-        "roi_lifetime": 0.3613,
-        "roi_180d": 0.3613,
-        "roi_90d": 0.3613,
-        "roi_30d": 0.3613,
-        "max_drawdown_fraction": 0.0033,
-        "n_resolved": 40,
-        "n_distinct_markets": 39,
-        "capital_concentration_hhi": 0.047,
-        "win_rate_adj": 0.7093,
-        "avg_trades_per_day_30d": 7.27
+        "sharpe": 1.159,
+        "roi_lifetime": 0.3709,
+        "roi_180d": 0.3709,
+        "roi_90d": 0.3709,
+        "roi_30d": 0.3709,
+        "max_drawdown_fraction": 0.0031,
+        "n_resolved": 41,
+        "n_distinct_markets": 40,
+        "capital_concentration_hhi": 0.0451,
+        "win_rate_adj": 0.7156,
+        "avg_trades_per_day_30d": 7.37
       },
       "radar": {
-        "account_age_days": 10.7,
-        "portfolio_value": 142669.31,
-        "capital_efficiency": 0.1747,
-        "best_leaderboard_rank": 44,
+        "account_age_days": 10.8,
+        "portfolio_value": 78904.67,
+        "capital_efficiency": 0.1871,
+        "best_leaderboard_rank": 39,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -310,19 +306,19 @@
         {
           "market_title": "Will Samuel Alito announce his retirement by September 30, 2026?",
           "outcome": "Yes",
-          "their_entry_price": 0.176,
-          "current_price": 0.135,
-          "fair_value_estimate": 0.135,
+          "their_entry_price": 0.1729,
+          "current_price": 0.175,
+          "fair_value_estimate": 0.175,
           "suggested_entry_range": [
-            0.135,
-            0.176
+            0.164,
+            0.184
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.18 -> 0.14); replicating their entry is still reasonably representative.",
-          "conviction": 0.0291,
-          "pick_score": 0.0291,
+          "note": "Price is close to their entry (0.17 -> 0.17); replicating their entry is still reasonably representative.",
+          "conviction": 0.0496,
+          "pick_score": 0.0496,
           "recommended": true,
-          "their_position_value": 21527.5856
+          "their_position_value": 33464.5796
         },
         {
           "market_title": "Will France win the 2026 FIFA World Cup?",
@@ -336,44 +332,44 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.33 -> 0.39); replicating their entry is still reasonably representative.",
-          "conviction": 0.0254,
-          "pick_score": 0.0254,
+          "conviction": 0.0278,
+          "pick_score": 0.0278,
           "recommended": true,
           "their_position_value": 18801.5869
-        },
-        {
-          "market_title": "New York Yankees vs. Washington Nationals",
-          "outcome": "New York Yankees",
-          "their_entry_price": 0.4818,
-          "current_price": 0.835,
-          "fair_value_estimate": 0.855,
-          "suggested_entry_range": [
-            0.492,
-            0.845
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.35 (73%) since their entry of 0.48 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.1173,
-          "pick_score": 0.0235,
-          "recommended": true,
-          "their_position_value": 86650.455
         },
         {
           "market_title": "Will Samuel Alito announce his retirement by July 15, 2026?",
           "outcome": "Yes",
           "their_entry_price": 0.0822,
-          "current_price": 0.0165,
-          "fair_value_estimate": 0.0165,
+          "current_price": 0.016,
+          "fair_value_estimate": 0.016,
           "suggested_entry_range": [
-            0.017,
+            0.016,
             0.082
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.08 -> 0.02); replicating their entry is still reasonably representative.",
-          "conviction": 0.0126,
-          "pick_score": 0.0126,
+          "conviction": 0.0134,
+          "pick_score": 0.0134,
+          "recommended": true,
+          "their_position_value": 9041.2072
+        },
+        {
+          "market_title": "Arizona Diamondbacks vs. Los Angeles Dodgers",
+          "outcome": "Los Angeles Dodgers",
+          "their_entry_price": 0.7568,
+          "current_price": 0.325,
+          "fair_value_estimate": 0.345,
+          "suggested_entry_range": [
+            0.335,
+            0.767
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.43 (57%) since their entry of 0.76 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0159,
+          "pick_score": 0.0032,
           "recommended": false,
-          "their_position_value": 9323.745
+          "their_position_value": 10734.8106
         },
         {
           "market_title": "Will Samuel Alito announce his retirement by December 31, 2026?",
@@ -387,44 +383,44 @@
           ],
           "flagged_chasing": true,
           "note": "Price has moved down 0.12 (38%) since their entry of 0.31 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0079,
-          "pick_score": 0.0016,
+          "conviction": 0.0086,
+          "pick_score": 0.0017,
           "recommended": false,
           "their_position_value": 5822.378
         },
         {
           "market_title": "Will LeBron James play for the Philadelphia 76ers in 2026-27?",
           "outcome": "Yes",
-          "their_entry_price": 0.1026,
-          "current_price": 0.101,
-          "fair_value_estimate": 0.1,
+          "their_entry_price": 0.1196,
+          "current_price": 0.106,
+          "fair_value_estimate": 0.1045,
           "suggested_entry_range": [
-            0.091,
-            0.111
+            0.102,
+            0.122
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.10 -> 0.10); replicating their entry is still reasonably representative.",
-          "conviction": 0.0004,
-          "pick_score": 0.0004,
+          "note": "Price is close to their entry (0.12 -> 0.11); replicating their entry is still reasonably representative.",
+          "conviction": 0.0011,
+          "pick_score": 0.0011,
           "recommended": false,
-          "their_position_value": 324.8175
+          "their_position_value": 735.437
         },
         {
           "market_title": "Will LeBron James play for the Minnesota Timberwolves in 2026-27?",
           "outcome": "Yes",
           "their_entry_price": 0.0349,
-          "current_price": 0.024,
-          "fair_value_estimate": 0.024,
+          "current_price": 0.0354,
+          "fair_value_estimate": 0.0355,
           "suggested_entry_range": [
-            0.019,
-            0.039
+            0.025,
+            0.045
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.03 -> 0.02); replicating their entry is still reasonably representative.",
-          "conviction": 0.0002,
-          "pick_score": 0.0002,
+          "note": "Price is close to their entry (0.03 -> 0.04); replicating their entry is still reasonably representative.",
+          "conviction": 0.0003,
+          "pick_score": 0.0003,
           "recommended": false,
-          "their_position_value": 147.6444
+          "their_position_value": 217.7754
         }
       ]
     },
@@ -463,10 +459,10 @@
         "avg_trades_per_day_30d": 19.43
       },
       "radar": {
-        "account_age_days": 39.2,
+        "account_age_days": 39.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.1902,
-        "best_leaderboard_rank": 38,
+        "best_leaderboard_rank": 40,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -510,7 +506,7 @@
         "avg_trades_per_day_30d": 10.23
       },
       "radar": {
-        "account_age_days": 31.8,
+        "account_age_days": 31.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2089,
         "best_leaderboard_rank": 45,
@@ -554,20 +550,38 @@
         "n_distinct_markets": 76,
         "capital_concentration_hhi": 0.023,
         "win_rate_adj": 0.6506,
-        "avg_trades_per_day_30d": 14.53
+        "avg_trades_per_day_30d": 14.67
       },
       "radar": {
-        "account_age_days": 14.1,
-        "portfolio_value": 19.78,
-        "capital_efficiency": 0.1309,
-        "best_leaderboard_rank": 40,
+        "account_age_days": 14.2,
+        "portfolio_value": 106052.69,
+        "capital_efficiency": 0.1287,
+        "best_leaderboard_rank": 44,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 17,
-      "entry_recommendations": []
+      "open_positions_count": 18,
+      "entry_recommendations": [
+        {
+          "market_title": "Arizona Diamondbacks vs. Los Angeles Dodgers: O/U 9.5",
+          "outcome": "Under",
+          "their_entry_price": 0.5669,
+          "current_price": 0.66,
+          "fair_value_estimate": 0.71,
+          "suggested_entry_range": [
+            0.592,
+            0.685
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.09 (16%) since their entry of 0.57 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0479,
+          "pick_score": 0.0096,
+          "recommended": true,
+          "their_position_value": 106052.6862
+        }
+      ]
     },
     {
       "wallet": "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
@@ -604,7 +618,7 @@
         "avg_trades_per_day_30d": 23.03
       },
       "radar": {
-        "account_age_days": 182.0,
+        "account_age_days": 182.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.0896,
         "best_leaderboard_rank": 33,
