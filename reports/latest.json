@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T00:09:34.402729+00:00",
-  "duration_seconds": 276.9,
-  "n_candidates_discovered": 1418,
+  "generated_at": "2026-07-15T09:26:02.638228+00:00",
+  "duration_seconds": 384.0,
+  "n_candidates_discovered": 1407,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 11,
   "n_errors": 2,
@@ -42,7 +42,7 @@
         "roi_lifetime": 0.4293,
         "roi_180d": 0.4293,
         "roi_90d": 0.4293,
-        "roi_30d": 0.4367,
+        "roi_30d": 0.4358,
         "max_drawdown_fraction": 0.0007,
         "n_resolved": 122,
         "n_distinct_markets": 122,
@@ -51,7 +51,7 @@
         "avg_trades_per_day_30d": 2.7
       },
       "radar": {
-        "account_age_days": 74.4,
+        "account_age_days": 74.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.2801,
         "best_leaderboard_rank": 31,
@@ -69,9 +69,9 @@
       "display_name": "Kch-Temp",
       "profile_url": "https://polymarket.com/@Kch-Temp",
       "score": {
-        "composite": 0.6153,
-        "score_100": 81,
-        "kelly_edge": 0.7637,
+        "composite": 0.4922,
+        "score_100": 75,
+        "kelly_edge": 0.5499,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -82,49 +82,49 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0608,
-        "n_clv_with_data": 39,
+        "clv": 0.0662,
+        "n_clv_with_data": 36,
         "n_clv_attempted": 40,
-        "sharpe": 1.7547,
-        "roi_lifetime": 0.403,
-        "roi_180d": 0.403,
-        "roi_90d": 0.403,
-        "roi_30d": 0.4277,
-        "max_drawdown_fraction": 0.0109,
-        "n_resolved": 100,
-        "n_distinct_markets": 99,
-        "capital_concentration_hhi": 0.0229,
-        "win_rate_adj": 0.8882,
-        "avg_trades_per_day_30d": 8.6
+        "sharpe": 0.9462,
+        "roi_lifetime": 0.1923,
+        "roi_180d": 0.1923,
+        "roi_90d": 0.1923,
+        "roi_30d": 0.1789,
+        "max_drawdown_fraction": 0.1156,
+        "n_resolved": 110,
+        "n_distinct_markets": 109,
+        "capital_concentration_hhi": 0.0194,
+        "win_rate_adj": 0.7871,
+        "avg_trades_per_day_30d": 8.4
       },
       "radar": {
-        "account_age_days": 35.4,
-        "portfolio_value": 145499.75,
-        "capital_efficiency": 0.2336,
+        "account_age_days": 35.8,
+        "portfolio_value": 202336.16,
+        "capital_efficiency": 0.1452,
         "best_leaderboard_rank": 32,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 88,
+      "open_positions_count": 78,
       "entry_recommendations": [
         {
           "market_title": "England vs. Argentina: Both Teams to Score",
           "outcome": "No",
-          "their_entry_price": 0.49,
+          "their_entry_price": 0.4868,
           "current_price": 0.485,
           "fair_value_estimate": 0.485,
           "suggested_entry_range": [
-            0.477,
-            0.497
+            0.476,
+            0.496
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.49 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.0505,
-          "pick_score": 0.0505,
+          "conviction": 0.1099,
+          "pick_score": 0.1099,
           "recommended": true,
-          "their_position_value": 145499.7519
+          "their_position_value": 202336.1633
         }
       ]
     },
@@ -163,7 +163,7 @@
         "avg_trades_per_day_30d": 2.9
       },
       "radar": {
-        "account_age_days": 37.2,
+        "account_age_days": 37.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2632,
         "best_leaderboard_rank": 23,
@@ -210,10 +210,10 @@
         "avg_trades_per_day_30d": 6.43
       },
       "radar": {
-        "account_age_days": 25.4,
-        "portfolio_value": 384217.34,
+        "account_age_days": 25.8,
+        "portfolio_value": 384647.75,
         "capital_efficiency": 0.1087,
-        "best_leaderboard_rank": 48,
+        "best_leaderboard_rank": 47,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -222,38 +222,55 @@
       "open_positions_count": 22,
       "entry_recommendations": [
         {
+          "market_title": "Will England win the 2026 FIFA World Cup?",
+          "outcome": "Yes",
+          "their_entry_price": 0.148,
+          "current_price": 0.2265,
+          "fair_value_estimate": 0.2265,
+          "suggested_entry_range": [
+            0.148,
+            0.227
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.15 -> 0.23); replicating their entry is still reasonably representative.",
+          "conviction": 0.0356,
+          "pick_score": 0.0356,
+          "recommended": true,
+          "their_position_value": 75830.3122
+        },
+        {
           "market_title": "England vs. Argentina: Team to Advance",
           "outcome": "England",
           "their_entry_price": 0.55,
-          "current_price": 0.5362,
-          "fair_value_estimate": 0.53625,
+          "current_price": 0.5387,
+          "fair_value_estimate": 0.53875,
           "suggested_entry_range": [
-            0.533,
-            0.553
+            0.534,
+            0.554
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.55 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.041,
-          "pick_score": 0.041,
+          "conviction": 0.0354,
+          "pick_score": 0.0354,
           "recommended": true,
-          "their_position_value": 75067.4821
+          "their_position_value": 75417.4797
         },
         {
           "market_title": "Will Argentina win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1278,
-          "current_price": 0.1935,
-          "fair_value_estimate": 0.1945,
+          "current_price": 0.1965,
+          "fair_value_estimate": 0.1965,
           "suggested_entry_range": [
             0.128,
-            0.194
+            0.197
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.13 -> 0.19); replicating their entry is still reasonably representative.",
-          "conviction": 0.0317,
-          "pick_score": 0.0317,
+          "note": "Price is close to their entry (0.13 -> 0.20); replicating their entry is still reasonably representative.",
+          "conviction": 0.0276,
+          "pick_score": 0.0276,
           "recommended": true,
-          "their_position_value": 58049.9999
+          "their_position_value": 58949.9999
         },
         {
           "market_title": "Will Spain win the 2026 FIFA World Cup?",
@@ -267,27 +284,10 @@
           ],
           "flagged_chasing": true,
           "note": "Price has moved up 0.45 (328%) since their entry of 0.14 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0952,
-          "pick_score": 0.019,
-          "recommended": true,
-          "their_position_value": 174449.9592
-        },
-        {
-          "market_title": "Will England win the 2026 FIFA World Cup?",
-          "outcome": "Yes",
-          "their_entry_price": 0.148,
-          "current_price": 0.2285,
-          "fair_value_estimate": 0.2285,
-          "suggested_entry_range": [
-            0.148,
-            0.229
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.08 (54%) since their entry of 0.15 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0417,
-          "pick_score": 0.0083,
+          "conviction": 0.0818,
+          "pick_score": 0.0164,
           "recommended": false,
-          "their_position_value": 76499.8956
+          "their_position_value": 174449.9592
         }
       ]
     },
@@ -310,7 +310,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0228,
+        "clv": 0.0227,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
         "sharpe": 0.4498,
@@ -326,17 +326,52 @@
         "avg_trades_per_day_30d": 1.27
       },
       "radar": {
-        "account_age_days": 19.1,
-        "portfolio_value": 0,
+        "account_age_days": 19.5,
+        "portfolio_value": 5.23,
         "capital_efficiency": 0.1795,
-        "best_leaderboard_rank": 41,
+        "best_leaderboard_rank": 40,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 23,
-      "entry_recommendations": []
+      "open_positions_count": 25,
+      "entry_recommendations": [
+        {
+          "market_title": "Will V\u00e5lerenga Fotball vs. Aalesunds FK end in a draw?",
+          "outcome": "No",
+          "their_entry_price": 0.77,
+          "current_price": 0.785,
+          "fair_value_estimate": 0.785,
+          "suggested_entry_range": [
+            0.768,
+            0.788
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.77 -> 0.79); replicating their entry is still reasonably representative.",
+          "conviction": 0.0,
+          "pick_score": 0.0,
+          "recommended": false,
+          "their_position_value": 3.413
+        },
+        {
+          "market_title": "Will V\u00e5lerenga Fotball win on 2026-07-16?",
+          "outcome": "Yes",
+          "their_entry_price": 0.55,
+          "current_price": 0.56,
+          "fair_value_estimate": 0.56,
+          "suggested_entry_range": [
+            0.545,
+            0.565
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.55 -> 0.56); replicating their entry is still reasonably representative.",
+          "conviction": 0.0,
+          "pick_score": 0.0,
+          "recommended": false,
+          "their_position_value": 1.8144
+        }
+      ]
     },
     {
       "wallet": "0x547f2917d51f2e63ab382dcf641d4e0240162937",
@@ -373,10 +408,10 @@
         "avg_trades_per_day_30d": 15.33
       },
       "radar": {
-        "account_age_days": 16.3,
+        "account_age_days": 16.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.1324,
-        "best_leaderboard_rank": 42,
+        "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -411,26 +446,78 @@
         "roi_lifetime": 0.1738,
         "roi_180d": 0.1738,
         "roi_90d": 0.1511,
-        "roi_30d": 0.1452,
+        "roi_30d": 0.1617,
         "max_drawdown_fraction": 0.0757,
         "n_resolved": 287,
         "n_distinct_markets": 241,
         "capital_concentration_hhi": 0.0117,
         "win_rate_adj": 0.5417,
-        "avg_trades_per_day_30d": 7.5
+        "avg_trades_per_day_30d": 7.37
       },
       "radar": {
-        "account_age_days": 190.6,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1461,
+        "account_age_days": 191.0,
+        "portfolio_value": 36591.24,
+        "capital_efficiency": 0.1444,
         "best_leaderboard_rank": 45,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 47,
-      "entry_recommendations": []
+      "open_positions_count": 50,
+      "entry_recommendations": [
+        {
+          "market_title": "England vs. Argentina: O/U 8.5 Total Corners",
+          "outcome": "Over",
+          "their_entry_price": 0.4467,
+          "current_price": 0.425,
+          "fair_value_estimate": 0.425,
+          "suggested_entry_range": [
+            0.425,
+            0.447
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.45 -> 0.42); replicating their entry is still reasonably representative.",
+          "conviction": 0.0486,
+          "pick_score": 0.0486,
+          "recommended": true,
+          "their_position_value": 31999.2346
+        },
+        {
+          "market_title": "England vs. Argentina: 1st Half O/U 3.5 Total Corners",
+          "outcome": "Over",
+          "their_entry_price": 0.54,
+          "current_price": 0.545,
+          "fair_value_estimate": 0.545,
+          "suggested_entry_range": [
+            0.532,
+            0.552
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.54 -> 0.55); replicating their entry is still reasonably representative.",
+          "conviction": 0.007,
+          "pick_score": 0.007,
+          "recommended": true,
+          "their_position_value": 4590.8904
+        },
+        {
+          "market_title": "England vs. Argentina: Team to Take First Corner",
+          "outcome": "England",
+          "their_entry_price": 0.52,
+          "current_price": 0.535,
+          "fair_value_estimate": 0.535,
+          "suggested_entry_range": [
+            0.518,
+            0.538
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.52 -> 0.54); replicating their entry is still reasonably representative.",
+          "conviction": 0.0,
+          "pick_score": 0.0,
+          "recommended": false,
+          "their_position_value": 1.1145
+        }
+      ]
     },
     {
       "wallet": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
@@ -467,10 +554,10 @@
         "avg_trades_per_day_30d": 15.07
       },
       "radar": {
-        "account_age_days": 27.4,
+        "account_age_days": 27.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.0671,
-        "best_leaderboard_rank": 40,
+        "best_leaderboard_rank": 39,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
