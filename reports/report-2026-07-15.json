@@ -1,14 +1,18 @@
 {
-  "generated_at": "2026-07-15T15:22:12.262948+00:00",
-  "duration_seconds": 516.4,
-  "n_candidates_discovered": 1394,
+  "generated_at": "2026-07-15T20:04:41.032325+00:00",
+  "duration_seconds": 389.9,
+  "n_candidates_discovered": 1398,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 13,
-  "n_errors": 1,
+  "n_passed_filters": 12,
+  "n_errors": 2,
   "errors": [
     {
       "wallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&user=0xe16d3f2a5807999b358affd9445c3a09e45e5e30"
+    },
+    {
+      "wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=4000&user=0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7"
     }
   ],
   "wallets": [
@@ -38,19 +42,19 @@
         "roi_lifetime": 0.4293,
         "roi_180d": 0.4293,
         "roi_90d": 0.4293,
-        "roi_30d": 0.4358,
+        "roi_30d": 0.4318,
         "max_drawdown_fraction": 0.0007,
         "n_resolved": 122,
         "n_distinct_markets": 122,
         "capital_concentration_hhi": 0.021,
         "win_rate_adj": 0.8359,
-        "avg_trades_per_day_30d": 2.63
+        "avg_trades_per_day_30d": 2.53
       },
       "radar": {
-        "account_age_days": 75.0,
+        "account_age_days": 75.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2801,
-        "best_leaderboard_rank": 31,
+        "best_leaderboard_rank": 30,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -85,26 +89,44 @@
         "roi_lifetime": 0.4888,
         "roi_180d": 0.4888,
         "roi_90d": 0.4888,
-        "roi_30d": 0.5205,
+        "roi_30d": 0.5168,
         "max_drawdown_fraction": 0.0147,
         "n_resolved": 121,
         "n_distinct_markets": 120,
         "capital_concentration_hhi": 0.0297,
         "win_rate_adj": 0.7218,
-        "avg_trades_per_day_30d": 6.5
+        "avg_trades_per_day_30d": 6.57
       },
       "radar": {
-        "account_age_days": 81.3,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.2304,
+        "account_age_days": 81.5,
+        "portfolio_value": 25663.11,
+        "capital_efficiency": 0.2301,
         "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 127,
-      "entry_recommendations": []
+      "open_positions_count": 128,
+      "entry_recommendations": [
+        {
+          "market_title": "Will Argentina win on 2026-07-15?",
+          "outcome": "No",
+          "their_entry_price": 0.716,
+          "current_price": 0.7437,
+          "fair_value_estimate": 0.74625,
+          "suggested_entry_range": [
+            0.717,
+            0.745
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.72 -> 0.74); replicating their entry is still reasonably representative.",
+          "conviction": 0.0087,
+          "pick_score": 0.0087,
+          "recommended": true,
+          "their_position_value": 25663.1059
+        }
+      ]
     },
     {
       "wallet": "0x924379a79c64b77ad5816ad362122a5f6228658e",
@@ -132,7 +154,7 @@
         "roi_lifetime": 0.1923,
         "roi_180d": 0.1923,
         "roi_90d": 0.1923,
-        "roi_30d": 0.1781,
+        "roi_30d": 0.1758,
         "max_drawdown_fraction": 0.1156,
         "n_resolved": 110,
         "n_distinct_markets": 109,
@@ -141,33 +163,50 @@
         "avg_trades_per_day_30d": 8.1
       },
       "radar": {
-        "account_age_days": 36.0,
-        "portfolio_value": 284998.59,
-        "capital_efficiency": 0.1441,
-        "best_leaderboard_rank": 34,
+        "account_age_days": 36.2,
+        "portfolio_value": 743035.19,
+        "capital_efficiency": 0.1415,
+        "best_leaderboard_rank": 33,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 78,
+      "open_positions_count": 79,
       "entry_recommendations": [
+        {
+          "market_title": "Will England win on 2026-07-15?",
+          "outcome": "No",
+          "their_entry_price": 0.6375,
+          "current_price": 0.6712,
+          "fair_value_estimate": 0.67125,
+          "suggested_entry_range": [
+            0.638,
+            0.671
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.64 -> 0.67); replicating their entry is still reasonably representative.",
+          "conviction": 0.1417,
+          "pick_score": 0.1417,
+          "recommended": true,
+          "their_position_value": 302037.3745
+        },
         {
           "market_title": "England vs. Argentina: Both Teams to Score",
           "outcome": "No",
           "their_entry_price": 0.4845,
-          "current_price": 0.475,
-          "fair_value_estimate": 0.475,
+          "current_price": 0.735,
+          "fair_value_estimate": 0.735,
           "suggested_entry_range": [
-            0.47,
-            0.49
+            0.485,
+            0.735
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.48 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.1481,
-          "pick_score": 0.1481,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.25 (52%) since their entry of 0.48 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.2069,
+          "pick_score": 0.0414,
           "recommended": true,
-          "their_position_value": 284998.59
+          "their_position_value": 440997.8182
         }
       ]
     },
@@ -206,7 +245,7 @@
         "avg_trades_per_day_30d": 2.9
       },
       "radar": {
-        "account_age_days": 37.8,
+        "account_age_days": 38.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2632,
         "best_leaderboard_rank": 23,
@@ -253,8 +292,8 @@
         "avg_trades_per_day_30d": 6.43
       },
       "radar": {
-        "account_age_days": 26.1,
-        "portfolio_value": 385282.54,
+        "account_age_days": 26.3,
+        "portfolio_value": 386606.5,
         "capital_efficiency": 0.1087,
         "best_leaderboard_rank": 47,
         "profile_views": null,
@@ -265,27 +304,10 @@
       "open_positions_count": 22,
       "entry_recommendations": [
         {
-          "market_title": "Will England win the 2026 FIFA World Cup?",
-          "outcome": "Yes",
-          "their_entry_price": 0.148,
-          "current_price": 0.2275,
-          "fair_value_estimate": 0.2275,
-          "suggested_entry_range": [
-            0.148,
-            0.228
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.15 -> 0.23); replicating their entry is still reasonably representative.",
-          "conviction": 0.0357,
-          "pick_score": 0.0357,
-          "recommended": true,
-          "their_position_value": 76165.1039
-        },
-        {
           "market_title": "England vs. Argentina: Team to Advance",
           "outcome": "England",
           "their_entry_price": 0.55,
-          "current_price": 0.5387,
+          "current_price": 0.5362,
           "fair_value_estimate": 0.53875,
           "suggested_entry_range": [
             0.534,
@@ -293,20 +315,20 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.55 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.0353,
-          "pick_score": 0.0353,
+          "conviction": 0.0352,
+          "pick_score": 0.0352,
           "recommended": true,
-          "their_position_value": 75417.4797
+          "their_position_value": 75067.4821
         },
         {
           "market_title": "Will Argentina win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.1278,
           "current_price": 0.1975,
-          "fair_value_estimate": 0.1975,
+          "fair_value_estimate": 0.1965,
           "suggested_entry_range": [
-            0.128,
-            0.198
+            0.127,
+            0.197
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.13 -> 0.20); replicating their entry is still reasonably representative.",
@@ -327,10 +349,27 @@
           ],
           "flagged_chasing": true,
           "note": "Price has moved up 0.45 (328%) since their entry of 0.14 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0818,
-          "pick_score": 0.0164,
-          "recommended": false,
+          "conviction": 0.0817,
+          "pick_score": 0.0163,
+          "recommended": true,
           "their_position_value": 174449.9592
+        },
+        {
+          "market_title": "Will England win the 2026 FIFA World Cup?",
+          "outcome": "Yes",
+          "their_entry_price": 0.148,
+          "current_price": 0.2325,
+          "fair_value_estimate": 0.2305,
+          "suggested_entry_range": [
+            0.147,
+            0.232
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.08 (57%) since their entry of 0.15 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0365,
+          "pick_score": 0.0073,
+          "recommended": false,
+          "their_position_value": 77839.0622
         }
       ]
     },
@@ -369,33 +408,67 @@
         "avg_trades_per_day_30d": 1.27
       },
       "radar": {
-        "account_age_days": 19.7,
-        "portfolio_value": 8.58,
-        "capital_efficiency": 0.1795,
+        "account_age_days": 19.9,
+        "portfolio_value": 530093.08,
+        "capital_efficiency": 0.1614,
         "best_leaderboard_rank": 40,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 25,
+      "open_positions_count": 27,
       "entry_recommendations": [
         {
-          "market_title": "Will V\u00e5lerenga Fotball vs. Aalesunds FK end in a draw?",
+          "market_title": "England vs. Argentina: Team to Advance",
+          "outcome": "England",
+          "their_entry_price": 0.5384,
+          "current_price": 0.5362,
+          "fair_value_estimate": 0.53875,
+          "suggested_entry_range": [
+            0.529,
+            0.549
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.54 -> 0.54); replicating their entry is still reasonably representative.",
+          "conviction": 0.2043,
+          "pick_score": 0.2043,
+          "recommended": true,
+          "their_position_value": 529890.5352
+        },
+        {
+          "market_title": "Will Aalesunds FK win on 2026-07-16?",
           "outcome": "No",
           "their_entry_price": 0.77,
-          "current_price": 0.78,
-          "fair_value_estimate": 0.78,
+          "current_price": 0.775,
+          "fair_value_estimate": 0.775,
           "suggested_entry_range": [
-            0.765,
-            0.785
+            0.762,
+            0.782
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.77 -> 0.78); replicating their entry is still reasonably representative.",
           "conviction": 0.0,
           "pick_score": 0.0,
           "recommended": false,
-          "their_position_value": 6.7826
+          "their_position_value": 101.0532
+        },
+        {
+          "market_title": "Will V\u00e5lerenga Fotball vs. Aalesunds FK end in a draw?",
+          "outcome": "No",
+          "their_entry_price": 0.77,
+          "current_price": 0.785,
+          "fair_value_estimate": 0.785,
+          "suggested_entry_range": [
+            0.768,
+            0.788
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.77 -> 0.79); replicating their entry is still reasonably representative.",
+          "conviction": 0.0,
+          "pick_score": 0.0,
+          "recommended": false,
+          "their_position_value": 84.4045
         },
         {
           "market_title": "Will V\u00e5lerenga Fotball win on 2026-07-16?",
@@ -412,7 +485,7 @@
           "conviction": 0.0,
           "pick_score": 0.0,
           "recommended": false,
-          "their_position_value": 1.7982
+          "their_position_value": 17.0822
         }
       ]
     },
@@ -448,19 +521,19 @@
         "n_distinct_markets": 80,
         "capital_concentration_hhi": 0.0219,
         "win_rate_adj": 0.6662,
-        "avg_trades_per_day_30d": 15.33
+        "avg_trades_per_day_30d": 15.37
       },
       "radar": {
-        "account_age_days": 16.9,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1324,
+        "account_age_days": 17.1,
+        "portfolio_value": 14613.97,
+        "capital_efficiency": 0.1322,
         "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 18,
+      "open_positions_count": 19,
       "entry_recommendations": []
     },
     {
@@ -489,7 +562,7 @@
         "roi_lifetime": 0.1738,
         "roi_180d": 0.1738,
         "roi_90d": 0.1511,
-        "roi_30d": 0.1617,
+        "roi_30d": 0.1599,
         "max_drawdown_fraction": 0.0757,
         "n_resolved": 287,
         "n_distinct_markets": 241,
@@ -498,39 +571,22 @@
         "avg_trades_per_day_30d": 7.3
       },
       "radar": {
-        "account_age_days": 191.2,
-        "portfolio_value": 92921.62,
-        "capital_efficiency": 0.1423,
+        "account_age_days": 191.4,
+        "portfolio_value": 117201.88,
+        "capital_efficiency": 0.1401,
         "best_leaderboard_rank": 45,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 52,
+      "open_positions_count": 55,
       "entry_recommendations": [
-        {
-          "market_title": "England vs. Argentina: O/U 8.5 Total Corners",
-          "outcome": "Over",
-          "their_entry_price": 0.4387,
-          "current_price": 0.425,
-          "fair_value_estimate": 0.425,
-          "suggested_entry_range": [
-            0.422,
-            0.442
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.44 -> 0.42); replicating their entry is still reasonably representative.",
-          "conviction": 0.079,
-          "pick_score": 0.079,
-          "recommended": true,
-          "their_position_value": 45491.0872
-        },
         {
           "market_title": "England vs. Argentina: Team to Advance",
           "outcome": "England",
-          "their_entry_price": 0.5375,
-          "current_price": 0.5387,
+          "their_entry_price": 0.5374,
+          "current_price": 0.5362,
           "fair_value_estimate": 0.53875,
           "suggested_entry_range": [
             0.528,
@@ -538,61 +594,95 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.54 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.0585,
-          "pick_score": 0.0585,
+          "conviction": 0.2108,
+          "pick_score": 0.2108,
           "recommended": true,
-          "their_position_value": 33722.5918
+          "their_position_value": 88170.3667
         },
         {
-          "market_title": "England vs. Argentina: England O/U 4.5 Corners",
+          "market_title": "England vs. Argentina: Argentina O/U 0.5",
           "outcome": "Over",
-          "their_entry_price": 0.4607,
+          "their_entry_price": 0.47,
           "current_price": 0.465,
-          "fair_value_estimate": 0.475,
+          "fair_value_estimate": 0.465,
           "suggested_entry_range": [
             0.458,
             0.478
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.46 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.0139,
-          "pick_score": 0.0139,
+          "note": "Price is close to their entry (0.47 -> 0.47); replicating their entry is still reasonably representative.",
+          "conviction": 0.0118,
+          "pick_score": 0.0118,
           "recommended": true,
-          "their_position_value": 7985.6769
+          "their_position_value": 4918.9103
         },
         {
-          "market_title": "England vs. Argentina: 1st Half O/U 3.5 Total Corners",
+          "market_title": "England vs. Argentina: O/U 8.5 Total Corners",
           "outcome": "Over",
-          "their_entry_price": 0.54,
-          "current_price": 0.545,
-          "fair_value_estimate": 0.545,
+          "their_entry_price": 0.4382,
+          "current_price": 0.17,
+          "fair_value_estimate": 0.175,
           "suggested_entry_range": [
-            0.532,
-            0.552
+            0.172,
+            0.441
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.54 -> 0.55); replicating their entry is still reasonably representative.",
-          "conviction": 0.0098,
-          "pick_score": 0.0098,
-          "recommended": false,
-          "their_position_value": 5662.5291
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.27 (61%) since their entry of 0.44 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0446,
+          "pick_score": 0.0089,
+          "recommended": true,
+          "their_position_value": 18677.8662
         },
         {
-          "market_title": "England vs. Argentina: Team to Take First Corner",
-          "outcome": "England",
-          "their_entry_price": 0.5287,
-          "current_price": 0.56,
-          "fair_value_estimate": 0.56,
+          "market_title": "England vs. Argentina: England O/U 4.5 Corners",
+          "outcome": "Over",
+          "their_entry_price": 0.4606,
+          "current_price": 0.225,
+          "fair_value_estimate": 0.225,
           "suggested_entry_range": [
-            0.529,
-            0.56
+            0.225,
+            0.461
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.24 (51%) since their entry of 0.46 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.01,
+          "pick_score": 0.002,
+          "recommended": false,
+          "their_position_value": 4167.1955
+        },
+        {
+          "market_title": "England vs. Argentina: O/U 6.5 Total Corners",
+          "outcome": "Over",
+          "their_entry_price": 0.45,
+          "current_price": 0.465,
+          "fair_value_estimate": 0.46,
+          "suggested_entry_range": [
+            0.445,
+            0.465
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.53 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.0001,
-          "pick_score": 0.0001,
+          "note": "Price is close to their entry (0.45 -> 0.47); replicating their entry is still reasonably representative.",
+          "conviction": 0.0012,
+          "pick_score": 0.0012,
           "recommended": false,
-          "their_position_value": 59.7395
+          "their_position_value": 103.8082
+        },
+        {
+          "market_title": "England vs. Argentina: England O/U 4.5 Corners",
+          "outcome": "Under",
+          "their_entry_price": 0.52,
+          "current_price": 0.775,
+          "fair_value_estimate": 0.775,
+          "suggested_entry_range": [
+            0.52,
+            0.775
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.26 (49%) since their entry of 0.52 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0015,
+          "pick_score": 0.0003,
+          "recommended": false,
+          "their_position_value": 511.1577
         }
       ]
     }
