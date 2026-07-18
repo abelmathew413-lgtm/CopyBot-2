@@ -1,18 +1,14 @@
 {
-  "generated_at": "2026-07-18T19:59:34.629847+00:00",
-  "duration_seconds": 264.8,
-  "n_candidates_discovered": 1300,
+  "generated_at": "2026-07-18T22:40:05.045276+00:00",
+  "duration_seconds": 381.4,
+  "n_candidates_discovered": 1292,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 8,
-  "n_errors": 2,
+  "n_passed_filters": 9,
+  "n_errors": 1,
   "errors": [
     {
       "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
-    },
-    {
-      "wallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xe16d3f2a5807999b358affd9445c3a09e45e5e30"
     }
   ],
   "wallets": [
@@ -42,7 +38,7 @@
         "roi_lifetime": 0.4293,
         "roi_180d": 0.4293,
         "roi_90d": 0.4293,
-        "roi_30d": 0.4216,
+        "roi_30d": 0.4266,
         "max_drawdown_fraction": 0.0007,
         "n_resolved": 122,
         "n_distinct_markets": 122,
@@ -51,7 +47,7 @@
         "avg_trades_per_day_30d": 1.83
       },
       "radar": {
-        "account_age_days": 78.2,
+        "account_age_days": 78.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2801,
         "best_leaderboard_rank": 36,
@@ -62,6 +58,139 @@
       },
       "open_positions_count": 67,
       "entry_recommendations": []
+    },
+    {
+      "wallet": "0x59f4a4b19fcaa99a4df2e7cdda4919aa5afbc1f1",
+      "userName": "BaccaratRoulette",
+      "display_name": "BaccaratRoulette",
+      "profile_url": "https://polymarket.com/@BaccaratRoulette",
+      "score": {
+        "composite": 0.6004,
+        "score_100": 80,
+        "kelly_edge": 0.1606,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.181,
+        "n_clv_with_data": 38,
+        "n_clv_attempted": 40,
+        "sharpe": 0.782,
+        "roi_lifetime": 0.2348,
+        "roi_180d": 0.3132,
+        "roi_90d": 0.5382,
+        "roi_30d": 0.6142,
+        "max_drawdown_fraction": 0.0583,
+        "n_resolved": 459,
+        "n_distinct_markets": 458,
+        "capital_concentration_hhi": 0.0052,
+        "win_rate_adj": 0.4815,
+        "avg_trades_per_day_30d": 3.97
+      },
+      "radar": {
+        "account_age_days": 458.0,
+        "portfolio_value": 96237.62,
+        "capital_efficiency": 0.1491,
+        "best_leaderboard_rank": 37,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 146,
+      "entry_recommendations": [
+        {
+          "market_title": "Will France win on 2026-07-18?",
+          "outcome": "No",
+          "their_entry_price": 0.4767,
+          "current_price": 0.755,
+          "fair_value_estimate": 0.7565,
+          "suggested_entry_range": [
+            0.477,
+            0.756
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.28 (58%) since their entry of 0.48 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.1537,
+          "pick_score": 0.0307,
+          "recommended": true,
+          "their_position_value": 46432.5
+        },
+        {
+          "market_title": "Will England win on 2026-07-18?",
+          "outcome": "Yes",
+          "their_entry_price": 0.2295,
+          "current_price": 0.4295,
+          "fair_value_estimate": 0.4245,
+          "suggested_entry_range": [
+            0.227,
+            0.427
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.20 (87%) since their entry of 0.23 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.123,
+          "pick_score": 0.0246,
+          "recommended": true,
+          "their_position_value": 37151.722
+        },
+        {
+          "market_title": "Will Spain win the 2026 FIFA World Cup?",
+          "outcome": "Yes",
+          "their_entry_price": 0.3737,
+          "current_price": 0.5905,
+          "fair_value_estimate": 0.5905,
+          "suggested_entry_range": [
+            0.374,
+            0.591
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.22 (58%) since their entry of 0.37 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0222,
+          "pick_score": 0.0044,
+          "recommended": true,
+          "their_position_value": 6714.6747
+        },
+        {
+          "market_title": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+          "outcome": "Yes",
+          "their_entry_price": 0.453,
+          "current_price": 0.955,
+          "fair_value_estimate": 0.945,
+          "suggested_entry_range": [
+            0.448,
+            0.95
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.50 (111%) since their entry of 0.45 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0174,
+          "pick_score": 0.0035,
+          "recommended": false,
+          "their_position_value": 5269.3736
+        },
+        {
+          "market_title": "UFC Fight Night: Jared Cannonier vs. Christian Leroy Duncan (Middleweight, Main Card)",
+          "outcome": "Jared Cannonier",
+          "their_entry_price": 0.24,
+          "current_price": 0.245,
+          "fair_value_estimate": 0.245,
+          "suggested_entry_range": [
+            0.232,
+            0.253
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.24 -> 0.24); replicating their entry is still reasonably representative.",
+          "conviction": 0.0021,
+          "pick_score": 0.0021,
+          "recommended": false,
+          "their_position_value": 638.8471
+        }
+      ]
     },
     {
       "wallet": "0xc41d736bded9ed1accd6a44235039266219774fd",
@@ -98,10 +227,10 @@
         "avg_trades_per_day_30d": 6.27
       },
       "radar": {
-        "account_age_days": 84.5,
+        "account_age_days": 84.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2293,
-        "best_leaderboard_rank": 25,
+        "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -145,10 +274,10 @@
         "avg_trades_per_day_30d": 2.9
       },
       "radar": {
-        "account_age_days": 41.0,
+        "account_age_days": 41.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2632,
-        "best_leaderboard_rank": 24,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -192,10 +321,10 @@
         "avg_trades_per_day_30d": 10.73
       },
       "radar": {
-        "account_age_days": 28.1,
+        "account_age_days": 28.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2143,
-        "best_leaderboard_rank": 26,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -203,71 +332,6 @@
       },
       "open_positions_count": 29,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0x45c3488fd5f78adb7cc59f3f87988e2bcbb859bf",
-      "userName": "ultrahypedmike",
-      "display_name": "ultrahypedmike",
-      "profile_url": "https://polymarket.com/@ultrahypedmike",
-      "score": {
-        "composite": 0.3222,
-        "score_100": 66,
-        "kelly_edge": -0.1899,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0081,
-        "n_clv_with_data": 9,
-        "n_clv_attempted": 9,
-        "sharpe": 1.4371,
-        "roi_lifetime": 0.247,
-        "roi_180d": 0.247,
-        "roi_90d": 0.247,
-        "roi_30d": 0.247,
-        "max_drawdown_fraction": 0.0011,
-        "n_resolved": 9,
-        "n_distinct_markets": 9,
-        "capital_concentration_hhi": 0.1482,
-        "win_rate_adj": 0.565,
-        "avg_trades_per_day_30d": 1.03
-      },
-      "radar": {
-        "account_age_days": 12.2,
-        "portfolio_value": 28860,
-        "capital_efficiency": 0.2357,
-        "best_leaderboard_rank": 43,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 2,
-      "entry_recommendations": [
-        {
-          "market_title": "Will France win on 2026-07-18?",
-          "outcome": "Yes",
-          "their_entry_price": 0.52,
-          "current_price": 0.555,
-          "fair_value_estimate": 0.555,
-          "suggested_entry_range": [
-            0.52,
-            0.555
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.52 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.4979,
-          "pick_score": 0.4979,
-          "recommended": true,
-          "their_position_value": 28860
-        }
-      ]
     },
     {
       "wallet": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
@@ -295,19 +359,19 @@
         "roi_lifetime": 0.0688,
         "roi_180d": 0.0688,
         "roi_90d": 0.0688,
-        "roi_30d": 0.0675,
+        "roi_30d": 0.0703,
         "max_drawdown_fraction": 0.028,
         "n_resolved": 199,
         "n_distinct_markets": 186,
         "capital_concentration_hhi": 0.0199,
         "win_rate_adj": 0.5848,
-        "avg_trades_per_day_30d": 15.1
+        "avg_trades_per_day_30d": 15.07
       },
       "radar": {
-        "account_age_days": 31.2,
+        "account_age_days": 31.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.0688,
-        "best_leaderboard_rank": 41,
+        "best_leaderboard_rank": 43,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -315,6 +379,71 @@
       },
       "open_positions_count": 0,
       "entry_recommendations": []
+    },
+    {
+      "wallet": "0x7583d5f8a1031ff4afcdc6db4e2143bfd41b4df2",
+      "userName": "0x7583d5f8A1031fF4AfCDc6db4e2143bFd41b4dF2-1783673385090",
+      "display_name": "0x7583d5f8A1031fF4AfCDc6db4e2143bFd41b4dF2-1783673385090",
+      "profile_url": "https://polymarket.com/@0x7583d5f8A1031fF4AfCDc6db4e2143bFd41b4dF2-1783673385090",
+      "score": {
+        "composite": 0.2643,
+        "score_100": 64,
+        "kelly_edge": 0.0651,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": -0.0076,
+        "n_clv_with_data": 8,
+        "n_clv_attempted": 8,
+        "sharpe": 0.762,
+        "roi_lifetime": 0.3329,
+        "roi_180d": 0.3329,
+        "roi_90d": 0.3329,
+        "roi_30d": 0.3329,
+        "max_drawdown_fraction": 0.0445,
+        "n_resolved": 8,
+        "n_distinct_markets": 8,
+        "capital_concentration_hhi": 0.2017,
+        "win_rate_adj": 0.4093,
+        "avg_trades_per_day_30d": 1.93
+      },
+      "radar": {
+        "account_age_days": 8.6,
+        "portfolio_value": 446255.97,
+        "capital_efficiency": 0.1188,
+        "best_leaderboard_rank": 22,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 14,
+      "entry_recommendations": [
+        {
+          "market_title": "Will France win on 2026-07-18?",
+          "outcome": "No",
+          "their_entry_price": 0.4906,
+          "current_price": 0.755,
+          "fair_value_estimate": 0.7365,
+          "suggested_entry_range": [
+            0.481,
+            0.746
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.26 (54%) since their entry of 0.49 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.1583,
+          "pick_score": 0.0317,
+          "recommended": true,
+          "their_position_value": 446255.9703
+        }
+      ]
     },
     {
       "wallet": "0x50f0a0fc7364d3c10fc4578b9b1d955368335355",
@@ -348,66 +477,19 @@
         "n_distinct_markets": 39,
         "capital_concentration_hhi": 0.0388,
         "win_rate_adj": 0.3157,
-        "avg_trades_per_day_30d": 1.83
+        "avg_trades_per_day_30d": 1.9
       },
       "radar": {
-        "account_age_days": 25.3,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1353,
+        "account_age_days": 25.4,
+        "portfolio_value": 89599.98,
+        "capital_efficiency": 0.1338,
         "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 0,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x4cb5a6cf70340f068148a740f9ec96cbea75ef29",
-      "userName": "ZizzWizz",
-      "display_name": "ZizzWizz",
-      "profile_url": "https://polymarket.com/@ZizzWizz",
-      "score": {
-        "composite": 0.1905,
-        "score_100": 60,
-        "kelly_edge": -0.1614,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0595,
-        "n_clv_with_data": 21,
-        "n_clv_attempted": 21,
-        "sharpe": 0.1159,
-        "roi_lifetime": 0.071,
-        "roi_180d": 0.071,
-        "roi_90d": 0.071,
-        "roi_30d": 0.071,
-        "max_drawdown_fraction": 0.1632,
-        "n_resolved": 21,
-        "n_distinct_markets": 21,
-        "capital_concentration_hhi": 0.113,
-        "win_rate_adj": 0.4537,
-        "avg_trades_per_day_30d": 5.3
-      },
-      "radar": {
-        "account_age_days": 46.2,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.071,
-        "best_leaderboard_rank": 39,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 0,
+      "open_positions_count": 1,
       "entry_recommendations": []
     }
   ]
