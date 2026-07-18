@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T15:38:07.048731+00:00",
-  "duration_seconds": 331.6,
-  "n_candidates_discovered": 1307,
+  "generated_at": "2026-07-18T19:59:34.629847+00:00",
+  "duration_seconds": 264.8,
+  "n_candidates_discovered": 1300,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 8,
   "n_errors": 2,
@@ -48,13 +48,13 @@
         "n_distinct_markets": 122,
         "capital_concentration_hhi": 0.021,
         "win_rate_adj": 0.8359,
-        "avg_trades_per_day_30d": 1.9
+        "avg_trades_per_day_30d": 1.83
       },
       "radar": {
-        "account_age_days": 78.0,
+        "account_age_days": 78.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2801,
-        "best_leaderboard_rank": 35,
+        "best_leaderboard_rank": 36,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -95,10 +95,10 @@
         "n_distinct_markets": 120,
         "capital_concentration_hhi": 0.0297,
         "win_rate_adj": 0.7218,
-        "avg_trades_per_day_30d": 6.33
+        "avg_trades_per_day_30d": 6.27
       },
       "radar": {
-        "account_age_days": 84.3,
+        "account_age_days": 84.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2293,
         "best_leaderboard_rank": 25,
@@ -145,7 +145,7 @@
         "avg_trades_per_day_30d": 2.9
       },
       "radar": {
-        "account_age_days": 40.8,
+        "account_age_days": 41.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2632,
         "best_leaderboard_rank": 24,
@@ -192,7 +192,7 @@
         "avg_trades_per_day_30d": 10.73
       },
       "radar": {
-        "account_age_days": 27.9,
+        "account_age_days": 28.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2143,
         "best_leaderboard_rank": 26,
@@ -239,8 +239,8 @@
         "avg_trades_per_day_30d": 1.03
       },
       "radar": {
-        "account_age_days": 12.0,
-        "portfolio_value": 26780,
+        "account_age_days": 12.2,
+        "portfolio_value": 28860,
         "capital_efficiency": 0.2357,
         "best_leaderboard_rank": 43,
         "profile_views": null,
@@ -254,18 +254,18 @@
           "market_title": "Will France win on 2026-07-18?",
           "outcome": "Yes",
           "their_entry_price": 0.52,
-          "current_price": 0.515,
-          "fair_value_estimate": 0.515,
+          "current_price": 0.555,
+          "fair_value_estimate": 0.555,
           "suggested_entry_range": [
-            0.508,
-            0.528
+            0.52,
+            0.555
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.52 -> 0.52); replicating their entry is still reasonably representative.",
-          "conviction": 0.4792,
-          "pick_score": 0.4792,
+          "note": "Price is close to their entry (0.52 -> 0.56); replicating their entry is still reasonably representative.",
+          "conviction": 0.4979,
+          "pick_score": 0.4979,
           "recommended": true,
-          "their_position_value": 26780
+          "their_position_value": 28860
         }
       ]
     },
@@ -301,10 +301,10 @@
         "n_distinct_markets": 186,
         "capital_concentration_hhi": 0.0199,
         "win_rate_adj": 0.5848,
-        "avg_trades_per_day_30d": 15.17
+        "avg_trades_per_day_30d": 15.1
       },
       "radar": {
-        "account_age_days": 31.0,
+        "account_age_days": 31.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.0688,
         "best_leaderboard_rank": 41,
@@ -351,7 +351,7 @@
         "avg_trades_per_day_30d": 1.83
       },
       "radar": {
-        "account_age_days": 25.1,
+        "account_age_days": 25.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.1353,
         "best_leaderboard_rank": 25,
@@ -398,7 +398,7 @@
         "avg_trades_per_day_30d": 5.3
       },
       "radar": {
-        "account_age_days": 46.0,
+        "account_age_days": 46.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.071,
         "best_leaderboard_rank": 39,
