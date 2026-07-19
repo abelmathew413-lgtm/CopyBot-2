@@ -1,18 +1,14 @@
 {
-  "generated_at": "2026-07-19T11:46:25.084743+00:00",
-  "duration_seconds": 309.6,
-  "n_candidates_discovered": 1286,
+  "generated_at": "2026-07-19T15:38:47.211327+00:00",
+  "duration_seconds": 315.3,
+  "n_candidates_discovered": 1284,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 11,
-  "n_errors": 2,
+  "n_passed_filters": 10,
+  "n_errors": 1,
   "errors": [
     {
       "wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
-    },
-    {
-      "wallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xe16d3f2a5807999b358affd9445c3a09e45e5e30"
     }
   ],
   "wallets": [
@@ -48,13 +44,13 @@
         "n_distinct_markets": 122,
         "capital_concentration_hhi": 0.021,
         "win_rate_adj": 0.8359,
-        "avg_trades_per_day_30d": 1.8
+        "avg_trades_per_day_30d": 1.77
       },
       "radar": {
-        "account_age_days": 78.9,
+        "account_age_days": 79.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2801,
-        "best_leaderboard_rank": 36,
+        "best_leaderboard_rank": 37,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -69,7 +65,7 @@
       "display_name": "BaccaratRoulette",
       "profile_url": "https://polymarket.com/@BaccaratRoulette",
       "score": {
-        "composite": 0.6323,
+        "composite": 0.6328,
         "score_100": 82,
         "kelly_edge": 0.1664,
         "weights_used": {
@@ -82,13 +78,13 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.1732,
+        "clv": 0.173,
         "n_clv_with_data": 38,
         "n_clv_attempted": 40,
-        "sharpe": 1.0933,
+        "sharpe": 1.1011,
         "roi_lifetime": 0.2528,
         "roi_180d": 0.334,
-        "roi_90d": 0.5792,
+        "roi_90d": 0.5799,
         "roi_30d": 0.6204,
         "max_drawdown_fraction": 0.0558,
         "n_resolved": 462,
@@ -98,10 +94,10 @@
         "avg_trades_per_day_30d": 4.07
       },
       "radar": {
-        "account_age_days": 458.6,
-        "portfolio_value": 18550.9,
+        "account_age_days": 458.7,
+        "portfolio_value": 11730.28,
         "capital_efficiency": 0.1652,
-        "best_leaderboard_rank": 38,
+        "best_leaderboard_rank": 40,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -110,55 +106,21 @@
       "open_positions_count": 146,
       "entry_recommendations": [
         {
-          "market_title": "LoL: T1 vs Gen.G (BO3) - Esports World Cup Playoffs",
-          "outcome": "T1",
-          "their_entry_price": 0.41,
-          "current_price": 0.465,
-          "fair_value_estimate": 0.465,
-          "suggested_entry_range": [
-            0.41,
-            0.465
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.41 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.0177,
-          "pick_score": 0.0177,
-          "recommended": true,
-          "their_position_value": 5340.4591
-        },
-        {
           "market_title": "Will Spain win the 2026 FIFA World Cup?",
           "outcome": "Yes",
           "their_entry_price": 0.4664,
-          "current_price": 0.5905,
-          "fair_value_estimate": 0.5905,
+          "current_price": 0.5915,
+          "fair_value_estimate": 0.5915,
           "suggested_entry_range": [
             0.466,
-            0.591
+            0.592
           ],
           "flagged_chasing": true,
-          "note": "Price has moved up 0.12 (27%) since their entry of 0.47 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0388,
-          "pick_score": 0.0078,
+          "note": "Price has moved up 0.13 (27%) since their entry of 0.47 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0387,
+          "pick_score": 0.0077,
           "recommended": true,
-          "their_position_value": 11710.4446
-        },
-        {
-          "market_title": "Swiss Open: Stefanos Tsitsipas vs Raphael Collignon",
-          "outcome": "Raphael Collignon",
-          "their_entry_price": 0.4249,
-          "current_price": 0.075,
-          "fair_value_estimate": 0.055,
-          "suggested_entry_range": [
-            0.065,
-            0.415
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.35 (82%) since their entry of 0.42 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.005,
-          "pick_score": 0.001,
-          "recommended": true,
-          "their_position_value": 1499.9972
+          "their_position_value": 11730.276
         }
       ]
     },
@@ -168,7 +130,7 @@
       "display_name": "Themsnw",
       "profile_url": "https://polymarket.com/@Themsnw",
       "score": {
-        "composite": 0.5455,
+        "composite": 0.5465,
         "score_100": 78,
         "kelly_edge": 0.4994,
         "weights_used": {
@@ -181,7 +143,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0881,
+        "clv": 0.0892,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
         "sharpe": 1.1874,
@@ -197,8 +159,8 @@
         "avg_trades_per_day_30d": 10.53
       },
       "radar": {
-        "account_age_days": 17.3,
-        "portfolio_value": 146069.22,
+        "account_age_days": 17.5,
+        "portfolio_value": 137783.78,
         "capital_efficiency": 0.1699,
         "best_leaderboard_rank": 42,
         "profile_views": null,
@@ -212,69 +174,69 @@
           "market_title": "Will LeBron James play for the Miami Heat in 2026-27?",
           "outcome": "Yes",
           "their_entry_price": 0.4064,
-          "current_price": 0.45,
-          "fair_value_estimate": 0.4545,
+          "current_price": 0.4225,
+          "fair_value_estimate": 0.4125,
           "suggested_entry_range": [
-            0.409,
-            0.452
+            0.399,
+            0.419
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.41 -> 0.45); replicating their entry is still reasonably representative.",
-          "conviction": 0.0707,
-          "pick_score": 0.0707,
+          "note": "Price is close to their entry (0.41 -> 0.42); replicating their entry is still reasonably representative.",
+          "conviction": 0.0667,
+          "pick_score": 0.0667,
           "recommended": true,
-          "their_position_value": 108732.7737
+          "their_position_value": 102087.9931
         },
         {
           "market_title": "Will LeBron James play for the Golden State Warriors in 2026-27?",
           "outcome": "No",
           "their_entry_price": 0.8969,
-          "current_price": 0.869,
-          "fair_value_estimate": 0.869,
+          "current_price": 0.8605,
+          "fair_value_estimate": 0.864,
           "suggested_entry_range": [
-            0.869,
-            0.897
+            0.862,
+            0.899
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.90 -> 0.87); replicating their entry is still reasonably representative.",
+          "note": "Price is close to their entry (0.90 -> 0.86); replicating their entry is still reasonably representative.",
           "conviction": 0.0094,
           "pick_score": 0.0094,
           "recommended": true,
-          "their_position_value": 14532.9122
+          "their_position_value": 14390.7606
         },
         {
           "market_title": "Will LeBron James play for the Philadelphia 76ers in 2026-27?",
           "outcome": "Yes",
           "their_entry_price": 0.1591,
-          "current_price": 0.0915,
-          "fair_value_estimate": 0.0915,
+          "current_price": 0.0875,
+          "fair_value_estimate": 0.0875,
           "suggested_entry_range": [
-            0.091,
+            0.087,
             0.159
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.16 -> 0.09); replicating their entry is still reasonably representative.",
-          "conviction": 0.0039,
-          "pick_score": 0.0039,
+          "conviction": 0.0038,
+          "pick_score": 0.0038,
           "recommended": true,
-          "their_position_value": 6016.816
+          "their_position_value": 5753.7858
         },
         {
           "market_title": "Will Samuel Alito announce his retirement by September 30, 2026?",
           "outcome": "Yes",
           "their_entry_price": 0.1778,
-          "current_price": 0.055,
-          "fair_value_estimate": 0.055,
+          "current_price": 0.05,
+          "fair_value_estimate": 0.05,
           "suggested_entry_range": [
-            0.055,
+            0.05,
             0.178
           ],
           "flagged_chasing": true,
-          "note": "Price has moved down 0.12 (69%) since their entry of 0.18 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0087,
-          "pick_score": 0.0017,
+          "note": "Price has moved down 0.13 (72%) since their entry of 0.18 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0079,
+          "pick_score": 0.0016,
           "recommended": false,
-          "their_position_value": 13319.6012
+          "their_position_value": 12108.7283
         },
         {
           "market_title": "Will Samuel Alito announce his retirement by December 31, 2026?",
@@ -294,23 +256,6 @@
           "their_position_value": 3135.1266
         },
         {
-          "market_title": "Will LeBron James play for the Minnesota Timberwolves in 2026-27?",
-          "outcome": "Yes",
-          "their_entry_price": 0.0349,
-          "current_price": 0.027,
-          "fair_value_estimate": 0.027,
-          "suggested_entry_range": [
-            0.021,
-            0.041
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.03 -> 0.03); replicating their entry is still reasonably representative.",
-          "conviction": 0.0001,
-          "pick_score": 0.0001,
-          "recommended": false,
-          "their_position_value": 166.0999
-        },
-        {
           "market_title": "Will LeBron James play for the New York Knicks in 2026-27?",
           "outcome": "Yes",
           "their_entry_price": 0.0395,
@@ -326,6 +271,23 @@
           "pick_score": 0.0001,
           "recommended": false,
           "their_position_value": 165.8928
+        },
+        {
+          "market_title": "Will LeBron James play for the Minnesota Timberwolves in 2026-27?",
+          "outcome": "Yes",
+          "their_entry_price": 0.0349,
+          "current_price": 0.023,
+          "fair_value_estimate": 0.019,
+          "suggested_entry_range": [
+            0.017,
+            0.037
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.03 -> 0.02); replicating their entry is still reasonably representative.",
+          "conviction": 0.0001,
+          "pick_score": 0.0001,
+          "recommended": false,
+          "their_position_value": 141.4925
         }
       ]
     },
@@ -364,7 +326,7 @@
         "avg_trades_per_day_30d": 5.87
       },
       "radar": {
-        "account_age_days": 85.2,
+        "account_age_days": 85.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2293,
         "best_leaderboard_rank": 27,
@@ -411,10 +373,10 @@
         "avg_trades_per_day_30d": 2.9
       },
       "radar": {
-        "account_age_days": 41.6,
+        "account_age_days": 41.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.2632,
-        "best_leaderboard_rank": 25,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -458,10 +420,10 @@
         "avg_trades_per_day_30d": 10.73
       },
       "radar": {
-        "account_age_days": 28.7,
+        "account_age_days": 28.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2143,
-        "best_leaderboard_rank": 27,
+        "best_leaderboard_rank": 28,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -502,20 +464,55 @@
         "n_distinct_markets": 9,
         "capital_concentration_hhi": 0.1979,
         "win_rate_adj": 0.4526,
-        "avg_trades_per_day_30d": 1.93
+        "avg_trades_per_day_30d": 2.1
       },
       "radar": {
-        "account_age_days": 9.1,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.2059,
-        "best_leaderboard_rank": 23,
+        "account_age_days": 9.3,
+        "portfolio_value": 463196.0,
+        "capital_efficiency": 0.1768,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 13,
-      "entry_recommendations": []
+      "open_positions_count": 15,
+      "entry_recommendations": [
+        {
+          "market_title": "Spain vs. Argentina: Team to Advance",
+          "outcome": "Spain",
+          "their_entry_price": 0.5905,
+          "current_price": 0.5912,
+          "fair_value_estimate": 0.59125,
+          "suggested_entry_range": [
+            0.581,
+            0.601
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.59 -> 0.59); replicating their entry is still reasonably representative.",
+          "conviction": 0.1522,
+          "pick_score": 0.1522,
+          "recommended": true,
+          "their_position_value": 431575.9999
+        },
+        {
+          "market_title": "Will Spain vs. Argentina end in a draw?",
+          "outcome": "Yes",
+          "their_entry_price": 0.3175,
+          "current_price": 0.3162,
+          "fair_value_estimate": 0.31625,
+          "suggested_entry_range": [
+            0.307,
+            0.327
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.32 -> 0.32); replicating their entry is still reasonably representative.",
+          "conviction": 0.0111,
+          "pick_score": 0.0111,
+          "recommended": true,
+          "their_position_value": 31619.9999
+        }
+      ]
     },
     {
       "wallet": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
@@ -549,10 +546,10 @@
         "n_distinct_markets": 186,
         "capital_concentration_hhi": 0.0199,
         "win_rate_adj": 0.5848,
-        "avg_trades_per_day_30d": 14.8
+        "avg_trades_per_day_30d": 14.73
       },
       "radar": {
-        "account_age_days": 31.9,
+        "account_age_days": 32.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.0688,
         "best_leaderboard_rank": 45,
