@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T10:15:30.987762+00:00",
-  "duration_seconds": 425.3,
-  "n_candidates_discovered": 1627,
+  "generated_at": "2026-07-21T16:11:39.763385+00:00",
+  "duration_seconds": 251.7,
+  "n_candidates_discovered": 1621,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 14,
   "n_errors": 2,
@@ -51,7 +51,7 @@
         "avg_trades_per_day_30d": 1.7
       },
       "radar": {
-        "account_age_days": 38.0,
+        "account_age_days": 38.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.3306,
         "best_leaderboard_rank": 21,
@@ -98,7 +98,7 @@
         "avg_trades_per_day_30d": 5.13
       },
       "radar": {
-        "account_age_days": 24.7,
+        "account_age_days": 25.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 43,
@@ -145,7 +145,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 21.4,
+        "account_age_days": 21.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 23,
@@ -192,7 +192,7 @@
         "avg_trades_per_day_30d": 6.6
       },
       "radar": {
-        "account_age_days": 87.1,
+        "account_age_days": 87.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 24,
@@ -239,7 +239,7 @@
         "avg_trades_per_day_30d": 1.37
       },
       "radar": {
-        "account_age_days": 18.0,
+        "account_age_days": 18.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.1995,
         "best_leaderboard_rank": 25,
@@ -283,10 +283,10 @@
         "n_distinct_markets": 31,
         "capital_concentration_hhi": 0.0646,
         "win_rate_adj": 0.6,
-        "avg_trades_per_day_30d": 10.7
+        "avg_trades_per_day_30d": 10.67
       },
       "radar": {
-        "account_age_days": 30.7,
+        "account_age_days": 30.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 35,
@@ -330,10 +330,10 @@
         "n_distinct_markets": 38,
         "capital_concentration_hhi": 0.0501,
         "win_rate_adj": 0.8014,
-        "avg_trades_per_day_30d": 3.93
+        "avg_trades_per_day_30d": 3.87
       },
       "radar": {
-        "account_age_days": 40.9,
+        "account_age_days": 41.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.1993,
         "best_leaderboard_rank": 32,
@@ -380,7 +380,7 @@
         "avg_trades_per_day_30d": 2.1
       },
       "radar": {
-        "account_age_days": 11.1,
+        "account_age_days": 11.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2394,
         "best_leaderboard_rank": 31,
