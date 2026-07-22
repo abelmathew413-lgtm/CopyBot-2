@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-22T00:16:25.145645+00:00",
-  "duration_seconds": 428.3,
-  "n_candidates_discovered": 1629,
+  "generated_at": "2026-07-22T10:13:26.914152+00:00",
+  "duration_seconds": 348.1,
+  "n_candidates_discovered": 1614,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 14,
   "n_errors": 2,
@@ -51,7 +51,7 @@
         "avg_trades_per_day_30d": 1.7
       },
       "radar": {
-        "account_age_days": 38.6,
+        "account_age_days": 39.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.3306,
         "best_leaderboard_rank": 21,
@@ -98,10 +98,10 @@
         "avg_trades_per_day_30d": 5.13
       },
       "radar": {
-        "account_age_days": 25.3,
+        "account_age_days": 25.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
-        "best_leaderboard_rank": 43,
+        "best_leaderboard_rank": 42,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -145,7 +145,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 21.9,
+        "account_age_days": 22.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 23,
@@ -183,16 +183,16 @@
         "roi_lifetime": 0.4862,
         "roi_180d": 0.4862,
         "roi_90d": 0.4862,
-        "roi_30d": 0.5045,
+        "roi_30d": 0.5044,
         "max_drawdown_fraction": 0.014,
         "n_resolved": 124,
         "n_distinct_markets": 123,
         "capital_concentration_hhi": 0.028,
         "win_rate_adj": 0.7281,
-        "avg_trades_per_day_30d": 6.6
+        "avg_trades_per_day_30d": 6.57
       },
       "radar": {
-        "account_age_days": 87.7,
+        "account_age_days": 88.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 24,
@@ -202,6 +202,53 @@
         ]
       },
       "open_positions_count": 129,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0x86d2d490bcac9fccea02a44c48272008e0c4731d",
+      "userName": "umeax",
+      "display_name": "umeax",
+      "profile_url": "https://polymarket.com/@umeax",
+      "score": {
+        "composite": 0.4702,
+        "score_100": 74,
+        "kelly_edge": 0.5912,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0195,
+        "n_clv_with_data": 28,
+        "n_clv_attempted": 40,
+        "sharpe": 1.0319,
+        "roi_lifetime": 0.3213,
+        "roi_180d": 0.3213,
+        "roi_90d": 0.3213,
+        "roi_30d": 0.3305,
+        "max_drawdown_fraction": 0.0159,
+        "n_resolved": 42,
+        "n_distinct_markets": 40,
+        "capital_concentration_hhi": 0.0499,
+        "win_rate_adj": 0.7793,
+        "avg_trades_per_day_30d": 4.0
+      },
+      "radar": {
+        "account_age_days": 41.9,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.1989,
+        "best_leaderboard_rank": 32,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 43,
       "entry_recommendations": []
     },
     {
@@ -239,10 +286,10 @@
         "avg_trades_per_day_30d": 1.37
       },
       "radar": {
-        "account_age_days": 18.6,
+        "account_age_days": 19.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.1995,
-        "best_leaderboard_rank": 26,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -277,7 +324,7 @@
         "roi_lifetime": 0.4323,
         "roi_180d": 0.4323,
         "roi_90d": 0.4323,
-        "roi_30d": 0.4129,
+        "roi_30d": 0.4134,
         "max_drawdown_fraction": 0.0299,
         "n_resolved": 34,
         "n_distinct_markets": 31,
@@ -286,7 +333,7 @@
         "avg_trades_per_day_30d": 9.73
       },
       "radar": {
-        "account_age_days": 31.3,
+        "account_age_days": 31.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 36,
@@ -297,71 +344,6 @@
       },
       "open_positions_count": 29,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0x86d2d490bcac9fccea02a44c48272008e0c4731d",
-      "userName": "umeax",
-      "display_name": "umeax",
-      "profile_url": "https://polymarket.com/@umeax",
-      "score": {
-        "composite": 0.4519,
-        "score_100": 73,
-        "kelly_edge": 0.5912,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0011,
-        "n_clv_with_data": 28,
-        "n_clv_attempted": 40,
-        "sharpe": 1.0319,
-        "roi_lifetime": 0.3213,
-        "roi_180d": 0.3213,
-        "roi_90d": 0.3213,
-        "roi_30d": 0.3305,
-        "max_drawdown_fraction": 0.0159,
-        "n_resolved": 42,
-        "n_distinct_markets": 40,
-        "capital_concentration_hhi": 0.0499,
-        "win_rate_adj": 0.7793,
-        "avg_trades_per_day_30d": 4.0
-      },
-      "radar": {
-        "account_age_days": 41.5,
-        "portfolio_value": 5088.5,
-        "capital_efficiency": 0.1989,
-        "best_leaderboard_rank": 31,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 43,
-      "entry_recommendations": [
-        {
-          "market_title": "Washington Nationals vs. Colorado Rockies",
-          "outcome": "Washington Nationals",
-          "their_entry_price": 0.52,
-          "current_price": 0.515,
-          "fair_value_estimate": 0.515,
-          "suggested_entry_range": [
-            0.508,
-            0.528
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.52 -> 0.52); replicating their entry is still reasonably representative.",
-          "conviction": 0.0032,
-          "pick_score": 0.0032,
-          "recommended": true,
-          "their_position_value": 5088.4987
-        }
-      ]
     },
     {
       "wallet": "0x7583d5f8a1031ff4afcdc6db4e2143bfd41b4df2",
@@ -398,10 +380,10 @@
         "avg_trades_per_day_30d": 2.1
       },
       "radar": {
-        "account_age_days": 11.6,
+        "account_age_days": 12.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2394,
-        "best_leaderboard_rank": 30,
+        "best_leaderboard_rank": 31,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
