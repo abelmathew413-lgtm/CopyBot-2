@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-07-23T18:07:07.397588+00:00",
-  "duration_seconds": 536.2,
-  "n_candidates_discovered": 1582,
+  "generated_at": "2026-07-23T21:48:09.837196+00:00",
+  "duration_seconds": 432.2,
+  "n_candidates_discovered": 1568,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 13,
-  "n_errors": 2,
+  "n_errors": 1,
   "errors": [
-    {
-      "wallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
-    },
     {
       "wallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xe16d3f2a5807999b358affd9445c3a09e45e5e30"
@@ -51,7 +47,7 @@
         "avg_trades_per_day_30d": 1.7
       },
       "radar": {
-        "account_age_days": 40.3,
+        "account_age_days": 40.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.3306,
         "best_leaderboard_rank": 21,
@@ -98,16 +94,63 @@
         "avg_trades_per_day_30d": 5.13
       },
       "radar": {
-        "account_age_days": 27.1,
+        "account_age_days": 27.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
-        "best_leaderboard_rank": 42,
+        "best_leaderboard_rank": 43,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 42,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0x86d2d490bcac9fccea02a44c48272008e0c4731d",
+      "userName": "umeax",
+      "display_name": "umeax",
+      "profile_url": "https://polymarket.com/@umeax",
+      "score": {
+        "composite": 0.5068,
+        "score_100": 76,
+        "kelly_edge": 0.6072,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0494,
+        "n_clv_with_data": 30,
+        "n_clv_attempted": 40,
+        "sharpe": 1.0664,
+        "roi_lifetime": 0.3231,
+        "roi_180d": 0.3231,
+        "roi_90d": 0.3231,
+        "roi_30d": 0.3324,
+        "max_drawdown_fraction": 0.0158,
+        "n_resolved": 44,
+        "n_distinct_markets": 42,
+        "capital_concentration_hhi": 0.049,
+        "win_rate_adj": 0.7884,
+        "avg_trades_per_day_30d": 3.93
+      },
+      "radar": {
+        "account_age_days": 43.3,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2007,
+        "best_leaderboard_rank": 31,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 43,
       "entry_recommendations": []
     },
     {
@@ -145,7 +188,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 23.7,
+        "account_age_days": 23.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 23,
@@ -192,7 +235,7 @@
         "avg_trades_per_day_30d": 6.43
       },
       "radar": {
-        "account_age_days": 89.4,
+        "account_age_days": 89.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 24,
@@ -203,71 +246,6 @@
       },
       "open_positions_count": 129,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0x86d2d490bcac9fccea02a44c48272008e0c4731d",
-      "userName": "umeax",
-      "display_name": "umeax",
-      "profile_url": "https://polymarket.com/@umeax",
-      "score": {
-        "composite": 0.4953,
-        "score_100": 75,
-        "kelly_edge": 0.6019,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0405,
-        "n_clv_with_data": 29,
-        "n_clv_attempted": 40,
-        "sharpe": 1.0555,
-        "roi_lifetime": 0.3232,
-        "roi_180d": 0.3232,
-        "roi_90d": 0.3232,
-        "roi_30d": 0.3325,
-        "max_drawdown_fraction": 0.0158,
-        "n_resolved": 43,
-        "n_distinct_markets": 41,
-        "capital_concentration_hhi": 0.0493,
-        "win_rate_adj": 0.784,
-        "avg_trades_per_day_30d": 3.93
-      },
-      "radar": {
-        "account_age_days": 43.2,
-        "portfolio_value": 16784.25,
-        "capital_efficiency": 0.2002,
-        "best_leaderboard_rank": 30,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 44,
-      "entry_recommendations": [
-        {
-          "market_title": "San Diego Padres vs. Atlanta Braves",
-          "outcome": "Atlanta Braves",
-          "their_entry_price": 0.6899,
-          "current_price": 0.905,
-          "fair_value_estimate": 0.925,
-          "suggested_entry_range": [
-            0.7,
-            0.915
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.22 (31%) since their entry of 0.69 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0115,
-          "pick_score": 0.0023,
-          "recommended": true,
-          "their_position_value": 16784.2476
-        }
-      ]
     },
     {
       "wallet": "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de",
@@ -301,10 +279,10 @@
         "n_distinct_markets": 31,
         "capital_concentration_hhi": 0.0646,
         "win_rate_adj": 0.6,
-        "avg_trades_per_day_30d": 9.33
+        "avg_trades_per_day_30d": 9.07
       },
       "radar": {
-        "account_age_days": 33.0,
+        "account_age_days": 33.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 35,
@@ -351,7 +329,7 @@
         "avg_trades_per_day_30d": 1.37
       },
       "radar": {
-        "account_age_days": 20.3,
+        "account_age_days": 20.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.1995,
         "best_leaderboard_rank": 26,
@@ -398,10 +376,10 @@
         "avg_trades_per_day_30d": 2.1
       },
       "radar": {
-        "account_age_days": 13.4,
+        "account_age_days": 13.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2394,
-        "best_leaderboard_rank": 31,
+        "best_leaderboard_rank": 32,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
