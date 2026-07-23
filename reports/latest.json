@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T12:20:17.098160+00:00",
-  "duration_seconds": 291.6,
-  "n_candidates_discovered": 1581,
+  "generated_at": "2026-07-23T18:07:07.397588+00:00",
+  "duration_seconds": 536.2,
+  "n_candidates_discovered": 1582,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 13,
   "n_errors": 2,
@@ -51,7 +51,7 @@
         "avg_trades_per_day_30d": 1.7
       },
       "radar": {
-        "account_age_days": 40.1,
+        "account_age_days": 40.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.3306,
         "best_leaderboard_rank": 21,
@@ -98,7 +98,7 @@
         "avg_trades_per_day_30d": 5.13
       },
       "radar": {
-        "account_age_days": 26.8,
+        "account_age_days": 27.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 42,
@@ -145,7 +145,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 23.4,
+        "account_age_days": 23.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 23,
@@ -189,10 +189,10 @@
         "n_distinct_markets": 123,
         "capital_concentration_hhi": 0.028,
         "win_rate_adj": 0.7281,
-        "avg_trades_per_day_30d": 6.47
+        "avg_trades_per_day_30d": 6.43
       },
       "radar": {
-        "account_age_days": 89.2,
+        "account_age_days": 89.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 24,
@@ -236,11 +236,11 @@
         "n_distinct_markets": 41,
         "capital_concentration_hhi": 0.0493,
         "win_rate_adj": 0.784,
-        "avg_trades_per_day_30d": 4.03
+        "avg_trades_per_day_30d": 3.93
       },
       "radar": {
-        "account_age_days": 43.0,
-        "portfolio_value": 12704.1,
+        "account_age_days": 43.2,
+        "portfolio_value": 16784.25,
         "capital_efficiency": 0.2002,
         "best_leaderboard_rank": 30,
         "profile_views": null,
@@ -254,18 +254,18 @@
           "market_title": "San Diego Padres vs. Atlanta Braves",
           "outcome": "Atlanta Braves",
           "their_entry_price": 0.6899,
-          "current_price": 0.685,
-          "fair_value_estimate": 0.685,
+          "current_price": 0.905,
+          "fair_value_estimate": 0.925,
           "suggested_entry_range": [
-            0.677,
-            0.697
+            0.7,
+            0.915
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.69 -> 0.69); replicating their entry is still reasonably representative.",
-          "conviction": 0.0087,
-          "pick_score": 0.0087,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.22 (31%) since their entry of 0.69 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0115,
+          "pick_score": 0.0023,
           "recommended": true,
-          "their_position_value": 12704.099
+          "their_position_value": 16784.2476
         }
       ]
     },
@@ -304,7 +304,7 @@
         "avg_trades_per_day_30d": 9.33
       },
       "radar": {
-        "account_age_days": 32.8,
+        "account_age_days": 33.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 35,
@@ -351,7 +351,7 @@
         "avg_trades_per_day_30d": 1.37
       },
       "radar": {
-        "account_age_days": 20.1,
+        "account_age_days": 20.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.1995,
         "best_leaderboard_rank": 26,
@@ -398,7 +398,7 @@
         "avg_trades_per_day_30d": 2.1
       },
       "radar": {
-        "account_age_days": 13.1,
+        "account_age_days": 13.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.2394,
         "best_leaderboard_rank": 31,
