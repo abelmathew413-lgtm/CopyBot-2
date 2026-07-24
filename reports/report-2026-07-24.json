@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T19:08:06.939133+00:00",
-  "duration_seconds": 259.3,
+  "generated_at": "2026-07-24T23:47:44.303667+00:00",
+  "duration_seconds": 300.5,
   "n_candidates_discovered": 1545,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 12,
@@ -47,7 +47,7 @@
         "avg_trades_per_day_30d": 5.13
       },
       "radar": {
-        "account_age_days": 28.1,
+        "account_age_days": 28.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 43,
@@ -85,7 +85,7 @@
         "roi_lifetime": 0.3231,
         "roi_180d": 0.3231,
         "roi_90d": 0.3231,
-        "roi_30d": 0.3324,
+        "roi_30d": 0.3329,
         "max_drawdown_fraction": 0.0158,
         "n_resolved": 44,
         "n_distinct_markets": 42,
@@ -94,8 +94,8 @@
         "avg_trades_per_day_30d": 3.9
       },
       "radar": {
-        "account_age_days": 44.2,
-        "portfolio_value": 13124.54,
+        "account_age_days": 44.4,
+        "portfolio_value": 12711.72,
         "capital_efficiency": 0.2003,
         "best_leaderboard_rank": 30,
         "profile_views": null,
@@ -110,10 +110,10 @@
           "outcome": "Chicago White Sox",
           "their_entry_price": 0.55,
           "current_price": 0.545,
-          "fair_value_estimate": 0.545,
+          "fair_value_estimate": 0.585,
           "suggested_entry_range": [
-            0.538,
-            0.558
+            0.557,
+            0.578
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.55 -> 0.55); replicating their entry is still reasonably representative.",
@@ -123,38 +123,38 @@
           "their_position_value": 8391.0434
         },
         {
-          "market_title": "New York Yankees vs. Philadelphia Phillies",
-          "outcome": "Philadelphia Phillies",
-          "their_entry_price": 0.5414,
-          "current_price": 0.555,
-          "fair_value_estimate": 0.555,
-          "suggested_entry_range": [
-            0.538,
-            0.558
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.54 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.0019,
-          "pick_score": 0.0019,
-          "recommended": true,
-          "their_position_value": 2810.4811
-        },
-        {
           "market_title": "Kansas City Royals vs. Detroit Tigers",
           "outcome": "Detroit Tigers",
           "their_entry_price": 0.72,
-          "current_price": 0.705,
-          "fair_value_estimate": 0.705,
+          "current_price": 0.795,
+          "fair_value_estimate": 0.815,
           "suggested_entry_range": [
-            0.702,
-            0.722
+            0.73,
+            0.805
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.72 -> 0.70); replicating their entry is still reasonably representative.",
-          "conviction": 0.0013,
-          "pick_score": 0.0013,
+          "note": "Price is close to their entry (0.72 -> 0.80); replicating their entry is still reasonably representative.",
+          "conviction": 0.0015,
+          "pick_score": 0.0015,
           "recommended": true,
-          "their_position_value": 1923.0143
+          "their_position_value": 2168.5056
+        },
+        {
+          "market_title": "New York Yankees vs. Philadelphia Phillies",
+          "outcome": "Philadelphia Phillies",
+          "their_entry_price": 0.5414,
+          "current_price": 0.425,
+          "fair_value_estimate": 0.365,
+          "suggested_entry_range": [
+            0.395,
+            0.511
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.12 (21%) since their entry of 0.54 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0015,
+          "pick_score": 0.0003,
+          "recommended": true,
+          "their_position_value": 2152.1702
         }
       ]
     },
@@ -193,7 +193,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 24.7,
+        "account_age_days": 24.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 23,
@@ -237,10 +237,10 @@
         "n_distinct_markets": 123,
         "capital_concentration_hhi": 0.028,
         "win_rate_adj": 0.7281,
-        "avg_trades_per_day_30d": 6.43
+        "avg_trades_per_day_30d": 6.1
       },
       "radar": {
-        "account_age_days": 90.5,
+        "account_age_days": 90.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 24,
@@ -284,10 +284,10 @@
         "n_distinct_markets": 31,
         "capital_concentration_hhi": 0.0646,
         "win_rate_adj": 0.6,
-        "avg_trades_per_day_30d": 9.07
+        "avg_trades_per_day_30d": 8.47
       },
       "radar": {
-        "account_age_days": 34.0,
+        "account_age_days": 34.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 36,
@@ -334,7 +334,7 @@
         "avg_trades_per_day_30d": 1.37
       },
       "radar": {
-        "account_age_days": 21.4,
+        "account_age_days": 21.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.1995,
         "best_leaderboard_rank": 27,
@@ -381,7 +381,7 @@
         "avg_trades_per_day_30d": 2.17
       },
       "radar": {
-        "account_age_days": 14.4,
+        "account_age_days": 14.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2376,
         "best_leaderboard_rank": 31,
@@ -399,7 +399,7 @@
       "display_name": "Hugewinner",
       "profile_url": "https://polymarket.com/@Hugewinner",
       "score": {
-        "composite": 0.3142,
+        "composite": 0.3131,
         "score_100": 66,
         "kelly_edge": -0.0167,
         "weights_used": {
@@ -412,10 +412,10 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0149,
+        "clv": 0.0148,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.2681,
+        "sharpe": 0.2627,
         "roi_lifetime": 0.1738,
         "roi_180d": 0.1628,
         "roi_90d": 0.1938,
@@ -428,7 +428,7 @@
         "avg_trades_per_day_30d": 3.57
       },
       "radar": {
-        "account_age_days": 631.0,
+        "account_age_days": 631.2,
         "portfolio_value": 3288.92,
         "capital_efficiency": 0.1216,
         "best_leaderboard_rank": 32,
