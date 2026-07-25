@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T07:41:04.918344+00:00",
-  "duration_seconds": 376.3,
-  "n_candidates_discovered": 1512,
+  "generated_at": "2026-07-25T11:56:45.927107+00:00",
+  "duration_seconds": 249.3,
+  "n_candidates_discovered": 1516,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 12,
   "n_errors": 1,
@@ -47,7 +47,7 @@
         "avg_trades_per_day_30d": 5.13
       },
       "radar": {
-        "account_age_days": 28.6,
+        "account_age_days": 28.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 42,
@@ -91,13 +91,13 @@
         "n_distinct_markets": 43,
         "capital_concentration_hhi": 0.049,
         "win_rate_adj": 0.7927,
-        "avg_trades_per_day_30d": 3.73
+        "avg_trades_per_day_30d": 3.67
       },
       "radar": {
-        "account_age_days": 44.8,
-        "portfolio_value": 8791.22,
+        "account_age_days": 44.9,
+        "portfolio_value": 8877.39,
         "capital_efficiency": 0.2001,
-        "best_leaderboard_rank": 32,
+        "best_leaderboard_rank": 31,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -109,18 +109,18 @@
           "market_title": "Will Inter Miami CF win on 2026-07-25?",
           "outcome": "No",
           "their_entry_price": 0.55,
-          "current_price": 0.545,
-          "fair_value_estimate": 0.545,
+          "current_price": 0.555,
+          "fair_value_estimate": 0.555,
           "suggested_entry_range": [
-            0.538,
-            0.558
+            0.542,
+            0.562
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.55 -> 0.55); replicating their entry is still reasonably representative.",
-          "conviction": 0.0032,
-          "pick_score": 0.0032,
+          "note": "Price is close to their entry (0.55 -> 0.56); replicating their entry is still reasonably representative.",
+          "conviction": 0.0033,
+          "pick_score": 0.0033,
           "recommended": true,
-          "their_position_value": 4696.0851
+          "their_position_value": 4782.2518
         },
         {
           "market_title": "Will Associa\u00e7\u00e3o Chapecoense de Futebol win on 2026-07-25?",
@@ -176,7 +176,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 25.2,
+        "account_age_days": 25.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 23,
@@ -223,7 +223,7 @@
         "avg_trades_per_day_30d": 6.0
       },
       "radar": {
-        "account_age_days": 91.0,
+        "account_age_days": 91.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 24,
@@ -267,10 +267,10 @@
         "n_distinct_markets": 31,
         "capital_concentration_hhi": 0.0646,
         "win_rate_adj": 0.6,
-        "avg_trades_per_day_30d": 8.13
+        "avg_trades_per_day_30d": 8.1
       },
       "radar": {
-        "account_age_days": 34.6,
+        "account_age_days": 34.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 36,
@@ -317,7 +317,7 @@
         "avg_trades_per_day_30d": 1.37
       },
       "radar": {
-        "account_age_days": 21.9,
+        "account_age_days": 22.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.1995,
         "best_leaderboard_rank": 27,
@@ -335,9 +335,9 @@
       "display_name": "0x7583d5f8A1031fF4AfCDc6db4e2143bFd41b4dF2-1783673385090",
       "profile_url": "https://polymarket.com/@0x7583d5f8A1031fF4AfCDc6db4e2143bFd41b4dF2-1783673385090",
       "score": {
-        "composite": 0.3946,
-        "score_100": 70,
-        "kelly_edge": 0.255,
+        "composite": 0.3815,
+        "score_100": 69,
+        "kelly_edge": 0.2785,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -348,51 +348,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0342,
-        "n_clv_with_data": 12,
-        "n_clv_attempted": 12,
-        "sharpe": 1.0818,
-        "roi_lifetime": 0.4023,
-        "roi_180d": 0.4023,
-        "roi_90d": 0.4023,
-        "roi_30d": 0.4023,
-        "max_drawdown_fraction": 0.0227,
-        "n_resolved": 12,
-        "n_distinct_markets": 12,
-        "capital_concentration_hhi": 0.1572,
-        "win_rate_adj": 0.552,
-        "avg_trades_per_day_30d": 2.37
+        "clv": 0.0172,
+        "n_clv_with_data": 13,
+        "n_clv_attempted": 13,
+        "sharpe": 1.0436,
+        "roi_lifetime": 0.4006,
+        "roi_180d": 0.4006,
+        "roi_90d": 0.4006,
+        "roi_30d": 0.4006,
+        "max_drawdown_fraction": 0.0226,
+        "n_resolved": 13,
+        "n_distinct_markets": 13,
+        "capital_concentration_hhi": 0.1553,
+        "win_rate_adj": 0.5776,
+        "avg_trades_per_day_30d": 2.43
       },
       "radar": {
-        "account_age_days": 14.9,
-        "portfolio_value": 17879.01,
-        "capital_efficiency": 0.2378,
-        "best_leaderboard_rank": 31,
+        "account_age_days": 15.1,
+        "portfolio_value": 6.66,
+        "capital_efficiency": 0.2377,
+        "best_leaderboard_rank": 32,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 15,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: LGD Gaming vs Team WE (BO3) - LPL Group Ascend",
-          "outcome": "Team WE",
-          "their_entry_price": 0.6921,
-          "current_price": 0.825,
-          "fair_value_estimate": 0.815,
-          "suggested_entry_range": [
-            0.687,
-            0.82
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.13 (19%) since their entry of 0.69 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0073,
-          "pick_score": 0.0015,
-          "recommended": true,
-          "their_position_value": 17879.0055
-        }
-      ]
+      "entry_recommendations": []
     },
     {
       "wallet": "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
@@ -400,7 +382,7 @@
       "display_name": "Hugewinner",
       "profile_url": "https://polymarket.com/@Hugewinner",
       "score": {
-        "composite": 0.3162,
+        "composite": 0.3164,
         "score_100": 66,
         "kelly_edge": -0.0167,
         "weights_used": {
@@ -413,7 +395,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0163,
+        "clv": 0.0165,
         "n_clv_with_data": 38,
         "n_clv_attempted": 40,
         "sharpe": 0.2708,
@@ -426,11 +408,11 @@
         "n_distinct_markets": 311,
         "capital_concentration_hhi": 0.0334,
         "win_rate_adj": 0.2721,
-        "avg_trades_per_day_30d": 3.57
+        "avg_trades_per_day_30d": 3.5
       },
       "radar": {
-        "account_age_days": 631.5,
-        "portfolio_value": 3541.91,
+        "account_age_days": 631.7,
+        "portfolio_value": 3288.92,
         "capital_efficiency": 0.1216,
         "best_leaderboard_rank": 32,
         "profile_views": null,
@@ -444,18 +426,18 @@
           "market_title": "Will Xi Jinping visit US before 2027?",
           "outcome": "No",
           "their_entry_price": 0.1068,
-          "current_price": 0.07,
-          "fair_value_estimate": 0.07,
+          "current_price": 0.065,
+          "fair_value_estimate": 0.065,
           "suggested_entry_range": [
-            0.07,
+            0.065,
             0.107
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.11 -> 0.07); replicating their entry is still reasonably representative.",
-          "conviction": 0.002,
-          "pick_score": 0.002,
+          "conviction": 0.0019,
+          "pick_score": 0.0019,
           "recommended": true,
-          "their_position_value": 3541.9094
+          "their_position_value": 3288.9159
         }
       ]
     }
