@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-26T11:54:00.320468+00:00",
-  "duration_seconds": 348.3,
-  "n_candidates_discovered": 1487,
+  "generated_at": "2026-07-26T15:52:13.165916+00:00",
+  "duration_seconds": 276.2,
+  "n_candidates_discovered": 1492,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 12,
   "n_errors": 1,
@@ -47,7 +47,7 @@
         "avg_trades_per_day_30d": 5.13
       },
       "radar": {
-        "account_age_days": 29.8,
+        "account_age_days": 30.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 43,
@@ -91,10 +91,10 @@
         "n_distinct_markets": 46,
         "capital_concentration_hhi": 0.0485,
         "win_rate_adj": 0.8045,
-        "avg_trades_per_day_30d": 3.63
+        "avg_trades_per_day_30d": 3.53
       },
       "radar": {
-        "account_age_days": 45.9,
+        "account_age_days": 46.1,
         "portfolio_value": 5342.62,
         "capital_efficiency": 0.2007,
         "best_leaderboard_rank": 31,
@@ -159,10 +159,10 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 26.4,
+        "account_age_days": 26.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
-        "best_leaderboard_rank": 24,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -206,7 +206,7 @@
         "avg_trades_per_day_30d": 5.43
       },
       "radar": {
-        "account_age_days": 92.2,
+        "account_age_days": 92.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 26,
@@ -253,7 +253,7 @@
         "avg_trades_per_day_30d": 6.7
       },
       "radar": {
-        "account_age_days": 35.7,
+        "account_age_days": 35.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 35,
@@ -300,10 +300,10 @@
         "avg_trades_per_day_30d": 1.37
       },
       "radar": {
-        "account_age_days": 23.1,
+        "account_age_days": 23.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.1995,
-        "best_leaderboard_rank": 28,
+        "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -347,7 +347,7 @@
         "avg_trades_per_day_30d": 2.67
       },
       "radar": {
-        "account_age_days": 16.1,
+        "account_age_days": 16.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2358,
         "best_leaderboard_rank": 32,
@@ -365,7 +365,7 @@
       "display_name": "Hugewinner",
       "profile_url": "https://polymarket.com/@Hugewinner",
       "score": {
-        "composite": 0.3195,
+        "composite": 0.3202,
         "score_100": 66,
         "kelly_edge": -0.0167,
         "weights_used": {
@@ -378,7 +378,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0196,
+        "clv": 0.0204,
         "n_clv_with_data": 36,
         "n_clv_attempted": 40,
         "sharpe": 0.2708,
@@ -391,11 +391,11 @@
         "n_distinct_markets": 311,
         "capital_concentration_hhi": 0.0334,
         "win_rate_adj": 0.2721,
-        "avg_trades_per_day_30d": 3.5
+        "avg_trades_per_day_30d": 3.3
       },
       "radar": {
-        "account_age_days": 632.7,
-        "portfolio_value": 3794.9,
+        "account_age_days": 632.8,
+        "portfolio_value": 3541.91,
         "capital_efficiency": 0.1216,
         "best_leaderboard_rank": 32,
         "profile_views": null,
@@ -409,18 +409,18 @@
           "market_title": "Will Xi Jinping visit US before 2027?",
           "outcome": "No",
           "their_entry_price": 0.1068,
-          "current_price": 0.075,
-          "fair_value_estimate": 0.075,
+          "current_price": 0.07,
+          "fair_value_estimate": 0.07,
           "suggested_entry_range": [
-            0.075,
+            0.07,
             0.107
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.11 -> 0.07); replicating their entry is still reasonably representative.",
-          "conviction": 0.0021,
-          "pick_score": 0.0021,
+          "conviction": 0.002,
+          "pick_score": 0.002,
           "recommended": true,
-          "their_position_value": 3794.9029
+          "their_position_value": 3541.9094
         }
       ]
     }
