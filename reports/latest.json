@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T21:56:03.587000+00:00",
-  "duration_seconds": 275.6,
-  "n_candidates_discovered": 1615,
+  "generated_at": "2026-07-27T23:17:31.257993+00:00",
+  "duration_seconds": 383.5,
+  "n_candidates_discovered": 1606,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 14,
   "n_errors": 1,
@@ -18,7 +18,7 @@
       "display_name": "0x4d4F13a12D943faaBc0d154fb2D546f649A9E5f3-1782312742976",
       "profile_url": "https://polymarket.com/@0x4d4F13a12D943faaBc0d154fb2D546f649A9E5f3-1782312742976",
       "score": {
-        "composite": 0.6791,
+        "composite": 0.6763,
         "score_100": 84,
         "kelly_edge": 0.5446,
         "weights_used": {
@@ -31,20 +31,20 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.3622,
-        "n_clv_with_data": 21,
+        "clv": 0.3484,
+        "n_clv_with_data": 20,
         "n_clv_attempted": 32,
         "sharpe": 1.2383,
         "roi_lifetime": 0.3677,
         "roi_180d": 0.3677,
         "roi_90d": 0.3677,
-        "roi_30d": 0.4479,
+        "roi_30d": 0.4415,
         "max_drawdown_fraction": 0.0228,
         "n_resolved": 32,
         "n_distinct_markets": 31,
         "capital_concentration_hhi": 0.0517,
         "win_rate_adj": 0.7578,
-        "avg_trades_per_day_30d": 5.1
+        "avg_trades_per_day_30d": 5.07
       },
       "radar": {
         "account_age_days": 33.3,
@@ -94,7 +94,7 @@
         "avg_trades_per_day_30d": 3.53
       },
       "radar": {
-        "account_age_days": 79.5,
+        "account_age_days": 79.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2668,
         "best_leaderboard_rank": 21,
@@ -141,7 +141,7 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 31.2,
+        "account_age_days": 31.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 42,
@@ -235,7 +235,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 27.8,
+        "account_age_days": 27.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 25,
@@ -279,10 +279,10 @@
         "n_distinct_markets": 123,
         "capital_concentration_hhi": 0.028,
         "win_rate_adj": 0.7281,
-        "avg_trades_per_day_30d": 5.37
+        "avg_trades_per_day_30d": 5.3
       },
       "radar": {
-        "account_age_days": 93.6,
+        "account_age_days": 93.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 26,
