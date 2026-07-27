@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-27T10:59:07.163038+00:00",
-  "duration_seconds": 465.0,
-  "n_candidates_discovered": 1661,
+  "generated_at": "2026-07-27T17:26:39.323009+00:00",
+  "duration_seconds": 329.6,
+  "n_candidates_discovered": 1614,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 15,
+  "n_passed_filters": 14,
   "n_errors": 1,
   "errors": [
     {
@@ -47,7 +47,7 @@
         "avg_trades_per_day_30d": 5.37
       },
       "radar": {
-        "account_age_days": 32.8,
+        "account_age_days": 33.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2452,
         "best_leaderboard_rank": 38,
@@ -94,7 +94,7 @@
         "avg_trades_per_day_30d": 3.53
       },
       "radar": {
-        "account_age_days": 79.1,
+        "account_age_days": 79.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2668,
         "best_leaderboard_rank": 21,
@@ -141,7 +141,7 @@
         "avg_trades_per_day_30d": 5.0
       },
       "radar": {
-        "account_age_days": 30.8,
+        "account_age_days": 31.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 42,
@@ -185,11 +185,11 @@
         "n_distinct_markets": 46,
         "capital_concentration_hhi": 0.0485,
         "win_rate_adj": 0.8045,
-        "avg_trades_per_day_30d": 3.47
+        "avg_trades_per_day_30d": 3.27
       },
       "radar": {
-        "account_age_days": 46.9,
-        "portfolio_value": 3296.75,
+        "account_age_days": 47.2,
+        "portfolio_value": 375.58,
         "capital_efficiency": 0.2006,
         "best_leaderboard_rank": 31,
         "profile_views": null,
@@ -203,18 +203,18 @@
           "market_title": "Will Rosenborg BK win on 2026-07-27?",
           "outcome": "No",
           "their_entry_price": 0.4089,
-          "current_price": 0.395,
-          "fair_value_estimate": 0.395,
+          "current_price": 0.045,
+          "fair_value_estimate": 0.055,
           "suggested_entry_range": [
-            0.392,
-            0.412
+            0.05,
+            0.414
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.41 -> 0.40); replicating their entry is still reasonably representative.",
-          "conviction": 0.0023,
-          "pick_score": 0.0023,
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.36 (89%) since their entry of 0.41 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0003,
+          "pick_score": 0.0001,
           "recommended": true,
-          "their_position_value": 3296.7529
+          "their_position_value": 375.5794
         }
       ]
     },
@@ -253,10 +253,10 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 27.4,
+        "account_age_days": 27.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
-        "best_leaderboard_rank": 24,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -300,10 +300,10 @@
         "avg_trades_per_day_30d": 5.37
       },
       "radar": {
-        "account_age_days": 93.2,
+        "account_age_days": 93.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
-        "best_leaderboard_rank": 25,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -347,7 +347,7 @@
         "avg_trades_per_day_30d": 6.13
       },
       "radar": {
-        "account_age_days": 36.7,
+        "account_age_days": 37.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 36,
@@ -394,10 +394,10 @@
         "avg_trades_per_day_30d": 1.37
       },
       "radar": {
-        "account_age_days": 24.0,
+        "account_age_days": 24.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.1995,
-        "best_leaderboard_rank": 26,
+        "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
