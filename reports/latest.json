@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T17:26:39.323009+00:00",
-  "duration_seconds": 329.6,
-  "n_candidates_discovered": 1614,
+  "generated_at": "2026-07-27T21:56:03.587000+00:00",
+  "duration_seconds": 275.6,
+  "n_candidates_discovered": 1615,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 14,
   "n_errors": 1,
@@ -44,10 +44,10 @@
         "n_distinct_markets": 31,
         "capital_concentration_hhi": 0.0517,
         "win_rate_adj": 0.7578,
-        "avg_trades_per_day_30d": 5.37
+        "avg_trades_per_day_30d": 5.1
       },
       "radar": {
-        "account_age_days": 33.1,
+        "account_age_days": 33.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2452,
         "best_leaderboard_rank": 38,
@@ -94,7 +94,7 @@
         "avg_trades_per_day_30d": 3.53
       },
       "radar": {
-        "account_age_days": 79.3,
+        "account_age_days": 79.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2668,
         "best_leaderboard_rank": 21,
@@ -138,10 +138,10 @@
         "n_distinct_markets": 41,
         "capital_concentration_hhi": 0.0471,
         "win_rate_adj": 0.874,
-        "avg_trades_per_day_30d": 5.0
+        "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 31.0,
+        "account_age_days": 31.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 42,
@@ -188,8 +188,8 @@
         "avg_trades_per_day_30d": 3.27
       },
       "radar": {
-        "account_age_days": 47.2,
-        "portfolio_value": 375.58,
+        "account_age_days": 47.4,
+        "portfolio_value": 0,
         "capital_efficiency": 0.2006,
         "best_leaderboard_rank": 31,
         "profile_views": null,
@@ -198,25 +198,7 @@
         ]
       },
       "open_positions_count": 49,
-      "entry_recommendations": [
-        {
-          "market_title": "Will Rosenborg BK win on 2026-07-27?",
-          "outcome": "No",
-          "their_entry_price": 0.4089,
-          "current_price": 0.045,
-          "fair_value_estimate": 0.055,
-          "suggested_entry_range": [
-            0.05,
-            0.414
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.36 (89%) since their entry of 0.41 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0003,
-          "pick_score": 0.0001,
-          "recommended": true,
-          "their_position_value": 375.5794
-        }
-      ]
+      "entry_recommendations": []
     },
     {
       "wallet": "0x3a6a2e7a7707c720219228eb8efa7398bc0e458e",
@@ -253,7 +235,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 27.7,
+        "account_age_days": 27.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 25,
@@ -300,7 +282,7 @@
         "avg_trades_per_day_30d": 5.37
       },
       "radar": {
-        "account_age_days": 93.4,
+        "account_age_days": 93.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 26,
@@ -338,16 +320,16 @@
         "roi_lifetime": 0.4323,
         "roi_180d": 0.4323,
         "roi_90d": 0.4323,
-        "roi_30d": 0.3885,
+        "roi_30d": 0.3887,
         "max_drawdown_fraction": 0.0299,
         "n_resolved": 34,
         "n_distinct_markets": 31,
         "capital_concentration_hhi": 0.0646,
         "win_rate_adj": 0.6,
-        "avg_trades_per_day_30d": 6.13
+        "avg_trades_per_day_30d": 6.0
       },
       "radar": {
-        "account_age_days": 37.0,
+        "account_age_days": 37.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 36,
@@ -394,7 +376,7 @@
         "avg_trades_per_day_30d": 1.37
       },
       "radar": {
-        "account_age_days": 24.3,
+        "account_age_days": 24.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.1995,
         "best_leaderboard_rank": 27,
