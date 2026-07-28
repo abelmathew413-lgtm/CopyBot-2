@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T21:25:00.835767+00:00",
-  "duration_seconds": 645.8,
-  "n_candidates_discovered": 1539,
+  "generated_at": "2026-07-28T23:14:16.074636+00:00",
+  "duration_seconds": 435.7,
+  "n_candidates_discovered": 1557,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 16,
+  "n_passed_filters": 15,
   "n_errors": 1,
   "errors": [
     {
@@ -38,7 +38,7 @@
         "roi_lifetime": 0.3677,
         "roi_180d": 0.3677,
         "roi_90d": 0.3677,
-        "roi_30d": 0.429,
+        "roi_30d": 0.4525,
         "max_drawdown_fraction": 0.0228,
         "n_resolved": 32,
         "n_distinct_markets": 31,
@@ -58,105 +58,6 @@
       },
       "open_positions_count": 23,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0x69c5c6f6a4dda665991c203bc8d5df3e006b1e01",
-      "userName": "Themsnw",
-      "display_name": "Themsnw",
-      "profile_url": "https://polymarket.com/@Themsnw",
-      "score": {
-        "composite": 0.6518,
-        "score_100": 83,
-        "kelly_edge": 0.5156,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.2098,
-        "n_clv_with_data": 39,
-        "n_clv_attempted": 40,
-        "sharpe": 1.2238,
-        "roi_lifetime": 0.3348,
-        "roi_180d": 0.3348,
-        "roi_90d": 0.3348,
-        "roi_30d": 0.3348,
-        "max_drawdown_fraction": 0.0175,
-        "n_resolved": 57,
-        "n_distinct_markets": 55,
-        "capital_concentration_hhi": 0.0474,
-        "win_rate_adj": 0.7264,
-        "avg_trades_per_day_30d": 13.77
-      },
-      "radar": {
-        "account_age_days": 26.7,
-        "portfolio_value": 96414.15,
-        "capital_efficiency": 0.1706,
-        "best_leaderboard_rank": 49,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 46,
-      "entry_recommendations": [
-        {
-          "market_title": "Mitch McConnell steps down from Senate before his term ends?",
-          "outcome": "Yes",
-          "their_entry_price": 0.5029,
-          "current_price": 0.305,
-          "fair_value_estimate": 0.305,
-          "suggested_entry_range": [
-            0.305,
-            0.503
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.20 (39%) since their entry of 0.50 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.04,
-          "pick_score": 0.008,
-          "recommended": true,
-          "their_position_value": 75464.8514
-        },
-        {
-          "market_title": "Will Samuel Alito announce his retirement by September 30, 2026?",
-          "outcome": "Yes",
-          "their_entry_price": 0.1634,
-          "current_price": 0.055,
-          "fair_value_estimate": 0.055,
-          "suggested_entry_range": [
-            0.055,
-            0.163
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.11 (66%) since their entry of 0.16 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0086,
-          "pick_score": 0.0017,
-          "recommended": true,
-          "their_position_value": 16171.0925
-        },
-        {
-          "market_title": "Will Samuel Alito announce his retirement by December 31, 2026?",
-          "outcome": "Yes",
-          "their_entry_price": 0.3144,
-          "current_price": 0.145,
-          "fair_value_estimate": 0.145,
-          "suggested_entry_range": [
-            0.145,
-            0.314
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.17 (54%) since their entry of 0.31 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0023,
-          "pick_score": 0.0005,
-          "recommended": true,
-          "their_position_value": 4329.4606
-        }
-      ]
     },
     {
       "wallet": "0x65018f9fc473f6e920b8929a375d39c26a461220",
@@ -193,7 +94,7 @@
         "avg_trades_per_day_30d": 3.4
       },
       "radar": {
-        "account_age_days": 80.5,
+        "account_age_days": 80.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2668,
         "best_leaderboard_rank": 21,
@@ -240,7 +141,7 @@
         "avg_trades_per_day_30d": 4.9
       },
       "radar": {
-        "account_age_days": 32.2,
+        "account_age_days": 32.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 42,
@@ -278,7 +179,7 @@
         "roi_lifetime": 0.3241,
         "roi_180d": 0.3241,
         "roi_90d": 0.3241,
-        "roi_30d": 0.3079,
+        "roi_30d": 0.3104,
         "max_drawdown_fraction": 0.0157,
         "n_resolved": 48,
         "n_distinct_markets": 46,
@@ -287,8 +188,8 @@
         "avg_trades_per_day_30d": 3.27
       },
       "radar": {
-        "account_age_days": 48.3,
-        "portfolio_value": 4479.01,
+        "account_age_days": 48.4,
+        "portfolio_value": 4363.12,
         "capital_efficiency": 0.1997,
         "best_leaderboard_rank": 31,
         "profile_views": null,
@@ -302,18 +203,18 @@
           "market_title": "Kansas City Royals vs. Minnesota Twins",
           "outcome": "Kansas City Royals",
           "their_entry_price": 0.4099,
-          "current_price": 0.385,
-          "fair_value_estimate": 0.385,
+          "current_price": 0.375,
+          "fair_value_estimate": 0.375,
           "suggested_entry_range": [
-            0.385,
+            0.375,
             0.41
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.41 -> 0.39); replicating their entry is still reasonably representative.",
-          "conviction": 0.0031,
-          "pick_score": 0.0031,
+          "note": "Price is close to their entry (0.41 -> 0.38); replicating their entry is still reasonably representative.",
+          "conviction": 0.003,
+          "pick_score": 0.003,
           "recommended": true,
-          "their_position_value": 4461.7149
+          "their_position_value": 4345.8262
         }
       ]
     },
@@ -352,7 +253,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 28.8,
+        "account_age_days": 28.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 25,
@@ -399,7 +300,7 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 94.6,
+        "account_age_days": 94.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 26,
@@ -456,6 +357,53 @@
         ]
       },
       "open_positions_count": 9,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de",
+      "userName": "Qpkwks",
+      "display_name": "Qpkwks",
+      "profile_url": "https://polymarket.com/@Qpkwks",
+      "score": {
+        "composite": 0.4554,
+        "score_100": 73,
+        "kelly_edge": 0.3192,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0542,
+        "n_clv_with_data": 22,
+        "n_clv_attempted": 34,
+        "sharpe": 0.6568,
+        "roi_lifetime": 0.4323,
+        "roi_180d": 0.4323,
+        "roi_90d": 0.4323,
+        "roi_30d": 0.3819,
+        "max_drawdown_fraction": 0.0299,
+        "n_resolved": 34,
+        "n_distinct_markets": 31,
+        "capital_concentration_hhi": 0.0646,
+        "win_rate_adj": 0.6,
+        "avg_trades_per_day_30d": 5.63
+      },
+      "radar": {
+        "account_age_days": 38.2,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2178,
+        "best_leaderboard_rank": 36,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 30,
       "entry_recommendations": []
     }
   ]
