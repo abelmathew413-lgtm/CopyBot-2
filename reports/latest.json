@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T07:19:56.788140+00:00",
-  "duration_seconds": 2507.5,
+  "generated_at": "2026-07-29T09:52:54.775485+00:00",
+  "duration_seconds": 607.9,
   "n_candidates_discovered": 1537,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 15,
@@ -47,7 +47,7 @@
         "avg_trades_per_day_30d": 4.57
       },
       "radar": {
-        "account_age_days": 34.7,
+        "account_age_days": 34.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.2452,
         "best_leaderboard_rank": 39,
@@ -94,7 +94,7 @@
         "avg_trades_per_day_30d": 3.33
       },
       "radar": {
-        "account_age_days": 80.9,
+        "account_age_days": 81.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2668,
         "best_leaderboard_rank": 21,
@@ -141,7 +141,7 @@
         "avg_trades_per_day_30d": 4.9
       },
       "radar": {
-        "account_age_days": 32.6,
+        "account_age_days": 32.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 42,
@@ -185,10 +185,10 @@
         "n_distinct_markets": 46,
         "capital_concentration_hhi": 0.0485,
         "win_rate_adj": 0.8045,
-        "avg_trades_per_day_30d": 3.27
+        "avg_trades_per_day_30d": 3.23
       },
       "radar": {
-        "account_age_days": 48.7,
+        "account_age_days": 48.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.1997,
         "best_leaderboard_rank": 31,
@@ -235,7 +235,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 29.2,
+        "account_age_days": 29.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 25,
@@ -282,7 +282,7 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 95.0,
+        "account_age_days": 95.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 26,
@@ -329,7 +329,7 @@
         "avg_trades_per_day_30d": 5.63
       },
       "radar": {
-        "account_age_days": 38.5,
+        "account_age_days": 38.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 36,
@@ -373,20 +373,38 @@
         "n_distinct_markets": 2,
         "capital_concentration_hhi": 0.5499,
         "win_rate_adj": 0.3424,
-        "avg_trades_per_day_30d": 1.37
+        "avg_trades_per_day_30d": 1.5
       },
       "radar": {
-        "account_age_days": 25.8,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1995,
+        "account_age_days": 26.0,
+        "portfolio_value": 8101.02,
+        "capital_efficiency": 0.1887,
         "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 9,
-      "entry_recommendations": []
+      "open_positions_count": 12,
+      "entry_recommendations": [
+        {
+          "market_title": "LoL: Top Esports vs Anyone's Legend - Game 1 Winner",
+          "outcome": "Top Esports",
+          "their_entry_price": 0.1344,
+          "current_price": 0.065,
+          "fair_value_estimate": 0.075,
+          "suggested_entry_range": [
+            0.07,
+            0.139
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.13 -> 0.07); replicating their entry is still reasonably representative.",
+          "conviction": 0.0014,
+          "pick_score": 0.0014,
+          "recommended": true,
+          "their_position_value": 7927.719
+        }
+      ]
     }
   ]
 }
