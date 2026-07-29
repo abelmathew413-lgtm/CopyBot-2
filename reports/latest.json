@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T13:53:06.292743+00:00",
-  "duration_seconds": 6372.1,
-  "n_candidates_discovered": 1556,
+  "generated_at": "2026-07-29T18:54:09.150224+00:00",
+  "duration_seconds": 13314.8,
+  "n_candidates_discovered": 1530,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 15,
   "n_errors": 1,
@@ -47,7 +47,7 @@
         "avg_trades_per_day_30d": 4.57
       },
       "radar": {
-        "account_age_days": 34.9,
+        "account_age_days": 35.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2452,
         "best_leaderboard_rank": 39,
@@ -94,7 +94,7 @@
         "avg_trades_per_day_30d": 3.33
       },
       "radar": {
-        "account_age_days": 81.1,
+        "account_age_days": 81.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2668,
         "best_leaderboard_rank": 21,
@@ -112,8 +112,8 @@
       "display_name": "Jokerxing7",
       "profile_url": "https://polymarket.com/@Jokerxing7",
       "score": {
-        "composite": 0.5645,
-        "score_100": 78,
+        "composite": 0.5671,
+        "score_100": 79,
         "kelly_edge": 0.7729,
         "weights_used": {
           "clv": 0.25,
@@ -125,8 +125,8 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0176,
-        "n_clv_with_data": 35,
+        "clv": 0.0202,
+        "n_clv_with_data": 33,
         "n_clv_attempted": 40,
         "sharpe": 2.19,
         "roi_lifetime": 0.4957,
@@ -138,10 +138,10 @@
         "n_distinct_markets": 41,
         "capital_concentration_hhi": 0.0471,
         "win_rate_adj": 0.874,
-        "avg_trades_per_day_30d": 4.9
+        "avg_trades_per_day_30d": 4.8
       },
       "radar": {
-        "account_age_days": 32.9,
+        "account_age_days": 33.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2442,
         "best_leaderboard_rank": 42,
@@ -159,7 +159,7 @@
       "display_name": "umeax",
       "profile_url": "https://polymarket.com/@umeax",
       "score": {
-        "composite": 0.5488,
+        "composite": 0.552,
         "score_100": 78,
         "kelly_edge": 0.6274,
         "weights_used": {
@@ -172,8 +172,8 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.086,
-        "n_clv_with_data": 26,
+        "clv": 0.0896,
+        "n_clv_with_data": 25,
         "n_clv_attempted": 40,
         "sharpe": 1.0741,
         "roi_lifetime": 0.3241,
@@ -185,10 +185,10 @@
         "n_distinct_markets": 46,
         "capital_concentration_hhi": 0.0485,
         "win_rate_adj": 0.8045,
-        "avg_trades_per_day_30d": 3.17
+        "avg_trades_per_day_30d": 3.03
       },
       "radar": {
-        "account_age_days": 49.0,
+        "account_age_days": 49.1,
         "portfolio_value": 2678.02,
         "capital_efficiency": 0.1996,
         "best_leaderboard_rank": 31,
@@ -204,10 +204,10 @@
           "outcome": "Arizona Diamondbacks",
           "their_entry_price": 0.44,
           "current_price": 0.435,
-          "fair_value_estimate": 0.435,
+          "fair_value_estimate": 0.425,
           "suggested_entry_range": [
-            0.427,
-            0.448
+            0.422,
+            0.443
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.44 -> 0.43); replicating their entry is still reasonably representative.",
@@ -253,7 +253,7 @@
         "avg_trades_per_day_30d": 2.33
       },
       "radar": {
-        "account_age_days": 29.4,
+        "account_age_days": 29.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.0767,
         "best_leaderboard_rank": 25,
@@ -271,7 +271,7 @@
       "display_name": "0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681",
       "profile_url": "https://polymarket.com/@0xC41D736bDed9ED1acCD6A44235039266219774fD-1777101352681",
       "score": {
-        "composite": 0.4983,
+        "composite": 0.4942,
         "score_100": 75,
         "kelly_edge": 0.5182,
         "weights_used": {
@@ -284,8 +284,8 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0238,
-        "n_clv_with_data": 31,
+        "clv": -0.0279,
+        "n_clv_with_data": 28,
         "n_clv_attempted": 40,
         "sharpe": 0.9531,
         "roi_lifetime": 0.4862,
@@ -300,7 +300,7 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 95.2,
+        "account_age_days": 95.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2341,
         "best_leaderboard_rank": 26,
@@ -318,8 +318,8 @@
       "display_name": "Qpkwks",
       "profile_url": "https://polymarket.com/@Qpkwks",
       "score": {
-        "composite": 0.4611,
-        "score_100": 73,
+        "composite": 0.4651,
+        "score_100": 74,
         "kelly_edge": 0.3192,
         "weights_used": {
           "clv": 0.25,
@@ -331,8 +331,8 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0601,
-        "n_clv_with_data": 20,
+        "clv": 0.0644,
+        "n_clv_with_data": 19,
         "n_clv_attempted": 34,
         "sharpe": 0.6568,
         "roi_lifetime": 0.4323,
@@ -347,7 +347,7 @@
         "avg_trades_per_day_30d": 5.6
       },
       "radar": {
-        "account_age_days": 38.8,
+        "account_age_days": 39.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2178,
         "best_leaderboard_rank": 36,
@@ -394,8 +394,8 @@
         "avg_trades_per_day_30d": 1.6
       },
       "radar": {
-        "account_age_days": 26.1,
-        "portfolio_value": 391.96,
+        "account_age_days": 26.2,
+        "portfolio_value": 0,
         "capital_efficiency": 0.182,
         "best_leaderboard_rank": 27,
         "profile_views": null,
