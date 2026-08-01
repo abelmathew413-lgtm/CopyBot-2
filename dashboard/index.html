@@ -437,31 +437,177 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-01T16:14:59.667580+00:00",
-  "duration_seconds": 542.2,
-  "n_candidates_discovered": 1635,
+  "generated_at": "2026-08-01T18:11:37.609705+00:00",
+  "duration_seconds": 459.7,
+  "n_candidates_discovered": 1616,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 3,
-  "n_errors": 2,
+  "n_errors": 1,
   "errors": [
     {
       "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x27f738fe203827445690339104aae35b20bc44b0"
-    },
-    {
-      "wallet": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
     }
   ],
   "wallets": [
+    {
+      "wallet": "0xe40ecff63ec661d218a86c048186ac83389a9770",
+      "userName": "lllllllIlll",
+      "display_name": "lllllllIlll",
+      "profile_url": "https://polymarket.com/@lllllllIlll",
+      "score": {
+        "composite": 0.4755,
+        "score_100": 74,
+        "kelly_edge": 0.6551,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": -0.0511,
+        "n_clv_with_data": 21,
+        "n_clv_attempted": 40,
+        "sharpe": 1.2795,
+        "roi_lifetime": 0.357,
+        "roi_180d": 0.357,
+        "roi_90d": 0.357,
+        "roi_30d": 0.4123,
+        "max_drawdown_fraction": 0.0064,
+        "n_resolved": 105,
+        "n_distinct_markets": 98,
+        "capital_concentration_hhi": 0.0182,
+        "win_rate_adj": 0.8687,
+        "avg_trades_per_day_30d": 1.0
+      },
+      "radar": {
+        "account_age_days": 65.7,
+        "portfolio_value": 129122.67,
+        "capital_efficiency": 0.1975,
+        "best_leaderboard_rank": 33,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 78,
+      "entry_recommendations": [
+        {
+          "market_title": "Counter-Strike: Fluxo W7M vs BESTIA (BO3) - StarLadder StarSeries South American Qualifier Playoffs",
+          "outcome": "BESTIA",
+          "their_entry_price": 0.56,
+          "current_price": 0.525,
+          "fair_value_estimate": 0.515,
+          "suggested_entry_range": [
+            0.52,
+            0.555
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.56 -> 0.53); replicating their entry is still reasonably representative.",
+          "conviction": 0.1612,
+          "pick_score": 0.1612,
+          "recommended": true,
+          "their_position_value": 20999.9131
+        },
+        {
+          "market_title": "Counter-Strike: ENCE vs BC.Game Esports (BO3) - Elisa BreakOut Series #1 Playoffs",
+          "outcome": "BC.Game Esports",
+          "their_entry_price": 0.9,
+          "current_price": 0.93,
+          "fair_value_estimate": 0.925,
+          "suggested_entry_range": [
+            0.898,
+            0.928
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.90 -> 0.93); replicating their entry is still reasonably representative.",
+          "conviction": 0.0188,
+          "pick_score": 0.0188,
+          "recommended": true,
+          "their_position_value": 9299.721
+        },
+        {
+          "market_title": "Counter-Strike: Liquid vs Atputies (BO3) - Stake Pulse Beat I Group B",
+          "outcome": "Liquid",
+          "their_entry_price": 0.7353,
+          "current_price": 0.505,
+          "fair_value_estimate": 0.505,
+          "suggested_entry_range": [
+            0.505,
+            0.735
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.23 (31%) since their entry of 0.74 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0386,
+          "pick_score": 0.0077,
+          "recommended": true,
+          "their_position_value": 10238.6812
+        },
+        {
+          "market_title": "Counter-Strike: ENCE vs BC.Game Esports - Map 2 Winner",
+          "outcome": "BC.Game Esports",
+          "their_entry_price": 0.8,
+          "current_price": 0.71,
+          "fair_value_estimate": 0.725,
+          "suggested_entry_range": [
+            0.717,
+            0.807
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.09 (11%) since their entry of 0.80 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0171,
+          "pick_score": 0.0034,
+          "recommended": false,
+          "their_position_value": 379.7789
+        },
+        {
+          "market_title": "Counter-Strike: MIBR vs ShindeN (BO3) - StarLadder StarSeries South American Qualifier Playoffs",
+          "outcome": "MIBR",
+          "their_entry_price": 0.72,
+          "current_price": 0.81,
+          "fair_value_estimate": 0.82,
+          "suggested_entry_range": [
+            0.725,
+            0.815
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.09 (13%) since their entry of 0.72 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0007,
+          "pick_score": 0.0001,
+          "recommended": false,
+          "their_position_value": 181.1738
+        },
+        {
+          "market_title": "Map Handicap: BCG (-1.5) vs ENCE (+1.5)",
+          "outcome": "BC.Game Esports",
+          "their_entry_price": 0.64,
+          "current_price": 0.74,
+          "fair_value_estimate": 0.715,
+          "suggested_entry_range": [
+            0.627,
+            0.728
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.10 (16%) since their entry of 0.64 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0005,
+          "pick_score": 0.0001,
+          "recommended": false,
+          "their_position_value": 7.4
+        }
+      ]
+    },
     {
       "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
       "userName": "ThornyDevil",
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.4718,
-        "score_100": 74,
+        "composite": 0.454,
+        "score_100": 73,
         "kelly_edge": 0.3106,
         "weights_used": {
           "clv": 0.25,
@@ -473,7 +619,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0605,
+        "clv": 0.0419,
         "n_clv_with_data": 29,
         "n_clv_attempted": 29,
         "sharpe": 0.9525,
@@ -486,38 +632,20 @@
         "n_distinct_markets": 26,
         "capital_concentration_hhi": 0.0632,
         "win_rate_adj": 0.6944,
-        "avg_trades_per_day_30d": 2.47
+        "avg_trades_per_day_30d": 2.9
       },
       "radar": {
-        "account_age_days": 3.4,
-        "portfolio_value": 4083.82,
-        "capital_efficiency": 0.2524,
+        "account_age_days": 3.5,
+        "portfolio_value": 29182.5,
+        "capital_efficiency": 0.2229,
         "best_leaderboard_rank": 50,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 11,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: GIANTX vs SK Gaming - Game 2 Winner",
-          "outcome": "GIANTX",
-          "their_entry_price": 0.54,
-          "current_price": 0.555,
-          "fair_value_estimate": 0.535,
-          "suggested_entry_range": [
-            0.528,
-            0.548
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.54 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.0321,
-          "pick_score": 0.0321,
-          "recommended": true,
-          "their_position_value": 4070.2638
-        }
-      ]
+      "open_positions_count": 16,
+      "entry_recommendations": []
     },
     {
       "wallet": "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
@@ -554,10 +682,10 @@
         "avg_trades_per_day_30d": 23.8
       },
       "radar": {
-        "account_age_days": 201.8,
+        "account_age_days": 201.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.0988,
-        "best_leaderboard_rank": 40,
+        "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -565,190 +693,6 @@
       },
       "open_positions_count": 46,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0x09933d426d714890588f597eac833dbd947e525f",
-      "userName": "AtlanticTrading",
-      "display_name": "AtlanticTrading",
-      "profile_url": "https://polymarket.com/@AtlanticTrading",
-      "score": {
-        "composite": 0.3025,
-        "score_100": 65,
-        "kelly_edge": -0.0554,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0398,
-        "n_clv_with_data": 38,
-        "n_clv_attempted": 40,
-        "sharpe": 0.1165,
-        "roi_lifetime": 0.1335,
-        "roi_180d": 0.1335,
-        "roi_90d": 0.1335,
-        "roi_30d": 0.1335,
-        "max_drawdown_fraction": 0.0655,
-        "n_resolved": 121,
-        "n_distinct_markets": 121,
-        "capital_concentration_hhi": 0.0134,
-        "win_rate_adj": 0.4486,
-        "avg_trades_per_day_30d": 4.43
-      },
-      "radar": {
-        "account_age_days": 11.0,
-        "portfolio_value": 42059.75,
-        "capital_efficiency": 0.1236,
-        "best_leaderboard_rank": 51,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 12,
-      "entry_recommendations": [
-        {
-          "market_title": "Valorant: Karmine Corp vs Team Liquid (BO3) - VCT EMEA Group Omega",
-          "outcome": "Karmine Corp",
-          "their_entry_price": 0.4602,
-          "current_price": 0.475,
-          "fair_value_estimate": 0.475,
-          "suggested_entry_range": [
-            0.458,
-            0.478
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.46 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.2372,
-          "pick_score": 0.2372,
-          "recommended": true,
-          "their_position_value": 6689.0018
-        },
-        {
-          "market_title": "Counter-Strike: Fluxo W7M vs BESTIA (BO3) - StarLadder StarSeries South American Qualifier Playoffs",
-          "outcome": "Fluxo W7M",
-          "their_entry_price": 0.43,
-          "current_price": 0.435,
-          "fair_value_estimate": 0.435,
-          "suggested_entry_range": [
-            0.422,
-            0.443
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.43 -> 0.43); replicating their entry is still reasonably representative.",
-          "conviction": 0.159,
-          "pick_score": 0.159,
-          "recommended": true,
-          "their_position_value": 6364.5948
-        },
-        {
-          "market_title": "Map Handicap: NRG (-1.5) vs Voca (+1.5)",
-          "outcome": "Voca",
-          "their_entry_price": 0.54,
-          "current_price": 0.545,
-          "fair_value_estimate": 0.545,
-          "suggested_entry_range": [
-            0.532,
-            0.552
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.54 -> 0.55); replicating their entry is still reasonably representative.",
-          "conviction": 0.1506,
-          "pick_score": 0.1506,
-          "recommended": true,
-          "their_position_value": 3284.532
-        },
-        {
-          "market_title": "LoL: Vivo Keyd Stars vs FURIA Esports (BO3) - CBLOL Regular Season",
-          "outcome": "FURIA Esports",
-          "their_entry_price": 0.5333,
-          "current_price": 0.495,
-          "fair_value_estimate": 0.5,
-          "suggested_entry_range": [
-            0.498,
-            0.536
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.53 -> 0.49); replicating their entry is still reasonably representative.",
-          "conviction": 0.1296,
-          "pick_score": 0.1296,
-          "recommended": false,
-          "their_position_value": 1538.8041
-        },
-        {
-          "market_title": "Game Handicap: KC (-1.5) vs Natus Vincere (+1.5)",
-          "outcome": "Karmine Corp",
-          "their_entry_price": 0.53,
-          "current_price": 0.535,
-          "fair_value_estimate": 0.535,
-          "suggested_entry_range": [
-            0.522,
-            0.542
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.53 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.0781,
-          "pick_score": 0.0781,
-          "recommended": false,
-          "their_position_value": 1534.3483
-        },
-        {
-          "market_title": "Will MOUZ Win BLAST Bounty 2026 Season 2?",
-          "outcome": "Yes",
-          "their_entry_price": 0.2193,
-          "current_price": 0.146,
-          "fair_value_estimate": 0.151,
-          "suggested_entry_range": [
-            0.148,
-            0.222
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.22 -> 0.15); replicating their entry is still reasonably representative.",
-          "conviction": 0.0366,
-          "pick_score": 0.0366,
-          "recommended": false,
-          "their_position_value": 868.9543
-        },
-        {
-          "market_title": "Game Handicap: Xtreme (-1.5) vs REKONIX (+1.5)",
-          "outcome": "REKONIX",
-          "their_entry_price": 0.48,
-          "current_price": 0.485,
-          "fair_value_estimate": 0.485,
-          "suggested_entry_range": [
-            0.472,
-            0.492
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.48 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.0365,
-          "pick_score": 0.0365,
-          "recommended": false,
-          "their_position_value": 2.4716
-        },
-        {
-          "market_title": "Valorant: FUT Esports vs Team Vitality (BO3) - VCT EMEA Group Alpha",
-          "outcome": "Team Vitality",
-          "their_entry_price": 0.65,
-          "current_price": 0.805,
-          "fair_value_estimate": 0.835,
-          "suggested_entry_range": [
-            0.665,
-            0.82
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.16 (24%) since their entry of 0.65 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.1513,
-          "pick_score": 0.0303,
-          "recommended": false,
-          "their_position_value": 6333.4593
-        }
-      ]
     }
   ]
 }</script>
