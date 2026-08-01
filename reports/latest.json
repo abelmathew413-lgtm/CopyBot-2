@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-01T20:17:38.842017+00:00",
-  "duration_seconds": 339.5,
-  "n_candidates_discovered": 1595,
+  "generated_at": "2026-08-01T22:08:37.868804+00:00",
+  "duration_seconds": 380.5,
+  "n_candidates_discovered": 1557,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 4,
   "n_errors": 2,
@@ -52,9 +52,9 @@
       },
       "radar": {
         "account_age_days": 16.9,
-        "portfolio_value": 99908.26,
+        "portfolio_value": 99383.54,
         "capital_efficiency": 0.2372,
-        "best_leaderboard_rank": 26,
+        "best_leaderboard_rank": 45,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -66,100 +66,35 @@
           "market_title": "Minnesota Twins vs. Seattle Mariners: O/U 7.5",
           "outcome": "Under",
           "their_entry_price": 0.5217,
-          "current_price": 0.5699,
-          "fair_value_estimate": 0.585,
+          "current_price": 0.555,
+          "fair_value_estimate": 0.615,
           "suggested_entry_range": [
-            0.529,
-            0.577
+            0.552,
+            0.585
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.52 -> 0.57); replicating their entry is still reasonably representative.",
-          "conviction": 0.0866,
-          "pick_score": 0.0866,
+          "note": "Price is close to their entry (0.52 -> 0.56); replicating their entry is still reasonably representative.",
+          "conviction": 0.0868,
+          "pick_score": 0.0868,
           "recommended": true,
-          "their_position_value": 12819.3362
+          "their_position_value": 12484.1755
         },
         {
           "market_title": "Canadian Open, Qualification: Dalibor Svrcina vs Titouan Droguet",
           "outcome": "Dalibor Svrcina",
           "their_entry_price": 0.4647,
-          "current_price": 0.495,
-          "fair_value_estimate": 0.495,
+          "current_price": 0.465,
+          "fair_value_estimate": 0.405,
           "suggested_entry_range": [
-            0.465,
-            0.495
+            0.425,
+            0.445
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.46 -> 0.49); replicating their entry is still reasonably representative.",
-          "conviction": 0.0402,
-          "pick_score": 0.0402,
+          "note": "Price is close to their entry (0.46 -> 0.47); replicating their entry is still reasonably representative.",
+          "conviction": 0.0403,
+          "pick_score": 0.0403,
           "recommended": true,
-          "their_position_value": 3127.7956
-        }
-      ]
-    },
-    {
-      "wallet": "0xe40ecff63ec661d218a86c048186ac83389a9770",
-      "userName": "lllllllIlll",
-      "display_name": "lllllllIlll",
-      "profile_url": "https://polymarket.com/@lllllllIlll",
-      "score": {
-        "composite": 0.5011,
-        "score_100": 75,
-        "kelly_edge": 0.6329,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0221,
-        "n_clv_with_data": 24,
-        "n_clv_attempted": 40,
-        "sharpe": 1.2434,
-        "roi_lifetime": 0.3552,
-        "roi_180d": 0.3552,
-        "roi_90d": 0.3552,
-        "roi_30d": 0.3902,
-        "max_drawdown_fraction": 0.0061,
-        "n_resolved": 108,
-        "n_distinct_markets": 101,
-        "capital_concentration_hhi": 0.0179,
-        "win_rate_adj": 0.8606,
-        "avg_trades_per_day_30d": 1.0
-      },
-      "radar": {
-        "account_age_days": 65.8,
-        "portfolio_value": 32562.8,
-        "capital_efficiency": 0.2049,
-        "best_leaderboard_rank": 30,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 75,
-      "entry_recommendations": [
-        {
-          "market_title": "Counter-Strike: Fluxo W7M vs BESTIA (BO3) - StarLadder StarSeries South American Qualifier Playoffs",
-          "outcome": "BESTIA",
-          "their_entry_price": 0.56,
-          "current_price": 0.545,
-          "fair_value_estimate": 0.54,
-          "suggested_entry_range": [
-            0.54,
-            0.56
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.56 -> 0.55); replicating their entry is still reasonably representative.",
-          "conviction": 0.0451,
-          "pick_score": 0.0451,
-          "recommended": true,
-          "their_position_value": 21799.9097
+          "their_position_value": 2938.2322
         }
       ]
     },
@@ -169,9 +104,9 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.4423,
-        "score_100": 72,
-        "kelly_edge": 0.3106,
+        "composite": 0.4227,
+        "score_100": 71,
+        "kelly_edge": 0.2318,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -182,32 +117,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0301,
-        "n_clv_with_data": 29,
-        "n_clv_attempted": 29,
-        "sharpe": 0.9525,
-        "roi_lifetime": 0.3405,
-        "roi_180d": 0.3405,
-        "roi_90d": 0.3405,
-        "roi_30d": 0.3405,
-        "max_drawdown_fraction": 0.0105,
-        "n_resolved": 29,
-        "n_distinct_markets": 26,
-        "capital_concentration_hhi": 0.0632,
-        "win_rate_adj": 0.6944,
+        "clv": 0.0372,
+        "n_clv_with_data": 33,
+        "n_clv_attempted": 33,
+        "sharpe": 0.811,
+        "roi_lifetime": 0.2861,
+        "roi_180d": 0.2861,
+        "roi_90d": 0.2861,
+        "roi_30d": 0.2861,
+        "max_drawdown_fraction": 0.0195,
+        "n_resolved": 33,
+        "n_distinct_markets": 28,
+        "capital_concentration_hhi": 0.057,
+        "win_rate_adj": 0.6561,
         "avg_trades_per_day_30d": 3.17
       },
       "radar": {
         "account_age_days": 3.6,
-        "portfolio_value": 106987.39,
-        "capital_efficiency": 0.1962,
-        "best_leaderboard_rank": 56,
+        "portfolio_value": 78164.33,
+        "capital_efficiency": 0.1945,
+        "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 18,
+      "open_positions_count": 14,
       "entry_recommendations": []
     },
     {
@@ -248,7 +183,7 @@
         "account_age_days": 202.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.0988,
-        "best_leaderboard_rank": 41,
+        "best_leaderboard_rank": 42,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -256,6 +191,156 @@
       },
       "open_positions_count": 46,
       "entry_recommendations": []
+    },
+    {
+      "wallet": "0x09933d426d714890588f597eac833dbd947e525f",
+      "userName": "AtlanticTrading",
+      "display_name": "AtlanticTrading",
+      "profile_url": "https://polymarket.com/@AtlanticTrading",
+      "score": {
+        "composite": 0.2828,
+        "score_100": 64,
+        "kelly_edge": -0.0511,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0187,
+        "n_clv_with_data": 39,
+        "n_clv_attempted": 40,
+        "sharpe": 0.1263,
+        "roi_lifetime": 0.1263,
+        "roi_180d": 0.1263,
+        "roi_90d": 0.1263,
+        "roi_30d": 0.1263,
+        "max_drawdown_fraction": 0.063,
+        "n_resolved": 126,
+        "n_distinct_markets": 126,
+        "capital_concentration_hhi": 0.0129,
+        "win_rate_adj": 0.4528,
+        "avg_trades_per_day_30d": 4.53
+      },
+      "radar": {
+        "account_age_days": 11.2,
+        "portfolio_value": 31446.09,
+        "capital_efficiency": 0.1185,
+        "best_leaderboard_rank": 54,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 11,
+      "entry_recommendations": [
+        {
+          "market_title": "Valorant: Fnatic vs Team Heretics (BO3) - VCT EMEA Group Omega",
+          "outcome": "Team Heretics",
+          "their_entry_price": 0.53,
+          "current_price": 0.535,
+          "fair_value_estimate": 0.535,
+          "suggested_entry_range": [
+            0.522,
+            0.542
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.53 -> 0.54); replicating their entry is still reasonably representative.",
+          "conviction": 0.172,
+          "pick_score": 0.172,
+          "recommended": true,
+          "their_position_value": 4294.4098
+        },
+        {
+          "market_title": "Map Handicap: NRG (-1.5) vs Voca (+1.5)",
+          "outcome": "Voca",
+          "their_entry_price": 0.5524,
+          "current_price": 0.425,
+          "fair_value_estimate": 0.42,
+          "suggested_entry_range": [
+            0.422,
+            0.55
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.13 (23%) since their entry of 0.55 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.3269,
+          "pick_score": 0.0654,
+          "recommended": true,
+          "their_position_value": 7664.9877
+        },
+        {
+          "market_title": "Counter-Strike: NRG vs Voca (BO3) - StarLadder StarSeries North American Qualifier Playoffs",
+          "outcome": "Voca",
+          "their_entry_price": 0.28,
+          "current_price": 0.215,
+          "fair_value_estimate": 0.185,
+          "suggested_entry_range": [
+            0.2,
+            0.265
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.28 -> 0.21); replicating their entry is still reasonably representative.",
+          "conviction": 0.0385,
+          "pick_score": 0.0385,
+          "recommended": true,
+          "their_position_value": 1402.6586
+        },
+        {
+          "market_title": "Will MOUZ Win BLAST Bounty 2026 Season 2?",
+          "outcome": "Yes",
+          "their_entry_price": 0.2193,
+          "current_price": 0.211,
+          "fair_value_estimate": 0.211,
+          "suggested_entry_range": [
+            0.205,
+            0.225
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.22 -> 0.21); replicating their entry is still reasonably representative.",
+          "conviction": 0.0315,
+          "pick_score": 0.0315,
+          "recommended": false,
+          "their_position_value": 1255.8176
+        },
+        {
+          "market_title": "Map Handicap: NS (-1.5) vs ZETA DIVISION (+1.5)",
+          "outcome": "Nongshim RedForce",
+          "their_entry_price": 0.52,
+          "current_price": 0.53,
+          "fair_value_estimate": 0.53,
+          "suggested_entry_range": [
+            0.515,
+            0.535
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.52 -> 0.53); replicating their entry is still reasonably representative.",
+          "conviction": 0.0282,
+          "pick_score": 0.0282,
+          "recommended": false,
+          "their_position_value": 547.7329
+        },
+        {
+          "market_title": "Counter-Strike: Fluxo W7M vs BESTIA (BO3) - StarLadder StarSeries South American Qualifier Playoffs",
+          "outcome": "Fluxo W7M",
+          "their_entry_price": 0.43,
+          "current_price": 0.105,
+          "fair_value_estimate": 0.09,
+          "suggested_entry_range": [
+            0.098,
+            0.422
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.33 (76%) since their entry of 0.43 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0964,
+          "pick_score": 0.0193,
+          "recommended": false,
+          "their_position_value": 1713.7151
+        }
+      ]
     }
   ]
 }
