@@ -437,13 +437,17 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-01T18:11:37.609705+00:00",
-  "duration_seconds": 459.7,
-  "n_candidates_discovered": 1616,
+  "generated_at": "2026-08-01T20:17:38.842017+00:00",
+  "duration_seconds": 339.5,
+  "n_candidates_discovered": 1595,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 3,
-  "n_errors": 1,
+  "n_passed_filters": 4,
+  "n_errors": 2,
   "errors": [
+    {
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
+    },
     {
       "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x27f738fe203827445690339104aae35b20bc44b0"
@@ -451,14 +455,14 @@
   ],
   "wallets": [
     {
-      "wallet": "0xe40ecff63ec661d218a86c048186ac83389a9770",
-      "userName": "lllllllIlll",
-      "display_name": "lllllllIlll",
-      "profile_url": "https://polymarket.com/@lllllllIlll",
+      "wallet": "0xe55aab114e95fff2fa267313916381d79323ecf7",
+      "userName": "steevenseakael",
+      "display_name": "steevenseakael",
+      "profile_url": "https://polymarket.com/@steevenseakael",
       "score": {
-        "composite": 0.4755,
-        "score_100": 74,
-        "kelly_edge": 0.6551,
+        "composite": 0.6287,
+        "score_100": 82,
+        "kelly_edge": 0.7842,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -469,134 +473,131 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0511,
-        "n_clv_with_data": 21,
-        "n_clv_attempted": 40,
-        "sharpe": 1.2795,
-        "roi_lifetime": 0.357,
-        "roi_180d": 0.357,
-        "roi_90d": 0.357,
-        "roi_30d": 0.4123,
-        "max_drawdown_fraction": 0.0064,
-        "n_resolved": 105,
-        "n_distinct_markets": 98,
-        "capital_concentration_hhi": 0.0182,
-        "win_rate_adj": 0.8687,
-        "avg_trades_per_day_30d": 1.0
+        "clv": 0.0952,
+        "n_clv_with_data": 31,
+        "n_clv_attempted": 32,
+        "sharpe": 4.7764,
+        "roi_lifetime": 0.4942,
+        "roi_180d": 0.4942,
+        "roi_90d": 0.4942,
+        "roi_30d": 0.4942,
+        "max_drawdown_fraction": 0.0,
+        "n_resolved": 32,
+        "n_distinct_markets": 32,
+        "capital_concentration_hhi": 0.0421,
+        "win_rate_adj": 0.8928,
+        "avg_trades_per_day_30d": 5.5
       },
       "radar": {
-        "account_age_days": 65.7,
-        "portfolio_value": 129122.67,
-        "capital_efficiency": 0.1975,
-        "best_leaderboard_rank": 33,
+        "account_age_days": 16.9,
+        "portfolio_value": 99908.26,
+        "capital_efficiency": 0.2372,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 78,
+      "open_positions_count": 36,
+      "entry_recommendations": [
+        {
+          "market_title": "Minnesota Twins vs. Seattle Mariners: O/U 7.5",
+          "outcome": "Under",
+          "their_entry_price": 0.5217,
+          "current_price": 0.5699,
+          "fair_value_estimate": 0.585,
+          "suggested_entry_range": [
+            0.529,
+            0.577
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.52 -> 0.57); replicating their entry is still reasonably representative.",
+          "conviction": 0.0866,
+          "pick_score": 0.0866,
+          "recommended": true,
+          "their_position_value": 12819.3362
+        },
+        {
+          "market_title": "Canadian Open, Qualification: Dalibor Svrcina vs Titouan Droguet",
+          "outcome": "Dalibor Svrcina",
+          "their_entry_price": 0.4647,
+          "current_price": 0.495,
+          "fair_value_estimate": 0.495,
+          "suggested_entry_range": [
+            0.465,
+            0.495
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.46 -> 0.49); replicating their entry is still reasonably representative.",
+          "conviction": 0.0402,
+          "pick_score": 0.0402,
+          "recommended": true,
+          "their_position_value": 3127.7956
+        }
+      ]
+    },
+    {
+      "wallet": "0xe40ecff63ec661d218a86c048186ac83389a9770",
+      "userName": "lllllllIlll",
+      "display_name": "lllllllIlll",
+      "profile_url": "https://polymarket.com/@lllllllIlll",
+      "score": {
+        "composite": 0.5011,
+        "score_100": 75,
+        "kelly_edge": 0.6329,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": -0.0221,
+        "n_clv_with_data": 24,
+        "n_clv_attempted": 40,
+        "sharpe": 1.2434,
+        "roi_lifetime": 0.3552,
+        "roi_180d": 0.3552,
+        "roi_90d": 0.3552,
+        "roi_30d": 0.3902,
+        "max_drawdown_fraction": 0.0061,
+        "n_resolved": 108,
+        "n_distinct_markets": 101,
+        "capital_concentration_hhi": 0.0179,
+        "win_rate_adj": 0.8606,
+        "avg_trades_per_day_30d": 1.0
+      },
+      "radar": {
+        "account_age_days": 65.8,
+        "portfolio_value": 32562.8,
+        "capital_efficiency": 0.2049,
+        "best_leaderboard_rank": 30,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 75,
       "entry_recommendations": [
         {
           "market_title": "Counter-Strike: Fluxo W7M vs BESTIA (BO3) - StarLadder StarSeries South American Qualifier Playoffs",
           "outcome": "BESTIA",
           "their_entry_price": 0.56,
-          "current_price": 0.525,
-          "fair_value_estimate": 0.515,
+          "current_price": 0.545,
+          "fair_value_estimate": 0.54,
           "suggested_entry_range": [
-            0.52,
-            0.555
+            0.54,
+            0.56
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.56 -> 0.53); replicating their entry is still reasonably representative.",
-          "conviction": 0.1612,
-          "pick_score": 0.1612,
+          "note": "Price is close to their entry (0.56 -> 0.55); replicating their entry is still reasonably representative.",
+          "conviction": 0.0451,
+          "pick_score": 0.0451,
           "recommended": true,
-          "their_position_value": 20999.9131
-        },
-        {
-          "market_title": "Counter-Strike: ENCE vs BC.Game Esports (BO3) - Elisa BreakOut Series #1 Playoffs",
-          "outcome": "BC.Game Esports",
-          "their_entry_price": 0.9,
-          "current_price": 0.93,
-          "fair_value_estimate": 0.925,
-          "suggested_entry_range": [
-            0.898,
-            0.928
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.90 -> 0.93); replicating their entry is still reasonably representative.",
-          "conviction": 0.0188,
-          "pick_score": 0.0188,
-          "recommended": true,
-          "their_position_value": 9299.721
-        },
-        {
-          "market_title": "Counter-Strike: Liquid vs Atputies (BO3) - Stake Pulse Beat I Group B",
-          "outcome": "Liquid",
-          "their_entry_price": 0.7353,
-          "current_price": 0.505,
-          "fair_value_estimate": 0.505,
-          "suggested_entry_range": [
-            0.505,
-            0.735
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.23 (31%) since their entry of 0.74 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0386,
-          "pick_score": 0.0077,
-          "recommended": true,
-          "their_position_value": 10238.6812
-        },
-        {
-          "market_title": "Counter-Strike: ENCE vs BC.Game Esports - Map 2 Winner",
-          "outcome": "BC.Game Esports",
-          "their_entry_price": 0.8,
-          "current_price": 0.71,
-          "fair_value_estimate": 0.725,
-          "suggested_entry_range": [
-            0.717,
-            0.807
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.09 (11%) since their entry of 0.80 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0171,
-          "pick_score": 0.0034,
-          "recommended": false,
-          "their_position_value": 379.7789
-        },
-        {
-          "market_title": "Counter-Strike: MIBR vs ShindeN (BO3) - StarLadder StarSeries South American Qualifier Playoffs",
-          "outcome": "MIBR",
-          "their_entry_price": 0.72,
-          "current_price": 0.81,
-          "fair_value_estimate": 0.82,
-          "suggested_entry_range": [
-            0.725,
-            0.815
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.09 (13%) since their entry of 0.72 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0007,
-          "pick_score": 0.0001,
-          "recommended": false,
-          "their_position_value": 181.1738
-        },
-        {
-          "market_title": "Map Handicap: BCG (-1.5) vs ENCE (+1.5)",
-          "outcome": "BC.Game Esports",
-          "their_entry_price": 0.64,
-          "current_price": 0.74,
-          "fair_value_estimate": 0.715,
-          "suggested_entry_range": [
-            0.627,
-            0.728
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.10 (16%) since their entry of 0.64 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0005,
-          "pick_score": 0.0001,
-          "recommended": false,
-          "their_position_value": 7.4
+          "their_position_value": 21799.9097
         }
       ]
     },
@@ -606,8 +607,8 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.454,
-        "score_100": 73,
+        "composite": 0.4423,
+        "score_100": 72,
         "kelly_edge": 0.3106,
         "weights_used": {
           "clv": 0.25,
@@ -619,7 +620,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0419,
+        "clv": 0.0301,
         "n_clv_with_data": 29,
         "n_clv_attempted": 29,
         "sharpe": 0.9525,
@@ -632,19 +633,19 @@
         "n_distinct_markets": 26,
         "capital_concentration_hhi": 0.0632,
         "win_rate_adj": 0.6944,
-        "avg_trades_per_day_30d": 2.9
+        "avg_trades_per_day_30d": 3.17
       },
       "radar": {
-        "account_age_days": 3.5,
-        "portfolio_value": 29182.5,
-        "capital_efficiency": 0.2229,
-        "best_leaderboard_rank": 50,
+        "account_age_days": 3.6,
+        "portfolio_value": 106987.39,
+        "capital_efficiency": 0.1962,
+        "best_leaderboard_rank": 56,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 16,
+      "open_positions_count": 18,
       "entry_recommendations": []
     },
     {
@@ -682,7 +683,7 @@
         "avg_trades_per_day_30d": 23.8
       },
       "radar": {
-        "account_age_days": 201.9,
+        "account_age_days": 202.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.0988,
         "best_leaderboard_rank": 41,
