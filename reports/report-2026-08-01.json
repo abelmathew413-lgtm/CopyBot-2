@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-01T07:38:06.602001+00:00",
-  "duration_seconds": 386.0,
-  "n_candidates_discovered": 1655,
+  "generated_at": "2026-08-01T10:14:18.922759+00:00",
+  "duration_seconds": 523.2,
+  "n_candidates_discovered": 1657,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 7,
+  "n_passed_filters": 4,
   "n_errors": 2,
   "errors": [
     {
@@ -51,10 +51,10 @@
         "avg_trades_per_day_30d": 2.67
       },
       "radar": {
-        "account_age_days": 48.9,
+        "account_age_days": 49.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.3272,
-        "best_leaderboard_rank": 34,
+        "best_leaderboard_rank": 32,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -64,161 +64,14 @@
       "entry_recommendations": []
     },
     {
-      "wallet": "0xe55aab114e95fff2fa267313916381d79323ecf7",
-      "userName": "steevenseakael",
-      "display_name": "steevenseakael",
-      "profile_url": "https://polymarket.com/@steevenseakael",
-      "score": {
-        "composite": 0.6287,
-        "score_100": 82,
-        "kelly_edge": 0.7842,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0952,
-        "n_clv_with_data": 31,
-        "n_clv_attempted": 32,
-        "sharpe": 4.7764,
-        "roi_lifetime": 0.4942,
-        "roi_180d": 0.4942,
-        "roi_90d": 0.4942,
-        "roi_30d": 0.4942,
-        "max_drawdown_fraction": 0.0,
-        "n_resolved": 32,
-        "n_distinct_markets": 32,
-        "capital_concentration_hhi": 0.0421,
-        "win_rate_adj": 0.8928,
-        "avg_trades_per_day_30d": 4.8
-      },
-      "radar": {
-        "account_age_days": 16.3,
-        "portfolio_value": 40994.28,
-        "capital_efficiency": 0.2571,
-        "best_leaderboard_rank": 52,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 32,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: Nongshim Red Force vs BNK FEARX (BO3) - LCK Round 3-4 Rise Group",
-          "outcome": "BNK FEARX",
-          "their_entry_price": 0.53,
-          "current_price": 0.515,
-          "fair_value_estimate": 0.515,
-          "suggested_entry_range": [
-            0.512,
-            0.532
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.53 -> 0.52); replicating their entry is still reasonably representative.",
-          "conviction": 0.044,
-          "pick_score": 0.044,
-          "recommended": true,
-          "their_position_value": 7982.5
-        }
-      ]
-    },
-    {
-      "wallet": "0xf377b9fb12a4b7507a4f997461a73eb30b564159",
-      "userName": "danielwolfmorales3pddb6dl6",
-      "display_name": "danielwolfmorales3pddb6dl6",
-      "profile_url": "https://polymarket.com/@danielwolfmorales3pddb6dl6",
-      "score": {
-        "composite": 0.6211,
-        "score_100": 81,
-        "kelly_edge": 0.5395,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.1316,
-        "n_clv_with_data": 40,
-        "n_clv_attempted": 40,
-        "sharpe": 0.9559,
-        "roi_lifetime": 0.3933,
-        "roi_180d": 0.3933,
-        "roi_90d": 0.3933,
-        "roi_30d": 0.3844,
-        "max_drawdown_fraction": 0.01,
-        "n_resolved": 134,
-        "n_distinct_markets": 120,
-        "capital_concentration_hhi": 0.0189,
-        "win_rate_adj": 0.7309,
-        "avg_trades_per_day_30d": 32.67
-      },
-      "radar": {
-        "account_age_days": 42.8,
-        "portfolio_value": 25905.38,
-        "capital_efficiency": 0.162,
-        "best_leaderboard_rank": 50,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 150,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: Nongshim Red Force vs BNK FEARX (BO3) - LCK Round 3-4 Rise Group",
-          "outcome": "Nongshim Red Force",
-          "their_entry_price": 0.4714,
-          "current_price": 0.485,
-          "fair_value_estimate": 0.485,
-          "suggested_entry_range": [
-            0.468,
-            0.488
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.47 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.0278,
-          "pick_score": 0.0278,
-          "recommended": true,
-          "their_position_value": 10134.3207
-        },
-        {
-          "market_title": "Game Handicap: AL (-1.5) vs ThunderTalk Gaming (+1.5)",
-          "outcome": "Anyones Legend",
-          "their_entry_price": 0.5809,
-          "current_price": 0.745,
-          "fair_value_estimate": 0.765,
-          "suggested_entry_range": [
-            0.591,
-            0.755
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.16 (28%) since their entry of 0.58 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0352,
-          "pick_score": 0.007,
-          "recommended": true,
-          "their_position_value": 12823.2733
-        }
-      ]
-    },
-    {
       "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
       "userName": "ThornyDevil",
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.4863,
-        "score_100": 75,
-        "kelly_edge": 0.4952,
+        "composite": 0.5115,
+        "score_100": 76,
+        "kelly_edge": 0.5198,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -229,33 +82,68 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.04,
-        "n_clv_with_data": 21,
-        "n_clv_attempted": 21,
-        "sharpe": 1.6218,
-        "roi_lifetime": 0.3859,
-        "roi_180d": 0.3859,
-        "roi_90d": 0.3859,
-        "roi_30d": 0.3859,
-        "max_drawdown_fraction": 0.0084,
-        "n_resolved": 21,
-        "n_distinct_markets": 20,
-        "capital_concentration_hhi": 0.0825,
-        "win_rate_adj": 0.7733,
-        "avg_trades_per_day_30d": 1.8
+        "clv": 0.0625,
+        "n_clv_with_data": 22,
+        "n_clv_attempted": 22,
+        "sharpe": 1.6244,
+        "roi_lifetime": 0.3815,
+        "roi_180d": 0.3815,
+        "roi_90d": 0.3815,
+        "roi_30d": 0.3815,
+        "max_drawdown_fraction": 0.0082,
+        "n_resolved": 22,
+        "n_distinct_markets": 21,
+        "capital_concentration_hhi": 0.0785,
+        "win_rate_adj": 0.782,
+        "avg_trades_per_day_30d": 2.2
       },
       "radar": {
-        "account_age_days": 3.0,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.2907,
-        "best_leaderboard_rank": 40,
+        "account_age_days": 3.1,
+        "portfolio_value": 24920.1,
+        "capital_efficiency": 0.2698,
+        "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 7,
-      "entry_recommendations": []
+      "open_positions_count": 11,
+      "entry_recommendations": [
+        {
+          "market_title": "LoL: Nongshim Red Force vs BNK FEARX (BO3) - LCK Round 3-4 Rise Group",
+          "outcome": "BNK FEARX",
+          "their_entry_price": 0.4972,
+          "current_price": 0.935,
+          "fair_value_estimate": 0.475,
+          "suggested_entry_range": [
+            0.267,
+            0.705
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.44 (88%) since their entry of 0.50 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0624,
+          "pick_score": 0.0125,
+          "recommended": true,
+          "their_position_value": 8883.6586
+        },
+        {
+          "market_title": "LoL: LGD Gaming vs Top Esports - Game 2 Winner",
+          "outcome": "Top Esports",
+          "their_entry_price": 0.6423,
+          "current_price": 0.545,
+          "fair_value_estimate": 0.425,
+          "suggested_entry_range": [
+            0.485,
+            0.582
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.10 (15%) since their entry of 0.64 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0601,
+          "pick_score": 0.012,
+          "recommended": true,
+          "their_position_value": 6815.3184
+        }
+      ]
     },
     {
       "wallet": "0xe548376f231af12b4d56aff55a7503a88892a9fe",
@@ -289,19 +177,19 @@
         "n_distinct_markets": 111,
         "capital_concentration_hhi": 0.0168,
         "win_rate_adj": 0.8051,
-        "avg_trades_per_day_30d": 3.5
+        "avg_trades_per_day_30d": 3.53
       },
       "radar": {
-        "account_age_days": 50.1,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1859,
-        "best_leaderboard_rank": 37,
+        "account_age_days": 50.2,
+        "portfolio_value": 7086.41,
+        "capital_efficiency": 0.1856,
+        "best_leaderboard_rank": 39,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 95,
+      "open_positions_count": 96,
       "entry_recommendations": []
     },
     {
@@ -339,10 +227,10 @@
         "avg_trades_per_day_30d": 23.8
       },
       "radar": {
-        "account_age_days": 201.4,
+        "account_age_days": 201.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.0988,
-        "best_leaderboard_rank": 36,
+        "best_leaderboard_rank": 38,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -350,71 +238,6 @@
       },
       "open_positions_count": 46,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0x3954e1c6b7bc5645d9d3425a6f4490889ef122d9",
-      "userName": "Spicer",
-      "display_name": "Spicer",
-      "profile_url": "https://polymarket.com/@Spicer",
-      "score": {
-        "composite": 0.3892,
-        "score_100": 70,
-        "kelly_edge": 0.4227,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0527,
-        "n_clv_with_data": 11,
-        "n_clv_attempted": 24,
-        "sharpe": 1.6447,
-        "roi_lifetime": 0.3124,
-        "roi_180d": 0.3635,
-        "roi_90d": 0.3635,
-        "roi_30d": 0.3635,
-        "max_drawdown_fraction": 0.0131,
-        "n_resolved": 24,
-        "n_distinct_markets": 23,
-        "capital_concentration_hhi": 0.1415,
-        "win_rate_adj": 0.7976,
-        "avg_trades_per_day_30d": 6.13
-      },
-      "radar": {
-        "account_age_days": 1183.5,
-        "portfolio_value": 87355.17,
-        "capital_efficiency": 0.195,
-        "best_leaderboard_rank": 32,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 9,
-      "entry_recommendations": [
-        {
-          "market_title": "Game Handicap: AL (-1.5) vs ThunderTalk Gaming (+1.5)",
-          "outcome": "Anyones Legend",
-          "their_entry_price": 0.5917,
-          "current_price": 0.735,
-          "fair_value_estimate": 0.685,
-          "suggested_entry_range": [
-            0.567,
-            0.71
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.14 (24%) since their entry of 0.59 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.2934,
-          "pick_score": 0.0587,
-          "recommended": true,
-          "their_position_value": 87355.1689
-        }
-      ]
     }
   ]
 }
