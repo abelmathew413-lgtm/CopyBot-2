@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-02T07:43:17.571694+00:00",
-  "duration_seconds": 448.0,
-  "n_candidates_discovered": 1501,
+  "generated_at": "2026-08-02T10:08:41.361717+00:00",
+  "duration_seconds": 309.6,
+  "n_candidates_discovered": 1526,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 3,
+  "n_passed_filters": 4,
   "n_errors": 3,
   "errors": [
     {
@@ -12,11 +12,11 @@
     },
     {
       "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 500 Server Error: Internal Server Error for url: https://data-api.polymarket.com/trades?limit=1000&offset=3000&user=0x27f738fe203827445690339104aae35b20bc44b0"
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x27f738fe203827445690339104aae35b20bc44b0"
     },
     {
-      "wallet": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
     }
   ],
   "wallets": [
@@ -55,8 +55,8 @@
         "avg_trades_per_day_30d": 5.57
       },
       "radar": {
-        "account_age_days": 17.3,
-        "portfolio_value": 38284.01,
+        "account_age_days": 17.4,
+        "portfolio_value": 41034.01,
         "capital_efficiency": 0.2649,
         "best_leaderboard_rank": 26,
         "profile_views": null,
@@ -71,15 +71,15 @@
           "outcome": "Hanwha Life Esports",
           "their_entry_price": 0.77,
           "current_price": 0.765,
-          "fair_value_estimate": 0.765,
+          "fair_value_estimate": 0.755,
           "suggested_entry_range": [
-            0.758,
-            0.778
+            0.752,
+            0.772
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.77 -> 0.77); replicating their entry is still reasonably representative.",
-          "conviction": 0.0601,
-          "pick_score": 0.0601,
+          "conviction": 0.0268,
+          "pick_score": 0.0268,
           "recommended": true,
           "their_position_value": 8415
         },
@@ -87,18 +87,18 @@
           "market_title": "LoL: DN SOOPers vs HANJIN BRION (BO3) - LCK Round 3-4 Rise Group",
           "outcome": "DN SOOPers",
           "their_entry_price": 0.3,
-          "current_price": 0.295,
-          "fair_value_estimate": 0.295,
+          "current_price": 0.405,
+          "fair_value_estimate": 0.325,
           "suggested_entry_range": [
-            0.287,
-            0.307
+            0.26,
+            0.365
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.30 -> 0.29); replicating their entry is still reasonably representative.",
-          "conviction": 0.0225,
-          "pick_score": 0.0225,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.11 (35%) since their entry of 0.30 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0596,
+          "pick_score": 0.0119,
           "recommended": true,
-          "their_position_value": 7375
+          "their_position_value": 10125
         }
       ]
     },
@@ -134,36 +134,36 @@
         "n_distinct_markets": 29,
         "capital_concentration_hhi": 0.0599,
         "win_rate_adj": 0.6649,
-        "avg_trades_per_day_30d": 3.2
+        "avg_trades_per_day_30d": 3.27
       },
       "radar": {
-        "account_age_days": 4.0,
-        "portfolio_value": 5904.47,
-        "capital_efficiency": 0.2266,
-        "best_leaderboard_rank": 45,
+        "account_age_days": 4.1,
+        "portfolio_value": 16074.36,
+        "capital_efficiency": 0.219,
+        "best_leaderboard_rank": 48,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 14,
+      "open_positions_count": 18,
       "entry_recommendations": [
         {
-          "market_title": "LoL: ThunderTalk Gaming vs Team WE - Game 1 Winner",
-          "outcome": "ThunderTalk Gaming",
-          "their_entry_price": 0.29,
-          "current_price": 0.955,
-          "fair_value_estimate": 0.993,
+          "market_title": "LoL: DN SOOPers vs HANJIN BRION (BO3) - LCK Round 3-4 Rise Group",
+          "outcome": "HANJIN BRION",
+          "their_entry_price": 0.6087,
+          "current_price": 0.595,
+          "fair_value_estimate": 0.635,
           "suggested_entry_range": [
-            0.309,
-            0.974
+            0.612,
+            0.632
           ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.67 (229%) since their entry of 0.29 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0333,
-          "pick_score": 0.0067,
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.61 -> 0.59); replicating their entry is still reasonably representative.",
+          "conviction": 0.033,
+          "pick_score": 0.033,
           "recommended": true,
-          "their_position_value": 5904.4689
+          "their_position_value": 4854.6486
         }
       ]
     },
@@ -202,10 +202,10 @@
         "avg_trades_per_day_30d": 23.8
       },
       "radar": {
-        "account_age_days": 202.4,
+        "account_age_days": 202.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.0988,
-        "best_leaderboard_rank": 47,
+        "best_leaderboard_rank": 50,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -213,6 +213,241 @@
       },
       "open_positions_count": 46,
       "entry_recommendations": []
+    },
+    {
+      "wallet": "0x09933d426d714890588f597eac833dbd947e525f",
+      "userName": "AtlanticTrading",
+      "display_name": "AtlanticTrading",
+      "profile_url": "https://polymarket.com/@AtlanticTrading",
+      "score": {
+        "composite": 0.3089,
+        "score_100": 66,
+        "kelly_edge": -0.0562,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0475,
+        "n_clv_with_data": 39,
+        "n_clv_attempted": 40,
+        "sharpe": 0.1153,
+        "roi_lifetime": 0.1253,
+        "roi_180d": 0.1253,
+        "roi_90d": 0.1253,
+        "roi_30d": 0.1253,
+        "max_drawdown_fraction": 0.0597,
+        "n_resolved": 134,
+        "n_distinct_markets": 134,
+        "capital_concentration_hhi": 0.0121,
+        "win_rate_adj": 0.4457,
+        "avg_trades_per_day_30d": 4.63
+      },
+      "radar": {
+        "account_age_days": 11.7,
+        "portfolio_value": 81835.09,
+        "capital_efficiency": 0.1133,
+        "best_leaderboard_rank": 45,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 12,
+      "entry_recommendations": [
+        {
+          "market_title": "Map Handicap: TS (-2.5) vs MOUZ (+2.5)",
+          "outcome": "MOUZ",
+          "their_entry_price": 0.6789,
+          "current_price": 0.68,
+          "fair_value_estimate": 0.68,
+          "suggested_entry_range": [
+            0.669,
+            0.689
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.68 -> 0.68); replicating their entry is still reasonably representative.",
+          "conviction": 0.21,
+          "pick_score": 0.21,
+          "recommended": true,
+          "their_position_value": 10200.3061
+        },
+        {
+          "market_title": "LoL: Top Esports vs JD Gaming (BO3) - LPL Group Ascend",
+          "outcome": "JD Gaming",
+          "their_entry_price": 0.4649,
+          "current_price": 0.465,
+          "fair_value_estimate": 0.465,
+          "suggested_entry_range": [
+            0.455,
+            0.475
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.46 -> 0.47); replicating their entry is still reasonably representative.",
+          "conviction": 0.1246,
+          "pick_score": 0.1246,
+          "recommended": true,
+          "their_position_value": 9299.8957
+        },
+        {
+          "market_title": "Map Handicap: TS (-1.5) vs MOUZ (+1.5)",
+          "outcome": "MOUZ",
+          "their_entry_price": 0.4,
+          "current_price": 0.395,
+          "fair_value_estimate": 0.395,
+          "suggested_entry_range": [
+            0.388,
+            0.408
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.40 -> 0.40); replicating their entry is still reasonably representative.",
+          "conviction": 0.1013,
+          "pick_score": 0.1013,
+          "recommended": true,
+          "their_position_value": 7899.9762
+        },
+        {
+          "market_title": "LoL: KT Rolster vs Hanwha Life Esports (BO3) - LCK Round 3-4 Legend Group",
+          "outcome": "Hanwha Life Esports",
+          "their_entry_price": 0.76,
+          "current_price": 0.765,
+          "fair_value_estimate": 0.755,
+          "suggested_entry_range": [
+            0.748,
+            0.768
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.76 -> 0.77); replicating their entry is still reasonably representative.",
+          "conviction": 0.0965,
+          "pick_score": 0.0965,
+          "recommended": false,
+          "their_position_value": 7783.9527
+        },
+        {
+          "market_title": "Map Handicap: NS (-1.5) vs ZETA DIVISION (+1.5)",
+          "outcome": "Nongshim RedForce",
+          "their_entry_price": 0.5191,
+          "current_price": 0.555,
+          "fair_value_estimate": 0.555,
+          "suggested_entry_range": [
+            0.519,
+            0.555
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.52 -> 0.56); replicating their entry is still reasonably representative.",
+          "conviction": 0.0951,
+          "pick_score": 0.0951,
+          "recommended": false,
+          "their_position_value": 6475.8553
+        },
+        {
+          "market_title": "Valorant: Fnatic vs Team Heretics (BO3) - VCT EMEA Group Omega",
+          "outcome": "Team Heretics",
+          "their_entry_price": 0.53,
+          "current_price": 0.555,
+          "fair_value_estimate": 0.555,
+          "suggested_entry_range": [
+            0.53,
+            0.555
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.53 -> 0.56); replicating their entry is still reasonably representative.",
+          "conviction": 0.0791,
+          "pick_score": 0.0791,
+          "recommended": false,
+          "their_position_value": 5333.0407
+        },
+        {
+          "market_title": "Game Handicap: G2 (-1.5) vs SK Gaming (+1.5)",
+          "outcome": "G2 Esports",
+          "their_entry_price": 0.65,
+          "current_price": 0.675,
+          "fair_value_estimate": 0.675,
+          "suggested_entry_range": [
+            0.65,
+            0.675
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.65 -> 0.68); replicating their entry is still reasonably representative.",
+          "conviction": 0.0652,
+          "pick_score": 0.0652,
+          "recommended": false,
+          "their_position_value": 3994.6307
+        },
+        {
+          "market_title": "Game Handicap: HLE (-1.5) vs KT Rolster (+1.5)",
+          "outcome": "Hanwha Life Esports",
+          "their_entry_price": 0.4786,
+          "current_price": 0.485,
+          "fair_value_estimate": 0.485,
+          "suggested_entry_range": [
+            0.472,
+            0.492
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.48 -> 0.48); replicating their entry is still reasonably representative.",
+          "conviction": 0.0488,
+          "pick_score": 0.0488,
+          "recommended": false,
+          "their_position_value": 2607.5165
+        },
+        {
+          "market_title": "Counter-Strike: Spirit vs MOUZ (BO5) - BLAST Bounty Playoffs",
+          "outcome": "MOUZ",
+          "their_entry_price": 0.21,
+          "current_price": 0.205,
+          "fair_value_estimate": 0.205,
+          "suggested_entry_range": [
+            0.197,
+            0.217
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.21 -> 0.20); replicating their entry is still reasonably representative.",
+          "conviction": 0.0319,
+          "pick_score": 0.0319,
+          "recommended": false,
+          "their_position_value": 1537.4923
+        },
+        {
+          "market_title": "Valorant: VARREL vs DRX (BO3) - VCT Pacific Group Omega",
+          "outcome": "DRX",
+          "their_entry_price": 0.5724,
+          "current_price": 0.41,
+          "fair_value_estimate": 0.365,
+          "suggested_entry_range": [
+            0.387,
+            0.55
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.16 (28%) since their entry of 0.57 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.1136,
+          "pick_score": 0.0227,
+          "recommended": false,
+          "their_position_value": 8291.0085
+        },
+        {
+          "market_title": "Will MOUZ Win BLAST Bounty 2026 Season 2?",
+          "outcome": "Yes",
+          "their_entry_price": 0.2193,
+          "current_price": 0.2055,
+          "fair_value_estimate": 0.2055,
+          "suggested_entry_range": [
+            0.202,
+            0.222
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.22 -> 0.21); replicating their entry is still reasonably representative.",
+          "conviction": 0.0188,
+          "pick_score": 0.0188,
+          "recommended": false,
+          "their_position_value": 1223.083
+        }
+      ]
     }
   ]
 }
