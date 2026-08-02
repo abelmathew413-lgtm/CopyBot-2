@@ -437,20 +437,28 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-02T12:15:03.262226+00:00",
-  "duration_seconds": 374.6,
-  "n_candidates_discovered": 1481,
+  "generated_at": "2026-08-02T14:45:10.240322+00:00",
+  "duration_seconds": 305.3,
+  "n_candidates_discovered": 1524,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 5,
-  "n_errors": 2,
+  "n_passed_filters": 3,
+  "n_errors": 4,
   "errors": [
     {
       "wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
     },
     {
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
+    },
+    {
       "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x27f738fe203827445690339104aae35b20bc44b0"
+    },
+    {
+      "wallet": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
     }
   ],
   "wallets": [
@@ -486,53 +494,36 @@
         "n_distinct_markets": 37,
         "capital_concentration_hhi": 0.0363,
         "win_rate_adj": 0.9059,
-        "avg_trades_per_day_30d": 5.67
+        "avg_trades_per_day_30d": 5.73
       },
       "radar": {
-        "account_age_days": 17.5,
-        "portfolio_value": 53693.78,
-        "capital_efficiency": 0.2642,
-        "best_leaderboard_rank": 30,
+        "account_age_days": 17.6,
+        "portfolio_value": 53549.96,
+        "capital_efficiency": 0.2621,
+        "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 35,
+      "open_positions_count": 36,
       "entry_recommendations": [
         {
-          "market_title": "National Bank Open: Lucrezia Stefanini vs Camila Osorio",
-          "outcome": "Camila Osorio",
-          "their_entry_price": 0.6694,
-          "current_price": 0.6949,
-          "fair_value_estimate": 0.695,
+          "market_title": "Chicago White Sox vs. Tampa Bay Rays: O/U 7.5",
+          "outcome": "Under",
+          "their_entry_price": 0.5,
+          "current_price": 0.525,
+          "fair_value_estimate": 0.525,
           "suggested_entry_range": [
-            0.669,
-            0.695
+            0.5,
+            0.525
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.67 -> 0.69); replicating their entry is still reasonably representative.",
-          "conviction": 0.0599,
-          "pick_score": 0.0599,
+          "note": "Price is close to their entry (0.50 -> 0.53); replicating their entry is still reasonably representative.",
+          "conviction": 0.0691,
+          "pick_score": 0.0691,
           "recommended": true,
-          "their_position_value": 774.6536
-        },
-        {
-          "market_title": "LoL: KT Rolster vs Hanwha Life Esports (BO3) - LCK Round 3-4 Legend Group",
-          "outcome": "Hanwha Life Esports",
-          "their_entry_price": 0.77,
-          "current_price": 0.425,
-          "fair_value_estimate": 0.425,
-          "suggested_entry_range": [
-            0.425,
-            0.77
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.35 (45%) since their entry of 0.77 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0666,
-          "pick_score": 0.0133,
-          "recommended": true,
-          "their_position_value": 4675
+          "their_position_value": 3150
         },
         {
           "market_title": "Los Angeles Sparks vs. Portland Fire: O/U 186.5",
@@ -546,141 +537,29 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.53 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.0125,
-          "pick_score": 0.0125,
+          "conviction": 0.0622,
+          "pick_score": 0.0622,
           "recommended": true,
-          "their_position_value": 762.6173
-        }
-      ]
-    },
-    {
-      "wallet": "0xe40ecff63ec661d218a86c048186ac83389a9770",
-      "userName": "lllllllIlll",
-      "display_name": "lllllllIlll",
-      "profile_url": "https://polymarket.com/@lllllllIlll",
-      "score": {
-        "composite": 0.5133,
-        "score_100": 76,
-        "kelly_edge": 0.6451,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0122,
-        "n_clv_with_data": 25,
-        "n_clv_attempted": 40,
-        "sharpe": 1.2625,
-        "roi_lifetime": 0.3555,
-        "roi_180d": 0.3555,
-        "roi_90d": 0.3555,
-        "roi_30d": 0.3786,
-        "max_drawdown_fraction": 0.006,
-        "n_resolved": 113,
-        "n_distinct_markets": 106,
-        "capital_concentration_hhi": 0.0174,
-        "win_rate_adj": 0.8665,
-        "avg_trades_per_day_30d": 1.2
-      },
-      "radar": {
-        "account_age_days": 66.4,
-        "portfolio_value": 27950.67,
-        "capital_efficiency": 0.2063,
-        "best_leaderboard_rank": 32,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 76,
-      "entry_recommendations": [
-        {
-          "market_title": "Counter-Strike: Spirit vs MOUZ (BO5) - BLAST Bounty Playoffs",
-          "outcome": "Spirit",
-          "their_entry_price": 0.79,
-          "current_price": 0.335,
-          "fair_value_estimate": 0.295,
-          "suggested_entry_range": [
-            0.315,
-            0.77
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.46 (58%) since their entry of 0.79 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.037,
-          "pick_score": 0.0074,
-          "recommended": true,
-          "their_position_value": 3350
+          "their_position_value": 2125.8
         },
         {
-          "market_title": "Map Handicap: TS (-1.5) vs MOUZ (+1.5)",
-          "outcome": "Spirit",
-          "their_entry_price": 0.61,
-          "current_price": 0.06,
-          "fair_value_estimate": 0.02,
+          "market_title": "National Bank Open: Lucrezia Stefanini vs Camila Osorio",
+          "outcome": "Camila Osorio",
+          "their_entry_price": 0.6694,
+          "current_price": 0.6949,
+          "fair_value_estimate": 0.695,
           "suggested_entry_range": [
-            0.04,
-            0.59
+            0.669,
+            0.695
           ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.55 (90%) since their entry of 0.61 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.012,
-          "pick_score": 0.0024,
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.67 -> 0.69); replicating their entry is still reasonably representative.",
+          "conviction": 0.0087,
+          "pick_score": 0.0087,
           "recommended": true,
-          "their_position_value": 1293.452
+          "their_position_value": 774.6536
         }
       ]
-    },
-    {
-      "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
-      "userName": "ThornyDevil",
-      "display_name": "ThornyDevil",
-      "profile_url": "https://polymarket.com/@ThornyDevil",
-      "score": {
-        "composite": 0.4387,
-        "score_100": 72,
-        "kelly_edge": 0.2457,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.046,
-        "n_clv_with_data": 34,
-        "n_clv_attempted": 34,
-        "sharpe": 0.8299,
-        "roi_lifetime": 0.2927,
-        "roi_180d": 0.2927,
-        "roi_90d": 0.2927,
-        "roi_30d": 0.2927,
-        "max_drawdown_fraction": 0.017,
-        "n_resolved": 34,
-        "n_distinct_markets": 29,
-        "capital_concentration_hhi": 0.0599,
-        "win_rate_adj": 0.6649,
-        "avg_trades_per_day_30d": 3.47
-      },
-      "radar": {
-        "account_age_days": 4.2,
-        "portfolio_value": 41818.47,
-        "capital_efficiency": 0.2085,
-        "best_leaderboard_rank": 42,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 21,
-      "entry_recommendations": []
     },
     {
       "wallet": "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
@@ -717,10 +596,10 @@
         "avg_trades_per_day_30d": 23.8
       },
       "radar": {
-        "account_age_days": 202.6,
+        "account_age_days": 202.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.0988,
-        "best_leaderboard_rank": 44,
+        "best_leaderboard_rank": 43,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -730,14 +609,14 @@
       "entry_recommendations": []
     },
     {
-      "wallet": "0x09933d426d714890588f597eac833dbd947e525f",
-      "userName": "AtlanticTrading",
-      "display_name": "AtlanticTrading",
-      "profile_url": "https://polymarket.com/@AtlanticTrading",
+      "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
+      "userName": "ThornyDevil",
+      "display_name": "ThornyDevil",
+      "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.3089,
-        "score_100": 66,
-        "kelly_edge": -0.0562,
+        "composite": 0.2805,
+        "score_100": 64,
+        "kelly_edge": -0.1031,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -748,153 +627,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0475,
+        "clv": 0.0467,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
-        "sharpe": 0.1153,
-        "roi_lifetime": 0.1253,
-        "roi_180d": 0.1253,
-        "roi_90d": 0.1253,
-        "roi_30d": 0.1253,
-        "max_drawdown_fraction": 0.0597,
-        "n_resolved": 134,
-        "n_distinct_markets": 134,
-        "capital_concentration_hhi": 0.0121,
-        "win_rate_adj": 0.4457,
-        "avg_trades_per_day_30d": 4.67
+        "sharpe": 0.2022,
+        "roi_lifetime": 0.1141,
+        "roi_180d": 0.1141,
+        "roi_90d": 0.1141,
+        "roi_30d": 0.1141,
+        "max_drawdown_fraction": 0.115,
+        "n_resolved": 49,
+        "n_distinct_markets": 41,
+        "capital_concentration_hhi": 0.041,
+        "win_rate_adj": 0.4927,
+        "avg_trades_per_day_30d": 3.57
       },
       "radar": {
-        "account_age_days": 11.8,
-        "portfolio_value": 87917.49,
-        "capital_efficiency": 0.1127,
-        "best_leaderboard_rank": 46,
+        "account_age_days": 4.3,
+        "portfolio_value": 37578.51,
+        "capital_efficiency": 0.105,
+        "best_leaderboard_rank": 42,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 12,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: Top Esports vs JD Gaming (BO3) - LPL Group Ascend",
-          "outcome": "JD Gaming",
-          "their_entry_price": 0.4649,
-          "current_price": 0.465,
-          "fair_value_estimate": 0.455,
-          "suggested_entry_range": [
-            0.45,
-            0.47
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.46 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.1705,
-          "pick_score": 0.1705,
-          "recommended": true,
-          "their_position_value": 9299.8957
-        },
-        {
-          "market_title": "Valorant: Fnatic vs Team Heretics (BO3) - VCT EMEA Group Omega",
-          "outcome": "Team Heretics",
-          "their_entry_price": 0.53,
-          "current_price": 0.555,
-          "fair_value_estimate": 0.555,
-          "suggested_entry_range": [
-            0.53,
-            0.555
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.53 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.1135,
-          "pick_score": 0.1135,
-          "recommended": true,
-          "their_position_value": 5333.0407
-        },
-        {
-          "market_title": "Game Handicap: G2 (-1.5) vs SK Gaming (+1.5)",
-          "outcome": "G2 Esports",
-          "their_entry_price": 0.65,
-          "current_price": 0.675,
-          "fair_value_estimate": 0.675,
-          "suggested_entry_range": [
-            0.65,
-            0.675
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.65 -> 0.68); replicating their entry is still reasonably representative.",
-          "conviction": 0.0607,
-          "pick_score": 0.0607,
-          "recommended": true,
-          "their_position_value": 3994.6307
-        },
-        {
-          "market_title": "Map Handicap: TS (-1.5) vs MOUZ (+1.5)",
-          "outcome": "MOUZ",
-          "their_entry_price": 0.4,
-          "current_price": 0.94,
-          "fair_value_estimate": 0.98,
-          "suggested_entry_range": [
-            0.42,
-            0.96
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.54 (135%) since their entry of 0.40 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.2138,
-          "pick_score": 0.0428,
-          "recommended": false,
-          "their_position_value": 18799.9435
-        },
-        {
-          "market_title": "Counter-Strike: Spirit vs MOUZ (BO5) - BLAST Bounty Playoffs",
-          "outcome": "MOUZ",
-          "their_entry_price": 0.3199,
-          "current_price": 0.665,
-          "fair_value_estimate": 0.695,
-          "suggested_entry_range": [
-            0.335,
-            0.68
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.35 (108%) since their entry of 0.32 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.1955,
-          "pick_score": 0.0391,
-          "recommended": false,
-          "their_position_value": 9974.9058
-        },
-        {
-          "market_title": "LoL: KT Rolster vs Hanwha Life Esports (BO3) - LCK Round 3-4 Legend Group",
-          "outcome": "Hanwha Life Esports",
-          "their_entry_price": 0.76,
-          "current_price": 0.425,
-          "fair_value_estimate": 0.435,
-          "suggested_entry_range": [
-            0.43,
-            0.765
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.34 (44%) since their entry of 0.76 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.1058,
-          "pick_score": 0.0212,
-          "recommended": false,
-          "their_position_value": 4324.4182
-        },
-        {
-          "market_title": "Will MOUZ Win BLAST Bounty 2026 Season 2?",
-          "outcome": "Yes",
-          "their_entry_price": 0.2193,
-          "current_price": 0.6705,
-          "fair_value_estimate": 0.6925,
-          "suggested_entry_range": [
-            0.23,
-            0.681
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.45 (206%) since their entry of 0.22 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0492,
-          "pick_score": 0.0098,
-          "recommended": false,
-          "their_position_value": 3990.6432
-        }
-      ]
+      "open_positions_count": 9,
+      "entry_recommendations": []
     }
   ]
 }</script>
