@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-02T00:09:56.497072+00:00",
-  "duration_seconds": 442.1,
-  "n_candidates_discovered": 1542,
+  "generated_at": "2026-08-02T04:33:40.103974+00:00",
+  "duration_seconds": 311.2,
+  "n_candidates_discovered": 1489,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 4,
+  "n_passed_filters": 3,
   "n_errors": 1,
   "errors": [
     {
-      "wallet": "0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b"
+      "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x27f738fe203827445690339104aae35b20bc44b0"
     }
   ],
   "wallets": [
@@ -47,10 +47,10 @@
         "avg_trades_per_day_30d": 5.53
       },
       "radar": {
-        "account_age_days": 17.0,
+        "account_age_days": 17.2,
         "portfolio_value": 30909.01,
         "capital_efficiency": 0.2712,
-        "best_leaderboard_rank": 38,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -83,9 +83,9 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.4227,
-        "score_100": 71,
-        "kelly_edge": 0.2318,
+        "composite": 0.4387,
+        "score_100": 72,
+        "kelly_edge": 0.2457,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -96,32 +96,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0372,
-        "n_clv_with_data": 33,
-        "n_clv_attempted": 33,
-        "sharpe": 0.811,
-        "roi_lifetime": 0.2861,
-        "roi_180d": 0.2861,
-        "roi_90d": 0.2861,
-        "roi_30d": 0.2861,
-        "max_drawdown_fraction": 0.0195,
-        "n_resolved": 33,
-        "n_distinct_markets": 28,
-        "capital_concentration_hhi": 0.057,
-        "win_rate_adj": 0.6561,
+        "clv": 0.046,
+        "n_clv_with_data": 34,
+        "n_clv_attempted": 34,
+        "sharpe": 0.8299,
+        "roi_lifetime": 0.2927,
+        "roi_180d": 0.2927,
+        "roi_90d": 0.2927,
+        "roi_30d": 0.2927,
+        "max_drawdown_fraction": 0.017,
+        "n_resolved": 34,
+        "n_distinct_markets": 29,
+        "capital_concentration_hhi": 0.0599,
+        "win_rate_adj": 0.6649,
         "avg_trades_per_day_30d": 3.17
       },
       "radar": {
-        "account_age_days": 3.7,
-        "portfolio_value": 78164.33,
-        "capital_efficiency": 0.1945,
-        "best_leaderboard_rank": 44,
+        "account_age_days": 3.9,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2284,
+        "best_leaderboard_rank": 47,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 14,
+      "open_positions_count": 13,
       "entry_recommendations": []
     },
     {
@@ -159,63 +159,16 @@
         "avg_trades_per_day_30d": 23.8
       },
       "radar": {
-        "account_age_days": 202.1,
+        "account_age_days": 202.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.0988,
-        "best_leaderboard_rank": 45,
+        "best_leaderboard_rank": 49,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 46,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x1f7105a18d9f36aef7c83e5df210e57cf487b2e4",
-      "userName": "HalandinhoNazario",
-      "display_name": "HalandinhoNazario",
-      "profile_url": "https://polymarket.com/@HalandinhoNazario",
-      "score": {
-        "composite": 0.4081,
-        "score_100": 71,
-        "kelly_edge": 0.5808,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0673,
-        "n_clv_with_data": 40,
-        "n_clv_attempted": 40,
-        "sharpe": 0.3972,
-        "roi_lifetime": 0.0828,
-        "roi_180d": 0.0828,
-        "roi_90d": 0.0828,
-        "roi_30d": 0.0916,
-        "max_drawdown_fraction": 0.0054,
-        "n_resolved": 643,
-        "n_distinct_markets": 564,
-        "capital_concentration_hhi": 0.0115,
-        "win_rate_adj": 0.7309,
-        "avg_trades_per_day_30d": 44.17
-      },
-      "radar": {
-        "account_age_days": 72.0,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.0811,
-        "best_leaderboard_rank": 27,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 27,
       "entry_recommendations": []
     }
   ]
