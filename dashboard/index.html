@@ -437,13 +437,18 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-03T19:54:57.252917+00:00",
-  "duration_seconds": 341.5,
-  "n_candidates_discovered": 1546,
+  "generated_at": "2026-08-03T21:18:27.700556+00:00",
+  "duration_seconds": 391.2,
+  "n_candidates_discovered": 1512,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 3,
-  "n_errors": 0,
-  "errors": [],
+  "n_errors": 1,
+  "errors": [
+    {
+      "wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+    }
+  ],
   "wallets": [
     {
       "wallet": "0x917182c1eb3257b2e2e4959d48228af78bfe9e5f",
@@ -498,9 +503,9 @@
       "display_name": "Spicer",
       "profile_url": "https://polymarket.com/@Spicer",
       "score": {
-        "composite": 0.4031,
-        "score_100": 70,
-        "kelly_edge": 0.5593,
+        "composite": 0.4423,
+        "score_100": 72,
+        "kelly_edge": 0.5947,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -511,26 +516,26 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0756,
-        "n_clv_with_data": 19,
-        "n_clv_attempted": 32,
-        "sharpe": 1.854,
-        "roi_lifetime": 0.3241,
-        "roi_180d": 0.354,
-        "roi_90d": 0.354,
-        "roi_30d": 0.354,
-        "max_drawdown_fraction": 0.008,
-        "n_resolved": 32,
-        "n_distinct_markets": 31,
-        "capital_concentration_hhi": 0.102,
-        "win_rate_adj": 0.8426,
-        "avg_trades_per_day_30d": 7.9
+        "clv": -0.0374,
+        "n_clv_with_data": 20,
+        "n_clv_attempted": 33,
+        "sharpe": 1.7856,
+        "roi_lifetime": 0.329,
+        "roi_180d": 0.3593,
+        "roi_90d": 0.3593,
+        "roi_30d": 0.3593,
+        "max_drawdown_fraction": 0.0079,
+        "n_resolved": 33,
+        "n_distinct_markets": 32,
+        "capital_concentration_hhi": 0.0995,
+        "win_rate_adj": 0.8468,
+        "avg_trades_per_day_30d": 7.97
       },
       "radar": {
-        "account_age_days": 1186.0,
-        "portfolio_value": 6158.37,
-        "capital_efficiency": 0.2433,
-        "best_leaderboard_rank": 30,
+        "account_age_days": 1186.1,
+        "portfolio_value": 1632.65,
+        "capital_efficiency": 0.2464,
+        "best_leaderboard_rank": 23,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -539,21 +544,21 @@
       "open_positions_count": 17,
       "entry_recommendations": [
         {
-          "market_title": "Dota 2: Rune Eaters vs LGD Gaming - Game 2 Winner",
-          "outcome": "Rune Eaters",
-          "their_entry_price": 0.3108,
-          "current_price": 0.505,
-          "fair_value_estimate": 0.445,
+          "market_title": "Dota 2: Rune Eaters vs LGD Gaming (BO3) - Games of the Future Playoffs",
+          "outcome": "LGD Gaming",
+          "their_entry_price": 0.6162,
+          "current_price": 0.085,
+          "fair_value_estimate": 0.095,
           "suggested_entry_range": [
-            0.281,
-            0.475
+            0.09,
+            0.621
           ],
           "flagged_chasing": true,
-          "note": "Price has moved up 0.19 (62%) since their entry of 0.31 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0212,
-          "pick_score": 0.0042,
+          "note": "Price has moved down 0.53 (86%) since their entry of 0.62 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0057,
+          "pick_score": 0.0011,
           "recommended": true,
-          "their_position_value": 6158.37
+          "their_position_value": 1632.6494
         }
       ]
     },
@@ -563,9 +568,9 @@
       "display_name": "gxxyy",
       "profile_url": "https://polymarket.com/@gxxyy",
       "score": {
-        "composite": 0.3786,
-        "score_100": 69,
-        "kelly_edge": 0.4072,
+        "composite": 0.3864,
+        "score_100": 70,
+        "kelly_edge": 0.4199,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -576,68 +581,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0762,
+        "clv": -0.0734,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.8389,
-        "roi_lifetime": 0.2304,
-        "roi_180d": 0.2304,
-        "roi_90d": 0.2304,
-        "roi_30d": 0.2521,
+        "sharpe": 0.8693,
+        "roi_lifetime": 0.2364,
+        "roi_180d": 0.2364,
+        "roi_90d": 0.2364,
+        "roi_30d": 0.2542,
         "max_drawdown_fraction": 0.0056,
-        "n_resolved": 335,
-        "n_distinct_markets": 294,
-        "capital_concentration_hhi": 0.0061,
-        "win_rate_adj": 0.7859,
-        "avg_trades_per_day_30d": 41.83
+        "n_resolved": 337,
+        "n_distinct_markets": 296,
+        "capital_concentration_hhi": 0.006,
+        "win_rate_adj": 0.7904,
+        "avg_trades_per_day_30d": 42.77
       },
       "radar": {
         "account_age_days": 62.4,
-        "portfolio_value": 5970.41,
-        "capital_efficiency": 0.1616,
-        "best_leaderboard_rank": 33,
+        "portfolio_value": 13.32,
+        "capital_efficiency": 0.1661,
+        "best_leaderboard_rank": 23,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 143,
-      "entry_recommendations": [
-        {
-          "market_title": "Dota 2: Rune Eaters vs LGD Gaming - Game 2 Winner",
-          "outcome": "LGD Gaming",
-          "their_entry_price": 0.7293,
-          "current_price": 0.585,
-          "fair_value_estimate": 0.46,
-          "suggested_entry_range": [
-            0.522,
-            0.667
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.14 (20%) since their entry of 0.73 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0118,
-          "pick_score": 0.0024,
-          "recommended": true,
-          "their_position_value": 3510
-        },
-        {
-          "market_title": "Dota 2: Rune Eaters vs LGD Gaming - Game 2 Winner",
-          "outcome": "Rune Eaters",
-          "their_entry_price": 0.1998,
-          "current_price": 0.415,
-          "fair_value_estimate": 0.54,
-          "suggested_entry_range": [
-            0.262,
-            0.477
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.22 (108%) since their entry of 0.20 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0083,
-          "pick_score": 0.0017,
-          "recommended": true,
-          "their_position_value": 2460.4001
-        }
-      ]
+      "entry_recommendations": []
     }
   ]
 }</script>
