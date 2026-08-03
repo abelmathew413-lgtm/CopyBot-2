@@ -437,13 +437,17 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-02T22:05:59.708589+00:00",
-  "duration_seconds": 308.3,
-  "n_candidates_discovered": 1468,
+  "generated_at": "2026-08-03T00:08:18.832958+00:00",
+  "duration_seconds": 281.6,
+  "n_candidates_discovered": 1474,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 4,
-  "n_errors": 1,
+  "n_errors": 2,
   "errors": [
+    {
+      "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x27f738fe203827445690339104aae35b20bc44b0"
+    },
     {
       "wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
@@ -485,10 +489,10 @@
         "avg_trades_per_day_30d": 2.63
       },
       "radar": {
-        "account_age_days": 50.5,
+        "account_age_days": 50.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.3274,
-        "best_leaderboard_rank": 28,
+        "best_leaderboard_rank": 31,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -498,14 +502,14 @@
       "entry_recommendations": []
     },
     {
-      "wallet": "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
-      "userName": "Eztennis",
-      "display_name": "Eztennis",
-      "profile_url": "https://polymarket.com/@Eztennis",
+      "wallet": "0x58d71d66722aa4c1e6ebde57071693667d2917e1",
+      "userName": "ninasuskevic",
+      "display_name": "ninasuskevic",
+      "profile_url": "https://polymarket.com/@ninasuskevic",
       "score": {
-        "composite": 0.4191,
-        "score_100": 71,
-        "kelly_edge": 0.1444,
+        "composite": 0.3994,
+        "score_100": 70,
+        "kelly_edge": 0.027,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -516,33 +520,51 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.1314,
-        "n_clv_with_data": 40,
+        "clv": 0.0508,
+        "n_clv_with_data": 13,
         "n_clv_attempted": 40,
-        "sharpe": 0.209,
-        "roi_lifetime": 0.1361,
-        "roi_180d": 0.1355,
-        "roi_90d": 0.135,
-        "roi_30d": 0.1853,
-        "max_drawdown_fraction": 0.0412,
-        "n_resolved": 249,
-        "n_distinct_markets": 243,
-        "capital_concentration_hhi": 0.0164,
-        "win_rate_adj": 0.5527,
-        "avg_trades_per_day_30d": 23.6
+        "sharpe": 0.2801,
+        "roi_lifetime": 0.2321,
+        "roi_180d": 0.2346,
+        "roi_90d": 0.2346,
+        "roi_30d": 0.2273,
+        "max_drawdown_fraction": 0.0284,
+        "n_resolved": 282,
+        "n_distinct_markets": 281,
+        "capital_concentration_hhi": 0.1543,
+        "win_rate_adj": 0.617,
+        "avg_trades_per_day_30d": 1.27
       },
       "radar": {
-        "account_age_days": 203.0,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.0988,
-        "best_leaderboard_rank": 49,
+        "account_age_days": 635.2,
+        "portfolio_value": 8215.97,
+        "capital_efficiency": 0.1763,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 46,
-      "entry_recommendations": []
+      "open_positions_count": 19,
+      "entry_recommendations": [
+        {
+          "market_title": "Canadian Open: Aleksandar Kovacevic vs Nuno Borges",
+          "outcome": "Nuno Borges",
+          "their_entry_price": 0.7799,
+          "current_price": 0.75,
+          "fair_value_estimate": 0.75,
+          "suggested_entry_range": [
+            0.75,
+            0.78
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.78 -> 0.75); replicating their entry is still reasonably representative.",
+          "conviction": 0.0533,
+          "pick_score": 0.0533,
+          "recommended": true,
+          "their_position_value": 8215.9663
+        }
+      ]
     },
     {
       "wallet": "0x09933d426d714890588f597eac833dbd947e525f",
@@ -550,9 +572,9 @@
       "display_name": "AtlanticTrading",
       "profile_url": "https://polymarket.com/@AtlanticTrading",
       "score": {
-        "composite": 0.3159,
-        "score_100": 66,
-        "kelly_edge": -0.0381,
+        "composite": 0.3295,
+        "score_100": 67,
+        "kelly_edge": -0.0332,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -563,51 +585,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0563,
+        "clv": 0.068,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
-        "sharpe": 0.112,
-        "roi_lifetime": 0.1164,
-        "roi_180d": 0.1164,
-        "roi_90d": 0.1164,
-        "roi_30d": 0.1164,
-        "max_drawdown_fraction": 0.0532,
-        "n_resolved": 148,
-        "n_distinct_markets": 148,
-        "capital_concentration_hhi": 0.0106,
-        "win_rate_adj": 0.4469,
-        "avg_trades_per_day_30d": 5.07
+        "sharpe": 0.1178,
+        "roi_lifetime": 0.1197,
+        "roi_180d": 0.1197,
+        "roi_90d": 0.1197,
+        "roi_30d": 0.1197,
+        "max_drawdown_fraction": 0.0527,
+        "n_resolved": 149,
+        "n_distinct_markets": 149,
+        "capital_concentration_hhi": 0.0105,
+        "win_rate_adj": 0.4503,
+        "avg_trades_per_day_30d": 5.1
       },
       "radar": {
-        "account_age_days": 12.2,
-        "portfolio_value": 46617.32,
-        "capital_efficiency": 0.11,
-        "best_leaderboard_rank": 45,
+        "account_age_days": 12.3,
+        "portfolio_value": 27532.96,
+        "capital_efficiency": 0.1142,
+        "best_leaderboard_rank": 48,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 6,
-      "entry_recommendations": [
-        {
-          "market_title": "Map Handicap: NRG (-1.5) vs SportsBetExpert (+1.5)",
-          "outcome": "SportsBetExpert",
-          "their_entry_price": 0.49,
-          "current_price": 0.485,
-          "fair_value_estimate": 0.46,
-          "suggested_entry_range": [
-            0.465,
-            0.485
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.49 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.4556,
-          "pick_score": 0.4556,
-          "recommended": true,
-          "their_position_value": 4075.9957
-        }
-      ]
+      "open_positions_count": 5,
+      "entry_recommendations": []
     },
     {
       "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
@@ -615,9 +619,9 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.2696,
+        "composite": 0.2653,
         "score_100": 64,
-        "kelly_edge": -0.1538,
+        "kelly_edge": -0.1584,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -628,26 +632,26 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0389,
+        "clv": 0.0317,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
-        "sharpe": 0.1236,
-        "roi_lifetime": 0.1047,
-        "roi_180d": 0.1047,
-        "roi_90d": 0.1047,
-        "roi_30d": 0.1047,
-        "max_drawdown_fraction": 0.1038,
-        "n_resolved": 61,
-        "n_distinct_markets": 53,
-        "capital_concentration_hhi": 0.0347,
-        "win_rate_adj": 0.4812,
-        "avg_trades_per_day_30d": 4.2
+        "sharpe": 0.1254,
+        "roi_lifetime": 0.1068,
+        "roi_180d": 0.1068,
+        "roi_90d": 0.1068,
+        "roi_30d": 0.1068,
+        "max_drawdown_fraction": 0.1005,
+        "n_resolved": 63,
+        "n_distinct_markets": 54,
+        "capital_concentration_hhi": 0.0335,
+        "win_rate_adj": 0.4798,
+        "avg_trades_per_day_30d": 4.4
       },
       "radar": {
-        "account_age_days": 4.6,
-        "portfolio_value": 47134.85,
-        "capital_efficiency": 0.0972,
-        "best_leaderboard_rank": 34,
+        "account_age_days": 4.7,
+        "portfolio_value": 63739.3,
+        "capital_efficiency": 0.0987,
+        "best_leaderboard_rank": 32,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
