@@ -1,30 +1,21 @@
 {
-  "generated_at": "2026-08-03T00:08:18.832958+00:00",
-  "duration_seconds": 281.6,
-  "n_candidates_discovered": 1474,
+  "generated_at": "2026-08-03T04:40:36.631970+00:00",
+  "duration_seconds": 313.7,
+  "n_candidates_discovered": 1688,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 4,
-  "n_errors": 2,
-  "errors": [
-    {
-      "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x27f738fe203827445690339104aae35b20bc44b0"
-    },
-    {
-      "wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
-    }
-  ],
+  "n_passed_filters": 5,
+  "n_errors": 0,
+  "errors": [],
   "wallets": [
     {
-      "wallet": "0xbb5fbe810633ab08d106b82db84418a0e2ca2e21",
-      "userName": "highnetworth",
-      "display_name": "highnetworth",
-      "profile_url": "https://polymarket.com/@highnetworth",
+      "wallet": "0x917182c1eb3257b2e2e4959d48228af78bfe9e5f",
+      "userName": "0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
+      "display_name": "0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
+      "profile_url": "https://polymarket.com/@0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
       "score": {
-        "composite": 0.6665,
-        "score_100": 83,
-        "kelly_edge": 0.4075,
+        "composite": 0.4817,
+        "score_100": 74,
+        "kelly_edge": 0.4009,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -35,43 +26,43 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.2973,
-        "n_clv_with_data": 16,
+        "clv": 0.0065,
+        "n_clv_with_data": 14,
         "n_clv_attempted": 18,
-        "sharpe": 1.8153,
-        "roi_lifetime": 0.4844,
-        "roi_180d": 0.4844,
-        "roi_90d": 0.4844,
-        "roi_30d": 0.4842,
-        "max_drawdown_fraction": 0.0001,
+        "sharpe": 1.6968,
+        "roi_lifetime": 0.6288,
+        "roi_180d": 0.6288,
+        "roi_90d": 0.6313,
+        "roi_30d": 0.6299,
+        "max_drawdown_fraction": 0.0011,
         "n_resolved": 18,
-        "n_distinct_markets": 18,
-        "capital_concentration_hhi": 0.0763,
-        "win_rate_adj": 0.672,
-        "avg_trades_per_day_30d": 2.63
+        "n_distinct_markets": 17,
+        "capital_concentration_hhi": 0.1421,
+        "win_rate_adj": 0.6078,
+        "avg_trades_per_day_30d": 4.13
       },
       "radar": {
-        "account_age_days": 50.6,
+        "account_age_days": 276.0,
         "portfolio_value": 0,
-        "capital_efficiency": 0.3274,
-        "best_leaderboard_rank": 31,
+        "capital_efficiency": 0.2152,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 6,
+      "open_positions_count": 30,
       "entry_recommendations": []
     },
     {
-      "wallet": "0x58d71d66722aa4c1e6ebde57071693667d2917e1",
-      "userName": "ninasuskevic",
-      "display_name": "ninasuskevic",
-      "profile_url": "https://polymarket.com/@ninasuskevic",
+      "wallet": "0x3954e1c6b7bc5645d9d3425a6f4490889ef122d9",
+      "userName": "Spicer",
+      "display_name": "Spicer",
+      "profile_url": "https://polymarket.com/@Spicer",
       "score": {
-        "composite": 0.3994,
+        "composite": 0.4031,
         "score_100": 70,
-        "kelly_edge": 0.027,
+        "kelly_edge": 0.5593,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -82,97 +73,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0508,
-        "n_clv_with_data": 13,
-        "n_clv_attempted": 40,
-        "sharpe": 0.2801,
-        "roi_lifetime": 0.2321,
-        "roi_180d": 0.2346,
-        "roi_90d": 0.2346,
-        "roi_30d": 0.2273,
-        "max_drawdown_fraction": 0.0284,
-        "n_resolved": 282,
-        "n_distinct_markets": 281,
-        "capital_concentration_hhi": 0.1543,
-        "win_rate_adj": 0.617,
-        "avg_trades_per_day_30d": 1.27
+        "clv": -0.0756,
+        "n_clv_with_data": 19,
+        "n_clv_attempted": 32,
+        "sharpe": 1.854,
+        "roi_lifetime": 0.3241,
+        "roi_180d": 0.354,
+        "roi_90d": 0.354,
+        "roi_30d": 0.354,
+        "max_drawdown_fraction": 0.008,
+        "n_resolved": 32,
+        "n_distinct_markets": 31,
+        "capital_concentration_hhi": 0.102,
+        "win_rate_adj": 0.8426,
+        "avg_trades_per_day_30d": 7.63
       },
       "radar": {
-        "account_age_days": 635.2,
-        "portfolio_value": 8215.97,
-        "capital_efficiency": 0.1763,
-        "best_leaderboard_rank": 22,
+        "account_age_days": 1185.4,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2458,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 19,
-      "entry_recommendations": [
-        {
-          "market_title": "Canadian Open: Aleksandar Kovacevic vs Nuno Borges",
-          "outcome": "Nuno Borges",
-          "their_entry_price": 0.7799,
-          "current_price": 0.75,
-          "fair_value_estimate": 0.75,
-          "suggested_entry_range": [
-            0.75,
-            0.78
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.78 -> 0.75); replicating their entry is still reasonably representative.",
-          "conviction": 0.0533,
-          "pick_score": 0.0533,
-          "recommended": true,
-          "their_position_value": 8215.9663
-        }
-      ]
-    },
-    {
-      "wallet": "0x09933d426d714890588f597eac833dbd947e525f",
-      "userName": "AtlanticTrading",
-      "display_name": "AtlanticTrading",
-      "profile_url": "https://polymarket.com/@AtlanticTrading",
-      "score": {
-        "composite": 0.3295,
-        "score_100": 67,
-        "kelly_edge": -0.0332,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.068,
-        "n_clv_with_data": 39,
-        "n_clv_attempted": 40,
-        "sharpe": 0.1178,
-        "roi_lifetime": 0.1197,
-        "roi_180d": 0.1197,
-        "roi_90d": 0.1197,
-        "roi_30d": 0.1197,
-        "max_drawdown_fraction": 0.0527,
-        "n_resolved": 149,
-        "n_distinct_markets": 149,
-        "capital_concentration_hhi": 0.0105,
-        "win_rate_adj": 0.4503,
-        "avg_trades_per_day_30d": 5.1
-      },
-      "radar": {
-        "account_age_days": 12.3,
-        "portfolio_value": 27532.96,
-        "capital_efficiency": 0.1142,
-        "best_leaderboard_rank": 48,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 5,
+      "open_positions_count": 16,
       "entry_recommendations": []
     },
     {
@@ -181,9 +107,9 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.2653,
-        "score_100": 64,
-        "kelly_edge": -0.1584,
+        "composite": 0.3092,
+        "score_100": 66,
+        "kelly_edge": -0.1114,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -194,33 +120,247 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0317,
+        "clv": 0.0575,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
-        "sharpe": 0.1254,
-        "roi_lifetime": 0.1068,
-        "roi_180d": 0.1068,
-        "roi_90d": 0.1068,
-        "roi_30d": 0.1068,
-        "max_drawdown_fraction": 0.1005,
-        "n_resolved": 63,
-        "n_distinct_markets": 54,
-        "capital_concentration_hhi": 0.0335,
-        "win_rate_adj": 0.4798,
+        "sharpe": 0.1645,
+        "roi_lifetime": 0.1174,
+        "roi_180d": 0.1174,
+        "roi_90d": 0.1174,
+        "roi_30d": 0.1174,
+        "max_drawdown_fraction": 0.0929,
+        "n_resolved": 69,
+        "n_distinct_markets": 59,
+        "capital_concentration_hhi": 0.0302,
+        "win_rate_adj": 0.5052,
         "avg_trades_per_day_30d": 4.4
       },
       "radar": {
-        "account_age_days": 4.7,
-        "portfolio_value": 63739.3,
-        "capital_efficiency": 0.0987,
-        "best_leaderboard_rank": 32,
+        "account_age_days": 4.9,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.1174,
+        "best_leaderboard_rank": 50,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 6,
+      "open_positions_count": 0,
       "entry_recommendations": []
+    },
+    {
+      "wallet": "0xba3802d41ad55704b518564e8a13a8346da1fb57",
+      "userName": "matenghehe",
+      "display_name": "matenghehe",
+      "profile_url": "https://polymarket.com/@matenghehe",
+      "score": {
+        "composite": 0.2466,
+        "score_100": 63,
+        "kelly_edge": 0.6383,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": -0.2353,
+        "n_clv_with_data": 39,
+        "n_clv_attempted": 40,
+        "sharpe": 0.6755,
+        "roi_lifetime": 0.1688,
+        "roi_180d": 0.1688,
+        "roi_90d": 0.1688,
+        "roi_30d": 0.173,
+        "max_drawdown_fraction": 0.0021,
+        "n_resolved": 261,
+        "n_distinct_markets": 258,
+        "capital_concentration_hhi": 0.0062,
+        "win_rate_adj": 0.9309,
+        "avg_trades_per_day_30d": 19.87
+      },
+      "radar": {
+        "account_age_days": 56.8,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.1323,
+        "best_leaderboard_rank": 28,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 64,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0x1d3567ad67b1f054160f9d560ca3817038cc94ee",
+      "userName": "fazewinline",
+      "display_name": "fazewinline",
+      "profile_url": "https://polymarket.com/@fazewinline",
+      "score": {
+        "composite": 0.1737,
+        "score_100": 59,
+        "kelly_edge": -0.3386,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": -0.0692,
+        "n_clv_with_data": 11,
+        "n_clv_attempted": 11,
+        "sharpe": 0.372,
+        "roi_lifetime": 0.3722,
+        "roi_180d": 0.3722,
+        "roi_90d": 0.3722,
+        "roi_30d": 0.3722,
+        "max_drawdown_fraction": 0.0125,
+        "n_resolved": 11,
+        "n_distinct_markets": 11,
+        "capital_concentration_hhi": 0.4424,
+        "win_rate_adj": 0.523,
+        "avg_trades_per_day_30d": 1.7
+      },
+      "radar": {
+        "account_age_days": 1.7,
+        "portfolio_value": 5531.75,
+        "capital_efficiency": 0.3381,
+        "best_leaderboard_rank": 36,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 11,
+      "entry_recommendations": [
+        {
+          "market_title": "Clarity Act (H.R.3633) signed into law in 2026?",
+          "outcome": "Yes",
+          "their_entry_price": 0.2984,
+          "current_price": 0.2849,
+          "fair_value_estimate": 0.285,
+          "suggested_entry_range": [
+            0.282,
+            0.302
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.30 -> 0.28); replicating their entry is still reasonably representative.",
+          "conviction": 0.3147,
+          "pick_score": 0.3147,
+          "recommended": true,
+          "their_position_value": 2386.798
+        },
+        {
+          "market_title": "Will Mohamed Salah play in Serie A next?",
+          "outcome": "No",
+          "their_entry_price": 0.9889,
+          "current_price": 0.9895,
+          "fair_value_estimate": 0.9895,
+          "suggested_entry_range": [
+            0.979,
+            0.999
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.99 -> 0.99); replicating their entry is still reasonably representative.",
+          "conviction": 0.0662,
+          "pick_score": 0.0662,
+          "recommended": true,
+          "their_position_value": 500.2526
+        },
+        {
+          "market_title": "Will Mohamed Salah play in MLS next?",
+          "outcome": "No",
+          "their_entry_price": 0.9496,
+          "current_price": 0.949,
+          "fair_value_estimate": 0.9485,
+          "suggested_entry_range": [
+            0.939,
+            0.959
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.95 -> 0.95); replicating their entry is still reasonably representative.",
+          "conviction": 0.066,
+          "pick_score": 0.066,
+          "recommended": true,
+          "their_position_value": 499.6646
+        },
+        {
+          "market_title": "Will Mohamed Salah join Real Madrid?",
+          "outcome": "No",
+          "their_entry_price": 0.998,
+          "current_price": 0.981,
+          "fair_value_estimate": 0.981,
+          "suggested_entry_range": [
+            0.98,
+            0.999
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (1.00 -> 0.98); replicating their entry is still reasonably representative.",
+          "conviction": 0.0659,
+          "pick_score": 0.0659,
+          "recommended": false,
+          "their_position_value": 491.4829
+        },
+        {
+          "market_title": "Will Mohamed Salah join Al-Ittihad?",
+          "outcome": "Yes",
+          "their_entry_price": 0.2198,
+          "current_price": 0.181,
+          "fair_value_estimate": 0.1815,
+          "suggested_entry_range": [
+            0.181,
+            0.22
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.22 -> 0.18); replicating their entry is still reasonably representative.",
+          "conviction": 0.0658,
+          "pick_score": 0.0658,
+          "recommended": false,
+          "their_position_value": 411.583
+        },
+        {
+          "market_title": "Will Tyreek Hill play for the Kansas City Chiefs next?",
+          "outcome": "No",
+          "their_entry_price": 0.8269,
+          "current_price": 0.8335,
+          "fair_value_estimate": 0.8335,
+          "suggested_entry_range": [
+            0.82,
+            0.84
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.83 -> 0.83); replicating their entry is still reasonably representative.",
+          "conviction": 0.0543,
+          "pick_score": 0.0543,
+          "recommended": false,
+          "their_position_value": 100.7951
+        },
+        {
+          "market_title": "Will Mohamed Salah play in Saudi Pro League next?",
+          "outcome": "Yes",
+          "their_entry_price": 0.3329,
+          "current_price": 0.1865,
+          "fair_value_estimate": 0.1865,
+          "suggested_entry_range": [
+            0.186,
+            0.333
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.15 (44%) since their entry of 0.33 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0648,
+          "pick_score": 0.013,
+          "recommended": false,
+          "their_position_value": 140.0231
+        }
+      ]
     }
   ]
 }
