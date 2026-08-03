@@ -1,59 +1,12 @@
 {
-  "generated_at": "2026-08-03T08:44:57.630989+00:00",
-  "duration_seconds": 607.5,
-  "n_candidates_discovered": 1602,
+  "generated_at": "2026-08-03T12:45:07.763548+00:00",
+  "duration_seconds": 778.2,
+  "n_candidates_discovered": 1574,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 6,
+  "n_passed_filters": 4,
   "n_errors": 0,
   "errors": [],
   "wallets": [
-    {
-      "wallet": "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4",
-      "userName": "Winnerdinnerchickenjr",
-      "display_name": "Winnerdinnerchickenjr",
-      "profile_url": "https://polymarket.com/@Winnerdinnerchickenjr",
-      "score": {
-        "composite": 0.4837,
-        "score_100": 74,
-        "kelly_edge": 0.3334,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.023,
-        "n_clv_with_data": 39,
-        "n_clv_attempted": 40,
-        "sharpe": 0.8159,
-        "roi_lifetime": 0.3491,
-        "roi_180d": 0.3491,
-        "roi_90d": 0.3491,
-        "roi_30d": 0.2795,
-        "max_drawdown_fraction": 0.0027,
-        "n_resolved": 75,
-        "n_distinct_markets": 74,
-        "capital_concentration_hhi": 0.0581,
-        "win_rate_adj": 0.6812,
-        "avg_trades_per_day_30d": 4.57
-      },
-      "radar": {
-        "account_age_days": 53.3,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.2077,
-        "best_leaderboard_rank": 25,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 43,
-      "entry_recommendations": []
-    },
     {
       "wallet": "0x917182c1eb3257b2e2e4959d48228af78bfe9e5f",
       "userName": "0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
@@ -89,10 +42,10 @@
         "avg_trades_per_day_30d": 4.1
       },
       "radar": {
-        "account_age_days": 276.1,
+        "account_age_days": 276.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2152,
-        "best_leaderboard_rank": 26,
+        "best_leaderboard_rank": 23,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -136,10 +89,10 @@
         "avg_trades_per_day_30d": 7.63
       },
       "radar": {
-        "account_age_days": 1185.6,
+        "account_age_days": 1185.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2458,
-        "best_leaderboard_rank": 27,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -154,7 +107,7 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.3165,
+        "composite": 0.3185,
         "score_100": 66,
         "kelly_edge": -0.0953,
         "weights_used": {
@@ -167,7 +120,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0624,
+        "clv": 0.0646,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
         "sharpe": 0.1697,
@@ -180,102 +133,55 @@
         "n_distinct_markets": 60,
         "capital_concentration_hhi": 0.0298,
         "win_rate_adj": 0.5115,
-        "avg_trades_per_day_30d": 4.53
+        "avg_trades_per_day_30d": 4.77
       },
       "radar": {
-        "account_age_days": 5.1,
-        "portfolio_value": 1833.28,
-        "capital_efficiency": 0.1175,
-        "best_leaderboard_rank": 52,
+        "account_age_days": 5.2,
+        "portfolio_value": 13408.47,
+        "capital_efficiency": 0.1131,
+        "best_leaderboard_rank": 49,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 2,
+      "open_positions_count": 6,
       "entry_recommendations": [
-        {
-          "market_title": "LoL: Nongshim Red Force vs T1 (BO3) - KeSPA Cup Last Chance Qualifier",
-          "outcome": "Nongshim Red Force",
-          "their_entry_price": 0.3665,
-          "current_price": 0.385,
-          "fair_value_estimate": 0.395,
-          "suggested_entry_range": [
-            0.371,
-            0.391
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.37 -> 0.39); replicating their entry is still reasonably representative.",
-          "conviction": 0.8039,
-          "pick_score": 0.8039,
-          "recommended": true,
-          "their_position_value": 1473.7543
-        },
         {
           "market_title": "LoL: ZYB Esport vs Joblife (BO1) - LFL Regular Season",
           "outcome": "ZYB Esport",
           "their_entry_price": 0.4,
-          "current_price": 0.415,
-          "fair_value_estimate": 0.415,
+          "current_price": 0.42,
+          "fair_value_estimate": 0.42,
           "suggested_entry_range": [
-            0.397,
-            0.417
+            0.4,
+            0.42
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.40 -> 0.41); replicating their entry is still reasonably representative.",
-          "conviction": 0.1961,
-          "pick_score": 0.1961,
+          "note": "Price is close to their entry (0.40 -> 0.42); replicating their entry is still reasonably representative.",
+          "conviction": 0.1739,
+          "pick_score": 0.1739,
           "recommended": true,
-          "their_position_value": 359.5214
+          "their_position_value": 363.8529
+        },
+        {
+          "market_title": "LoL: Nongshim Red Force vs T1 (BO3) - KeSPA Cup Last Chance Qualifier",
+          "outcome": "Nongshim Red Force",
+          "their_entry_price": 0.658,
+          "current_price": 0.365,
+          "fair_value_estimate": 0.995,
+          "suggested_entry_range": [
+            0.68,
+            0.973
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.29 (45%) since their entry of 0.66 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.7982,
+          "pick_score": 0.1596,
+          "recommended": true,
+          "their_position_value": 2331.5581
         }
       ]
-    },
-    {
-      "wallet": "0xba3802d41ad55704b518564e8a13a8346da1fb57",
-      "userName": "matenghehe",
-      "display_name": "matenghehe",
-      "profile_url": "https://polymarket.com/@matenghehe",
-      "score": {
-        "composite": 0.2466,
-        "score_100": 63,
-        "kelly_edge": 0.6383,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.2353,
-        "n_clv_with_data": 39,
-        "n_clv_attempted": 40,
-        "sharpe": 0.6755,
-        "roi_lifetime": 0.1688,
-        "roi_180d": 0.1688,
-        "roi_90d": 0.1688,
-        "roi_30d": 0.1724,
-        "max_drawdown_fraction": 0.0021,
-        "n_resolved": 261,
-        "n_distinct_markets": 258,
-        "capital_concentration_hhi": 0.0062,
-        "win_rate_adj": 0.9309,
-        "avg_trades_per_day_30d": 19.73
-      },
-      "radar": {
-        "account_age_days": 56.9,
-        "portfolio_value": 13452.62,
-        "capital_efficiency": 0.1321,
-        "best_leaderboard_rank": 28,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 66,
-      "entry_recommendations": []
     },
     {
       "wallet": "0x1d3567ad67b1f054160f9d560ca3817038cc94ee",
@@ -283,9 +189,9 @@
       "display_name": "fazewinline",
       "profile_url": "https://polymarket.com/@fazewinline",
       "score": {
-        "composite": 0.1737,
-        "score_100": 59,
-        "kelly_edge": -0.3386,
+        "composite": 0.1822,
+        "score_100": 60,
+        "kelly_edge": -0.2782,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -296,50 +202,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0692,
-        "n_clv_with_data": 11,
-        "n_clv_attempted": 11,
-        "sharpe": 0.372,
-        "roi_lifetime": 0.3722,
-        "roi_180d": 0.3722,
-        "roi_90d": 0.3722,
-        "roi_30d": 0.3722,
-        "max_drawdown_fraction": 0.0125,
-        "n_resolved": 11,
-        "n_distinct_markets": 11,
-        "capital_concentration_hhi": 0.4424,
-        "win_rate_adj": 0.523,
-        "avg_trades_per_day_30d": 2.4
+        "clv": -0.0718,
+        "n_clv_with_data": 12,
+        "n_clv_attempted": 12,
+        "sharpe": 0.3969,
+        "roi_lifetime": 0.3494,
+        "roi_180d": 0.3494,
+        "roi_90d": 0.3494,
+        "roi_30d": 0.3494,
+        "max_drawdown_fraction": 0.0111,
+        "n_resolved": 12,
+        "n_distinct_markets": 12,
+        "capital_concentration_hhi": 0.36,
+        "win_rate_adj": 0.552,
+        "avg_trades_per_day_30d": 3.47
       },
       "radar": {
-        "account_age_days": 1.8,
-        "portfolio_value": 19216.12,
-        "capital_efficiency": 0.3025,
-        "best_leaderboard_rank": 38,
+        "account_age_days": 2.0,
+        "portfolio_value": 13723.12,
+        "capital_efficiency": 0.2899,
+        "best_leaderboard_rank": 36,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 12,
+      "open_positions_count": 16,
       "entry_recommendations": [
-        {
-          "market_title": "Dota 2: GLYPH vs PlayTime (BO3) - Games of the Future Playoffs",
-          "outcome": "PlayTime",
-          "their_entry_price": 0.6999,
-          "current_price": 0.78,
-          "fair_value_estimate": 0.83,
-          "suggested_entry_range": [
-            0.725,
-            0.805
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.08 (11%) since their entry of 0.70 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.6392,
-          "pick_score": 0.1278,
-          "recommended": true,
-          "their_position_value": 13595.9061
-        },
         {
           "market_title": "Clarity Act (H.R.3633) signed into law in 2026?",
           "outcome": "Yes",
@@ -352,10 +241,27 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.30 -> 0.29); replicating their entry is still reasonably representative.",
-          "conviction": 0.1162,
-          "pick_score": 0.1162,
+          "conviction": 0.112,
+          "pick_score": 0.112,
           "recommended": true,
           "their_position_value": 2471.4125
+        },
+        {
+          "market_title": "Dota 2: Xtreme Gaming vs Team Resilience (BO3) - Games of the Future Playoffs",
+          "outcome": "Xtreme Gaming",
+          "their_entry_price": 0.9211,
+          "current_price": 0.675,
+          "fair_value_estimate": 0.755,
+          "suggested_entry_range": [
+            0.715,
+            0.961
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.25 (27%) since their entry of 0.92 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.3486,
+          "pick_score": 0.0697,
+          "recommended": true,
+          "their_position_value": 7694.8529
         },
         {
           "market_title": "Will Mohamed Salah play in MLS next?",
@@ -369,8 +275,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.95 -> 0.95); replicating their entry is still reasonably representative.",
-          "conviction": 0.0236,
-          "pick_score": 0.0236,
+          "conviction": 0.0227,
+          "pick_score": 0.0227,
           "recommended": true,
           "their_position_value": 501.5074
         },
@@ -386,8 +292,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.99 -> 0.99); replicating their entry is still reasonably representative.",
-          "conviction": 0.0236,
-          "pick_score": 0.0236,
+          "conviction": 0.0227,
+          "pick_score": 0.0227,
           "recommended": false,
           "their_position_value": 500.2526
         },
@@ -403,8 +309,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (1.00 -> 0.98); replicating their entry is still reasonably representative.",
-          "conviction": 0.0235,
-          "pick_score": 0.0235,
+          "conviction": 0.0227,
+          "pick_score": 0.0227,
           "recommended": false,
           "their_position_value": 491.4829
         },
@@ -413,51 +319,102 @@
           "outcome": "Yes",
           "their_entry_price": 0.2198,
           "current_price": 0.181,
-          "fair_value_estimate": 0.181,
+          "fair_value_estimate": 0.1815,
           "suggested_entry_range": [
             0.181,
             0.22
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.22 -> 0.18); replicating their entry is still reasonably representative.",
-          "conviction": 0.0235,
-          "pick_score": 0.0235,
+          "conviction": 0.0226,
+          "pick_score": 0.0226,
           "recommended": false,
           "their_position_value": 411.583
+        },
+        {
+          "market_title": "US x Iran diplomatic meeting by August 15, 2026?",
+          "outcome": "Yes",
+          "their_entry_price": 0.2711,
+          "current_price": 0.24,
+          "fair_value_estimate": 0.24,
+          "suggested_entry_range": [
+            0.24,
+            0.271
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.27 -> 0.24); replicating their entry is still reasonably representative.",
+          "conviction": 0.0223,
+          "pick_score": 0.0223,
+          "recommended": false,
+          "their_position_value": 177.0164
+        },
+        {
+          "market_title": "US x Iran diplomatic meeting by August 7, 2026?",
+          "outcome": "Yes",
+          "their_entry_price": 0.0917,
+          "current_price": 0.06,
+          "fair_value_estimate": 0.0625,
+          "suggested_entry_range": [
+            0.061,
+            0.093
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.09 -> 0.06); replicating their entry is still reasonably representative.",
+          "conviction": 0.008,
+          "pick_score": 0.008,
+          "recommended": false,
+          "their_position_value": 130.7772
+        },
+        {
+          "market_title": "US x Iran diplomatic meeting by August 31, 2026?",
+          "outcome": "Yes",
+          "their_entry_price": 0.4399,
+          "current_price": 0.445,
+          "fair_value_estimate": 0.445,
+          "suggested_entry_range": [
+            0.432,
+            0.452
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.44 -> 0.45); replicating their entry is still reasonably representative.",
+          "conviction": 0.0064,
+          "pick_score": 0.0064,
+          "recommended": false,
+          "their_position_value": 101.1363
         },
         {
           "market_title": "Will Tyreek Hill play for the Kansas City Chiefs next?",
           "outcome": "No",
           "their_entry_price": 0.8269,
-          "current_price": 0.847,
-          "fair_value_estimate": 0.847,
+          "current_price": 0.8335,
+          "fair_value_estimate": 0.8335,
           "suggested_entry_range": [
-            0.827,
-            0.847
+            0.82,
+            0.84
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.83 -> 0.85); replicating their entry is still reasonably representative.",
-          "conviction": 0.0194,
-          "pick_score": 0.0194,
+          "note": "Price is close to their entry (0.83 -> 0.83); replicating their entry is still reasonably representative.",
+          "conviction": 0.0059,
+          "pick_score": 0.0059,
           "recommended": false,
-          "their_position_value": 102.4276
+          "their_position_value": 100.7951
         },
         {
           "market_title": "Will Mohamed Salah play in Saudi Pro League next?",
           "outcome": "Yes",
           "their_entry_price": 0.3329,
-          "current_price": 0.187,
-          "fair_value_estimate": 0.187,
+          "current_price": 0.188,
+          "fair_value_estimate": 0.188,
           "suggested_entry_range": [
-            0.187,
+            0.188,
             0.333
           ],
           "flagged_chasing": true,
-          "note": "Price has moved down 0.15 (44%) since their entry of 0.33 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0231,
-          "pick_score": 0.0046,
+          "note": "Price has moved down 0.14 (44%) since their entry of 0.33 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0186,
+          "pick_score": 0.0037,
           "recommended": false,
-          "their_position_value": 140.3985
+          "their_position_value": 141.1493
         }
       ]
     }
