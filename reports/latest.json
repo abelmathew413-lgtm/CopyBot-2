@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T21:27:39.683916+00:00",
-  "duration_seconds": 515.4,
-  "n_candidates_discovered": 1307,
+  "generated_at": "2026-08-04T23:17:34.574159+00:00",
+  "duration_seconds": 498.7,
+  "n_candidates_discovered": 1310,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 5,
   "n_errors": 0,
@@ -42,10 +42,10 @@
         "avg_trades_per_day_30d": 3.27
       },
       "radar": {
-        "account_age_days": 277.6,
+        "account_age_days": 277.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2152,
-        "best_leaderboard_rank": 34,
+        "best_leaderboard_rank": 30,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -89,10 +89,10 @@
         "avg_trades_per_day_30d": 7.97
       },
       "radar": {
-        "account_age_days": 1187.1,
+        "account_age_days": 1187.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2464,
-        "best_leaderboard_rank": 38,
+        "best_leaderboard_rank": 34,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -107,7 +107,7 @@
       "display_name": "0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
       "profile_url": "https://polymarket.com/@0x73bcd24d510Ff4e4D5FEac6aec763C5511E246CE-1767607363396",
       "score": {
-        "composite": 0.3794,
+        "composite": 0.3652,
         "score_100": 69,
         "kelly_edge": 0.1838,
         "weights_used": {
@@ -120,26 +120,26 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0607,
+        "clv": 0.0459,
         "n_clv_with_data": 38,
         "n_clv_attempted": 40,
         "sharpe": 0.302,
         "roi_lifetime": 0.1653,
         "roi_180d": 0.1653,
         "roi_90d": 0.146,
-        "roi_30d": 0.2437,
+        "roi_30d": 0.26,
         "max_drawdown_fraction": 0.0638,
         "n_resolved": 372,
         "n_distinct_markets": 302,
         "capital_concentration_hhi": 0.0099,
         "win_rate_adj": 0.5761,
-        "avg_trades_per_day_30d": 3.4
+        "avg_trades_per_day_30d": 3.37
       },
       "radar": {
-        "account_age_days": 211.5,
+        "account_age_days": 211.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.1366,
-        "best_leaderboard_rank": 39,
+        "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -186,7 +186,7 @@
         "account_age_days": 63.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.1666,
-        "best_leaderboard_rank": 29,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -230,10 +230,10 @@
         "avg_trades_per_day_30d": 13.23
       },
       "radar": {
-        "account_age_days": 84.8,
+        "account_age_days": 84.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.1024,
-        "best_leaderboard_rank": 42,
+        "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
