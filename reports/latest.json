@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04T15:36:47.263150+00:00",
-  "duration_seconds": 471.0,
-  "n_candidates_discovered": 1316,
+  "generated_at": "2026-08-04T18:03:40.543340+00:00",
+  "duration_seconds": 483.2,
+  "n_candidates_discovered": 1311,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 5,
+  "n_passed_filters": 4,
   "n_errors": 1,
   "errors": [
     {
@@ -38,7 +38,7 @@
         "roi_lifetime": 0.6288,
         "roi_180d": 0.6288,
         "roi_90d": 0.6313,
-        "roi_30d": 0.6218,
+        "roi_30d": 0.6251,
         "max_drawdown_fraction": 0.0011,
         "n_resolved": 18,
         "n_distinct_markets": 17,
@@ -47,7 +47,7 @@
         "avg_trades_per_day_30d": 3.27
       },
       "radar": {
-        "account_age_days": 277.4,
+        "account_age_days": 277.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2152,
         "best_leaderboard_rank": 29,
@@ -94,10 +94,10 @@
         "avg_trades_per_day_30d": 7.97
       },
       "radar": {
-        "account_age_days": 1186.8,
+        "account_age_days": 1186.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2464,
-        "best_leaderboard_rank": 32,
+        "best_leaderboard_rank": 31,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -107,59 +107,12 @@
       "entry_recommendations": []
     },
     {
-      "wallet": "0x4aec70021891ea712aaf3e2dd76c30f6b09a4ce9",
-      "userName": "gxxyy",
-      "display_name": "gxxyy",
-      "profile_url": "https://polymarket.com/@gxxyy",
-      "score": {
-        "composite": 0.3656,
-        "score_100": 69,
-        "kelly_edge": 0.4244,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0977,
-        "n_clv_with_data": 40,
-        "n_clv_attempted": 40,
-        "sharpe": 0.8762,
-        "roi_lifetime": 0.2362,
-        "roi_180d": 0.2362,
-        "roi_90d": 0.2362,
-        "roi_30d": 0.2534,
-        "max_drawdown_fraction": 0.0054,
-        "n_resolved": 341,
-        "n_distinct_markets": 300,
-        "capital_concentration_hhi": 0.0059,
-        "win_rate_adj": 0.7928,
-        "avg_trades_per_day_30d": 44.0
-      },
-      "radar": {
-        "account_age_days": 63.2,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1663,
-        "best_leaderboard_rank": 29,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 146,
-      "entry_recommendations": []
-    },
-    {
       "wallet": "0xc1c7bb8761105f6d33fc8d71dec31b5688a0f0a7",
       "userName": "five5120",
       "display_name": "five5120",
       "profile_url": "https://polymarket.com/@five5120",
       "score": {
-        "composite": 0.2131,
+        "composite": 0.2084,
         "score_100": 61,
         "kelly_edge": 0.0186,
         "weights_used": {
@@ -172,7 +125,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.1244,
+        "clv": -0.1304,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
         "sharpe": 0.2748,
@@ -188,10 +141,10 @@
         "avg_trades_per_day_30d": 13.23
       },
       "radar": {
-        "account_age_days": 84.6,
+        "account_age_days": 84.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.1024,
-        "best_leaderboard_rank": 36,
+        "best_leaderboard_rank": 34,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -206,8 +159,8 @@
       "display_name": "fazewinline",
       "profile_url": "https://polymarket.com/@fazewinline",
       "score": {
-        "composite": 0.184,
-        "score_100": 60,
+        "composite": 0.1698,
+        "score_100": 59,
         "kelly_edge": -0.7742,
         "weights_used": {
           "clv": 0.25,
@@ -219,7 +172,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0313,
+        "clv": -0.0458,
         "n_clv_with_data": 23,
         "n_clv_attempted": 23,
         "sharpe": 0.0854,
@@ -232,45 +185,62 @@
         "n_distinct_markets": 23,
         "capital_concentration_hhi": 0.2527,
         "win_rate_adj": 0.3296,
-        "avg_trades_per_day_30d": 4.73
+        "avg_trades_per_day_30d": 5.33
       },
       "radar": {
-        "account_age_days": 3.1,
-        "portfolio_value": 347.4,
-        "capital_efficiency": 0.2793,
-        "best_leaderboard_rank": 49,
+        "account_age_days": 3.2,
+        "portfolio_value": 18636.16,
+        "capital_efficiency": 0.2415,
+        "best_leaderboard_rank": 51,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 9,
+      "open_positions_count": 11,
       "entry_recommendations": [
+        {
+          "market_title": "Counter-Strike: Eternal Fire vs INOX Division (BO3) - NODWIN Clutch Series Playoffs",
+          "outcome": "Eternal Fire",
+          "their_entry_price": 0.4441,
+          "current_price": 0.42,
+          "fair_value_estimate": 0.43,
+          "suggested_entry_range": [
+            0.425,
+            0.449
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.44 -> 0.42); replicating their entry is still reasonably representative.",
+          "conviction": 0.3247,
+          "pick_score": 0.3247,
+          "recommended": true,
+          "their_position_value": 18473.776
+        },
         {
           "market_title": "Will Mohamed Salah join Al-Ittihad?",
           "outcome": "Yes",
           "their_entry_price": 0.2198,
-          "current_price": 0.152,
-          "fair_value_estimate": 0.1525,
+          "current_price": 0.0704,
+          "fair_value_estimate": 0.07,
           "suggested_entry_range": [
-            0.152,
+            0.07,
             0.22
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.22 -> 0.15); replicating their entry is still reasonably representative.",
-          "conviction": 0.009,
-          "pick_score": 0.009,
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.15 (68%) since their entry of 0.22 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0028,
+          "pick_score": 0.0006,
           "recommended": true,
-          "their_position_value": 345.6387
+          "their_position_value": 160.0853
         },
         {
           "market_title": "Clarity Act (H.R.3633) signed into law in 2026?",
           "outcome": "Yes",
           "their_entry_price": 0.2984,
-          "current_price": 0.24,
-          "fair_value_estimate": 0.24,
+          "current_price": 0.245,
+          "fair_value_estimate": 0.245,
           "suggested_entry_range": [
-            0.24,
+            0.245,
             0.298
           ],
           "flagged_chasing": false,
@@ -278,7 +248,7 @@
           "conviction": 0.0,
           "pick_score": 0.0,
           "recommended": false,
-          "their_position_value": 1.7591
+          "their_position_value": 1.7957
         }
       ]
     }
