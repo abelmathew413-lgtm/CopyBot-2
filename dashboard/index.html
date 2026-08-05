@@ -437,16 +437,16 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-05T17:56:54.019972+00:00",
-  "duration_seconds": 526.7,
-  "n_candidates_discovered": 1316,
+  "generated_at": "2026-08-05T19:53:12.530084+00:00",
+  "duration_seconds": 491.1,
+  "n_candidates_discovered": 1298,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 4,
+  "n_passed_filters": 5,
   "n_errors": 1,
   "errors": [
     {
-      "wallet": "0xf201a19b43471261a3c1ba9247335d55270e527e",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xf201a19b43471261a3c1ba9247335d55270e527e"
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
     }
   ],
   "wallets": [
@@ -485,10 +485,10 @@
         "avg_trades_per_day_30d": 2.77
       },
       "radar": {
-        "account_age_days": 278.5,
+        "account_age_days": 278.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2152,
-        "best_leaderboard_rank": 39,
+        "best_leaderboard_rank": 37,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -532,10 +532,10 @@
         "avg_trades_per_day_30d": 1.27
       },
       "radar": {
-        "account_age_days": 637.9,
+        "account_age_days": 638.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.1834,
-        "best_leaderboard_rank": 22,
+        "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -579,10 +579,10 @@
         "avg_trades_per_day_30d": 7.97
       },
       "radar": {
-        "account_age_days": 1187.9,
+        "account_age_days": 1188.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2464,
-        "best_leaderboard_rank": 42,
+        "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -592,13 +592,95 @@
       "entry_recommendations": []
     },
     {
+      "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
+      "userName": "ThornyDevil",
+      "display_name": "ThornyDevil",
+      "profile_url": "https://polymarket.com/@ThornyDevil",
+      "score": {
+        "composite": 0.3182,
+        "score_100": 66,
+        "kelly_edge": 0.0581,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0153,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 0.2761,
+        "roi_lifetime": 0.1386,
+        "roi_180d": 0.1386,
+        "roi_90d": 0.1386,
+        "roi_30d": 0.1386,
+        "max_drawdown_fraction": 0.0645,
+        "n_resolved": 93,
+        "n_distinct_markets": 79,
+        "capital_concentration_hhi": 0.0248,
+        "win_rate_adj": 0.577,
+        "avg_trades_per_day_30d": 7.3
+      },
+      "radar": {
+        "account_age_days": 7.5,
+        "portfolio_value": 25616.6,
+        "capital_efficiency": 0.1219,
+        "best_leaderboard_rank": 45,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 17,
+      "entry_recommendations": [
+        {
+          "market_title": "LoL: Team Orange Gaming vs Kaufland Hangry Knights (BO3) - Prime League 1st Division Group B",
+          "outcome": "Kaufland Hangry Knights",
+          "their_entry_price": 0.5673,
+          "current_price": 0.595,
+          "fair_value_estimate": 0.64,
+          "suggested_entry_range": [
+            0.59,
+            0.617
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.57 -> 0.59); replicating their entry is still reasonably representative.",
+          "conviction": 0.0763,
+          "pick_score": 0.0763,
+          "recommended": true,
+          "their_position_value": 2157.3944
+        },
+        {
+          "market_title": "LoL: UCAM Esports Club vs \u2060Movistar KOI F\u00e9nix (BO3) - LES Regular Season",
+          "outcome": "UCAM Esports Club",
+          "their_entry_price": 0.51,
+          "current_price": 0.61,
+          "fair_value_estimate": 0.59,
+          "suggested_entry_range": [
+            0.5,
+            0.6
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.10 (20%) since their entry of 0.51 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0409,
+          "pick_score": 0.0082,
+          "recommended": true,
+          "their_position_value": 231.3485
+        }
+      ]
+    },
+    {
       "wallet": "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff",
       "userName": "sulumos",
       "display_name": "sulumos",
       "profile_url": "https://polymarket.com/@sulumos",
       "score": {
-        "composite": 0.2732,
-        "score_100": 64,
+        "composite": 0.2592,
+        "score_100": 63,
         "kelly_edge": 0.1653,
         "weights_used": {
           "clv": 0.25,
@@ -610,8 +692,8 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0292,
-        "n_clv_with_data": 40,
+        "clv": 0.0151,
+        "n_clv_with_data": 39,
         "n_clv_attempted": 40,
         "sharpe": 0.0697,
         "roi_lifetime": 0.0507,
@@ -627,32 +709,32 @@
       },
       "radar": {
         "account_age_days": 167.9,
-        "portfolio_value": 2820.0,
-        "capital_efficiency": 0.0507,
-        "best_leaderboard_rank": 43,
+        "portfolio_value": 12031.49,
+        "capital_efficiency": 0.0506,
+        "best_leaderboard_rank": 38,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 1,
+      "open_positions_count": 2,
       "entry_recommendations": [
         {
-          "market_title": "Dota 2: Team Falcons vs Team Liquid - Game 1 Winner",
+          "market_title": "Dota 2: Team Falcons vs Team Liquid (BO5) - 1win Essence Playoffs",
           "outcome": "Team Liquid",
-          "their_entry_price": 0.33,
-          "current_price": 0.47,
-          "fair_value_estimate": 0.595,
+          "their_entry_price": 0.45,
+          "current_price": 0.745,
+          "fair_value_estimate": 0.745,
           "suggested_entry_range": [
-            0.393,
-            0.532
+            0.45,
+            0.745
           ],
           "flagged_chasing": true,
-          "note": "Price has moved up 0.14 (42%) since their entry of 0.33 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 1.0,
-          "pick_score": 0.2,
+          "note": "Price has moved up 0.29 (66%) since their entry of 0.45 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.5016,
+          "pick_score": 0.1003,
           "recommended": true,
-          "their_position_value": 2819.9962
+          "their_position_value": 6034.5
         }
       ]
     }
