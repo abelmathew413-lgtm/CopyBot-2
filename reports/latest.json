@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-08-05T03:21:52.895415+00:00",
-  "duration_seconds": 300.4,
-  "n_candidates_discovered": 1312,
+  "generated_at": "2026-08-05T06:40:23.964346+00:00",
+  "duration_seconds": 357.2,
+  "n_candidates_discovered": 1277,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 6,
-  "n_errors": 0,
-  "errors": [],
+  "n_passed_filters": 5,
+  "n_errors": 1,
+  "errors": [
+    {
+      "wallet": "0xf201a19b43471261a3c1ba9247335d55270e527e",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xf201a19b43471261a3c1ba9247335d55270e527e"
+    }
+  ],
   "wallets": [
     {
       "wallet": "0x917182c1eb3257b2e2e4959d48228af78bfe9e5f",
@@ -39,66 +44,19 @@
         "n_distinct_markets": 17,
         "capital_concentration_hhi": 0.1421,
         "win_rate_adj": 0.6078,
-        "avg_trades_per_day_30d": 3.0
+        "avg_trades_per_day_30d": 2.97
       },
       "radar": {
-        "account_age_days": 277.9,
+        "account_age_days": 278.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2152,
-        "best_leaderboard_rank": 31,
+        "best_leaderboard_rank": 34,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 30,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x58d71d66722aa4c1e6ebde57071693667d2917e1",
-      "userName": "ninasuskevic",
-      "display_name": "ninasuskevic",
-      "profile_url": "https://polymarket.com/@ninasuskevic",
-      "score": {
-        "composite": 0.4461,
-        "score_100": 73,
-        "kelly_edge": 0.0281,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.1025,
-        "n_clv_with_data": 14,
-        "n_clv_attempted": 40,
-        "sharpe": 0.2839,
-        "roi_lifetime": 0.227,
-        "roi_180d": 0.2292,
-        "roi_90d": 0.2292,
-        "roi_30d": 0.2218,
-        "max_drawdown_fraction": 0.0267,
-        "n_resolved": 283,
-        "n_distinct_markets": 281,
-        "capital_concentration_hhi": 0.1436,
-        "win_rate_adj": 0.6183,
-        "avg_trades_per_day_30d": 1.27
-      },
-      "radar": {
-        "account_age_days": 637.3,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1834,
-        "best_leaderboard_rank": 23,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 18,
       "entry_recommendations": []
     },
     {
@@ -136,10 +94,10 @@
         "avg_trades_per_day_30d": 7.97
       },
       "radar": {
-        "account_age_days": 1187.3,
+        "account_age_days": 1187.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2464,
-        "best_leaderboard_rank": 34,
+        "best_leaderboard_rank": 36,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -174,7 +132,7 @@
         "roi_lifetime": 0.1653,
         "roi_180d": 0.1653,
         "roi_90d": 0.146,
-        "roi_30d": 0.2376,
+        "roi_30d": 0.2368,
         "max_drawdown_fraction": 0.0638,
         "n_resolved": 372,
         "n_distinct_markets": 302,
@@ -183,10 +141,10 @@
         "avg_trades_per_day_30d": 3.37
       },
       "radar": {
-        "account_age_days": 211.7,
+        "account_age_days": 211.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.1366,
-        "best_leaderboard_rank": 45,
+        "best_leaderboard_rank": 47,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -230,10 +188,10 @@
         "avg_trades_per_day_30d": 44.7
       },
       "radar": {
-        "account_age_days": 63.7,
+        "account_age_days": 63.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.1666,
-        "best_leaderboard_rank": 28,
+        "best_leaderboard_rank": 35,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -277,10 +235,10 @@
         "avg_trades_per_day_30d": 13.23
       },
       "radar": {
-        "account_age_days": 85.1,
+        "account_age_days": 85.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.1024,
-        "best_leaderboard_rank": 46,
+        "best_leaderboard_rank": 47,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
