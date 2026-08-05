@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-05T12:11:55.807768+00:00",
-  "duration_seconds": 488.4,
-  "n_candidates_discovered": 1272,
+  "generated_at": "2026-08-05T15:28:44.850121+00:00",
+  "duration_seconds": 518.2,
+  "n_candidates_discovered": 1277,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 4,
+  "n_passed_filters": 3,
   "n_errors": 1,
   "errors": [
     {
@@ -18,8 +18,8 @@
       "display_name": "0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
       "profile_url": "https://polymarket.com/@0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
       "score": {
-        "composite": 0.4921,
-        "score_100": 75,
+        "composite": 0.451,
+        "score_100": 73,
         "kelly_edge": 0.4009,
         "weights_used": {
           "clv": 0.25,
@@ -31,8 +31,8 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0168,
-        "n_clv_with_data": 13,
+        "clv": -0.0244,
+        "n_clv_with_data": 12,
         "n_clv_attempted": 18,
         "sharpe": 1.6968,
         "roi_lifetime": 0.6288,
@@ -47,10 +47,10 @@
         "avg_trades_per_day_30d": 2.77
       },
       "radar": {
-        "account_age_days": 278.3,
+        "account_age_days": 278.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.2152,
-        "best_leaderboard_rank": 41,
+        "best_leaderboard_rank": 40,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -94,10 +94,10 @@
         "avg_trades_per_day_30d": 1.27
       },
       "radar": {
-        "account_age_days": 637.7,
+        "account_age_days": 637.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.1834,
-        "best_leaderboard_rank": 21,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -141,10 +141,10 @@
         "avg_trades_per_day_30d": 7.97
       },
       "radar": {
-        "account_age_days": 1187.7,
+        "account_age_days": 1187.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.2464,
-        "best_leaderboard_rank": 43,
+        "best_leaderboard_rank": 42,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -152,88 +152,6 @@
       },
       "open_positions_count": 17,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0x4aec70021891ea712aaf3e2dd76c30f6b09a4ce9",
-      "userName": "gxxyy",
-      "display_name": "gxxyy",
-      "profile_url": "https://polymarket.com/@gxxyy",
-      "score": {
-        "composite": 0.351,
-        "score_100": 68,
-        "kelly_edge": 0.4239,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.1127,
-        "n_clv_with_data": 37,
-        "n_clv_attempted": 40,
-        "sharpe": 0.8537,
-        "roi_lifetime": 0.2367,
-        "roi_180d": 0.2367,
-        "roi_90d": 0.2367,
-        "roi_30d": 0.2537,
-        "max_drawdown_fraction": 0.0053,
-        "n_resolved": 348,
-        "n_distinct_markets": 306,
-        "capital_concentration_hhi": 0.0058,
-        "win_rate_adj": 0.7937,
-        "avg_trades_per_day_30d": 45.33
-      },
-      "radar": {
-        "account_age_days": 64.1,
-        "portfolio_value": 11617.68,
-        "capital_efficiency": 0.1665,
-        "best_leaderboard_rank": 31,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 149,
-      "entry_recommendations": [
-        {
-          "market_title": "Dota 2: 1win vs BetBoom Team (BO3) - 1win Essence Playoffs",
-          "outcome": "1win",
-          "their_entry_price": 0.5198,
-          "current_price": 0.65,
-          "fair_value_estimate": 0.87,
-          "suggested_entry_range": [
-            0.63,
-            0.76
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.13 (25%) since their entry of 0.52 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0194,
-          "pick_score": 0.0039,
-          "recommended": true,
-          "their_position_value": 5964.2155
-        },
-        {
-          "market_title": "Dota 2: 1win vs BetBoom Team (BO3) - 1win Essence Playoffs",
-          "outcome": "BetBoom Team",
-          "their_entry_price": 0.4849,
-          "current_price": 0.35,
-          "fair_value_estimate": 0.12,
-          "suggested_entry_range": [
-            0.235,
-            0.37
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.13 (28%) since their entry of 0.48 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0184,
-          "pick_score": 0.0037,
-          "recommended": true,
-          "their_position_value": 5650.5735
-        }
-      ]
     }
   ]
 }
