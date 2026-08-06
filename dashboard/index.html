@@ -437,27 +437,134 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-05T23:15:02.505761+00:00",
-  "duration_seconds": 444.2,
-  "n_candidates_discovered": 1251,
+  "generated_at": "2026-08-06T03:26:07.921335+00:00",
+  "duration_seconds": 385.0,
+  "n_candidates_discovered": 1215,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 6,
-  "n_errors": 1,
+  "n_passed_filters": 4,
+  "n_errors": 3,
   "errors": [
     {
       "wallet": "0xf201a19b43471261a3c1ba9247335d55270e527e",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xf201a19b43471261a3c1ba9247335d55270e527e"
+    },
+    {
+      "wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+    },
+    {
+      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
     }
   ],
   "wallets": [
+    {
+      "wallet": "0xe55aab114e95fff2fa267313916381d79323ecf7",
+      "userName": "steevenseakael",
+      "display_name": "steevenseakael",
+      "profile_url": "https://polymarket.com/@steevenseakael",
+      "score": {
+        "composite": 0.6794,
+        "score_100": 84,
+        "kelly_edge": 0.7882,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.1485,
+        "n_clv_with_data": 39,
+        "n_clv_attempted": 40,
+        "sharpe": 2.4948,
+        "roi_lifetime": 0.4353,
+        "roi_180d": 0.4353,
+        "roi_90d": 0.4353,
+        "roi_30d": 0.4353,
+        "max_drawdown_fraction": 0.0271,
+        "n_resolved": 51,
+        "n_distinct_markets": 50,
+        "capital_concentration_hhi": 0.0312,
+        "win_rate_adj": 0.897,
+        "avg_trades_per_day_30d": 7.43
+      },
+      "radar": {
+        "account_age_days": 21.2,
+        "portfolio_value": 91981.94,
+        "capital_efficiency": 0.2384,
+        "best_leaderboard_rank": 50,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 47,
+      "entry_recommendations": [
+        {
+          "market_title": "LoL: LGD Gaming vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
+          "outcome": "LGD Gaming",
+          "their_entry_price": 0.53,
+          "current_price": 0.525,
+          "fair_value_estimate": 0.525,
+          "suggested_entry_range": [
+            0.518,
+            0.538
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.53 -> 0.53); replicating their entry is still reasonably representative.",
+          "conviction": 0.1151,
+          "pick_score": 0.1151,
+          "recommended": true,
+          "their_position_value": 7980
+        },
+        {
+          "market_title": "LoL: HANJIN BRION Challengers vs Gen.G Global Academy (BO3) - LCK Challengers League Rounds 3-4 Trial Group",
+          "outcome": "Gen.G Global Academy",
+          "their_entry_price": 0.32,
+          "current_price": 0.305,
+          "fair_value_estimate": 0.305,
+          "suggested_entry_range": [
+            0.302,
+            0.323
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.32 -> 0.30); replicating their entry is still reasonably representative.",
+          "conviction": 0.0643,
+          "pick_score": 0.0643,
+          "recommended": true,
+          "their_position_value": 6100
+        },
+        {
+          "market_title": "Total Kills Over/Under 27.5 in Game 2?",
+          "outcome": "Over",
+          "their_entry_price": 0.52,
+          "current_price": 0.5649,
+          "fair_value_estimate": 0.565,
+          "suggested_entry_range": [
+            0.52,
+            0.565
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.52 -> 0.56); replicating their entry is still reasonably representative.",
+          "conviction": 0.0292,
+          "pick_score": 0.0292,
+          "recommended": true,
+          "their_position_value": 28.245
+        }
+      ]
+    },
     {
       "wallet": "0x917182c1eb3257b2e2e4959d48228af78bfe9e5f",
       "userName": "0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
       "display_name": "0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
       "profile_url": "https://polymarket.com/@0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
       "score": {
-        "composite": 0.451,
-        "score_100": 73,
+        "composite": 0.4818,
+        "score_100": 74,
         "kelly_edge": 0.4009,
         "weights_used": {
           "clv": 0.25,
@@ -469,8 +576,8 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0244,
-        "n_clv_with_data": 12,
+        "clv": 0.0066,
+        "n_clv_with_data": 11,
         "n_clv_attempted": 18,
         "sharpe": 1.6968,
         "roi_lifetime": 0.6288,
@@ -485,63 +592,16 @@
         "avg_trades_per_day_30d": 2.77
       },
       "radar": {
-        "account_age_days": 278.7,
+        "account_age_days": 278.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2152,
-        "best_leaderboard_rank": 47,
+        "best_leaderboard_rank": 45,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 30,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x58d71d66722aa4c1e6ebde57071693667d2917e1",
-      "userName": "ninasuskevic",
-      "display_name": "ninasuskevic",
-      "profile_url": "https://polymarket.com/@ninasuskevic",
-      "score": {
-        "composite": 0.4461,
-        "score_100": 73,
-        "kelly_edge": 0.0281,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.1025,
-        "n_clv_with_data": 14,
-        "n_clv_attempted": 40,
-        "sharpe": 0.2839,
-        "roi_lifetime": 0.227,
-        "roi_180d": 0.2292,
-        "roi_90d": 0.2292,
-        "roi_30d": 0.2218,
-        "max_drawdown_fraction": 0.0267,
-        "n_resolved": 283,
-        "n_distinct_markets": 281,
-        "capital_concentration_hhi": 0.1436,
-        "win_rate_adj": 0.6183,
-        "avg_trades_per_day_30d": 1.27
-      },
-      "radar": {
-        "account_age_days": 638.2,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1834,
-        "best_leaderboard_rank": 22,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 18,
       "entry_recommendations": []
     },
     {
@@ -579,10 +639,10 @@
         "avg_trades_per_day_30d": 7.97
       },
       "radar": {
-        "account_age_days": 1188.2,
+        "account_age_days": 1188.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2464,
-        "best_leaderboard_rank": 49,
+        "best_leaderboard_rank": 47,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -592,14 +652,14 @@
       "entry_recommendations": []
     },
     {
-      "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
-      "userName": "ThornyDevil",
-      "display_name": "ThornyDevil",
-      "profile_url": "https://polymarket.com/@ThornyDevil",
+      "wallet": "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff",
+      "userName": "sulumos",
+      "display_name": "sulumos",
+      "profile_url": "https://polymarket.com/@sulumos",
       "score": {
-        "composite": 0.32,
-        "score_100": 66,
-        "kelly_edge": 0.0371,
+        "composite": 0.2718,
+        "score_100": 64,
+        "kelly_edge": 0.1668,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -611,160 +671,31 @@
         },
         "consistency_adjustment": 0.02,
         "clv": 0.0266,
-        "n_clv_with_data": 40,
+        "n_clv_with_data": 37,
         "n_clv_attempted": 40,
-        "sharpe": 0.2576,
-        "roi_lifetime": 0.1262,
-        "roi_180d": 0.1262,
-        "roi_90d": 0.1262,
-        "roi_30d": 0.1262,
-        "max_drawdown_fraction": 0.074,
-        "n_resolved": 96,
-        "n_distinct_markets": 80,
-        "capital_concentration_hhi": 0.0242,
-        "win_rate_adj": 0.5676,
-        "avg_trades_per_day_30d": 7.37
-      },
-      "radar": {
-        "account_age_days": 7.7,
-        "portfolio_value": 8100.91,
-        "capital_efficiency": 0.1126,
-        "best_leaderboard_rank": 53,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 15,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x1d1ade627d0bb0205758580b20d808573e720df6",
-      "userName": "Pwaddler",
-      "display_name": "Pwaddler",
-      "profile_url": "https://polymarket.com/@Pwaddler",
-      "score": {
-        "composite": 0.3085,
-        "score_100": 66,
-        "kelly_edge": 0.045,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.0,
-        "clv": 0.2313,
-        "n_clv_with_data": 31,
-        "n_clv_attempted": 40,
-        "sharpe": -0.1873,
-        "roi_lifetime": 0.0704,
-        "roi_180d": -0.0519,
-        "roi_90d": -0.0953,
-        "roi_30d": 0.4544,
-        "max_drawdown_fraction": 0.1748,
-        "n_resolved": 811,
-        "n_distinct_markets": 798,
-        "capital_concentration_hhi": 0.0035,
-        "win_rate_adj": 0.5217,
-        "avg_trades_per_day_30d": 3.43
-      },
-      "radar": {
-        "account_age_days": 261.2,
-        "portfolio_value": 74105.37,
-        "capital_efficiency": 0.0591,
-        "best_leaderboard_rank": 23,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 95,
-      "entry_recommendations": [
-        {
-          "market_title": "Detroit Tigers vs. Seattle Mariners",
-          "outcome": "Detroit Tigers",
-          "their_entry_price": 0.41,
-          "current_price": 0.415,
-          "fair_value_estimate": 0.415,
-          "suggested_entry_range": [
-            0.402,
-            0.422
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.41 -> 0.41); replicating their entry is still reasonably representative.",
-          "conviction": 0.1147,
-          "pick_score": 0.1147,
-          "recommended": true,
-          "their_position_value": 67360.1066
-        },
-        {
-          "market_title": "Will Lucas Jumalon Win the 2026 WSOP Main Event?",
-          "outcome": "Yes",
-          "their_entry_price": 0.3719,
-          "current_price": 0.605,
-          "fair_value_estimate": 0.605,
-          "suggested_entry_range": [
-            0.372,
-            0.605
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.23 (63%) since their entry of 0.37 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0115,
-          "pick_score": 0.0023,
-          "recommended": true,
-          "their_position_value": 6745.2635
-        }
-      ]
-    },
-    {
-      "wallet": "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff",
-      "userName": "sulumos",
-      "display_name": "sulumos",
-      "profile_url": "https://polymarket.com/@sulumos",
-      "score": {
-        "composite": 0.2605,
-        "score_100": 63,
-        "kelly_edge": 0.1662,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0158,
-        "n_clv_with_data": 38,
-        "n_clv_attempted": 40,
-        "sharpe": 0.0718,
-        "roi_lifetime": 0.0513,
-        "roi_180d": 0.0513,
-        "roi_90d": 0.0558,
-        "roi_30d": 0.085,
+        "sharpe": 0.0736,
+        "roi_lifetime": 0.0519,
+        "roi_180d": 0.0519,
+        "roi_90d": 0.0564,
+        "roi_30d": 0.0863,
         "max_drawdown_fraction": 0.0116,
-        "n_resolved": 1012,
-        "n_distinct_markets": 985,
+        "n_resolved": 1013,
+        "n_distinct_markets": 986,
         "capital_concentration_hhi": 0.0034,
-        "win_rate_adj": 0.4663,
-        "avg_trades_per_day_30d": 9.83
+        "win_rate_adj": 0.4668,
+        "avg_trades_per_day_30d": 9.73
       },
       "radar": {
-        "account_age_days": 168.1,
-        "portfolio_value": 10768.17,
-        "capital_efficiency": 0.0512,
-        "best_leaderboard_rank": 42,
+        "account_age_days": 168.2,
+        "portfolio_value": 3195.9,
+        "capital_efficiency": 0.0518,
+        "best_leaderboard_rank": 41,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 2,
+      "open_positions_count": 1,
       "entry_recommendations": [
         {
           "market_title": "LoL: LGD Gaming vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
@@ -778,10 +709,10 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.47 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.7518,
-          "pick_score": 0.7518,
+          "conviction": 1.0,
+          "pick_score": 1.0,
           "recommended": true,
-          "their_position_value": 2672.2213
+          "their_position_value": 3195.9048
         }
       ]
     }
