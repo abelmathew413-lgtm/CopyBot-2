@@ -1,18 +1,14 @@
 {
-  "generated_at": "2026-08-06T06:43:58.423444+00:00",
-  "duration_seconds": 386.9,
-  "n_candidates_discovered": 1241,
+  "generated_at": "2026-08-06T09:55:13.178475+00:00",
+  "duration_seconds": 654.1,
+  "n_candidates_discovered": 1238,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 3,
-  "n_errors": 2,
+  "n_passed_filters": 4,
+  "n_errors": 1,
   "errors": [
     {
       "wallet": "0xf201a19b43471261a3c1ba9247335d55270e527e",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xf201a19b43471261a3c1ba9247335d55270e527e"
-    },
-    {
-      "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
     }
   ],
   "wallets": [
@@ -51,7 +47,7 @@
         "avg_trades_per_day_30d": 2.77
       },
       "radar": {
-        "account_age_days": 279.0,
+        "account_age_days": 279.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2152,
         "best_leaderboard_rank": 48,
@@ -98,10 +94,10 @@
         "avg_trades_per_day_30d": 7.97
       },
       "radar": {
-        "account_age_days": 1188.5,
+        "account_age_days": 1188.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2464,
-        "best_leaderboard_rank": 50,
+        "best_leaderboard_rank": 52,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -111,12 +107,59 @@
       "entry_recommendations": []
     },
     {
+      "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
+      "userName": "ThornyDevil",
+      "display_name": "ThornyDevil",
+      "profile_url": "https://polymarket.com/@ThornyDevil",
+      "score": {
+        "composite": 0.3253,
+        "score_100": 67,
+        "kelly_edge": 0.0643,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0191,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 0.2788,
+        "roi_lifetime": 0.1421,
+        "roi_180d": 0.1421,
+        "roi_90d": 0.1421,
+        "roi_30d": 0.1421,
+        "max_drawdown_fraction": 0.063,
+        "n_resolved": 97,
+        "n_distinct_markets": 82,
+        "capital_concentration_hhi": 0.0239,
+        "win_rate_adj": 0.5823,
+        "avg_trades_per_day_30d": 7.57
+      },
+      "radar": {
+        "account_age_days": 8.1,
+        "portfolio_value": 34909.18,
+        "capital_efficiency": 0.1242,
+        "best_leaderboard_rank": 50,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 18,
+      "entry_recommendations": []
+    },
+    {
       "wallet": "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff",
       "userName": "sulumos",
       "display_name": "sulumos",
       "profile_url": "https://polymarket.com/@sulumos",
       "score": {
-        "composite": 0.2718,
+        "composite": 0.272,
         "score_100": 64,
         "kelly_edge": 0.1668,
         "weights_used": {
@@ -132,48 +175,30 @@
         "clv": 0.0266,
         "n_clv_with_data": 37,
         "n_clv_attempted": 40,
-        "sharpe": 0.0736,
+        "sharpe": 0.0746,
         "roi_lifetime": 0.0519,
         "roi_180d": 0.0519,
-        "roi_90d": 0.0564,
+        "roi_90d": 0.0565,
         "roi_30d": 0.0863,
         "max_drawdown_fraction": 0.0116,
         "n_resolved": 1013,
         "n_distinct_markets": 986,
         "capital_concentration_hhi": 0.0034,
         "win_rate_adj": 0.4668,
-        "avg_trades_per_day_30d": 9.73
+        "avg_trades_per_day_30d": 9.8
       },
       "radar": {
-        "account_age_days": 168.4,
-        "portfolio_value": 3263.19,
-        "capital_efficiency": 0.0518,
-        "best_leaderboard_rank": 43,
+        "account_age_days": 168.5,
+        "portfolio_value": 22256.98,
+        "capital_efficiency": 0.0517,
+        "best_leaderboard_rank": 44,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 1,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: LGD Gaming vs ThunderTalk Gaming (BO3) - LPL Group Ascend",
-          "outcome": "ThunderTalk Gaming",
-          "their_entry_price": 0.47,
-          "current_price": 0.485,
-          "fair_value_estimate": 0.485,
-          "suggested_entry_range": [
-            0.467,
-            0.487
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.47 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 1.0,
-          "pick_score": 1.0,
-          "recommended": true,
-          "their_position_value": 3263.187
-        }
-      ]
+      "entry_recommendations": []
     }
   ]
 }
