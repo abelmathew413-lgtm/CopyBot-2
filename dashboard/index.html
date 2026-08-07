@@ -437,28 +437,28 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-06T12:13:40.399502+00:00",
-  "duration_seconds": 418.7,
-  "n_candidates_discovered": 1242,
+  "generated_at": "2026-08-07T00:16:53.659074+00:00",
+  "duration_seconds": 498.7,
+  "n_candidates_discovered": 1245,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 4,
+  "n_passed_filters": 3,
   "n_errors": 1,
   "errors": [
     {
-      "wallet": "0xf201a19b43471261a3c1ba9247335d55270e527e",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xf201a19b43471261a3c1ba9247335d55270e527e"
+      "wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
     }
   ],
   "wallets": [
     {
-      "wallet": "0x917182c1eb3257b2e2e4959d48228af78bfe9e5f",
-      "userName": "0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
-      "display_name": "0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
-      "profile_url": "https://polymarket.com/@0x917182c1Eb3257B2E2e4959D48228AF78Bfe9E5F-1761889623781",
+      "wallet": "0x8546a601f7c7cc3dae7141f20b0e09e42bbf35b8",
+      "userName": "HVAB",
+      "display_name": "HVAB",
+      "profile_url": "https://polymarket.com/@HVAB",
       "score": {
-        "composite": 0.4818,
-        "score_100": 74,
-        "kelly_edge": 0.4009,
+        "composite": 0.3153,
+        "score_100": 66,
+        "kelly_edge": 0.4127,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -469,79 +469,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0066,
-        "n_clv_with_data": 11,
-        "n_clv_attempted": 18,
-        "sharpe": 1.6968,
-        "roi_lifetime": 0.6288,
-        "roi_180d": 0.6288,
-        "roi_90d": 0.6313,
-        "roi_30d": 0.6279,
-        "max_drawdown_fraction": 0.0011,
-        "n_resolved": 18,
-        "n_distinct_markets": 17,
-        "capital_concentration_hhi": 0.1421,
-        "win_rate_adj": 0.6078,
-        "avg_trades_per_day_30d": 2.77
+        "clv": 0.0077,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 0.2043,
+        "roi_lifetime": 0.0849,
+        "roi_180d": 0.0849,
+        "roi_90d": 0.0849,
+        "roi_30d": 0.1024,
+        "max_drawdown_fraction": 0.0061,
+        "n_resolved": 464,
+        "n_distinct_markets": 388,
+        "capital_concentration_hhi": 0.0224,
+        "win_rate_adj": 0.7312,
+        "avg_trades_per_day_30d": 16.13
       },
       "radar": {
-        "account_age_days": 279.3,
+        "account_age_days": 70.4,
         "portfolio_value": 0,
-        "capital_efficiency": 0.2152,
-        "best_leaderboard_rank": 52,
+        "capital_efficiency": 0.084,
+        "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 30,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x3954e1c6b7bc5645d9d3425a6f4490889ef122d9",
-      "userName": "Spicer",
-      "display_name": "Spicer",
-      "profile_url": "https://polymarket.com/@Spicer",
-      "score": {
-        "composite": 0.4123,
-        "score_100": 71,
-        "kelly_edge": 0.5947,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0689,
-        "n_clv_with_data": 20,
-        "n_clv_attempted": 33,
-        "sharpe": 1.7856,
-        "roi_lifetime": 0.329,
-        "roi_180d": 0.3593,
-        "roi_90d": 0.3593,
-        "roi_30d": 0.3593,
-        "max_drawdown_fraction": 0.0079,
-        "n_resolved": 33,
-        "n_distinct_markets": 32,
-        "capital_concentration_hhi": 0.0995,
-        "win_rate_adj": 0.8468,
-        "avg_trades_per_day_30d": 7.43
-      },
-      "radar": {
-        "account_age_days": 1188.7,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.2464,
-        "best_leaderboard_rank": 53,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 17,
+      "open_positions_count": 9,
       "entry_recommendations": []
     },
     {
@@ -550,9 +503,9 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.342,
-        "score_100": 67,
-        "kelly_edge": 0.0828,
+        "composite": 0.3007,
+        "score_100": 65,
+        "kelly_edge": -0.0059,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -563,32 +516,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0306,
+        "clv": 0.0163,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.296,
-        "roi_lifetime": 0.1448,
-        "roi_180d": 0.1448,
-        "roi_90d": 0.1448,
-        "roi_30d": 0.1448,
-        "max_drawdown_fraction": 0.0625,
-        "n_resolved": 99,
-        "n_distinct_markets": 84,
-        "capital_concentration_hhi": 0.0235,
-        "win_rate_adj": 0.59,
-        "avg_trades_per_day_30d": 7.73
+        "sharpe": 0.2085,
+        "roi_lifetime": 0.1042,
+        "roi_180d": 0.1042,
+        "roi_90d": 0.1042,
+        "roi_30d": 0.1042,
+        "max_drawdown_fraction": 0.0529,
+        "n_resolved": 118,
+        "n_distinct_markets": 102,
+        "capital_concentration_hhi": 0.0189,
+        "win_rate_adj": 0.5544,
+        "avg_trades_per_day_30d": 8.27
       },
       "radar": {
-        "account_age_days": 8.2,
-        "portfolio_value": 51588.04,
-        "capital_efficiency": 0.1255,
-        "best_leaderboard_rank": 46,
+        "account_age_days": 8.7,
+        "portfolio_value": 4901.92,
+        "capital_efficiency": 0.103,
+        "best_leaderboard_rank": 40,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 18,
+      "open_positions_count": 8,
       "entry_recommendations": []
     },
     {
@@ -597,9 +550,9 @@
       "display_name": "sulumos",
       "profile_url": "https://polymarket.com/@sulumos",
       "score": {
-        "composite": 0.272,
+        "composite": 0.2661,
         "score_100": 64,
-        "kelly_edge": 0.1668,
+        "kelly_edge": 0.1669,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -610,51 +563,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0266,
+        "clv": 0.0201,
         "n_clv_with_data": 37,
         "n_clv_attempted": 40,
-        "sharpe": 0.0746,
-        "roi_lifetime": 0.0519,
-        "roi_180d": 0.0519,
-        "roi_90d": 0.0565,
-        "roi_30d": 0.0863,
-        "max_drawdown_fraction": 0.0116,
-        "n_resolved": 1013,
-        "n_distinct_markets": 986,
+        "sharpe": 0.0753,
+        "roi_lifetime": 0.0529,
+        "roi_180d": 0.0529,
+        "roi_90d": 0.0576,
+        "roi_30d": 0.0843,
+        "max_drawdown_fraction": 0.0115,
+        "n_resolved": 1017,
+        "n_distinct_markets": 990,
         "capital_concentration_hhi": 0.0034,
-        "win_rate_adj": 0.4668,
-        "avg_trades_per_day_30d": 9.73
+        "win_rate_adj": 0.4669,
+        "avg_trades_per_day_30d": 9.63
       },
       "radar": {
-        "account_age_days": 168.6,
-        "portfolio_value": 23800.63,
-        "capital_efficiency": 0.0516,
-        "best_leaderboard_rank": 40,
+        "account_age_days": 169.1,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.0527,
+        "best_leaderboard_rank": 53,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 3,
-      "entry_recommendations": [
-        {
-          "market_title": "Game Handicap: AL (-1.5) vs Team WE (+1.5)",
-          "outcome": "Anyones Legend",
-          "their_entry_price": 0.44,
-          "current_price": 0.445,
-          "fair_value_estimate": 0.445,
-          "suggested_entry_range": [
-            0.432,
-            0.453
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.44 -> 0.45); replicating their entry is still reasonably representative.",
-          "conviction": 0.9351,
-          "pick_score": 0.9351,
-          "recommended": true,
-          "their_position_value": 1536.2433
-        }
-      ]
+      "open_positions_count": 1,
+      "entry_recommendations": []
     }
   ]
 }</script>
