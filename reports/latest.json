@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-07T15:07:32.129608+00:00",
-  "duration_seconds": 472.3,
-  "n_candidates_discovered": 1219,
+  "generated_at": "2026-08-07T16:14:11.473396+00:00",
+  "duration_seconds": 562.8,
+  "n_candidates_discovered": 1204,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 2,
   "n_errors": 0,
   "errors": [],
   "wallets": [
     {
-      "wallet": "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff",
-      "userName": "sulumos",
-      "display_name": "sulumos",
-      "profile_url": "https://polymarket.com/@sulumos",
+      "wallet": "0x8546a601f7c7cc3dae7141f20b0e09e42bbf35b8",
+      "userName": "HVAB",
+      "display_name": "HVAB",
+      "profile_url": "https://polymarket.com/@HVAB",
       "score": {
-        "composite": 0.2863,
-        "score_100": 65,
-        "kelly_edge": 0.1698,
+        "composite": 0.329,
+        "score_100": 67,
+        "kelly_edge": 0.4072,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -26,33 +26,51 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0405,
-        "n_clv_with_data": 37,
+        "clv": 0.0219,
+        "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.0756,
-        "roi_lifetime": 0.0526,
-        "roi_180d": 0.0526,
-        "roi_90d": 0.0568,
-        "roi_30d": 0.0831,
-        "max_drawdown_fraction": 0.0111,
-        "n_resolved": 1024,
-        "n_distinct_markets": 996,
-        "capital_concentration_hhi": 0.0034,
-        "win_rate_adj": 0.4685,
-        "avg_trades_per_day_30d": 9.8
+        "sharpe": 0.2002,
+        "roi_lifetime": 0.0864,
+        "roi_180d": 0.0864,
+        "roi_90d": 0.0864,
+        "roi_30d": 0.1015,
+        "max_drawdown_fraction": 0.006,
+        "n_resolved": 470,
+        "n_distinct_markets": 393,
+        "capital_concentration_hhi": 0.0217,
+        "win_rate_adj": 0.7301,
+        "avg_trades_per_day_30d": 16.53
       },
       "radar": {
-        "account_age_days": 169.7,
-        "portfolio_value": 19.3,
-        "capital_efficiency": 0.0523,
-        "best_leaderboard_rank": 43,
+        "account_age_days": 71.1,
+        "portfolio_value": 3796.51,
+        "capital_efficiency": 0.0853,
+        "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 1,
-      "entry_recommendations": []
+      "open_positions_count": 10,
+      "entry_recommendations": [
+        {
+          "market_title": "National Bank Open: Iva Jovic vs Alina Korneeva",
+          "outcome": "Alina Korneeva",
+          "their_entry_price": 0.67,
+          "current_price": 0.475,
+          "fair_value_estimate": 0.545,
+          "suggested_entry_range": [
+            0.51,
+            0.705
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.20 (29%) since their entry of 0.67 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.1563,
+          "pick_score": 0.0313,
+          "recommended": true,
+          "their_position_value": 3796.5103
+        }
+      ]
     },
     {
       "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
@@ -60,8 +78,8 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.2539,
-        "score_100": 63,
+        "composite": 0.2397,
+        "score_100": 62,
         "kelly_edge": -0.0499,
         "weights_used": {
           "clv": 0.25,
@@ -73,7 +91,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0183,
+        "clv": -0.0326,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
         "sharpe": 0.1536,
@@ -86,20 +104,38 @@
         "n_distinct_markets": 117,
         "capital_concentration_hhi": 0.0173,
         "win_rate_adj": 0.5338,
-        "avg_trades_per_day_30d": 8.67
+        "avg_trades_per_day_30d": 8.7
       },
       "radar": {
-        "account_age_days": 9.3,
-        "portfolio_value": 3.0,
-        "capital_efficiency": 0.099,
-        "best_leaderboard_rank": 34,
+        "account_age_days": 9.4,
+        "portfolio_value": 13515.32,
+        "capital_efficiency": 0.0981,
+        "best_leaderboard_rank": 39,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 1,
-      "entry_recommendations": []
+      "open_positions_count": 3,
+      "entry_recommendations": [
+        {
+          "market_title": "LoL: Shifters vs GIANTX - Game 2 Winner",
+          "outcome": "Shifters",
+          "their_entry_price": 0.45,
+          "current_price": 0.435,
+          "fair_value_estimate": 0.405,
+          "suggested_entry_range": [
+            0.417,
+            0.438
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.45 -> 0.43); replicating their entry is still reasonably representative.",
+          "conviction": 0.7888,
+          "pick_score": 0.7888,
+          "recommended": true,
+          "their_position_value": 2851.5709
+        }
+      ]
     }
   ]
 }
