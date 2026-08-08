@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-08T18:54:25.545008+00:00",
-  "duration_seconds": 383.3,
-  "n_candidates_discovered": 1201,
+  "generated_at": "2026-08-08T19:56:09.194008+00:00",
+  "duration_seconds": 1229.3,
+  "n_candidates_discovered": 1204,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 4,
   "n_errors": 1,
@@ -47,35 +47,17 @@
         "avg_trades_per_day_30d": 8.0
       },
       "radar": {
-        "account_age_days": 34.4,
-        "portfolio_value": 15098.5,
+        "account_age_days": 34.5,
+        "portfolio_value": 26707.0,
         "capital_efficiency": 0.2302,
-        "best_leaderboard_rank": 26,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 89,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: Movistar KOI vs GIANTX (BO3) - LEC Regular Season",
-          "outcome": "GIANTX",
-          "their_entry_price": 0.277,
-          "current_price": 0.5649,
-          "fair_value_estimate": 0.565,
-          "suggested_entry_range": [
-            0.277,
-            0.565
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.29 (104%) since their entry of 0.28 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0285,
-          "pick_score": 0.0057,
-          "recommended": true,
-          "their_position_value": 15088.9124
-        }
-      ]
+      "entry_recommendations": []
     },
     {
       "wallet": "0x3954e1c6b7bc5645d9d3425a6f4490889ef122d9",
@@ -113,9 +95,9 @@
       },
       "radar": {
         "account_age_days": 1191.0,
-        "portfolio_value": 29666.89,
+        "portfolio_value": 29649.73,
         "capital_efficiency": 0.2469,
-        "best_leaderboard_rank": 36,
+        "best_leaderboard_rank": 37,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -159,10 +141,10 @@
         "avg_trades_per_day_30d": 7.07
       },
       "radar": {
-        "account_age_days": 27.6,
+        "account_age_days": 27.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2259,
-        "best_leaderboard_rank": 38,
+        "best_leaderboard_rank": 37,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -177,9 +159,9 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.2814,
-        "score_100": 64,
-        "kelly_edge": -0.0094,
+        "composite": 0.2877,
+        "score_100": 65,
+        "kelly_edge": 0.0066,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -190,33 +172,51 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.002,
+        "clv": 0.0045,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.1667,
-        "roi_lifetime": 0.1053,
-        "roi_180d": 0.1053,
-        "roi_90d": 0.1053,
-        "roi_30d": 0.1053,
-        "max_drawdown_fraction": 0.0459,
-        "n_resolved": 153,
-        "n_distinct_markets": 130,
-        "capital_concentration_hhi": 0.0153,
-        "win_rate_adj": 0.5486,
-        "avg_trades_per_day_30d": 9.53
+        "sharpe": 0.1794,
+        "roi_lifetime": 0.1075,
+        "roi_180d": 0.1075,
+        "roi_90d": 0.1075,
+        "roi_30d": 0.1075,
+        "max_drawdown_fraction": 0.0456,
+        "n_resolved": 155,
+        "n_distinct_markets": 132,
+        "capital_concentration_hhi": 0.0152,
+        "win_rate_adj": 0.554,
+        "avg_trades_per_day_30d": 9.63
       },
       "radar": {
         "account_age_days": 10.5,
-        "portfolio_value": 10780.63,
-        "capital_efficiency": 0.1023,
-        "best_leaderboard_rank": 27,
+        "portfolio_value": 19321.03,
+        "capital_efficiency": 0.1008,
+        "best_leaderboard_rank": 36,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 6,
-      "entry_recommendations": []
+      "entry_recommendations": [
+        {
+          "market_title": "Atlanta Braves vs. New York Yankees",
+          "outcome": "Atlanta Braves",
+          "their_entry_price": 0.43,
+          "current_price": 0.375,
+          "fair_value_estimate": 0.365,
+          "suggested_entry_range": [
+            0.37,
+            0.425
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.43 -> 0.38); replicating their entry is still reasonably representative.",
+          "conviction": 0.665,
+          "pick_score": 0.665,
+          "recommended": true,
+          "their_position_value": 19283.0062
+        }
+      ]
     }
   ]
 }
