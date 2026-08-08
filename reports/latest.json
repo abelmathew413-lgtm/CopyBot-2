@@ -1,68 +1,21 @@
 {
-  "generated_at": "2026-08-08T07:08:52.094481+00:00",
-  "duration_seconds": 327.5,
-  "n_candidates_discovered": 1202,
+  "generated_at": "2026-08-08T08:55:28.434656+00:00",
+  "duration_seconds": 269.2,
+  "n_candidates_discovered": 1240,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 2,
+  "n_passed_filters": 1,
   "n_errors": 0,
   "errors": [],
   "wallets": [
-    {
-      "wallet": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
-      "userName": "BrotherObama",
-      "display_name": "BrotherObama",
-      "profile_url": "https://polymarket.com/@BrotherObama",
-      "score": {
-        "composite": 0.5761,
-        "score_100": 79,
-        "kelly_edge": 0.6972,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0152,
-        "n_clv_with_data": 39,
-        "n_clv_attempted": 40,
-        "sharpe": 1.8108,
-        "roi_lifetime": 0.5513,
-        "roi_180d": 0.5513,
-        "roi_90d": 0.5513,
-        "roi_30d": 0.5392,
-        "max_drawdown_fraction": 0.0095,
-        "n_resolved": 52,
-        "n_distinct_markets": 52,
-        "capital_concentration_hhi": 0.0291,
-        "win_rate_adj": 0.7939,
-        "avg_trades_per_day_30d": 7.1
-      },
-      "radar": {
-        "account_age_days": 33.9,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.232,
-        "best_leaderboard_rank": 29,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 85,
-      "entry_recommendations": []
-    },
     {
       "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
       "userName": "ThornyDevil",
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.2833,
+        "composite": 0.3004,
         "score_100": 65,
-        "kelly_edge": -0.0168,
+        "kelly_edge": -0.0086,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -73,32 +26,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0045,
+        "clv": 0.0198,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.169,
-        "roi_lifetime": 0.1059,
-        "roi_180d": 0.1059,
-        "roi_90d": 0.1059,
-        "roi_30d": 0.1059,
-        "max_drawdown_fraction": 0.0477,
-        "n_resolved": 144,
-        "n_distinct_markets": 123,
-        "capital_concentration_hhi": 0.0163,
-        "win_rate_adj": 0.5436,
-        "avg_trades_per_day_30d": 9.03
+        "sharpe": 0.1733,
+        "roi_lifetime": 0.1064,
+        "roi_180d": 0.1064,
+        "roi_90d": 0.1064,
+        "roi_30d": 0.1064,
+        "max_drawdown_fraction": 0.0474,
+        "n_resolved": 146,
+        "n_distinct_markets": 124,
+        "capital_concentration_hhi": 0.0161,
+        "win_rate_adj": 0.5494,
+        "avg_trades_per_day_30d": 9.17
       },
       "radar": {
-        "account_age_days": 10.0,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1056,
+        "account_age_days": 10.1,
+        "portfolio_value": 11870.18,
+        "capital_efficiency": 0.1052,
         "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 1,
+      "open_positions_count": 2,
       "entry_recommendations": []
     }
   ]
