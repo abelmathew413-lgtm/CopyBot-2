@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-08T17:45:02.701505+00:00",
-  "duration_seconds": 483.3,
-  "n_candidates_discovered": 1198,
+  "generated_at": "2026-08-08T18:54:25.545008+00:00",
+  "duration_seconds": 383.3,
+  "n_candidates_discovered": 1201,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 4,
   "n_errors": 1,
@@ -44,13 +44,13 @@
         "n_distinct_markets": 57,
         "capital_concentration_hhi": 0.0263,
         "win_rate_adj": 0.7921,
-        "avg_trades_per_day_30d": 7.97
+        "avg_trades_per_day_30d": 8.0
       },
       "radar": {
         "account_age_days": 34.4,
-        "portfolio_value": 4997.96,
-        "capital_efficiency": 0.2309,
-        "best_leaderboard_rank": 23,
+        "portfolio_value": 15098.5,
+        "capital_efficiency": 0.2302,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -61,19 +61,19 @@
         {
           "market_title": "LoL: Movistar KOI vs GIANTX (BO3) - LEC Regular Season",
           "outcome": "GIANTX",
-          "their_entry_price": 0.2804,
-          "current_price": 0.275,
-          "fair_value_estimate": 0.275,
+          "their_entry_price": 0.277,
+          "current_price": 0.5649,
+          "fair_value_estimate": 0.565,
           "suggested_entry_range": [
-            0.268,
-            0.288
+            0.277,
+            0.565
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.28 -> 0.28); replicating their entry is still reasonably representative.",
-          "conviction": 0.0094,
-          "pick_score": 0.0094,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.29 (104%) since their entry of 0.28 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0285,
+          "pick_score": 0.0057,
           "recommended": true,
-          "their_position_value": 4902.0474
+          "their_position_value": 15088.9124
         }
       ]
     },
@@ -112,10 +112,10 @@
         "avg_trades_per_day_30d": 7.47
       },
       "radar": {
-        "account_age_days": 1190.9,
+        "account_age_days": 1191.0,
         "portfolio_value": 29666.89,
         "capital_efficiency": 0.2469,
-        "best_leaderboard_rank": 39,
+        "best_leaderboard_rank": 36,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -162,7 +162,7 @@
         "account_age_days": 27.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2259,
-        "best_leaderboard_rank": 37,
+        "best_leaderboard_rank": 38,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -177,9 +177,9 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.2692,
+        "composite": 0.2814,
         "score_100": 64,
-        "kelly_edge": -0.0136,
+        "kelly_edge": -0.0094,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -190,51 +190,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0087,
+        "clv": 0.002,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.1623,
-        "roi_lifetime": 0.1041,
-        "roi_180d": 0.1041,
-        "roi_90d": 0.1041,
-        "roi_30d": 0.1041,
-        "max_drawdown_fraction": 0.0461,
-        "n_resolved": 152,
-        "n_distinct_markets": 129,
-        "capital_concentration_hhi": 0.0154,
-        "win_rate_adj": 0.5458,
-        "avg_trades_per_day_30d": 9.5
+        "sharpe": 0.1667,
+        "roi_lifetime": 0.1053,
+        "roi_180d": 0.1053,
+        "roi_90d": 0.1053,
+        "roi_30d": 0.1053,
+        "max_drawdown_fraction": 0.0459,
+        "n_resolved": 153,
+        "n_distinct_markets": 130,
+        "capital_concentration_hhi": 0.0153,
+        "win_rate_adj": 0.5486,
+        "avg_trades_per_day_30d": 9.53
       },
       "radar": {
         "account_age_days": 10.5,
-        "portfolio_value": 21338.85,
-        "capital_efficiency": 0.1022,
-        "best_leaderboard_rank": 24,
+        "portfolio_value": 10780.63,
+        "capital_efficiency": 0.1023,
+        "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 5,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: SK Gaming vs Natus Vincere (BO3) - LEC Regular Season",
-          "outcome": "SK Gaming",
-          "their_entry_price": 0.5764,
-          "current_price": 0.08,
-          "fair_value_estimate": 0.0005,
-          "suggested_entry_range": [
-            0.04,
-            0.537
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.50 (86%) since their entry of 0.58 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.3227,
-          "pick_score": 0.0645,
-          "recommended": true,
-          "their_position_value": 571.8649
-        }
-      ]
+      "open_positions_count": 6,
+      "entry_recommendations": []
     }
   ]
 }
