@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-08T13:09:29.851963+00:00",
-  "duration_seconds": 447.5,
+  "generated_at": "2026-08-08T14:44:04.806732+00:00",
+  "duration_seconds": 372.0,
   "n_candidates_discovered": 1201,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 3,
+  "n_passed_filters": 4,
   "n_errors": 1,
   "errors": [
     {
@@ -18,9 +18,9 @@
       "display_name": "BrotherObama",
       "profile_url": "https://polymarket.com/@BrotherObama",
       "score": {
-        "composite": 0.5746,
+        "composite": 0.5764,
         "score_100": 79,
-        "kelly_edge": 0.6774,
+        "kelly_edge": 0.6816,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -31,26 +31,26 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0171,
+        "clv": 0.0177,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
-        "sharpe": 1.7261,
-        "roi_lifetime": 0.5363,
-        "roi_180d": 0.5363,
-        "roi_90d": 0.5363,
+        "sharpe": 1.7424,
+        "roi_lifetime": 0.5361,
+        "roi_180d": 0.5361,
+        "roi_90d": 0.5361,
         "roi_30d": 0.5225,
-        "max_drawdown_fraction": 0.0092,
-        "n_resolved": 55,
+        "max_drawdown_fraction": 0.0091,
+        "n_resolved": 56,
         "n_distinct_markets": 55,
-        "capital_concentration_hhi": 0.0274,
-        "win_rate_adj": 0.7817,
-        "avg_trades_per_day_30d": 7.83
+        "capital_concentration_hhi": 0.0272,
+        "win_rate_adj": 0.7853,
+        "avg_trades_per_day_30d": 7.93
       },
       "radar": {
-        "account_age_days": 34.2,
-        "portfolio_value": 36718.19,
-        "capital_efficiency": 0.2244,
-        "best_leaderboard_rank": 31,
+        "account_age_days": 34.3,
+        "portfolio_value": 34890.5,
+        "capital_efficiency": 0.2254,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -59,21 +59,21 @@
       "open_positions_count": 90,
       "entry_recommendations": [
         {
-          "market_title": "LoL: Deep Cross Gaming vs MVK Esports (BO5) - LCP Group Stage",
-          "outcome": "MVK Esports",
-          "their_entry_price": 0.5315,
-          "current_price": 0.555,
-          "fair_value_estimate": 0.675,
+          "market_title": "LoL: SK Gaming vs Natus Vincere (BO3) - LEC Regular Season",
+          "outcome": "SK Gaming",
+          "their_entry_price": 0.3649,
+          "current_price": 0.365,
+          "fair_value_estimate": 0.365,
           "suggested_entry_range": [
-            0.592,
-            0.615
+            0.355,
+            0.375
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.53 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.0334,
-          "pick_score": 0.0334,
+          "note": "Price is close to their entry (0.36 -> 0.36); replicating their entry is still reasonably representative.",
+          "conviction": 0.0335,
+          "pick_score": 0.0335,
           "recommended": true,
-          "their_position_value": 5778.1497
+          "their_position_value": 7001.3138
         }
       ]
     },
@@ -83,9 +83,9 @@
       "display_name": "Spicer",
       "profile_url": "https://polymarket.com/@Spicer",
       "score": {
-        "composite": 0.4669,
-        "score_100": 74,
-        "kelly_edge": 0.6305,
+        "composite": 0.4331,
+        "score_100": 72,
+        "kelly_edge": 0.6349,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -96,68 +96,80 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0276,
-        "n_clv_with_data": 22,
-        "n_clv_attempted": 36,
-        "sharpe": 1.9165,
-        "roi_lifetime": 0.3429,
-        "roi_180d": 0.3708,
-        "roi_90d": 0.3708,
-        "roi_30d": 0.3705,
-        "max_drawdown_fraction": 0.0069,
-        "n_resolved": 36,
-        "n_distinct_markets": 35,
-        "capital_concentration_hhi": 0.0814,
-        "win_rate_adj": 0.8583,
+        "clv": -0.0633,
+        "n_clv_with_data": 23,
+        "n_clv_attempted": 37,
+        "sharpe": 1.8507,
+        "roi_lifetime": 0.3407,
+        "roi_180d": 0.3679,
+        "roi_90d": 0.3679,
+        "roi_30d": 0.3674,
+        "max_drawdown_fraction": 0.0068,
+        "n_resolved": 37,
+        "n_distinct_markets": 36,
+        "capital_concentration_hhi": 0.0798,
+        "win_rate_adj": 0.8618,
         "avg_trades_per_day_30d": 7.2
       },
       "radar": {
-        "account_age_days": 1190.7,
-        "portfolio_value": 63993.82,
-        "capital_efficiency": 0.249,
-        "best_leaderboard_rank": 35,
+        "account_age_days": 1190.8,
+        "portfolio_value": 59292.04,
+        "capital_efficiency": 0.2502,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 22,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: Bilibili Gaming vs EDward Gaming - Game 2 Winner",
-          "outcome": "Bilibili Gaming",
-          "their_entry_price": 0.82,
-          "current_price": 0.785,
-          "fair_value_estimate": 0.8,
-          "suggested_entry_range": [
-            0.793,
-            0.828
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.82 -> 0.79); replicating their entry is still reasonably representative.",
-          "conviction": 0.0733,
-          "pick_score": 0.0733,
-          "recommended": true,
-          "their_position_value": 14685.309
+      "open_positions_count": 21,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0xc0c426cfdbace70bb89d371aa80d3b1cac1cf745",
+      "userName": "kedaya8888",
+      "display_name": "kedaya8888",
+      "profile_url": "https://polymarket.com/@kedaya8888",
+      "score": {
+        "composite": 0.3256,
+        "score_100": 67,
+        "kelly_edge": 0.132,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
         },
-        {
-          "market_title": "Game Handicap: BLG (-1.5) vs EDward Gaming (+1.5)",
-          "outcome": "Bilibili Gaming",
-          "their_entry_price": 0.6691,
-          "current_price": 0.785,
-          "fair_value_estimate": 0.81,
-          "suggested_entry_range": [
-            0.682,
-            0.798
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.12 (17%) since their entry of 0.67 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.04,
-          "pick_score": 0.008,
-          "recommended": true,
-          "their_position_value": 10735.2746
-        }
-      ]
+        "consistency_adjustment": 0.02,
+        "clv": -0.0582,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 0.2043,
+        "roi_lifetime": 0.4145,
+        "roi_180d": 0.4145,
+        "roi_90d": 0.4145,
+        "roi_30d": 0.4145,
+        "max_drawdown_fraction": 0.0105,
+        "n_resolved": 247,
+        "n_distinct_markets": 158,
+        "capital_concentration_hhi": 0.0328,
+        "win_rate_adj": 0.5698,
+        "avg_trades_per_day_30d": 7.07
+      },
+      "radar": {
+        "account_age_days": 27.5,
+        "portfolio_value": 20928.53,
+        "capital_efficiency": 0.2201,
+        "best_leaderboard_rank": 40,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 54,
+      "entry_recommendations": []
     },
     {
       "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
@@ -165,9 +177,9 @@
       "display_name": "ThornyDevil",
       "profile_url": "https://polymarket.com/@ThornyDevil",
       "score": {
-        "composite": 0.2724,
+        "composite": 0.27,
         "score_100": 64,
-        "kelly_edge": -0.0279,
+        "kelly_edge": -0.021,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -178,51 +190,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0016,
+        "clv": -0.0059,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.1502,
-        "roi_lifetime": 0.1014,
-        "roi_180d": 0.1014,
-        "roi_90d": 0.1014,
-        "roi_30d": 0.1014,
-        "max_drawdown_fraction": 0.0464,
-        "n_resolved": 150,
-        "n_distinct_markets": 127,
-        "capital_concentration_hhi": 0.0156,
-        "win_rate_adj": 0.5402,
+        "sharpe": 0.1562,
+        "roi_lifetime": 0.1029,
+        "roi_180d": 0.1029,
+        "roi_90d": 0.1029,
+        "roi_30d": 0.1029,
+        "max_drawdown_fraction": 0.0462,
+        "n_resolved": 151,
+        "n_distinct_markets": 128,
+        "capital_concentration_hhi": 0.0155,
+        "win_rate_adj": 0.5431,
         "avg_trades_per_day_30d": 9.3
       },
       "radar": {
         "account_age_days": 10.3,
-        "portfolio_value": 11651.03,
-        "capital_efficiency": 0.1002,
-        "best_leaderboard_rank": 26,
+        "portfolio_value": 6526.76,
+        "capital_efficiency": 0.102,
+        "best_leaderboard_rank": 28,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 3,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: Deep Cross Gaming vs MVK Esports (BO5) - LCP Group Stage",
-          "outcome": "MVK Esports",
-          "their_entry_price": 0.5093,
-          "current_price": 0.555,
-          "fair_value_estimate": 0.555,
-          "suggested_entry_range": [
-            0.509,
-            0.555
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.51 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.6888,
-          "pick_score": 0.6888,
-          "recommended": true,
-          "their_position_value": 3621.4798
-        }
-      ]
+      "open_positions_count": 2,
+      "entry_recommendations": []
     }
   ]
 }
