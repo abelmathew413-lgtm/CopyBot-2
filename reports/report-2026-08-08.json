@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-08T14:44:04.806732+00:00",
-  "duration_seconds": 372.0,
-  "n_candidates_discovered": 1201,
+  "generated_at": "2026-08-08T15:42:51.338767+00:00",
+  "duration_seconds": 391.0,
+  "n_candidates_discovered": 1193,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 4,
   "n_errors": 1,
@@ -18,9 +18,9 @@
       "display_name": "BrotherObama",
       "profile_url": "https://polymarket.com/@BrotherObama",
       "score": {
-        "composite": 0.5764,
-        "score_100": 79,
-        "kelly_edge": 0.6816,
+        "composite": 0.5947,
+        "score_100": 80,
+        "kelly_edge": 0.6894,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -31,49 +31,49 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0177,
+        "clv": 0.0335,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
-        "sharpe": 1.7424,
-        "roi_lifetime": 0.5361,
-        "roi_180d": 0.5361,
-        "roi_90d": 0.5361,
-        "roi_30d": 0.5225,
-        "max_drawdown_fraction": 0.0091,
-        "n_resolved": 56,
-        "n_distinct_markets": 55,
-        "capital_concentration_hhi": 0.0272,
-        "win_rate_adj": 0.7853,
+        "sharpe": 1.759,
+        "roi_lifetime": 0.5404,
+        "roi_180d": 0.5404,
+        "roi_90d": 0.5404,
+        "roi_30d": 0.5277,
+        "max_drawdown_fraction": 0.0089,
+        "n_resolved": 57,
+        "n_distinct_markets": 56,
+        "capital_concentration_hhi": 0.0267,
+        "win_rate_adj": 0.7888,
         "avg_trades_per_day_30d": 7.93
       },
       "radar": {
         "account_age_days": 34.3,
-        "portfolio_value": 34890.5,
-        "capital_efficiency": 0.2254,
-        "best_leaderboard_rank": 22,
+        "portfolio_value": 13570.85,
+        "capital_efficiency": 0.2306,
+        "best_leaderboard_rank": 23,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 90,
+      "open_positions_count": 89,
       "entry_recommendations": [
         {
           "market_title": "LoL: SK Gaming vs Natus Vincere (BO3) - LEC Regular Season",
           "outcome": "SK Gaming",
           "their_entry_price": 0.3649,
-          "current_price": 0.365,
-          "fair_value_estimate": 0.365,
+          "current_price": 0.165,
+          "fair_value_estimate": 0.165,
           "suggested_entry_range": [
-            0.355,
-            0.375
+            0.165,
+            0.365
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.36 -> 0.36); replicating their entry is still reasonably representative.",
-          "conviction": 0.0335,
-          "pick_score": 0.0335,
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.20 (55%) since their entry of 0.36 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0197,
+          "pick_score": 0.0039,
           "recommended": true,
-          "their_position_value": 7001.3138
+          "their_position_value": 3164.9774
         }
       ]
     },
@@ -83,9 +83,9 @@
       "display_name": "Spicer",
       "profile_url": "https://polymarket.com/@Spicer",
       "score": {
-        "composite": 0.4331,
-        "score_100": 72,
-        "kelly_edge": 0.6349,
+        "composite": 0.4611,
+        "score_100": 73,
+        "kelly_edge": 0.6519,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -96,33 +96,68 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0633,
-        "n_clv_with_data": 23,
-        "n_clv_attempted": 37,
-        "sharpe": 1.8507,
-        "roi_lifetime": 0.3407,
-        "roi_180d": 0.3679,
-        "roi_90d": 0.3679,
-        "roi_30d": 0.3674,
-        "max_drawdown_fraction": 0.0068,
-        "n_resolved": 37,
-        "n_distinct_markets": 36,
-        "capital_concentration_hhi": 0.0798,
-        "win_rate_adj": 0.8618,
-        "avg_trades_per_day_30d": 7.2
+        "clv": -0.0391,
+        "n_clv_with_data": 26,
+        "n_clv_attempted": 40,
+        "sharpe": 1.8383,
+        "roi_lifetime": 0.3345,
+        "roi_180d": 0.3592,
+        "roi_90d": 0.3592,
+        "roi_30d": 0.3583,
+        "max_drawdown_fraction": 0.0065,
+        "n_resolved": 40,
+        "n_distinct_markets": 39,
+        "capital_concentration_hhi": 0.0725,
+        "win_rate_adj": 0.8712,
+        "avg_trades_per_day_30d": 7.43
       },
       "radar": {
         "account_age_days": 1190.8,
-        "portfolio_value": 59292.04,
-        "capital_efficiency": 0.2502,
+        "portfolio_value": 30095.66,
+        "capital_efficiency": 0.2527,
         "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 21,
-      "entry_recommendations": []
+      "open_positions_count": 20,
+      "entry_recommendations": [
+        {
+          "market_title": "LoL: SK Gaming vs Natus Vincere (BO3) - LEC Regular Season",
+          "outcome": "Natus Vincere",
+          "their_entry_price": 0.64,
+          "current_price": 0.835,
+          "fair_value_estimate": 0.835,
+          "suggested_entry_range": [
+            0.64,
+            0.835
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.19 (30%) since their entry of 0.64 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0707,
+          "pick_score": 0.0141,
+          "recommended": true,
+          "their_position_value": 24766.2336
+        },
+        {
+          "market_title": "Game Handicap: Navi (-1.5) vs SK Gaming (+1.5)",
+          "outcome": "Natus Vincere",
+          "their_entry_price": 0.4034,
+          "current_price": 0.605,
+          "fair_value_estimate": 0.61,
+          "suggested_entry_range": [
+            0.406,
+            0.607
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.20 (50%) since their entry of 0.40 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0152,
+          "pick_score": 0.003,
+          "recommended": true,
+          "their_position_value": 5329.4259
+        }
+      ]
     },
     {
       "wallet": "0xc0c426cfdbace70bb89d371aa80d3b1cac1cf745",
@@ -130,9 +165,9 @@
       "display_name": "kedaya8888",
       "profile_url": "https://polymarket.com/@kedaya8888",
       "score": {
-        "composite": 0.3256,
+        "composite": 0.3393,
         "score_100": 67,
-        "kelly_edge": 0.132,
+        "kelly_edge": 0.1353,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -143,32 +178,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0582,
+        "clv": -0.0453,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.2043,
-        "roi_lifetime": 0.4145,
-        "roi_180d": 0.4145,
-        "roi_90d": 0.4145,
-        "roi_30d": 0.4145,
-        "max_drawdown_fraction": 0.0105,
-        "n_resolved": 247,
-        "n_distinct_markets": 158,
-        "capital_concentration_hhi": 0.0328,
-        "win_rate_adj": 0.5698,
+        "sharpe": 0.2079,
+        "roi_lifetime": 0.4162,
+        "roi_180d": 0.4162,
+        "roi_90d": 0.4162,
+        "roi_30d": 0.4162,
+        "max_drawdown_fraction": 0.0103,
+        "n_resolved": 248,
+        "n_distinct_markets": 159,
+        "capital_concentration_hhi": 0.0319,
+        "win_rate_adj": 0.5715,
         "avg_trades_per_day_30d": 7.07
       },
       "radar": {
         "account_age_days": 27.5,
-        "portfolio_value": 20928.53,
-        "capital_efficiency": 0.2201,
-        "best_leaderboard_rank": 40,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2259,
+        "best_leaderboard_rank": 39,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 54,
+      "open_positions_count": 53,
       "entry_recommendations": []
     },
     {
@@ -203,20 +238,38 @@
         "n_distinct_markets": 128,
         "capital_concentration_hhi": 0.0155,
         "win_rate_adj": 0.5431,
-        "avg_trades_per_day_30d": 9.3
+        "avg_trades_per_day_30d": 9.33
       },
       "radar": {
-        "account_age_days": 10.3,
-        "portfolio_value": 6526.76,
-        "capital_efficiency": 0.102,
+        "account_age_days": 10.4,
+        "portfolio_value": 16083.25,
+        "capital_efficiency": 0.1016,
         "best_leaderboard_rank": 28,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 2,
-      "entry_recommendations": []
+      "open_positions_count": 3,
+      "entry_recommendations": [
+        {
+          "market_title": "LoL: SK Gaming vs Natus Vincere - Game 1 Winner",
+          "outcome": "Natus Vincere",
+          "their_entry_price": 0.646,
+          "current_price": 0.955,
+          "fair_value_estimate": 0.975,
+          "suggested_entry_range": [
+            0.656,
+            0.965
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.31 (48%) since their entry of 0.65 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.3712,
+          "pick_score": 0.0742,
+          "recommended": true,
+          "their_position_value": 9561.3249
+        }
+      ]
     }
   ]
 }
