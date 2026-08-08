@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-08T08:55:28.434656+00:00",
-  "duration_seconds": 269.2,
-  "n_candidates_discovered": 1240,
+  "generated_at": "2026-08-08T09:52:21.914762+00:00",
+  "duration_seconds": 454.0,
+  "n_candidates_discovered": 1191,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 1,
+  "n_passed_filters": 2,
   "n_errors": 0,
   "errors": [],
   "wallets": [
     {
-      "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
-      "userName": "ThornyDevil",
-      "display_name": "ThornyDevil",
-      "profile_url": "https://polymarket.com/@ThornyDevil",
+      "wallet": "0xc0c426cfdbace70bb89d371aa80d3b1cac1cf745",
+      "userName": "kedaya8888",
+      "display_name": "kedaya8888",
+      "profile_url": "https://polymarket.com/@kedaya8888",
       "score": {
-        "composite": 0.3004,
-        "score_100": 65,
-        "kelly_edge": -0.0086,
+        "composite": 0.3246,
+        "score_100": 67,
+        "kelly_edge": 0.1275,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -26,32 +26,97 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0198,
+        "clv": -0.0579,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.1733,
-        "roi_lifetime": 0.1064,
-        "roi_180d": 0.1064,
-        "roi_90d": 0.1064,
-        "roi_30d": 0.1064,
+        "sharpe": 0.199,
+        "roi_lifetime": 0.415,
+        "roi_180d": 0.415,
+        "roi_90d": 0.415,
+        "roi_30d": 0.415,
+        "max_drawdown_fraction": 0.0107,
+        "n_resolved": 245,
+        "n_distinct_markets": 156,
+        "capital_concentration_hhi": 0.0338,
+        "win_rate_adj": 0.5665,
+        "avg_trades_per_day_30d": 6.73
+      },
+      "radar": {
+        "account_age_days": 27.3,
+        "portfolio_value": 7378.46,
+        "capital_efficiency": 0.2252,
+        "best_leaderboard_rank": 37,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 52,
+      "entry_recommendations": [
+        {
+          "market_title": "LoL: LGD Gaming vs Anyone's Legend - Game 1 Winner",
+          "outcome": "LGD Gaming",
+          "their_entry_price": 0.52,
+          "current_price": 0.6949,
+          "fair_value_estimate": 0.7,
+          "suggested_entry_range": [
+            0.523,
+            0.697
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.17 (34%) since their entry of 0.52 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0161,
+          "pick_score": 0.0032,
+          "recommended": true,
+          "their_position_value": 1381.4756
+        }
+      ]
+    },
+    {
+      "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
+      "userName": "ThornyDevil",
+      "display_name": "ThornyDevil",
+      "profile_url": "https://polymarket.com/@ThornyDevil",
+      "score": {
+        "composite": 0.2967,
+        "score_100": 65,
+        "kelly_edge": -0.0213,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0206,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 0.1582,
+        "roi_lifetime": 0.1036,
+        "roi_180d": 0.1036,
+        "roi_90d": 0.1036,
+        "roi_30d": 0.1036,
         "max_drawdown_fraction": 0.0474,
         "n_resolved": 146,
-        "n_distinct_markets": 124,
+        "n_distinct_markets": 125,
         "capital_concentration_hhi": 0.0161,
-        "win_rate_adj": 0.5494,
+        "win_rate_adj": 0.5425,
         "avg_trades_per_day_30d": 9.17
       },
       "radar": {
         "account_age_days": 10.1,
-        "portfolio_value": 11870.18,
-        "capital_efficiency": 0.1052,
+        "portfolio_value": 23635.41,
+        "capital_efficiency": 0.1014,
         "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 2,
+      "open_positions_count": 4,
       "entry_recommendations": []
     }
   ]
