@@ -437,16 +437,20 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-08T19:56:09.194008+00:00",
-  "duration_seconds": 1229.3,
-  "n_candidates_discovered": 1204,
+  "generated_at": "2026-08-08T20:44:01.135781+00:00",
+  "duration_seconds": 363.5,
+  "n_candidates_discovered": 1203,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 4,
-  "n_errors": 1,
+  "n_passed_filters": 3,
+  "n_errors": 2,
   "errors": [
     {
       "wallet": "0xf201a19b43471261a3c1ba9247335d55270e527e",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xf201a19b43471261a3c1ba9247335d55270e527e"
+    },
+    {
+      "wallet": "0x10ef48324b3ebc06d9137794c70285e8e37a7d7b",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x10ef48324b3ebc06d9137794c70285e8e37a7d7b"
     }
   ],
   "wallets": [
@@ -482,13 +486,13 @@
         "n_distinct_markets": 57,
         "capital_concentration_hhi": 0.0263,
         "win_rate_adj": 0.7921,
-        "avg_trades_per_day_30d": 8.0
+        "avg_trades_per_day_30d": 7.97
       },
       "radar": {
         "account_age_days": 34.5,
-        "portfolio_value": 26707.0,
+        "portfolio_value": 26697.41,
         "capital_efficiency": 0.2302,
-        "best_leaderboard_rank": 24,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -503,9 +507,9 @@
       "display_name": "Spicer",
       "profile_url": "https://polymarket.com/@Spicer",
       "score": {
-        "composite": 0.4349,
-        "score_100": 72,
-        "kelly_edge": 0.6519,
+        "composite": 0.4528,
+        "score_100": 73,
+        "kelly_edge": 0.6594,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -516,32 +520,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0665,
-        "n_clv_with_data": 26,
+        "clv": -0.0507,
+        "n_clv_with_data": 27,
         "n_clv_attempted": 40,
-        "sharpe": 1.8383,
-        "roi_lifetime": 0.3345,
-        "roi_180d": 0.3592,
-        "roi_90d": 0.3592,
-        "roi_30d": 0.3583,
-        "max_drawdown_fraction": 0.0065,
-        "n_resolved": 40,
-        "n_distinct_markets": 39,
-        "capital_concentration_hhi": 0.0725,
-        "win_rate_adj": 0.8712,
+        "sharpe": 1.8738,
+        "roi_lifetime": 0.3352,
+        "roi_180d": 0.3593,
+        "roi_90d": 0.3593,
+        "roi_30d": 0.3584,
+        "max_drawdown_fraction": 0.0063,
+        "n_resolved": 41,
+        "n_distinct_markets": 40,
+        "capital_concentration_hhi": 0.0694,
+        "win_rate_adj": 0.874,
         "avg_trades_per_day_30d": 7.47
       },
       "radar": {
-        "account_age_days": 1191.0,
-        "portfolio_value": 29649.73,
-        "capital_efficiency": 0.2469,
+        "account_age_days": 1191.1,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2541,
         "best_leaderboard_rank": 37,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 21,
+      "open_positions_count": 20,
       "entry_recommendations": []
     },
     {
@@ -582,7 +586,7 @@
         "account_age_days": 27.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2259,
-        "best_leaderboard_rank": 37,
+        "best_leaderboard_rank": 36,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -590,71 +594,6 @@
       },
       "open_positions_count": 53,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0xa7590cd0d4a5620fe4651dc0e6569817e6b31119",
-      "userName": "ThornyDevil",
-      "display_name": "ThornyDevil",
-      "profile_url": "https://polymarket.com/@ThornyDevil",
-      "score": {
-        "composite": 0.2877,
-        "score_100": 65,
-        "kelly_edge": 0.0066,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0045,
-        "n_clv_with_data": 40,
-        "n_clv_attempted": 40,
-        "sharpe": 0.1794,
-        "roi_lifetime": 0.1075,
-        "roi_180d": 0.1075,
-        "roi_90d": 0.1075,
-        "roi_30d": 0.1075,
-        "max_drawdown_fraction": 0.0456,
-        "n_resolved": 155,
-        "n_distinct_markets": 132,
-        "capital_concentration_hhi": 0.0152,
-        "win_rate_adj": 0.554,
-        "avg_trades_per_day_30d": 9.63
-      },
-      "radar": {
-        "account_age_days": 10.5,
-        "portfolio_value": 19321.03,
-        "capital_efficiency": 0.1008,
-        "best_leaderboard_rank": 36,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 6,
-      "entry_recommendations": [
-        {
-          "market_title": "Atlanta Braves vs. New York Yankees",
-          "outcome": "Atlanta Braves",
-          "their_entry_price": 0.43,
-          "current_price": 0.375,
-          "fair_value_estimate": 0.365,
-          "suggested_entry_range": [
-            0.37,
-            0.425
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.43 -> 0.38); replicating their entry is still reasonably representative.",
-          "conviction": 0.665,
-          "pick_score": 0.665,
-          "recommended": true,
-          "their_position_value": 19283.0062
-        }
-      ]
     }
   ]
 }</script>
