@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-08T18:33:33.591432+00:00",
-  "duration_seconds": 343.9,
-  "n_candidates_discovered": 1432,
+  "generated_at": "2026-09-08T21:56:06.999379+00:00",
+  "duration_seconds": 676.9,
+  "n_candidates_discovered": 1468,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 3,
+  "n_passed_filters": 4,
   "n_errors": 0,
   "errors": [],
   "wallets": [
@@ -42,17 +42,34 @@
         "avg_trades_per_day_30d": 5.23
       },
       "radar": {
-        "account_age_days": 103.7,
-        "portfolio_value": 504.26,
-        "capital_efficiency": 0.2226,
+        "account_age_days": 103.8,
+        "portfolio_value": 2545.85,
+        "capital_efficiency": 0.2225,
         "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 143,
+      "open_positions_count": 144,
       "entry_recommendations": [
+        {
+          "market_title": "Counter-Strike: magic vs FaZe (BO3) - FISSURE PLAYGROUND Group B",
+          "outcome": "FaZe",
+          "their_entry_price": 0.59,
+          "current_price": 0.595,
+          "fair_value_estimate": 0.595,
+          "suggested_entry_range": [
+            0.583,
+            0.603
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.59 -> 0.59); replicating their entry is still reasonably representative.",
+          "conviction": 0.0019,
+          "pick_score": 0.0019,
+          "recommended": true,
+          "their_position_value": 1874.0339
+        },
         {
           "market_title": "Counter-Strike: 5star vs TheMongolz (BO3) - FISSURE PLAYGROUND Group A",
           "outcome": "TheMongolz",
@@ -65,12 +82,59 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.91 -> 0.92); replicating their entry is still reasonably representative.",
-          "conviction": 0.0004,
-          "pick_score": 0.0004,
+          "conviction": 0.0007,
+          "pick_score": 0.0007,
           "recommended": true,
-          "their_position_value": 504.2565
+          "their_position_value": 671.8194
         }
       ]
+    },
+    {
+      "wallet": "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de",
+      "userName": "gambamaster",
+      "display_name": "gambamaster",
+      "profile_url": "https://polymarket.com/@gambamaster",
+      "score": {
+        "composite": 0.5593,
+        "score_100": 78,
+        "kelly_edge": 0.4263,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.1351,
+        "n_clv_with_data": 13,
+        "n_clv_attempted": 40,
+        "sharpe": 0.7565,
+        "roi_lifetime": 0.3984,
+        "roi_180d": 0.3984,
+        "roi_90d": 0.3984,
+        "roi_30d": 0.1535,
+        "max_drawdown_fraction": 0.0264,
+        "n_resolved": 48,
+        "n_distinct_markets": 43,
+        "capital_concentration_hhi": 0.0539,
+        "win_rate_adj": 0.6574,
+        "avg_trades_per_day_30d": 1.03
+      },
+      "radar": {
+        "account_age_days": 80.2,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.1966,
+        "best_leaderboard_rank": 23,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 49,
+      "entry_recommendations": []
     },
     {
       "wallet": "0xce29c0049a9abc3ce97ccca91bae0a480d073b0d",
@@ -107,7 +171,7 @@
         "avg_trades_per_day_30d": 9.5
       },
       "radar": {
-        "account_age_days": 24.5,
+        "account_age_days": 24.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.198,
         "best_leaderboard_rank": 27,
@@ -120,14 +184,14 @@
       "entry_recommendations": []
     },
     {
-      "wallet": "0xb52e8b3afd9f0f0d502a5a76494b42816d67285c",
-      "userName": "1l2ihj34li12u34",
-      "display_name": "1l2ihj34li12u34",
-      "profile_url": "https://polymarket.com/@1l2ihj34li12u34",
+      "wallet": "0xc32359bbc920b365a05cd310b9a998508c980077",
+      "userName": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+      "display_name": "0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
+      "profile_url": "https://polymarket.com/@0x2a075c15e5d5a133b2cd6C882A93C879E6CF00D8-1772812507354",
       "score": {
-        "composite": 0.4603,
-        "score_100": 73,
-        "kelly_edge": 0.5465,
+        "composite": 0.4404,
+        "score_100": 72,
+        "kelly_edge": 0.2201,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -138,102 +202,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0201,
-        "n_clv_with_data": 21,
-        "n_clv_attempted": 21,
-        "sharpe": 2.126,
-        "roi_lifetime": 0.4851,
-        "roi_180d": 0.4851,
-        "roi_90d": 0.4851,
-        "roi_30d": 0.4851,
-        "max_drawdown_fraction": 0.0,
-        "n_resolved": 21,
-        "n_distinct_markets": 21,
-        "capital_concentration_hhi": 0.1318,
-        "win_rate_adj": 0.7733,
-        "avg_trades_per_day_30d": 2.27
+        "clv": 0.083,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 0.6822,
+        "roi_lifetime": 0.2588,
+        "roi_180d": 0.2588,
+        "roi_90d": 0.2588,
+        "roi_30d": 0.2588,
+        "max_drawdown_fraction": 0.0547,
+        "n_resolved": 40,
+        "n_distinct_markets": 31,
+        "capital_concentration_hhi": 0.0593,
+        "win_rate_adj": 0.5981,
+        "avg_trades_per_day_30d": 11.43
       },
       "radar": {
-        "account_age_days": 28.4,
-        "portfolio_value": 175320.53,
-        "capital_efficiency": 0.2061,
-        "best_leaderboard_rank": 32,
+        "account_age_days": 186.2,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.1677,
+        "best_leaderboard_rank": 37,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 28,
-      "entry_recommendations": [
-        {
-          "market_title": "Will Wrexham AFC win on 2026-09-08?",
-          "outcome": "No",
-          "their_entry_price": 0.5445,
-          "current_price": 0.545,
-          "fair_value_estimate": 0.545,
-          "suggested_entry_range": [
-            0.535,
-            0.555
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.54 -> 0.55); replicating their entry is still reasonably representative.",
-          "conviction": 0.1579,
-          "pick_score": 0.1579,
-          "recommended": true,
-          "their_position_value": 50869.6464
-        },
-        {
-          "market_title": "Will Watford FC win on 2026-09-08?",
-          "outcome": "Yes",
-          "their_entry_price": 0.4299,
-          "current_price": 0.435,
-          "fair_value_estimate": 0.435,
-          "suggested_entry_range": [
-            0.422,
-            0.442
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.43 -> 0.43); replicating their entry is still reasonably representative.",
-          "conviction": 0.0631,
-          "pick_score": 0.0631,
-          "recommended": true,
-          "their_position_value": 9838.2944
-        },
-        {
-          "market_title": "Spread: Al Ittihad Saudi Club (-1.5)",
-          "outcome": "Al Fayha Saudi Club",
-          "their_entry_price": 0.5793,
-          "current_price": 0.66,
-          "fair_value_estimate": 0.68,
-          "suggested_entry_range": [
-            0.589,
-            0.67
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.08 (14%) since their entry of 0.58 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.1145,
-          "pick_score": 0.0229,
-          "recommended": true,
-          "their_position_value": 15291.4988
-        },
-        {
-          "market_title": "Al Ittihad Saudi Club vs. Al Fayha Saudi Club: O/U 3.5",
-          "outcome": "Under",
-          "their_entry_price": 0.5799,
-          "current_price": 0.785,
-          "fair_value_estimate": 0.815,
-          "suggested_entry_range": [
-            0.595,
-            0.8
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.21 (35%) since their entry of 0.58 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0344,
-          "pick_score": 0.0069,
-          "recommended": false,
-          "their_position_value": 1153.7283
-        }
-      ]
+      "open_positions_count": 17,
+      "entry_recommendations": []
     }
   ]
 }
