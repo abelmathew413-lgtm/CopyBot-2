@@ -437,32 +437,23 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-08-09T10:46:45.555999+00:00",
-  "duration_seconds": 327.4,
-  "n_candidates_discovered": 1197,
+  "generated_at": "2026-09-08T11:42:28.533186+00:00",
+  "duration_seconds": 396.7,
+  "n_candidates_discovered": 1511,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 4,
-  "n_errors": 2,
-  "errors": [
-    {
-      "wallet": "0xf201a19b43471261a3c1ba9247335d55270e527e",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0xf201a19b43471261a3c1ba9247335d55270e527e"
-    },
-    {
-      "wallet": "0x10ef48324b3ebc06d9137794c70285e8e37a7d7b",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x10ef48324b3ebc06d9137794c70285e8e37a7d7b"
-    }
-  ],
+  "n_errors": 0,
+  "errors": [],
   "wallets": [
     {
-      "wallet": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
-      "userName": "BrotherObama",
-      "display_name": "BrotherObama",
-      "profile_url": "https://polymarket.com/@BrotherObama",
+      "wallet": "0x73e3fec494611d73c170cb2f23850fd998b21be9",
+      "userName": "ExplosiveNinja",
+      "display_name": "ExplosiveNinja",
+      "profile_url": "https://polymarket.com/@ExplosiveNinja",
       "score": {
-        "composite": 0.5589,
-        "score_100": 78,
-        "kelly_edge": 0.6317,
+        "composite": 0.6025,
+        "score_100": 80,
+        "kelly_edge": 0.8427,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -473,244 +464,278 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0117,
+        "clv": 0.0388,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
-        "sharpe": 1.5205,
-        "roi_lifetime": 0.5058,
-        "roi_180d": 0.5058,
-        "roi_90d": 0.5058,
-        "roi_30d": 0.4898,
-        "max_drawdown_fraction": 0.0105,
-        "n_resolved": 63,
-        "n_distinct_markets": 62,
-        "capital_concentration_hhi": 0.0237,
-        "win_rate_adj": 0.7503,
-        "avg_trades_per_day_30d": 8.47
+        "sharpe": 1.7301,
+        "roi_lifetime": 0.4075,
+        "roi_180d": 0.4075,
+        "roi_90d": 0.4026,
+        "roi_30d": 0.3919,
+        "max_drawdown_fraction": 0.0073,
+        "n_resolved": 205,
+        "n_distinct_markets": 199,
+        "capital_concentration_hhi": 0.0087,
+        "win_rate_adj": 0.9249,
+        "avg_trades_per_day_30d": 5.13
       },
       "radar": {
-        "account_age_days": 35.1,
-        "portfolio_value": 5.45,
-        "capital_efficiency": 0.2272,
-        "best_leaderboard_rank": 25,
+        "account_age_days": 103.4,
+        "portfolio_value": 35473.43,
+        "capital_efficiency": 0.222,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 89,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x3954e1c6b7bc5645d9d3425a6f4490889ef122d9",
-      "userName": "Spicer",
-      "display_name": "Spicer",
-      "profile_url": "https://polymarket.com/@Spicer",
-      "score": {
-        "composite": 0.44,
-        "score_100": 72,
-        "kelly_edge": 0.6594,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0642,
-        "n_clv_with_data": 27,
-        "n_clv_attempted": 40,
-        "sharpe": 1.8738,
-        "roi_lifetime": 0.3352,
-        "roi_180d": 0.3593,
-        "roi_90d": 0.3593,
-        "roi_30d": 0.3584,
-        "max_drawdown_fraction": 0.0063,
-        "n_resolved": 41,
-        "n_distinct_markets": 40,
-        "capital_concentration_hhi": 0.0694,
-        "win_rate_adj": 0.874,
-        "avg_trades_per_day_30d": 7.53
-      },
-      "radar": {
-        "account_age_days": 1191.6,
-        "portfolio_value": 23262.7,
-        "capital_efficiency": 0.2501,
-        "best_leaderboard_rank": 36,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 22,
+      "open_positions_count": 143,
       "entry_recommendations": [
         {
-          "market_title": "LoL: ThunderTalk Gaming vs Top Esports - Game 2 Winner",
-          "outcome": "Top Esports",
-          "their_entry_price": 0.6908,
-          "current_price": 0.975,
-          "fair_value_estimate": 0.98,
+          "market_title": "Counter-Strike: GamerLegion vs FURIA (BO3) - FISSURE PLAYGROUND Group B",
+          "outcome": "FURIA",
+          "their_entry_price": 0.8374,
+          "current_price": 0.835,
+          "fair_value_estimate": 0.835,
           "suggested_entry_range": [
-            0.693,
-            0.977
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.28 (41%) since their entry of 0.69 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0438,
-          "pick_score": 0.0088,
-          "recommended": true,
-          "their_position_value": 16935.7717
-        }
-      ]
-    },
-    {
-      "wallet": "0x8546a601f7c7cc3dae7141f20b0e09e42bbf35b8",
-      "userName": "HVAB",
-      "display_name": "HVAB",
-      "profile_url": "https://polymarket.com/@HVAB",
-      "score": {
-        "composite": 0.3411,
-        "score_100": 67,
-        "kelly_edge": 0.4205,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0321,
-        "n_clv_with_data": 40,
-        "n_clv_attempted": 40,
-        "sharpe": 0.2107,
-        "roi_lifetime": 0.0862,
-        "roi_180d": 0.0862,
-        "roi_90d": 0.0862,
-        "roi_30d": 0.0978,
-        "max_drawdown_fraction": 0.0059,
-        "n_resolved": 482,
-        "n_distinct_markets": 404,
-        "capital_concentration_hhi": 0.021,
-        "win_rate_adj": 0.7301,
-        "avg_trades_per_day_30d": 17.53
-      },
-      "radar": {
-        "account_age_days": 72.8,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.0854,
-        "best_leaderboard_rank": 21,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 9,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x91667e40b80c447050904b042f3b85d22fc6b479",
-      "userName": "GreenBerry1337",
-      "display_name": "GreenBerry1337",
-      "profile_url": "https://polymarket.com/@GreenBerry1337",
-      "score": {
-        "composite": 0.2457,
-        "score_100": 63,
-        "kelly_edge": -0.0321,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0115,
-        "n_clv_with_data": 40,
-        "n_clv_attempted": 40,
-        "sharpe": 0.1004,
-        "roi_lifetime": 0.0517,
-        "roi_180d": 0.0533,
-        "roi_90d": 0.0546,
-        "roi_30d": 0.0546,
-        "max_drawdown_fraction": 0.0199,
-        "n_resolved": 292,
-        "n_distinct_markets": 280,
-        "capital_concentration_hhi": 0.0088,
-        "win_rate_adj": 0.5526,
-        "avg_trades_per_day_30d": 11.17
-      },
-      "radar": {
-        "account_age_days": 589.6,
-        "portfolio_value": 13065.0,
-        "capital_efficiency": 0.051,
-        "best_leaderboard_rank": 53,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 3,
-      "entry_recommendations": [
-        {
-          "market_title": "Will Kamala Harris win the 2028 US Presidential Election?",
-          "outcome": "No",
-          "their_entry_price": 0.5,
-          "current_price": 0.9545,
-          "fair_value_estimate": 0.9545,
-          "suggested_entry_range": [
-            0.5,
-            0.954
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.45 (91%) since their entry of 0.50 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.9498,
-          "pick_score": 0.19,
-          "recommended": true,
-          "their_position_value": 12408.5
-        },
-        {
-          "market_title": "Will Kamala Harris win the 2028 US Presidential Election?",
-          "outcome": "Yes",
-          "their_entry_price": 0.5,
-          "current_price": 0.0455,
-          "fair_value_estimate": 0.0455,
-          "suggested_entry_range": [
-            0.045,
-            0.5
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.45 (91%) since their entry of 0.50 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0453,
-          "pick_score": 0.0091,
-          "recommended": true,
-          "their_position_value": 591.5
-        },
-        {
-          "market_title": "Strait of Hormuz traffic returns to normal by August 31?",
-          "outcome": "Yes",
-          "their_entry_price": 0.14,
-          "current_price": 0.065,
-          "fair_value_estimate": 0.065,
-          "suggested_entry_range": [
-            0.065,
-            0.14
+            0.826,
+            0.846
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.14 -> 0.07); replicating their entry is still reasonably representative.",
-          "conviction": 0.005,
-          "pick_score": 0.005,
+          "note": "Price is close to their entry (0.84 -> 0.83); replicating their entry is still reasonably representative.",
+          "conviction": 0.0243,
+          "pick_score": 0.0243,
           "recommended": true,
-          "their_position_value": 65
+          "their_position_value": 23950.5555
+        },
+        {
+          "market_title": "Map Handicap: FURIA (-1.5) vs GamerLegion (+1.5)",
+          "outcome": "FURIA",
+          "their_entry_price": 0.5799,
+          "current_price": 0.565,
+          "fair_value_estimate": 0.565,
+          "suggested_entry_range": [
+            0.562,
+            0.582
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.58 -> 0.56); replicating their entry is still reasonably representative.",
+          "conviction": 0.0115,
+          "pick_score": 0.0115,
+          "recommended": true,
+          "their_position_value": 11299.902
+        },
+        {
+          "market_title": "Counter-Strike: PARIVISION vs TYLOO (BO3) - FISSURE PLAYGROUND Group B",
+          "outcome": "PARIVISION",
+          "their_entry_price": 0.63,
+          "current_price": 0.485,
+          "fair_value_estimate": 0.51,
+          "suggested_entry_range": [
+            0.498,
+            0.643
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.15 (23%) since their entry of 0.63 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0002,
+          "pick_score": 0.0,
+          "recommended": false,
+          "their_position_value": 221.9333
         }
       ]
+    },
+    {
+      "wallet": "0xce29c0049a9abc3ce97ccca91bae0a480d073b0d",
+      "userName": "zofgkt1111",
+      "display_name": "zofgkt1111",
+      "profile_url": "https://polymarket.com/@zofgkt1111",
+      "score": {
+        "composite": 0.4746,
+        "score_100": 74,
+        "kelly_edge": 0.555,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": -0.024,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 0.9695,
+        "roi_lifetime": 0.373,
+        "roi_180d": 0.373,
+        "roi_90d": 0.373,
+        "roi_30d": 0.373,
+        "max_drawdown_fraction": 0.0153,
+        "n_resolved": 112,
+        "n_distinct_markets": 100,
+        "capital_concentration_hhi": 0.0184,
+        "win_rate_adj": 0.7805,
+        "avg_trades_per_day_30d": 9.5
+      },
+      "radar": {
+        "account_age_days": 24.2,
+        "portfolio_value": 42237.13,
+        "capital_efficiency": 0.1952,
+        "best_leaderboard_rank": 27,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 71,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0x29b15e8557b2cb5b5ba1ec8b5cbba479ee26f737",
+      "userName": "Elenes",
+      "display_name": "Elenes",
+      "profile_url": "https://polymarket.com/@Elenes",
+      "score": {
+        "composite": 0.4555,
+        "score_100": 73,
+        "kelly_edge": 0.1013,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": -0.0024,
+        "n_clv_with_data": 34,
+        "n_clv_attempted": 40,
+        "sharpe": 1.2558,
+        "roi_lifetime": 0.1916,
+        "roi_180d": 0.2027,
+        "roi_90d": 0.3631,
+        "roi_30d": 0.3353,
+        "max_drawdown_fraction": 0.0766,
+        "n_resolved": 387,
+        "n_distinct_markets": 386,
+        "capital_concentration_hhi": 0.0353,
+        "win_rate_adj": 0.5265,
+        "avg_trades_per_day_30d": 4.1
+      },
+      "radar": {
+        "account_age_days": 697.8,
+        "portfolio_value": 15024.93,
+        "capital_efficiency": 0.1531,
+        "best_leaderboard_rank": 34,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 49,
+      "entry_recommendations": [
+        {
+          "market_title": "Will Paris Saint-Germain FC win on 2026-09-13?",
+          "outcome": "Yes",
+          "their_entry_price": 0.7499,
+          "current_price": 0.745,
+          "fair_value_estimate": 0.745,
+          "suggested_entry_range": [
+            0.737,
+            0.757
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.75 -> 0.74); replicating their entry is still reasonably representative.",
+          "conviction": 0.0247,
+          "pick_score": 0.0247,
+          "recommended": true,
+          "their_position_value": 5335.1536
+        },
+        {
+          "market_title": "Will Club Brugge KV win on 2026-09-08?",
+          "outcome": "No",
+          "their_entry_price": 0.6199,
+          "current_price": 0.625,
+          "fair_value_estimate": 0.625,
+          "suggested_entry_range": [
+            0.612,
+            0.632
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.62 -> 0.62); replicating their entry is still reasonably representative.",
+          "conviction": 0.0234,
+          "pick_score": 0.0234,
+          "recommended": true,
+          "their_position_value": 5057.6111
+        },
+        {
+          "market_title": "Will Arsenal FC win on 2026-09-12?",
+          "outcome": "Yes",
+          "their_entry_price": 0.6599,
+          "current_price": 0.665,
+          "fair_value_estimate": 0.665,
+          "suggested_entry_range": [
+            0.652,
+            0.672
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.66 -> 0.67); replicating their entry is still reasonably representative.",
+          "conviction": 0.0215,
+          "pick_score": 0.0215,
+          "recommended": true,
+          "their_position_value": 4632.1639
+        }
+      ]
+    },
+    {
+      "wallet": "0x0a5392910ef4f236c60d212b4b4cd2c82adb077b",
+      "userName": "tg-stakeqiu",
+      "display_name": "tg-stakeqiu",
+      "profile_url": "https://polymarket.com/@tg-stakeqiu",
+      "score": {
+        "composite": 0.1821,
+        "score_100": 60,
+        "kelly_edge": -0.1838,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": -0.0394,
+        "n_clv_with_data": 20,
+        "n_clv_attempted": 20,
+        "sharpe": 0.4016,
+        "roi_lifetime": 0.114,
+        "roi_180d": 0.114,
+        "roi_90d": 0.114,
+        "roi_30d": 0.114,
+        "max_drawdown_fraction": 0.0602,
+        "n_resolved": 20,
+        "n_distinct_markets": 20,
+        "capital_concentration_hhi": 0.0731,
+        "win_rate_adj": 0.481,
+        "avg_trades_per_day_30d": 23.37
+      },
+      "radar": {
+        "account_age_days": 14.2,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.0839,
+        "best_leaderboard_rank": 43,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 8,
+      "entry_recommendations": []
     }
   ]
 }</script>
