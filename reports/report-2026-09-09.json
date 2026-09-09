@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-09T18:40:16.368715+00:00",
-  "duration_seconds": 780.9,
-  "n_candidates_discovered": 1372,
+  "generated_at": "2026-09-09T21:44:49.340397+00:00",
+  "duration_seconds": 516.0,
+  "n_candidates_discovered": 1392,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 7,
+  "n_passed_filters": 6,
   "n_errors": 1,
   "errors": [
     {
@@ -18,9 +18,9 @@
       "display_name": "xabidaking",
       "profile_url": "https://polymarket.com/@xabidaking",
       "score": {
-        "composite": 0.658,
+        "composite": 0.6566,
         "score_100": 83,
-        "kelly_edge": 0.5444,
+        "kelly_edge": 0.5367,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -31,66 +31,49 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.366,
+        "clv": 0.3534,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.8459,
-        "roi_lifetime": 0.1677,
-        "roi_180d": 0.1677,
-        "roi_90d": 0.1677,
-        "roi_30d": 0.3116,
-        "max_drawdown_fraction": 0.0048,
-        "n_resolved": 203,
-        "n_distinct_markets": 199,
-        "capital_concentration_hhi": 0.1874,
-        "win_rate_adj": 0.7697,
-        "avg_trades_per_day_30d": 14.2
+        "sharpe": 0.8395,
+        "roi_lifetime": 0.1754,
+        "roi_180d": 0.1754,
+        "roi_90d": 0.1754,
+        "roi_30d": 0.3196,
+        "max_drawdown_fraction": 0.0047,
+        "n_resolved": 204,
+        "n_distinct_markets": 201,
+        "capital_concentration_hhi": 0.1788,
+        "win_rate_adj": 0.7654,
+        "avg_trades_per_day_30d": 14.3
       },
       "radar": {
-        "account_age_days": 57.1,
-        "portfolio_value": 7063.59,
-        "capital_efficiency": 0.1267,
-        "best_leaderboard_rank": 32,
+        "account_age_days": 57.2,
+        "portfolio_value": 6776.39,
+        "capital_efficiency": 0.1328,
+        "best_leaderboard_rank": 37,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 122,
+      "open_positions_count": 123,
       "entry_recommendations": [
         {
-          "market_title": "Genoa: Duje Ajdukovic vs Stefanos Sakellaridis",
-          "outcome": "Duje Ajdukovic",
-          "their_entry_price": 0.3116,
-          "current_price": 0.305,
-          "fair_value_estimate": 0.305,
+          "market_title": "Genoa: Valerio Aboian vs Andrea Pellegrino",
+          "outcome": "Valerio Aboian",
+          "their_entry_price": 0.211,
+          "current_price": 0.5,
+          "fair_value_estimate": 0.455,
           "suggested_entry_range": [
-            0.298,
-            0.318
+            0.189,
+            0.478
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.31 -> 0.30); replicating their entry is still reasonably representative.",
-          "conviction": 0.0517,
-          "pick_score": 0.0517,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.29 (137%) since their entry of 0.21 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0623,
+          "pick_score": 0.0125,
           "recommended": true,
-          "their_position_value": 5644.9027
-        },
-        {
-          "market_title": "Spread: Arsenal FC (-1.5)",
-          "outcome": "Arsenal FC",
-          "their_entry_price": 0.3299,
-          "current_price": 0.325,
-          "fair_value_estimate": 0.325,
-          "suggested_entry_range": [
-            0.317,
-            0.337
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.33 -> 0.33); replicating their entry is still reasonably representative.",
-          "conviction": 0.013,
-          "pick_score": 0.013,
-          "recommended": true,
-          "their_position_value": 1418.684
+          "their_position_value": 6775.2847
         }
       ]
     },
@@ -129,35 +112,17 @@
         "avg_trades_per_day_30d": 1.17
       },
       "radar": {
-        "account_age_days": 81.0,
-        "portfolio_value": 39206.25,
-        "capital_efficiency": 0.1957,
-        "best_leaderboard_rank": 23,
+        "account_age_days": 81.1,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.1931,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 51,
-      "entry_recommendations": [
-        {
-          "market_title": "Will Sporting CP win on 2026-09-09?",
-          "outcome": "No",
-          "their_entry_price": 0.4,
-          "current_price": 0.395,
-          "fair_value_estimate": 0.395,
-          "suggested_entry_range": [
-            0.388,
-            0.408
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.40 -> 0.40); replicating their entry is still reasonably representative.",
-          "conviction": 0.005,
-          "pick_score": 0.005,
-          "recommended": true,
-          "their_position_value": 39104.6023
-        }
-      ]
+      "entry_recommendations": []
     },
     {
       "wallet": "0xb52e8b3afd9f0f0d502a5a76494b42816d67285c",
@@ -194,52 +159,17 @@
         "avg_trades_per_day_30d": 2.53
       },
       "radar": {
-        "account_age_days": 29.4,
-        "portfolio_value": 5456.78,
+        "account_age_days": 29.5,
+        "portfolio_value": 1008.88,
         "capital_efficiency": 0.3167,
-        "best_leaderboard_rank": 21,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 26,
-      "entry_recommendations": [
-        {
-          "market_title": "Norwich City FC vs. Birmingham City FC: O/U 2.5",
-          "outcome": "Under",
-          "their_entry_price": 0.4597,
-          "current_price": 0.465,
-          "fair_value_estimate": 0.465,
-          "suggested_entry_range": [
-            0.452,
-            0.472
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.46 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.0142,
-          "pick_score": 0.0142,
-          "recommended": true,
-          "their_position_value": 4674.4276
-        },
-        {
-          "market_title": "Will Al Diraiyah Saudi Club win on 2026-09-09?",
-          "outcome": "Yes",
-          "their_entry_price": 0.5499,
-          "current_price": 0.775,
-          "fair_value_estimate": 0.785,
-          "suggested_entry_range": [
-            0.555,
-            0.78
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.23 (41%) since their entry of 0.55 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0024,
-          "pick_score": 0.0005,
-          "recommended": true,
-          "their_position_value": 778.3755
-        }
-      ]
+      "entry_recommendations": []
     },
     {
       "wallet": "0x82cf2b31d18fca19830e216b98cffa5dbc6c0998",
@@ -247,7 +177,7 @@
       "display_name": "roundtripped",
       "profile_url": "https://polymarket.com/@roundtripped",
       "score": {
-        "composite": 0.4777,
+        "composite": 0.4764,
         "score_100": 74,
         "kelly_edge": 0.6078,
         "weights_used": {
@@ -263,10 +193,10 @@
         "clv": 0.1121,
         "n_clv_with_data": 21,
         "n_clv_attempted": 40,
-        "sharpe": 0.5977,
+        "sharpe": 0.5891,
         "roi_lifetime": 0.0918,
         "roi_180d": 0.0979,
-        "roi_90d": 0.1091,
+        "roi_90d": 0.1089,
         "roi_30d": 0.068,
         "max_drawdown_fraction": 0.0037,
         "n_resolved": 461,
@@ -276,10 +206,10 @@
         "avg_trades_per_day_30d": 1.8
       },
       "radar": {
-        "account_age_days": 782.8,
-        "portfolio_value": 18.24,
+        "account_age_days": 783.0,
+        "portfolio_value": 19.31,
         "capital_efficiency": 0.0918,
-        "best_leaderboard_rank": 22,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -291,18 +221,18 @@
           "market_title": "U.S. agrees to a new trade deal with \"Japan\" before 2027?",
           "outcome": "Yes",
           "their_entry_price": 0.4162,
-          "current_price": 0.085,
-          "fair_value_estimate": 0.08,
+          "current_price": 0.09,
+          "fair_value_estimate": 0.065,
           "suggested_entry_range": [
-            0.083,
-            0.414
+            0.077,
+            0.404
           ],
           "flagged_chasing": true,
-          "note": "Price has moved down 0.33 (80%) since their entry of 0.42 -- buying now means chasing, not replicating their original risk/reward.",
+          "note": "Price has moved down 0.33 (78%) since their entry of 0.42 -- buying now means chasing, not replicating their original risk/reward.",
           "conviction": 1.0,
           "pick_score": 0.2,
           "recommended": true,
-          "their_position_value": 18.2393
+          "their_position_value": 19.3122
         }
       ]
     },
@@ -341,10 +271,10 @@
         "avg_trades_per_day_30d": 9.5
       },
       "radar": {
-        "account_age_days": 25.5,
+        "account_age_days": 25.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.198,
-        "best_leaderboard_rank": 29,
+        "best_leaderboard_rank": 31,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -388,63 +318,16 @@
         "avg_trades_per_day_30d": 13.33
       },
       "radar": {
-        "account_age_days": 187.1,
+        "account_age_days": 187.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.0778,
-        "best_leaderboard_rank": 29,
+        "best_leaderboard_rank": 32,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 9,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0x2dfa4e79eca44b7c774f40a45535adbc368a6f60",
-      "userName": "BillyGating",
-      "display_name": "BillyGating",
-      "profile_url": "https://polymarket.com/@BillyGating",
-      "score": {
-        "composite": 0.2251,
-        "score_100": 62,
-        "kelly_edge": -0.5422,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0767,
-        "n_clv_with_data": 16,
-        "n_clv_attempted": 16,
-        "sharpe": 0.1332,
-        "roi_lifetime": 0.1674,
-        "roi_180d": 0.1674,
-        "roi_90d": 0.1674,
-        "roi_30d": 0.1674,
-        "max_drawdown_fraction": 0.1056,
-        "n_resolved": 16,
-        "n_distinct_markets": 16,
-        "capital_concentration_hhi": 0.1083,
-        "win_rate_adj": 0.3864,
-        "avg_trades_per_day_30d": 4.4
-      },
-      "radar": {
-        "account_age_days": 11.2,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1674,
-        "best_leaderboard_rank": 27,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 0,
       "entry_recommendations": []
     }
   ]
