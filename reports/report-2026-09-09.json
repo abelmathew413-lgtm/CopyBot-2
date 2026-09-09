@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T00:05:15.364547+00:00",
-  "duration_seconds": 346.1,
-  "n_candidates_discovered": 1447,
+  "generated_at": "2026-09-09T04:39:02.961950+00:00",
+  "duration_seconds": 467.2,
+  "n_candidates_discovered": 1426,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 5,
   "n_errors": 0,
@@ -39,149 +39,123 @@
         "n_distinct_markets": 204,
         "capital_concentration_hhi": 0.0084,
         "win_rate_adj": 0.9209,
-        "avg_trades_per_day_30d": 5.23
+        "avg_trades_per_day_30d": 5.37
       },
       "radar": {
-        "account_age_days": 103.9,
-        "portfolio_value": 25426.25,
-        "capital_efficiency": 0.222,
-        "best_leaderboard_rank": 25,
+        "account_age_days": 104.1,
+        "portfolio_value": 90316.96,
+        "capital_efficiency": 0.2202,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 144,
+      "open_positions_count": 148,
       "entry_recommendations": [
         {
-          "market_title": "Counter-Strike: magic vs FaZe (BO3) - FISSURE PLAYGROUND Group B",
-          "outcome": "FaZe",
-          "their_entry_price": 0.59,
-          "current_price": 0.595,
-          "fair_value_estimate": 0.595,
+          "market_title": "Counter-Strike: TYLOO vs GamerLegion (BO3) - FISSURE PLAYGROUND Group B",
+          "outcome": "TYLOO",
+          "their_entry_price": 0.5099,
+          "current_price": 0.525,
+          "fair_value_estimate": 0.525,
           "suggested_entry_range": [
-            0.583,
-            0.603
+            0.507,
+            0.527
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.59 -> 0.59); replicating their entry is still reasonably representative.",
-          "conviction": 0.0217,
-          "pick_score": 0.0217,
+          "note": "Price is close to their entry (0.51 -> 0.53); replicating their entry is still reasonably representative.",
+          "conviction": 0.0211,
+          "pick_score": 0.0211,
           "recommended": true,
-          "their_position_value": 22336.2
+          "their_position_value": 19868.7969
+        },
+        {
+          "market_title": "Counter-Strike: BetBoom Team vs Astralis (BO3) - FISSURE PLAYGROUND Group A",
+          "outcome": "BetBoom Team",
+          "their_entry_price": 0.5199,
+          "current_price": 0.525,
+          "fair_value_estimate": 0.525,
+          "suggested_entry_range": [
+            0.512,
+            0.532
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.52 -> 0.53); replicating their entry is still reasonably representative.",
+          "conviction": 0.0143,
+          "pick_score": 0.0143,
+          "recommended": true,
+          "their_position_value": 13479.0551
+        },
+        {
+          "market_title": "Counter-Strike: Heroic vs BESTIA (BO3) - Thunderpick World Championship Closed Qualifier Group A",
+          "outcome": "Heroic",
+          "their_entry_price": 0.7799,
+          "current_price": 0.795,
+          "fair_value_estimate": 0.795,
+          "suggested_entry_range": [
+            0.777,
+            0.797
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.78 -> 0.80); replicating their entry is still reasonably representative.",
+          "conviction": 0.0117,
+          "pick_score": 0.0117,
+          "recommended": true,
+          "their_position_value": 10999.9647
         },
         {
           "market_title": "Counter-Strike: 5star vs TheMongolz (BO3) - FISSURE PLAYGROUND Group A",
           "outcome": "TheMongolz",
           "their_entry_price": 0.91,
-          "current_price": 0.925,
-          "fair_value_estimate": 0.925,
+          "current_price": 0.7515,
+          "fair_value_estimate": 0.717,
           "suggested_entry_range": [
-            0.907,
-            0.927
+            0.734,
+            0.893
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.16 (17%) since their entry of 0.91 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.024,
+          "pick_score": 0.0048,
+          "recommended": false,
+          "their_position_value": 22544.9716
+        },
+        {
+          "market_title": "Counter-Strike: magic vs FaZe (BO3) - FISSURE PLAYGROUND Group B",
+          "outcome": "FaZe",
+          "their_entry_price": 0.59,
+          "current_price": 0.385,
+          "fair_value_estimate": 0.405,
+          "suggested_entry_range": [
+            0.395,
+            0.6
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.20 (35%) since their entry of 0.59 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0218,
+          "pick_score": 0.0044,
+          "recommended": false,
+          "their_position_value": 20517.4643
+        },
+        {
+          "market_title": "Counter-Strike: BIG vs G2 (BO3) - FISSURE PLAYGROUND Group A",
+          "outcome": "BIG",
+          "their_entry_price": 0.2799,
+          "current_price": 0.285,
+          "fair_value_estimate": 0.285,
+          "suggested_entry_range": [
+            0.272,
+            0.292
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.91 -> 0.93); replicating their entry is still reasonably representative.",
-          "conviction": 0.003,
-          "pick_score": 0.003,
-          "recommended": true,
-          "their_position_value": 3090.0478
+          "note": "Price is close to their entry (0.28 -> 0.28); replicating their entry is still reasonably representative.",
+          "conviction": 0.0031,
+          "pick_score": 0.0031,
+          "recommended": false,
+          "their_position_value": 2906.7037
         }
       ]
-    },
-    {
-      "wallet": "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de",
-      "userName": "gambamaster",
-      "display_name": "gambamaster",
-      "profile_url": "https://polymarket.com/@gambamaster",
-      "score": {
-        "composite": 0.5593,
-        "score_100": 78,
-        "kelly_edge": 0.4263,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.1351,
-        "n_clv_with_data": 13,
-        "n_clv_attempted": 40,
-        "sharpe": 0.7565,
-        "roi_lifetime": 0.3984,
-        "roi_180d": 0.3984,
-        "roi_90d": 0.3984,
-        "roi_30d": 0.1535,
-        "max_drawdown_fraction": 0.0264,
-        "n_resolved": 48,
-        "n_distinct_markets": 43,
-        "capital_concentration_hhi": 0.0539,
-        "win_rate_adj": 0.6574,
-        "avg_trades_per_day_30d": 1.03
-      },
-      "radar": {
-        "account_age_days": 80.2,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1966,
-        "best_leaderboard_rank": 23,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 49,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0xb52e8b3afd9f0f0d502a5a76494b42816d67285c",
-      "userName": "1l2ihj34li12u34",
-      "display_name": "1l2ihj34li12u34",
-      "profile_url": "https://polymarket.com/@1l2ihj34li12u34",
-      "score": {
-        "composite": 0.4903,
-        "score_100": 75,
-        "kelly_edge": 0.639,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0177,
-        "n_clv_with_data": 27,
-        "n_clv_attempted": 27,
-        "sharpe": 2.3742,
-        "roi_lifetime": 0.4829,
-        "roi_180d": 0.4829,
-        "roi_90d": 0.4829,
-        "roi_30d": 0.4829,
-        "max_drawdown_fraction": 0.0,
-        "n_resolved": 27,
-        "n_distinct_markets": 27,
-        "capital_concentration_hhi": 0.09,
-        "win_rate_adj": 0.8172,
-        "avg_trades_per_day_30d": 2.3
-      },
-      "radar": {
-        "account_age_days": 28.6,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.3336,
-        "best_leaderboard_rank": 21,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 22,
-      "entry_recommendations": []
     },
     {
       "wallet": "0xce29c0049a9abc3ce97ccca91bae0a480d073b0d",
@@ -218,7 +192,7 @@
         "avg_trades_per_day_30d": 9.5
       },
       "radar": {
-        "account_age_days": 24.7,
+        "account_age_days": 24.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.198,
         "best_leaderboard_rank": 27,
@@ -265,16 +239,110 @@
         "avg_trades_per_day_30d": 11.43
       },
       "radar": {
-        "account_age_days": 186.3,
+        "account_age_days": 186.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.1677,
-        "best_leaderboard_rank": 37,
+        "best_leaderboard_rank": 40,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 17,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0x0f6f76ced62a911bccef92f50faaff143854d977",
+      "userName": "totoro3miyazaki",
+      "display_name": "totoro3miyazaki",
+      "profile_url": "https://polymarket.com/@totoro3miyazaki",
+      "score": {
+        "composite": 0.3993,
+        "score_100": 70,
+        "kelly_edge": 0.2828,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0047,
+        "n_clv_with_data": 7,
+        "n_clv_attempted": 7,
+        "sharpe": 2.1915,
+        "roi_lifetime": 0.4429,
+        "roi_180d": 0.4429,
+        "roi_90d": 0.4429,
+        "roi_30d": 0.4429,
+        "max_drawdown_fraction": 0.0,
+        "n_resolved": 7,
+        "n_distinct_markets": 7,
+        "capital_concentration_hhi": 0.1993,
+        "win_rate_adj": 0.6457,
+        "avg_trades_per_day_30d": 3.3
+      },
+      "radar": {
+        "account_age_days": 98.5,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2447,
+        "best_leaderboard_rank": 24,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 4,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0x2dfa4e79eca44b7c774f40a45535adbc368a6f60",
+      "userName": "BillyGating",
+      "display_name": "BillyGating",
+      "profile_url": "https://polymarket.com/@BillyGating",
+      "score": {
+        "composite": 0.3042,
+        "score_100": 66,
+        "kelly_edge": -0.465,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.1112,
+        "n_clv_with_data": 15,
+        "n_clv_attempted": 15,
+        "sharpe": 0.2129,
+        "roi_lifetime": 0.2589,
+        "roi_180d": 0.2589,
+        "roi_90d": 0.2589,
+        "roi_30d": 0.2589,
+        "max_drawdown_fraction": 0.0592,
+        "n_resolved": 15,
+        "n_distinct_markets": 15,
+        "capital_concentration_hhi": 0.1207,
+        "win_rate_adj": 0.4171,
+        "avg_trades_per_day_30d": 4.4
+      },
+      "radar": {
+        "account_age_days": 10.6,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2251,
+        "best_leaderboard_rank": 26,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 1,
       "entry_recommendations": []
     }
   ]
