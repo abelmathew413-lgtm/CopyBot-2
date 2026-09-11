@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T05:52:26.042582+00:00",
-  "duration_seconds": 413.0,
-  "n_candidates_discovered": 1276,
+  "generated_at": "2026-09-11T11:07:49.906600+00:00",
+  "duration_seconds": 354.5,
+  "n_candidates_discovered": 1279,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 7,
   "n_errors": 0,
@@ -13,9 +13,9 @@
       "display_name": "xabidaking",
       "profile_url": "https://polymarket.com/@xabidaking",
       "score": {
-        "composite": 0.6688,
+        "composite": 0.6695,
         "score_100": 84,
-        "kelly_edge": 0.5545,
+        "kelly_edge": 0.5569,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -26,33 +26,68 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.3811,
+        "clv": 0.3794,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.8582,
-        "roi_lifetime": 0.1905,
-        "roi_180d": 0.1905,
-        "roi_90d": 0.1905,
-        "roi_30d": 0.3443,
+        "sharpe": 0.8629,
+        "roi_lifetime": 0.1919,
+        "roi_180d": 0.1919,
+        "roi_90d": 0.1919,
+        "roi_30d": 0.346,
         "max_drawdown_fraction": 0.0046,
-        "n_resolved": 208,
-        "n_distinct_markets": 205,
-        "capital_concentration_hhi": 0.1688,
-        "win_rate_adj": 0.7697,
-        "avg_trades_per_day_30d": 14.53
+        "n_resolved": 209,
+        "n_distinct_markets": 206,
+        "capital_concentration_hhi": 0.1676,
+        "win_rate_adj": 0.7708,
+        "avg_trades_per_day_30d": 14.63
       },
       "radar": {
-        "account_age_days": 58.5,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1406,
-        "best_leaderboard_rank": 33,
+        "account_age_days": 58.7,
+        "portfolio_value": 4049.08,
+        "capital_efficiency": 0.1409,
+        "best_leaderboard_rank": 34,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 135,
-      "entry_recommendations": []
+      "open_positions_count": 138,
+      "entry_recommendations": [
+        {
+          "market_title": "Istanbul 3: Francesco Maestrelli vs Maks Kasnikowski",
+          "outcome": "Maks Kasnikowski",
+          "their_entry_price": 0.5599,
+          "current_price": 0.565,
+          "fair_value_estimate": 0.555,
+          "suggested_entry_range": [
+            0.547,
+            0.567
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.56 -> 0.56); replicating their entry is still reasonably representative.",
+          "conviction": 0.0155,
+          "pick_score": 0.0155,
+          "recommended": true,
+          "their_position_value": 2080.1685
+        },
+        {
+          "market_title": "Tulln: Mika Brunold vs Gustavo Heide",
+          "outcome": "Gustavo Heide",
+          "their_entry_price": 0.3299,
+          "current_price": 0.265,
+          "fair_value_estimate": 0.17,
+          "suggested_entry_range": [
+            0.217,
+            0.282
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.33 -> 0.27); replicating their entry is still reasonably representative.",
+          "conviction": 0.0147,
+          "pick_score": 0.0147,
+          "recommended": true,
+          "their_position_value": 1968.9098
+        }
+      ]
     },
     {
       "wallet": "0xe76f0a36d05d215a69f1f84466c8922702a1d40c",
@@ -86,19 +121,19 @@
         "n_distinct_markets": 3,
         "capital_concentration_hhi": 0.4095,
         "win_rate_adj": 0.4385,
-        "avg_trades_per_day_30d": 1.03
+        "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 24.8,
+        "account_age_days": 25.0,
         "portfolio_value": 74067.0,
-        "capital_efficiency": 0.2539,
+        "capital_efficiency": 0.2494,
         "best_leaderboard_rank": 28,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 2,
+      "open_positions_count": 3,
       "entry_recommendations": []
     },
     {
@@ -136,7 +171,7 @@
         "avg_trades_per_day_30d": 1.3
       },
       "radar": {
-        "account_age_days": 12.8,
+        "account_age_days": 13.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2162,
         "best_leaderboard_rank": 24,
@@ -180,36 +215,53 @@
         "n_distinct_markets": 29,
         "capital_concentration_hhi": 0.0835,
         "win_rate_adj": 0.8282,
-        "avg_trades_per_day_30d": 2.53
+        "avg_trades_per_day_30d": 2.73
       },
       "radar": {
-        "account_age_days": 30.8,
-        "portfolio_value": 30294.11,
-        "capital_efficiency": 0.2995,
+        "account_age_days": 31.1,
+        "portfolio_value": 147030.7,
+        "capital_efficiency": 0.2621,
         "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 26,
+      "open_positions_count": 27,
       "entry_recommendations": [
         {
           "market_title": "Will Stade Rennais FC 1901 win on 2026-09-11?",
           "outcome": "No",
-          "their_entry_price": 0.5099,
+          "their_entry_price": 0.5117,
           "current_price": 0.515,
           "fair_value_estimate": 0.515,
           "suggested_entry_range": [
-            0.502,
-            0.522
+            0.503,
+            0.523
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.51 -> 0.52); replicating their entry is still reasonably representative.",
-          "conviction": 0.0813,
-          "pick_score": 0.0813,
+          "conviction": 0.1155,
+          "pick_score": 0.1155,
           "recommended": true,
-          "their_position_value": 30294.1128
+          "their_position_value": 56361.713
+        },
+        {
+          "market_title": "Will Kashiwa Reysol win on 2026-09-11?",
+          "outcome": "No",
+          "their_entry_price": 0.4391,
+          "current_price": 0.905,
+          "fair_value_estimate": 0.905,
+          "suggested_entry_range": [
+            0.439,
+            0.905
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.47 (106%) since their entry of 0.44 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.1858,
+          "pick_score": 0.0372,
+          "recommended": true,
+          "their_position_value": 90668.9904
         }
       ]
     },
@@ -219,9 +271,9 @@
       "display_name": "roundtripped",
       "profile_url": "https://polymarket.com/@roundtripped",
       "score": {
-        "composite": 0.4767,
+        "composite": 0.4771,
         "score_100": 74,
-        "kelly_edge": 0.6078,
+        "kelly_edge": 0.6085,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -235,46 +287,46 @@
         "clv": 0.1121,
         "n_clv_with_data": 21,
         "n_clv_attempted": 40,
-        "sharpe": 0.591,
+        "sharpe": 0.5929,
         "roi_lifetime": 0.0918,
-        "roi_180d": 0.101,
-        "roi_90d": 0.1092,
-        "roi_30d": 0.0577,
+        "roi_180d": 0.1011,
+        "roi_90d": 0.1093,
+        "roi_30d": 0.058,
         "max_drawdown_fraction": 0.0037,
-        "n_resolved": 461,
-        "n_distinct_markets": 437,
-        "capital_concentration_hhi": 0.0111,
-        "win_rate_adj": 0.6618,
-        "avg_trades_per_day_30d": 1.73
+        "n_resolved": 462,
+        "n_distinct_markets": 438,
+        "capital_concentration_hhi": 0.011,
+        "win_rate_adj": 0.6625,
+        "avg_trades_per_day_30d": 1.67
       },
       "radar": {
-        "account_age_days": 784.3,
-        "portfolio_value": 1226.42,
-        "capital_efficiency": 0.0917,
-        "best_leaderboard_rank": 29,
+        "account_age_days": 784.5,
+        "portfolio_value": 18.24,
+        "capital_efficiency": 0.0918,
+        "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 2,
+      "open_positions_count": 1,
       "entry_recommendations": [
         {
           "market_title": "U.S. agrees to a new trade deal with \"Japan\" before 2027?",
           "outcome": "Yes",
           "their_entry_price": 0.4162,
-          "current_price": 0.08,
-          "fair_value_estimate": 0.08,
+          "current_price": 0.085,
+          "fair_value_estimate": 0.085,
           "suggested_entry_range": [
-            0.08,
+            0.085,
             0.416
           ],
           "flagged_chasing": true,
-          "note": "Price has moved down 0.34 (81%) since their entry of 0.42 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.986,
-          "pick_score": 0.1972,
+          "note": "Price has moved down 0.33 (80%) since their entry of 0.42 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 1.0,
+          "pick_score": 0.2,
           "recommended": true,
-          "their_position_value": 17.1664
+          "their_position_value": 18.2393
         }
       ]
     },
@@ -313,10 +365,10 @@
         "avg_trades_per_day_30d": 9.5
       },
       "radar": {
-        "account_age_days": 26.9,
+        "account_age_days": 27.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.198,
-        "best_leaderboard_rank": 33,
+        "best_leaderboard_rank": 32,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -357,20 +409,38 @@
         "n_distinct_markets": 286,
         "capital_concentration_hhi": 0.0057,
         "win_rate_adj": 0.496,
-        "avg_trades_per_day_30d": 1.97
+        "avg_trades_per_day_30d": 2.2
       },
       "radar": {
-        "account_age_days": 260.3,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.0568,
-        "best_leaderboard_rank": 26,
+        "account_age_days": 260.5,
+        "portfolio_value": 30344.47,
+        "capital_efficiency": 0.0559,
+        "best_leaderboard_rank": 28,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 31,
-      "entry_recommendations": []
+      "open_positions_count": 33,
+      "entry_recommendations": [
+        {
+          "market_title": "Counter-Strike: FURIA vs G2 (BO3) - FISSURE PLAYGROUND Playoffs",
+          "outcome": "G2",
+          "their_entry_price": 0.4198,
+          "current_price": 0.695,
+          "fair_value_estimate": 0.715,
+          "suggested_entry_range": [
+            0.43,
+            0.705
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.28 (66%) since their entry of 0.42 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.045,
+          "pick_score": 0.009,
+          "recommended": true,
+          "their_position_value": 30344.4747
+        }
+      ]
     }
   ]
 }
