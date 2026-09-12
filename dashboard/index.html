@@ -437,13 +437,18 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-09-11T22:31:37.285976+00:00",
-  "duration_seconds": 452.6,
-  "n_candidates_discovered": 1269,
+  "generated_at": "2026-09-12T01:08:57.367209+00:00",
+  "duration_seconds": 563.0,
+  "n_candidates_discovered": 1246,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 5,
-  "n_errors": 0,
-  "errors": [],
+  "n_errors": 1,
+  "errors": [
+    {
+      "wallet": "0x4ebc2722adc772bde8680792d0a6fdf15499a33d",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x4ebc2722adc772bde8680792d0a6fdf15499a33d"
+    }
+  ],
   "wallets": [
     {
       "wallet": "0x3f985e3a68f88e6ed8da1a22e1a5eda81c8e0aa1",
@@ -471,7 +476,7 @@
         "roi_lifetime": 0.1983,
         "roi_180d": 0.1983,
         "roi_90d": 0.1983,
-        "roi_30d": 0.3601,
+        "roi_30d": 0.3635,
         "max_drawdown_fraction": 0.0045,
         "n_resolved": 215,
         "n_distinct_markets": 211,
@@ -480,33 +485,33 @@
         "avg_trades_per_day_30d": 14.9
       },
       "radar": {
-        "account_age_days": 59.2,
-        "portfolio_value": 3594.38,
-        "capital_efficiency": 0.1435,
+        "account_age_days": 59.3,
+        "portfolio_value": 12.81,
+        "capital_efficiency": 0.1433,
         "best_leaderboard_rank": 30,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 143,
+      "open_positions_count": 145,
       "entry_recommendations": [
         {
-          "market_title": "Barranquilla: Leolia Jeanjean vs Claire Liu",
-          "outcome": "Leolia Jeanjean",
-          "their_entry_price": 0.2499,
-          "current_price": 0.315,
-          "fair_value_estimate": 0.325,
+          "market_title": "Barranquilla: Elsa Jacquemot vs Anna Blinkova",
+          "outcome": "Elsa Jacquemot",
+          "their_entry_price": 0.1399,
+          "current_price": 0.159,
+          "fair_value_estimate": 0.0245,
           "suggested_entry_range": [
-            0.255,
-            0.32
+            0.072,
+            0.092
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.25 -> 0.32); replicating their entry is still reasonably representative.",
-          "conviction": 0.027,
-          "pick_score": 0.027,
+          "note": "Price is close to their entry (0.14 -> 0.16); replicating their entry is still reasonably representative.",
+          "conviction": 0.0001,
+          "pick_score": 0.0001,
           "recommended": true,
-          "their_position_value": 3585.4812
+          "their_position_value": 12.8108
         }
       ]
     },
@@ -545,7 +550,7 @@
         "avg_trades_per_day_30d": 2.0
       },
       "radar": {
-        "account_age_days": 25.5,
+        "account_age_days": 25.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2418,
         "best_leaderboard_rank": 22,
@@ -592,7 +597,7 @@
         "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 25.4,
+        "account_age_days": 25.6,
         "portfolio_value": 74067.0,
         "capital_efficiency": 0.2494,
         "best_leaderboard_rank": 29,
@@ -639,7 +644,7 @@
         "avg_trades_per_day_30d": 9.5
       },
       "radar": {
-        "account_age_days": 27.6,
+        "account_age_days": 27.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.198,
         "best_leaderboard_rank": 39,
@@ -683,36 +688,53 @@
         "n_distinct_markets": 288,
         "capital_concentration_hhi": 0.0058,
         "win_rate_adj": 0.4993,
-        "avg_trades_per_day_30d": 2.37
+        "avg_trades_per_day_30d": 2.5
       },
       "radar": {
-        "account_age_days": 261.0,
-        "portfolio_value": 14097.98,
-        "capital_efficiency": 0.0665,
-        "best_leaderboard_rank": 24,
+        "account_age_days": 261.1,
+        "portfolio_value": 88628.24,
+        "capital_efficiency": 0.0657,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 35,
+      "open_positions_count": 36,
       "entry_recommendations": [
         {
           "market_title": "Spread: Detroit Tigers (-1.5)",
           "outcome": "Detroit Tigers",
-          "their_entry_price": 0.4399,
-          "current_price": 0.435,
-          "fair_value_estimate": 0.435,
+          "their_entry_price": 0.4444,
+          "current_price": 0.965,
+          "fair_value_estimate": 0.9795,
           "suggested_entry_range": [
-            0.427,
-            0.447
+            0.452,
+            0.972
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.44 -> 0.43); replicating their entry is still reasonably representative.",
-          "conviction": 0.0224,
-          "pick_score": 0.0224,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.52 (117%) since their entry of 0.44 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0808,
+          "pick_score": 0.0162,
           "recommended": true,
-          "their_position_value": 14097.9759
+          "their_position_value": 56050.3684
+        },
+        {
+          "market_title": "Colorado Rockies vs. Detroit Tigers: O/U 7.5",
+          "outcome": "Over",
+          "their_entry_price": 0.5499,
+          "current_price": 0.69,
+          "fair_value_estimate": 0.555,
+          "suggested_entry_range": [
+            0.482,
+            0.623
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.14 (25%) since their entry of 0.55 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.047,
+          "pick_score": 0.0094,
+          "recommended": true,
+          "their_position_value": 32577.8739
         }
       ]
     }
