@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-13T16:08:49.446255+00:00",
-  "duration_seconds": 389.6,
-  "n_candidates_discovered": 1237,
+  "generated_at": "2026-09-13T19:23:22.605923+00:00",
+  "duration_seconds": 443.1,
+  "n_candidates_discovered": 1251,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 1,
+  "n_passed_filters": 3,
   "n_errors": 1,
   "errors": [
     {
@@ -12,6 +12,53 @@
     }
   ],
   "wallets": [
+    {
+      "wallet": "0x6c557de3d1056971396317b2553b15b094a24a8c",
+      "userName": "Di88medes",
+      "display_name": "Di88medes",
+      "profile_url": "https://polymarket.com/@Di88medes",
+      "score": {
+        "composite": 0.5566,
+        "score_100": 78,
+        "kelly_edge": 0.8072,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0162,
+        "n_clv_with_data": 39,
+        "n_clv_attempted": 39,
+        "sharpe": 4.2248,
+        "roi_lifetime": 0.4621,
+        "roi_180d": 0.4621,
+        "roi_90d": 0.4621,
+        "roi_30d": 0.4621,
+        "max_drawdown_fraction": 0.0,
+        "n_resolved": 39,
+        "n_distinct_markets": 39,
+        "capital_concentration_hhi": 0.1125,
+        "win_rate_adj": 0.9103,
+        "avg_trades_per_day_30d": 2.0
+      },
+      "radar": {
+        "account_age_days": 27.4,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2418,
+        "best_leaderboard_rank": 24,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 37,
+      "entry_recommendations": []
+    },
     {
       "wallet": "0xe76f0a36d05d215a69f1f84466c8922702a1d40c",
       "userName": "Kulilun",
@@ -47,10 +94,10 @@
         "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 27.2,
+        "account_age_days": 27.3,
         "portfolio_value": 74067.0,
         "capital_efficiency": 0.2494,
-        "best_leaderboard_rank": 30,
+        "best_leaderboard_rank": 33,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -58,6 +105,88 @@
       },
       "open_positions_count": 3,
       "entry_recommendations": []
+    },
+    {
+      "wallet": "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223",
+      "userName": "Jsram",
+      "display_name": "Jsram",
+      "profile_url": "https://polymarket.com/@Jsram",
+      "score": {
+        "composite": 0.5168,
+        "score_100": 76,
+        "kelly_edge": 0.3871,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0671,
+        "n_clv_with_data": 22,
+        "n_clv_attempted": 40,
+        "sharpe": 0.8198,
+        "roi_lifetime": 0.2258,
+        "roi_180d": 0.246,
+        "roi_90d": 0.3082,
+        "roi_30d": 0.3348,
+        "max_drawdown_fraction": 0.0244,
+        "n_resolved": 147,
+        "n_distinct_markets": 140,
+        "capital_concentration_hhi": 0.0284,
+        "win_rate_adj": 0.7385,
+        "avg_trades_per_day_30d": 1.1
+      },
+      "radar": {
+        "account_age_days": 783.1,
+        "portfolio_value": 109646.21,
+        "capital_efficiency": 0.1154,
+        "best_leaderboard_rank": 27,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 78,
+      "entry_recommendations": [
+        {
+          "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+          "outcome": "Yes",
+          "their_entry_price": 0.2198,
+          "current_price": 0.17,
+          "fair_value_estimate": 0.17,
+          "suggested_entry_range": [
+            0.17,
+            0.22
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.22 -> 0.17); replicating their entry is still reasonably representative.",
+          "conviction": 0.0076,
+          "pick_score": 0.0076,
+          "recommended": true,
+          "their_position_value": 62459.3231
+        },
+        {
+          "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+          "outcome": "No",
+          "their_entry_price": 0.7356,
+          "current_price": 0.83,
+          "fair_value_estimate": 0.83,
+          "suggested_entry_range": [
+            0.736,
+            0.83
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.09 (13%) since their entry of 0.74 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0058,
+          "pick_score": 0.0012,
+          "recommended": true,
+          "their_position_value": 47186.8861
+        }
+      ]
     }
   ]
 }
