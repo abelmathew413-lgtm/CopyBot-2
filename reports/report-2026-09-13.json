@@ -1,16 +1,11 @@
 {
-  "generated_at": "2026-09-13T19:23:22.605923+00:00",
-  "duration_seconds": 443.1,
-  "n_candidates_discovered": 1251,
+  "generated_at": "2026-09-13T22:24:35.675034+00:00",
+  "duration_seconds": 431.1,
+  "n_candidates_discovered": 1197,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 3,
-  "n_errors": 1,
-  "errors": [
-    {
-      "wallet": "0x4ebc2722adc772bde8680792d0a6fdf15499a33d",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x4ebc2722adc772bde8680792d0a6fdf15499a33d"
-    }
-  ],
+  "n_errors": 0,
+  "errors": [],
   "wallets": [
     {
       "wallet": "0x6c557de3d1056971396317b2553b15b094a24a8c",
@@ -47,7 +42,7 @@
         "avg_trades_per_day_30d": 2.0
       },
       "radar": {
-        "account_age_days": 27.4,
+        "account_age_days": 27.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2418,
         "best_leaderboard_rank": 24,
@@ -94,10 +89,10 @@
         "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 27.3,
+        "account_age_days": 27.4,
         "portfolio_value": 74067.0,
         "capital_efficiency": 0.2494,
-        "best_leaderboard_rank": 33,
+        "best_leaderboard_rank": 35,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -141,8 +136,8 @@
         "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 783.1,
-        "portfolio_value": 109646.21,
+        "account_age_days": 783.2,
+        "portfolio_value": 110112.04,
         "capital_efficiency": 0.1154,
         "best_leaderboard_rank": 27,
         "profile_views": null,
@@ -156,35 +151,35 @@
           "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
           "outcome": "Yes",
           "their_entry_price": 0.2198,
-          "current_price": 0.17,
-          "fair_value_estimate": 0.17,
+          "current_price": 0.1715,
+          "fair_value_estimate": 0.1715,
           "suggested_entry_range": [
-            0.17,
+            0.171,
             0.22
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.22 -> 0.17); replicating their entry is still reasonably representative.",
-          "conviction": 0.0076,
-          "pick_score": 0.0076,
+          "conviction": 0.0077,
+          "pick_score": 0.0077,
           "recommended": true,
-          "their_position_value": 62459.3231
+          "their_position_value": 63010.4348
         },
         {
           "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
           "outcome": "No",
           "their_entry_price": 0.7356,
-          "current_price": 0.83,
-          "fair_value_estimate": 0.83,
+          "current_price": 0.8285,
+          "fair_value_estimate": 0.8285,
           "suggested_entry_range": [
             0.736,
-            0.83
+            0.829
           ],
           "flagged_chasing": true,
           "note": "Price has moved up 0.09 (13%) since their entry of 0.74 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0058,
-          "pick_score": 0.0012,
+          "conviction": 0.0057,
+          "pick_score": 0.0011,
           "recommended": true,
-          "their_position_value": 47186.8861
+          "their_position_value": 47101.6085
         }
       ]
     }
