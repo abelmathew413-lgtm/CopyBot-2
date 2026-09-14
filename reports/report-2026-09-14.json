@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-09-14T06:09:07.753206+00:00",
-  "duration_seconds": 557.1,
-  "n_candidates_discovered": 1576,
+  "generated_at": "2026-09-14T12:43:35.950798+00:00",
+  "duration_seconds": 468.1,
+  "n_candidates_discovered": 1574,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 8,
-  "n_errors": 2,
+  "n_errors": 1,
   "errors": [
-    {
-      "wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
-    },
     {
       "wallet": "0x4ebc2722adc772bde8680792d0a6fdf15499a33d",
       "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x4ebc2722adc772bde8680792d0a6fdf15499a33d"
@@ -51,7 +47,7 @@
         "avg_trades_per_day_30d": 4.8
       },
       "radar": {
-        "account_age_days": 150.2,
+        "account_age_days": 150.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2235,
         "best_leaderboard_rank": 26,
@@ -98,33 +94,101 @@
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 66.7,
-        "portfolio_value": 4025.77,
-        "capital_efficiency": 0.3127,
+        "account_age_days": 67.0,
+        "portfolio_value": 40568.59,
+        "capital_efficiency": 0.3003,
         "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 48,
+      "open_positions_count": 52,
       "entry_recommendations": [
+        {
+          "market_title": "Will Real Betis Balompi\u00e9 win on 2026-09-14?",
+          "outcome": "No",
+          "their_entry_price": 0.73,
+          "current_price": 0.735,
+          "fair_value_estimate": 0.735,
+          "suggested_entry_range": [
+            0.722,
+            0.742
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.73 -> 0.73); replicating their entry is still reasonably representative.",
+          "conviction": 0.0736,
+          "pick_score": 0.0736,
+          "recommended": true,
+          "their_position_value": 22034.2331
+        },
+        {
+          "market_title": "Villarreal CF vs. Real Betis Balompi\u00e9: O/U 2.5",
+          "outcome": "Over",
+          "their_entry_price": 0.61,
+          "current_price": 0.615,
+          "fair_value_estimate": 0.615,
+          "suggested_entry_range": [
+            0.603,
+            0.623
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.61 -> 0.61); replicating their entry is still reasonably representative.",
+          "conviction": 0.0246,
+          "pick_score": 0.0246,
+          "recommended": true,
+          "their_position_value": 7366.7164
+        },
+        {
+          "market_title": "Will FC Midtjylland win on 2026-09-14?",
+          "outcome": "No",
+          "their_entry_price": 0.46,
+          "current_price": 0.465,
+          "fair_value_estimate": 0.465,
+          "suggested_entry_range": [
+            0.453,
+            0.473
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.46 -> 0.47); replicating their entry is still reasonably representative.",
+          "conviction": 0.0223,
+          "pick_score": 0.0223,
+          "recommended": true,
+          "their_position_value": 6678.0554
+        },
         {
           "market_title": "Will Rio Ave FC win on 2026-09-14?",
           "outcome": "No",
           "their_entry_price": 0.64,
-          "current_price": 0.635,
-          "fair_value_estimate": 0.635,
+          "current_price": 0.645,
+          "fair_value_estimate": 0.645,
           "suggested_entry_range": [
-            0.627,
-            0.647
+            0.633,
+            0.653
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.64 -> 0.64); replicating their entry is still reasonably representative.",
-          "conviction": 0.0122,
-          "pick_score": 0.0122,
-          "recommended": true,
-          "their_position_value": 4025.7666
+          "note": "Price is close to their entry (0.64 -> 0.65); replicating their entry is still reasonably representative.",
+          "conviction": 0.0137,
+          "pick_score": 0.0137,
+          "recommended": false,
+          "their_position_value": 4089.1645
+        },
+        {
+          "market_title": "Sligo Rovers FC vs. Galway United FC: O/U 2.5",
+          "outcome": "Under",
+          "their_entry_price": 0.44,
+          "current_price": 0.435,
+          "fair_value_estimate": 0.435,
+          "suggested_entry_range": [
+            0.427,
+            0.448
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.44 -> 0.43); replicating their entry is still reasonably representative.",
+          "conviction": 0.0013,
+          "pick_score": 0.0013,
+          "recommended": false,
+          "their_position_value": 400.4175
         }
       ]
     },
@@ -163,7 +227,7 @@
         "avg_trades_per_day_30d": 2.0
       },
       "radar": {
-        "account_age_days": 27.9,
+        "account_age_days": 28.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2418,
         "best_leaderboard_rank": 22,
@@ -210,7 +274,7 @@
         "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 27.8,
+        "account_age_days": 28.0,
         "portfolio_value": 74067.0,
         "capital_efficiency": 0.2494,
         "best_leaderboard_rank": 36,
@@ -257,8 +321,8 @@
         "avg_trades_per_day_30d": 39.0
       },
       "radar": {
-        "account_age_days": 570.6,
-        "portfolio_value": 148.04,
+        "account_age_days": 570.9,
+        "portfolio_value": 148.1,
         "capital_efficiency": 0.2251,
         "best_leaderboard_rank": 29,
         "profile_views": null,
@@ -272,8 +336,8 @@
           "market_title": "Will the New York Giants win the 2027 NFL league championship?",
           "outcome": "No",
           "their_entry_price": 0.9909,
-          "current_price": 0.9785,
-          "fair_value_estimate": 0.9785,
+          "current_price": 0.9795,
+          "fair_value_estimate": 0.9795,
           "suggested_entry_range": [
             0.975,
             0.995
@@ -283,24 +347,7 @@
           "conviction": 0.0001,
           "pick_score": 0.0001,
           "recommended": true,
-          "their_position_value": 53.8175
-        },
-        {
-          "market_title": "Will the Las Vegas Raiders win the 2027 NFL league championship?",
-          "outcome": "No",
-          "their_entry_price": 0.997,
-          "current_price": 0.9895,
-          "fair_value_estimate": 0.9895,
-          "suggested_entry_range": [
-            0.983,
-            0.999
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (1.00 -> 0.99); replicating their entry is still reasonably representative.",
-          "conviction": 0.0,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 4.9475
+          "their_position_value": 53.8725
         },
         {
           "market_title": "Will the Pittsburgh Steelers win the 2027 NFL league championship?",
@@ -374,8 +421,8 @@
           "market_title": "Will Bitcoin reach $170,000 by December 31, 2026?",
           "outcome": "No",
           "their_entry_price": 0.992,
-          "current_price": 0.98,
-          "fair_value_estimate": 0.98,
+          "current_price": 0.9805,
+          "fair_value_estimate": 0.981,
           "suggested_entry_range": [
             0.976,
             0.996
@@ -385,7 +432,7 @@
           "conviction": 0.0,
           "pick_score": 0.0,
           "recommended": false,
-          "their_position_value": 4.9
+          "their_position_value": 4.9025
         }
       ]
     },
@@ -424,8 +471,8 @@
         "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 783.5,
-        "portfolio_value": 108403.98,
+        "account_age_days": 783.8,
+        "portfolio_value": 108869.82,
         "capital_efficiency": 0.1154,
         "best_leaderboard_rank": 27,
         "profile_views": null,
@@ -439,35 +486,35 @@
           "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
           "outcome": "Yes",
           "their_entry_price": 0.2198,
-          "current_price": 0.166,
-          "fair_value_estimate": 0.166,
+          "current_price": 0.1675,
+          "fair_value_estimate": 0.1675,
           "suggested_entry_range": [
-            0.166,
+            0.167,
             0.22
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.22 -> 0.17); replicating their entry is still reasonably representative.",
-          "conviction": 0.0074,
-          "pick_score": 0.0074,
+          "conviction": 0.0075,
+          "pick_score": 0.0075,
           "recommended": true,
-          "their_position_value": 60989.692
+          "their_position_value": 61540.8037
         },
         {
           "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
           "outcome": "No",
           "their_entry_price": 0.7356,
-          "current_price": 0.834,
-          "fair_value_estimate": 0.834,
+          "current_price": 0.8325,
+          "fair_value_estimate": 0.8325,
           "suggested_entry_range": [
             0.736,
-            0.834
+            0.833
           ],
           "flagged_chasing": true,
           "note": "Price has moved up 0.10 (13%) since their entry of 0.74 -- buying now means chasing, not replicating their original risk/reward.",
           "conviction": 0.0058,
           "pick_score": 0.0012,
           "recommended": true,
-          "their_position_value": 47414.2927
+          "their_position_value": 47329.0152
         }
       ]
     },
@@ -506,7 +553,7 @@
         "avg_trades_per_day_30d": 2.07
       },
       "radar": {
-        "account_age_days": 94.8,
+        "account_age_days": 95.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2891,
         "best_leaderboard_rank": 28,
@@ -553,7 +600,7 @@
         "avg_trades_per_day_30d": 3.23
       },
       "radar": {
-        "account_age_days": 24.5,
+        "account_age_days": 24.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.2793,
         "best_leaderboard_rank": 21,
