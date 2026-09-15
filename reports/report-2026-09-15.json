@@ -1,77 +1,12 @@
 {
-  "generated_at": "2026-09-15T01:29:08.647484+00:00",
-  "duration_seconds": 558.7,
-  "n_candidates_discovered": 1518,
+  "generated_at": "2026-09-15T07:39:03.104175+00:00",
+  "duration_seconds": 332.8,
+  "n_candidates_discovered": 1501,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 7,
+  "n_passed_filters": 5,
   "n_errors": 0,
   "errors": [],
   "wallets": [
-    {
-      "wallet": "0x2dc13c6bda81b202281e796953a7323de675b33c",
-      "userName": "xifutloong3",
-      "display_name": "xifutloong3",
-      "profile_url": "https://polymarket.com/@xifutloong3",
-      "score": {
-        "composite": 0.7832,
-        "score_100": 89,
-        "kelly_edge": 0.3702,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.4233,
-        "n_clv_with_data": 30,
-        "n_clv_attempted": 40,
-        "sharpe": 2.9168,
-        "roi_lifetime": 0.3495,
-        "roi_180d": 0.3495,
-        "roi_90d": 0.4312,
-        "roi_30d": 0.4355,
-        "max_drawdown_fraction": 0.0151,
-        "n_resolved": 221,
-        "n_distinct_markets": 219,
-        "capital_concentration_hhi": 0.0073,
-        "win_rate_adj": 0.7239,
-        "avg_trades_per_day_30d": 4.77
-      },
-      "radar": {
-        "account_age_days": 151.0,
-        "portfolio_value": 34134.62,
-        "capital_efficiency": 0.2217,
-        "best_leaderboard_rank": 26,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 82,
-      "entry_recommendations": [
-        {
-          "market_title": "New York Yankees vs. Minnesota Twins",
-          "outcome": "Minnesota Twins",
-          "their_entry_price": 0.5299,
-          "current_price": 0.355,
-          "fair_value_estimate": 0.715,
-          "suggested_entry_range": [
-            0.535,
-            0.71
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.17 (33%) since their entry of 0.53 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0256,
-          "pick_score": 0.0051,
-          "recommended": true,
-          "their_position_value": 34134.6167
-        }
-      ]
-    },
     {
       "wallet": "0x6c557de3d1056971396317b2553b15b094a24a8c",
       "userName": "Di88medes",
@@ -107,10 +42,10 @@
         "avg_trades_per_day_30d": 2.0
       },
       "radar": {
-        "account_age_days": 28.7,
+        "account_age_days": 28.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2418,
-        "best_leaderboard_rank": 24,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -154,10 +89,10 @@
         "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 28.6,
+        "account_age_days": 28.8,
         "portfolio_value": 74067.0,
         "capital_efficiency": 0.2494,
-        "best_leaderboard_rank": 34,
+        "best_leaderboard_rank": 32,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -165,173 +100,6 @@
       },
       "open_positions_count": 3,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
-      "userName": "Diabolical-Prize",
-      "display_name": "Diabolical-Prize",
-      "profile_url": "https://polymarket.com/@Diabolical-Prize",
-      "score": {
-        "composite": 0.5302,
-        "score_100": 77,
-        "kelly_edge": 0.7032,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0321,
-        "n_clv_with_data": 39,
-        "n_clv_attempted": 40,
-        "sharpe": 1.8402,
-        "roi_lifetime": 0.4718,
-        "roi_180d": 0.4718,
-        "roi_90d": 0.4718,
-        "roi_30d": 0.4718,
-        "max_drawdown_fraction": 0.0026,
-        "n_resolved": 68,
-        "n_distinct_markets": 65,
-        "capital_concentration_hhi": 0.0329,
-        "win_rate_adj": 0.8583,
-        "avg_trades_per_day_30d": 39.0
-      },
-      "radar": {
-        "account_age_days": 571.4,
-        "portfolio_value": 122632.84,
-        "capital_efficiency": 0.2225,
-        "best_leaderboard_rank": 29,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 87,
-      "entry_recommendations": [
-        {
-          "market_title": "Broncos vs. Chiefs",
-          "outcome": "Broncos",
-          "their_entry_price": 0.45,
-          "current_price": 0.465,
-          "fair_value_estimate": 0.335,
-          "suggested_entry_range": [
-            0.383,
-            0.403
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.45 -> 0.47); replicating their entry is still reasonably representative.",
-          "conviction": 0.1192,
-          "pick_score": 0.1192,
-          "recommended": true,
-          "their_position_value": 122485.0416
-        },
-        {
-          "market_title": "Will the New York Giants win the 2027 NFL league championship?",
-          "outcome": "No",
-          "their_entry_price": 0.9909,
-          "current_price": 0.9735,
-          "fair_value_estimate": 0.9735,
-          "suggested_entry_range": [
-            0.972,
-            0.992
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.99 -> 0.97); replicating their entry is still reasonably representative.",
-          "conviction": 0.0001,
-          "pick_score": 0.0001,
-          "recommended": true,
-          "their_position_value": 53.5425
-        },
-        {
-          "market_title": "Will the Pittsburgh Steelers win the 2027 NFL league championship?",
-          "outcome": "No",
-          "their_entry_price": 0.99,
-          "current_price": 0.9885,
-          "fair_value_estimate": 0.9885,
-          "suggested_entry_range": [
-            0.979,
-            0.999
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.99 -> 0.99); replicating their entry is still reasonably representative.",
-          "conviction": 0.0,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 4.9425
-        },
-        {
-          "market_title": "Will the Tampa Bay Buccaneers win the 2027 NFL league championship?",
-          "outcome": "No",
-          "their_entry_price": 0.991,
-          "current_price": 0.9885,
-          "fair_value_estimate": 0.9885,
-          "suggested_entry_range": [
-            0.98,
-            0.999
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.99 -> 0.99); replicating their entry is still reasonably representative.",
-          "conviction": 0.0,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 4.9425
-        },
-        {
-          "market_title": "Will Bitcoin reach $190,000 by December 31, 2026?",
-          "outcome": "No",
-          "their_entry_price": 0.9879,
-          "current_price": 0.989,
-          "fair_value_estimate": 0.989,
-          "suggested_entry_range": [
-            0.978,
-            0.998
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.99 -> 0.99); replicating their entry is still reasonably representative.",
-          "conviction": 0.0,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 4.9351
-        },
-        {
-          "market_title": "Will Bitcoin reach $180,000 by December 31, 2026?",
-          "outcome": "No",
-          "their_entry_price": 0.991,
-          "current_price": 0.984,
-          "fair_value_estimate": 0.984,
-          "suggested_entry_range": [
-            0.978,
-            0.998
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.99 -> 0.98); replicating their entry is still reasonably representative.",
-          "conviction": 0.0,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 4.92
-        },
-        {
-          "market_title": "Will Bitcoin reach $170,000 by December 31, 2026?",
-          "outcome": "No",
-          "their_entry_price": 0.992,
-          "current_price": 0.9805,
-          "fair_value_estimate": 0.9805,
-          "suggested_entry_range": [
-            0.976,
-            0.996
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.99 -> 0.98); replicating their entry is still reasonably representative.",
-          "conviction": 0.0,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 4.9025
-        }
-      ]
     },
     {
       "wallet": "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223",
@@ -368,10 +136,10 @@
         "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 784.3,
-        "portfolio_value": 110112.04,
+        "account_age_days": 784.6,
+        "portfolio_value": 109801.49,
         "capital_efficiency": 0.1154,
-        "best_leaderboard_rank": 27,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -383,35 +151,35 @@
           "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
           "outcome": "Yes",
           "their_entry_price": 0.2198,
-          "current_price": 0.1715,
-          "fair_value_estimate": 0.1715,
+          "current_price": 0.1705,
+          "fair_value_estimate": 0.1705,
           "suggested_entry_range": [
-            0.171,
+            0.17,
             0.22
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.22 -> 0.17); replicating their entry is still reasonably representative.",
-          "conviction": 0.0077,
-          "pick_score": 0.0077,
+          "conviction": 0.0076,
+          "pick_score": 0.0076,
           "recommended": true,
-          "their_position_value": 63010.4348
+          "their_position_value": 62643.027
         },
         {
           "market_title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
           "outcome": "No",
           "their_entry_price": 0.7356,
-          "current_price": 0.8285,
-          "fair_value_estimate": 0.8285,
+          "current_price": 0.8295,
+          "fair_value_estimate": 0.8295,
           "suggested_entry_range": [
             0.736,
-            0.829
+            0.83
           ],
           "flagged_chasing": true,
           "note": "Price has moved up 0.09 (13%) since their entry of 0.74 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0057,
-          "pick_score": 0.0011,
+          "conviction": 0.0058,
+          "pick_score": 0.0012,
           "recommended": true,
-          "their_position_value": 47101.6085
+          "their_position_value": 47158.4602
         }
       ]
     },
@@ -450,10 +218,10 @@
         "avg_trades_per_day_30d": 2.07
       },
       "radar": {
-        "account_age_days": 95.6,
+        "account_age_days": 95.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2891,
-        "best_leaderboard_rank": 28,
+        "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -497,10 +265,10 @@
         "avg_trades_per_day_30d": 3.23
       },
       "radar": {
-        "account_age_days": 25.3,
+        "account_age_days": 25.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2793,
-        "best_leaderboard_rank": 23,
+        "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
