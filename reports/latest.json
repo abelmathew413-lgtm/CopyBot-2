@@ -1,17 +1,128 @@
 {
-  "generated_at": "2026-09-15T18:14:02.166920+00:00",
-  "duration_seconds": 543.5,
-  "n_candidates_discovered": 1468,
+  "generated_at": "2026-09-15T22:11:26.658373+00:00",
+  "duration_seconds": 500.6,
+  "n_candidates_discovered": 1425,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 3,
-  "n_errors": 1,
-  "errors": [
-    {
-      "wallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
-      "error": "GET https://data-api.polymarket.com/closed-positions failed after 3 attempts: 500 Server Error: Internal Server Error for url: https://data-api.polymarket.com/closed-positions?user=0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705&limit=50&offset=700&sortBy=TIMESTAMP&sortDirection=DESC"
-    }
-  ],
+  "n_passed_filters": 4,
+  "n_errors": 0,
+  "errors": [],
   "wallets": [
+    {
+      "wallet": "0x19c4aa3200949f1dfc0f84cc2c9a47d78ed18c95",
+      "userName": "Devs777",
+      "display_name": "Devs777",
+      "profile_url": "https://polymarket.com/@Devs777",
+      "score": {
+        "composite": 0.5973,
+        "score_100": 80,
+        "kelly_edge": 0.8699,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0151,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 3.3564,
+        "roi_lifetime": 0.5327,
+        "roi_180d": 0.5327,
+        "roi_90d": 0.5327,
+        "roi_30d": 0.5327,
+        "max_drawdown_fraction": 0.0,
+        "n_resolved": 54,
+        "n_distinct_markets": 54,
+        "capital_concentration_hhi": 0.0718,
+        "win_rate_adj": 0.9336,
+        "avg_trades_per_day_30d": 0.0
+      },
+      "radar": {
+        "account_age_days": 68.3,
+        "portfolio_value": 19535.36,
+        "capital_efficiency": 0.314,
+        "best_leaderboard_rank": 21,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 61,
+      "entry_recommendations": [
+        {
+          "market_title": "Will CA Boca Juniors win on 2026-09-15?",
+          "outcome": "Yes",
+          "their_entry_price": 0.27,
+          "current_price": 0.275,
+          "fair_value_estimate": 0.275,
+          "suggested_entry_range": [
+            0.263,
+            0.283
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.27 -> 0.28); replicating their entry is still reasonably representative.",
+          "conviction": 0.0315,
+          "pick_score": 0.0315,
+          "recommended": true,
+          "their_position_value": 7487.8918
+        },
+        {
+          "market_title": "Will S\u00e3o Paulo FC win on 2026-09-15?",
+          "outcome": "No",
+          "their_entry_price": 0.58,
+          "current_price": 0.585,
+          "fair_value_estimate": 0.585,
+          "suggested_entry_range": [
+            0.573,
+            0.593
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.58 -> 0.58); replicating their entry is still reasonably representative.",
+          "conviction": 0.027,
+          "pick_score": 0.027,
+          "recommended": true,
+          "their_position_value": 2324.9941
+        },
+        {
+          "market_title": "Will CA Platense win on 2026-09-15?",
+          "outcome": "No",
+          "their_entry_price": 0.6788,
+          "current_price": 0.665,
+          "fair_value_estimate": 0.655,
+          "suggested_entry_range": [
+            0.657,
+            0.677
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.68 -> 0.67); replicating their entry is still reasonably representative.",
+          "conviction": 0.0084,
+          "pick_score": 0.0084,
+          "recommended": true,
+          "their_position_value": 410.6676
+        },
+        {
+          "market_title": "Will Fluminense FC win on 2026-09-15?",
+          "outcome": "Yes",
+          "their_entry_price": 0.33,
+          "current_price": 0.325,
+          "fair_value_estimate": 0.31,
+          "suggested_entry_range": [
+            0.31,
+            0.33
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.33 -> 0.33); replicating their entry is still reasonably representative.",
+          "conviction": 0.0018,
+          "pick_score": 0.0018,
+          "recommended": false,
+          "their_position_value": 96.4534
+        }
+      ]
+    },
     {
       "wallet": "0x6c557de3d1056971396317b2553b15b094a24a8c",
       "userName": "Di88medes",
@@ -47,10 +158,10 @@
         "avg_trades_per_day_30d": 2.0
       },
       "radar": {
-        "account_age_days": 29.4,
+        "account_age_days": 29.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2418,
-        "best_leaderboard_rank": 21,
+        "best_leaderboard_rank": 23,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -94,10 +205,10 @@
         "avg_trades_per_day_30d": 2.07
       },
       "radar": {
-        "account_age_days": 96.3,
+        "account_age_days": 96.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2891,
-        "best_leaderboard_rank": 27,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -141,10 +252,10 @@
         "avg_trades_per_day_30d": 3.4
       },
       "radar": {
-        "account_age_days": 26.0,
+        "account_age_days": 26.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.238,
-        "best_leaderboard_rank": 22,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
