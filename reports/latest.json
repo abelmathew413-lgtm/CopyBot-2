@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T18:12:00.551270+00:00",
-  "duration_seconds": 414.6,
-  "n_candidates_discovered": 1403,
+  "generated_at": "2026-09-16T22:09:09.339647+00:00",
+  "duration_seconds": 489.2,
+  "n_candidates_discovered": 1354,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 4,
   "n_errors": 0,
@@ -13,9 +13,9 @@
       "display_name": "Devs777",
       "profile_url": "https://polymarket.com/@Devs777",
       "score": {
-        "composite": 0.6013,
+        "composite": 0.6021,
         "score_100": 80,
-        "kelly_edge": 0.8762,
+        "kelly_edge": 0.8773,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -26,51 +26,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0158,
+        "clv": 0.0167,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 3.4386,
-        "roi_lifetime": 0.5326,
-        "roi_180d": 0.5326,
-        "roi_90d": 0.5326,
-        "roi_30d": 0.5326,
+        "sharpe": 3.1994,
+        "roi_lifetime": 0.529,
+        "roi_180d": 0.529,
+        "roi_90d": 0.529,
+        "roi_30d": 0.529,
         "max_drawdown_fraction": 0.0,
-        "n_resolved": 57,
-        "n_distinct_markets": 57,
-        "capital_concentration_hhi": 0.07,
-        "win_rate_adj": 0.9369,
+        "n_resolved": 58,
+        "n_distinct_markets": 58,
+        "capital_concentration_hhi": 0.069,
+        "win_rate_adj": 0.9379,
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 69.2,
-        "portfolio_value": 7502.53,
-        "capital_efficiency": 0.3164,
-        "best_leaderboard_rank": 22,
+        "account_age_days": 69.3,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.3167,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 60,
-      "entry_recommendations": [
-        {
-          "market_title": "Will FC Barcelona win on 2026-09-16?",
-          "outcome": "Yes",
-          "their_entry_price": 0.92,
-          "current_price": 0.915,
-          "fair_value_estimate": 0.915,
-          "suggested_entry_range": [
-            0.907,
-            0.927
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.92 -> 0.92); replicating their entry is still reasonably representative.",
-          "conviction": 0.0227,
-          "pick_score": 0.0227,
-          "recommended": true,
-          "their_position_value": 7502.5333
-        }
-      ]
+      "open_positions_count": 59,
+      "entry_recommendations": []
     },
     {
       "wallet": "0x6c557de3d1056971396317b2553b15b094a24a8c",
@@ -78,9 +60,9 @@
       "display_name": "Di88medes",
       "profile_url": "https://polymarket.com/@Di88medes",
       "score": {
-        "composite": 0.5566,
-        "score_100": 78,
-        "kelly_edge": 0.8072,
+        "composite": 0.5936,
+        "score_100": 80,
+        "kelly_edge": 0.8226,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -91,25 +73,25 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0162,
-        "n_clv_with_data": 39,
-        "n_clv_attempted": 39,
-        "sharpe": 4.2248,
-        "roi_lifetime": 0.4621,
-        "roi_180d": 0.4621,
-        "roi_90d": 0.4621,
-        "roi_30d": 0.4621,
+        "clv": 0.0462,
+        "n_clv_with_data": 40,
+        "n_clv_attempted": 40,
+        "sharpe": 4.3247,
+        "roi_lifetime": 0.4609,
+        "roi_180d": 0.4609,
+        "roi_90d": 0.4609,
+        "roi_30d": 0.4609,
         "max_drawdown_fraction": 0.0,
-        "n_resolved": 39,
-        "n_distinct_markets": 39,
-        "capital_concentration_hhi": 0.1125,
-        "win_rate_adj": 0.9103,
-        "avg_trades_per_day_30d": 2.13
+        "n_resolved": 43,
+        "n_distinct_markets": 43,
+        "capital_concentration_hhi": 0.1077,
+        "win_rate_adj": 0.918,
+        "avg_trades_per_day_30d": 2.3
       },
       "radar": {
-        "account_age_days": 30.4,
-        "portfolio_value": 14342.3,
-        "capital_efficiency": 0.2381,
+        "account_age_days": 30.5,
+        "portfolio_value": 24613.64,
+        "capital_efficiency": 0.2402,
         "best_leaderboard_rank": 23,
         "profile_views": null,
         "reasons": [
@@ -117,144 +99,7 @@
         ]
       },
       "open_positions_count": 45,
-      "entry_recommendations": [
-        {
-          "market_title": "Will AC Milan win on 2026-09-16?",
-          "outcome": "No",
-          "their_entry_price": 0.57,
-          "current_price": 0.555,
-          "fair_value_estimate": 0.555,
-          "suggested_entry_range": [
-            0.552,
-            0.573
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.57 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.0176,
-          "pick_score": 0.0176,
-          "recommended": true,
-          "their_position_value": 7675.1114
-        },
-        {
-          "market_title": "Will Manchester United FC win on 2026-09-16?",
-          "outcome": "No",
-          "their_entry_price": 0.44,
-          "current_price": 0.455,
-          "fair_value_estimate": 0.455,
-          "suggested_entry_range": [
-            0.438,
-            0.458
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.44 -> 0.46); replicating their entry is still reasonably representative.",
-          "conviction": 0.0068,
-          "pick_score": 0.0068,
-          "recommended": true,
-          "their_position_value": 2957.5
-        },
-        {
-          "market_title": "Spread: Everton FC (-1.5)",
-          "outcome": "Wolverhampton Wanderers FC",
-          "their_entry_price": 0.5495,
-          "current_price": 0.565,
-          "fair_value_estimate": 0.565,
-          "suggested_entry_range": [
-            0.547,
-            0.567
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.55 -> 0.56); replicating their entry is still reasonably representative.",
-          "conviction": 0.0041,
-          "pick_score": 0.0041,
-          "recommended": true,
-          "their_position_value": 1782.1328
-        },
-        {
-          "market_title": "Will AZ win on 2026-09-16?",
-          "outcome": "No",
-          "their_entry_price": 0.85,
-          "current_price": 0.865,
-          "fair_value_estimate": 0.865,
-          "suggested_entry_range": [
-            0.847,
-            0.867
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.85 -> 0.86); replicating their entry is still reasonably representative.",
-          "conviction": 0.0014,
-          "pick_score": 0.0014,
-          "recommended": false,
-          "their_position_value": 621.8831
-        },
-        {
-          "market_title": "RC Deportivo A Coru\u00f1a vs. Sevilla FC: O/U 2.5",
-          "outcome": "Under",
-          "their_entry_price": 0.57,
-          "current_price": 0.88,
-          "fair_value_estimate": 0.895,
-          "suggested_entry_range": [
-            0.577,
-            0.887
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved up 0.31 (54%) since their entry of 0.57 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0026,
-          "pick_score": 0.0005,
-          "recommended": false,
-          "their_position_value": 1125.2748
-        },
-        {
-          "market_title": "Fleetwood Town FC vs. Sheffield United FC: O/U 3.5",
-          "outcome": "Under",
-          "their_entry_price": 0.64,
-          "current_price": 0.655,
-          "fair_value_estimate": 0.655,
-          "suggested_entry_range": [
-            0.637,
-            0.657
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.64 -> 0.66); replicating their entry is still reasonably representative.",
-          "conviction": 0.0002,
-          "pick_score": 0.0002,
-          "recommended": false,
-          "their_position_value": 105.8218
-        },
-        {
-          "market_title": "Manchester United FC vs. Brighton & Hove Albion FC: O/U 3.5",
-          "outcome": "Under",
-          "their_entry_price": 0.52,
-          "current_price": 0.535,
-          "fair_value_estimate": 0.535,
-          "suggested_entry_range": [
-            0.518,
-            0.538
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.52 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.0002,
-          "pick_score": 0.0002,
-          "recommended": false,
-          "their_position_value": 66.4955
-        },
-        {
-          "market_title": "RSC Anderlecht vs. Olympique Lyonnais: O/U 3.5",
-          "outcome": "Under",
-          "their_entry_price": 0.65,
-          "current_price": 0.665,
-          "fair_value_estimate": 0.665,
-          "suggested_entry_range": [
-            0.647,
-            0.667
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.65 -> 0.67); replicating their entry is still reasonably representative.",
-          "conviction": 0.0,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 8.0769
-        }
-      ]
+      "entry_recommendations": []
     },
     {
       "wallet": "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62",
@@ -291,10 +136,10 @@
         "avg_trades_per_day_30d": 2.07
       },
       "radar": {
-        "account_age_days": 97.3,
+        "account_age_days": 97.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2891,
-        "best_leaderboard_rank": 30,
+        "best_leaderboard_rank": 28,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -338,7 +183,7 @@
         "avg_trades_per_day_30d": 3.4
       },
       "radar": {
-        "account_age_days": 27.0,
+        "account_age_days": 27.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.238,
         "best_leaderboard_rank": 25,
