@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T07:34:33.716155+00:00",
-  "duration_seconds": 339.1,
-  "n_candidates_discovered": 1362,
+  "generated_at": "2026-09-17T13:25:28.501007+00:00",
+  "duration_seconds": 447.3,
+  "n_candidates_discovered": 1356,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 3,
   "n_errors": 0,
@@ -42,7 +42,7 @@
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 69.7,
+        "account_age_days": 70.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.3167,
         "best_leaderboard_rank": 23,
@@ -89,7 +89,7 @@
         "avg_trades_per_day_30d": 2.3
       },
       "radar": {
-        "account_age_days": 30.9,
+        "account_age_days": 31.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.2468,
         "best_leaderboard_rank": 22,
@@ -136,7 +136,7 @@
         "avg_trades_per_day_30d": 3.4
       },
       "radar": {
-        "account_age_days": 27.6,
+        "account_age_days": 27.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.238,
         "best_leaderboard_rank": 25,
