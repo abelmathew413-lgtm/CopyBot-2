@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T17:10:31.449681+00:00",
-  "duration_seconds": 574.8,
-  "n_candidates_discovered": 1325,
+  "generated_at": "2026-09-18T20:51:29.218831+00:00",
+  "duration_seconds": 345.1,
+  "n_candidates_discovered": 1317,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 5,
   "n_errors": 0,
@@ -39,10 +39,10 @@
         "n_distinct_markets": 222,
         "capital_concentration_hhi": 0.0072,
         "win_rate_adj": 0.7274,
-        "avg_trades_per_day_30d": 4.93
+        "avg_trades_per_day_30d": 4.87
       },
       "radar": {
-        "account_age_days": 154.7,
+        "account_age_days": 154.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.2269,
         "best_leaderboard_rank": 22,
@@ -89,7 +89,7 @@
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 71.1,
+        "account_age_days": 71.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.3167,
         "best_leaderboard_rank": 25,
@@ -133,10 +133,10 @@
         "n_distinct_markets": 50,
         "capital_concentration_hhi": 0.1022,
         "win_rate_adj": 0.9286,
-        "avg_trades_per_day_30d": 2.3
+        "avg_trades_per_day_30d": 2.27
       },
       "radar": {
-        "account_age_days": 32.3,
+        "account_age_days": 32.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2468,
         "best_leaderboard_rank": 24,
@@ -183,10 +183,10 @@
         "avg_trades_per_day_30d": 8.73
       },
       "radar": {
-        "account_age_days": 575.9,
-        "portfolio_value": 207.08,
+        "account_age_days": 576.0,
+        "portfolio_value": 207.01,
         "capital_efficiency": 0.2925,
-        "best_leaderboard_rank": 22,
+        "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -384,10 +384,10 @@
         "avg_trades_per_day_30d": 3.4
       },
       "radar": {
-        "account_age_days": 29.0,
+        "account_age_days": 29.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.238,
-        "best_leaderboard_rank": 30,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
