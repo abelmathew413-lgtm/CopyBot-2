@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T20:32:25.877831+00:00",
-  "duration_seconds": 398.1,
-  "n_candidates_discovered": 1287,
+  "generated_at": "2026-09-19T22:56:08.391542+00:00",
+  "duration_seconds": 304.3,
+  "n_candidates_discovered": 1291,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 4,
   "n_errors": 0,
@@ -42,10 +42,10 @@
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 72.3,
+        "account_age_days": 72.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.3167,
-        "best_leaderboard_rank": 26,
+        "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -80,7 +80,7 @@
         "roi_lifetime": 0.4607,
         "roi_180d": 0.4607,
         "roi_90d": 0.4607,
-        "roi_30d": 0.4629,
+        "roi_30d": 0.4619,
         "max_drawdown_fraction": 0.0,
         "n_resolved": 50,
         "n_distinct_markets": 50,
@@ -89,10 +89,10 @@
         "avg_trades_per_day_30d": 2.07
       },
       "radar": {
-        "account_age_days": 33.5,
+        "account_age_days": 33.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2468,
-        "best_leaderboard_rank": 25,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -136,7 +136,7 @@
         "avg_trades_per_day_30d": 2.63
       },
       "radar": {
-        "account_age_days": 100.4,
+        "account_age_days": 100.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2912,
         "best_leaderboard_rank": 22,
@@ -183,10 +183,10 @@
         "avg_trades_per_day_30d": 3.33
       },
       "radar": {
-        "account_age_days": 30.1,
+        "account_age_days": 30.2,
         "portfolio_value": 0,
         "capital_efficiency": 0.238,
-        "best_leaderboard_rank": 28,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
