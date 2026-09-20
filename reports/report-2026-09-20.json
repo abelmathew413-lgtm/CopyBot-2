@@ -1,59 +1,12 @@
 {
-  "generated_at": "2026-09-20T01:00:38.341662+00:00",
-  "duration_seconds": 330.0,
-  "n_candidates_discovered": 1335,
+  "generated_at": "2026-09-20T06:05:27.205202+00:00",
+  "duration_seconds": 430.8,
+  "n_candidates_discovered": 1293,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 5,
+  "n_passed_filters": 4,
   "n_errors": 0,
   "errors": [],
   "wallets": [
-    {
-      "wallet": "0x2dc13c6bda81b202281e796953a7323de675b33c",
-      "userName": "xifutloong3",
-      "display_name": "xifutloong3",
-      "profile_url": "https://polymarket.com/@xifutloong3",
-      "score": {
-        "composite": 0.7852,
-        "score_100": 89,
-        "kelly_edge": 0.3814,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.4278,
-        "n_clv_with_data": 29,
-        "n_clv_attempted": 40,
-        "sharpe": 2.8821,
-        "roi_lifetime": 0.3546,
-        "roi_180d": 0.3546,
-        "roi_90d": 0.4334,
-        "roi_30d": 0.4372,
-        "max_drawdown_fraction": 0.0144,
-        "n_resolved": 225,
-        "n_distinct_markets": 223,
-        "capital_concentration_hhi": 0.0072,
-        "win_rate_adj": 0.7286,
-        "avg_trades_per_day_30d": 4.4
-      },
-      "radar": {
-        "account_age_days": 156.0,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.2265,
-        "best_leaderboard_rank": 22,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 83,
-      "entry_recommendations": []
-    },
     {
       "wallet": "0x19c4aa3200949f1dfc0f84cc2c9a47d78ed18c95",
       "userName": "Devs777",
@@ -89,10 +42,10 @@
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 72.5,
+        "account_age_days": 72.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.3167,
-        "best_leaderboard_rank": 26,
+        "best_leaderboard_rank": 28,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -136,10 +89,10 @@
         "avg_trades_per_day_30d": 2.07
       },
       "radar": {
-        "account_age_days": 33.6,
+        "account_age_days": 33.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2468,
-        "best_leaderboard_rank": 25,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -183,10 +136,10 @@
         "avg_trades_per_day_30d": 2.63
       },
       "radar": {
-        "account_age_days": 100.6,
+        "account_age_days": 100.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.2912,
-        "best_leaderboard_rank": 21,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -230,10 +183,10 @@
         "avg_trades_per_day_30d": 3.33
       },
       "radar": {
-        "account_age_days": 30.3,
+        "account_age_days": 30.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.238,
-        "best_leaderboard_rank": 28,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
