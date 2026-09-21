@@ -437,19 +437,61 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-09-21T00:08:40.520048+00:00",
-  "duration_seconds": 303.9,
-  "n_candidates_discovered": 1252,
+  "generated_at": "2026-09-21T06:11:53.663447+00:00",
+  "duration_seconds": 426.1,
+  "n_candidates_discovered": 1604,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 5,
-  "n_errors": 1,
-  "errors": [
-    {
-      "wallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
-    }
-  ],
+  "n_passed_filters": 6,
+  "n_errors": 0,
+  "errors": [],
   "wallets": [
+    {
+      "wallet": "0x2dc13c6bda81b202281e796953a7323de675b33c",
+      "userName": "xifutloong3",
+      "display_name": "xifutloong3",
+      "profile_url": "https://polymarket.com/@xifutloong3",
+      "score": {
+        "composite": 0.7868,
+        "score_100": 89,
+        "kelly_edge": 0.3856,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.4314,
+        "n_clv_with_data": 27,
+        "n_clv_attempted": 40,
+        "sharpe": 2.8693,
+        "roi_lifetime": 0.3582,
+        "roi_180d": 0.3582,
+        "roi_90d": 0.4362,
+        "roi_30d": 0.4483,
+        "max_drawdown_fraction": 0.0129,
+        "n_resolved": 226,
+        "n_distinct_markets": 224,
+        "capital_concentration_hhi": 0.0072,
+        "win_rate_adj": 0.7297,
+        "avg_trades_per_day_30d": 4.0
+      },
+      "radar": {
+        "account_age_days": 157.2,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2282,
+        "best_leaderboard_rank": 24,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 84,
+      "entry_recommendations": []
+    },
     {
       "wallet": "0x19c4aa3200949f1dfc0f84cc2c9a47d78ed18c95",
       "userName": "Devs777",
@@ -485,7 +527,7 @@
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 73.4,
+        "account_age_days": 73.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.3167,
         "best_leaderboard_rank": 31,
@@ -532,10 +574,10 @@
         "avg_trades_per_day_30d": 2.07
       },
       "radar": {
-        "account_age_days": 34.6,
+        "account_age_days": 34.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2428,
-        "best_leaderboard_rank": 28,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -579,8 +621,8 @@
         "avg_trades_per_day_30d": 8.73
       },
       "radar": {
-        "account_age_days": 578.2,
-        "portfolio_value": 205.32,
+        "account_age_days": 578.4,
+        "portfolio_value": 205.72,
         "capital_efficiency": 0.2925,
         "best_leaderboard_rank": 21,
         "profile_views": null,
@@ -594,10 +636,10 @@
           "market_title": "Will the New Orleans Saints win the 2027 NFL league championship?",
           "outcome": "No",
           "their_entry_price": 0.994,
-          "current_price": 0.9885,
-          "fair_value_estimate": 0.9885,
+          "current_price": 0.9895,
+          "fair_value_estimate": 0.9895,
           "suggested_entry_range": [
-            0.981,
+            0.982,
             0.999
           ],
           "flagged_chasing": false,
@@ -605,65 +647,65 @@
           "conviction": 0.0405,
           "pick_score": 0.0405,
           "recommended": true,
-          "their_position_value": 4.9425
-        },
-        {
-          "market_title": "Will the Houston Texans win the 2027 NFL league championship?",
-          "outcome": "No",
-          "their_entry_price": 0.953,
-          "current_price": 0.9805,
-          "fair_value_estimate": 0.9805,
-          "suggested_entry_range": [
-            0.953,
-            0.981
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.95 -> 0.98); replicating their entry is still reasonably representative.",
-          "conviction": 0.0405,
-          "pick_score": 0.0405,
-          "recommended": true,
-          "their_position_value": 4.9025
+          "their_position_value": 4.9475
         },
         {
           "market_title": "Will the Los Angeles Chargers win the 2027 NFL league championship?",
           "outcome": "No",
           "their_entry_price": 0.955,
-          "current_price": 0.9805,
-          "fair_value_estimate": 0.9805,
+          "current_price": 0.987,
+          "fair_value_estimate": 0.987,
           "suggested_entry_range": [
             0.955,
-            0.981
+            0.987
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.95 -> 0.98); replicating their entry is still reasonably representative.",
+          "note": "Price is close to their entry (0.95 -> 0.99); replicating their entry is still reasonably representative.",
           "conviction": 0.0405,
           "pick_score": 0.0405,
           "recommended": true,
-          "their_position_value": 4.9025
+          "their_position_value": 4.935
         },
         {
           "market_title": "Will the New York Giants win the 2027 NFL league championship?",
           "outcome": "No",
           "their_entry_price": 0.99,
-          "current_price": 0.979,
-          "fair_value_estimate": 0.979,
+          "current_price": 0.9815,
+          "fair_value_estimate": 0.9815,
           "suggested_entry_range": [
-            0.974,
-            0.994
+            0.976,
+            0.996
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.99 -> 0.98); replicating their entry is still reasonably representative.",
           "conviction": 0.0405,
           "pick_score": 0.0405,
+          "recommended": true,
+          "their_position_value": 4.9075
+        },
+        {
+          "market_title": "Will the Houston Texans win the 2027 NFL league championship?",
+          "outcome": "No",
+          "their_entry_price": 0.953,
+          "current_price": 0.9775,
+          "fair_value_estimate": 0.9775,
+          "suggested_entry_range": [
+            0.953,
+            0.978
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.95 -> 0.98); replicating their entry is still reasonably representative.",
+          "conviction": 0.0404,
+          "pick_score": 0.0404,
           "recommended": false,
-          "their_position_value": 4.895
+          "their_position_value": 4.8875
         },
         {
           "market_title": "Will the Green Bay Packers win the 2027 NFL league championship?",
           "outcome": "No",
           "their_entry_price": 0.97,
-          "current_price": 0.9735,
-          "fair_value_estimate": 0.9735,
+          "current_price": 0.9745,
+          "fair_value_estimate": 0.9745,
           "suggested_entry_range": [
             0.962,
             0.982
@@ -673,7 +715,7 @@
           "conviction": 0.0403,
           "pick_score": 0.0403,
           "recommended": false,
-          "their_position_value": 4.8675
+          "their_position_value": 4.8725
         },
         {
           "market_title": "Will the Minnesota Vikings win the 2027 NFL league championship?",
@@ -693,55 +735,55 @@
           "their_position_value": 4.8525
         },
         {
-          "market_title": "Will the Detroit Lions win the 2027 NFL league championship?",
+          "market_title": "Will the Chicago Bears win the 2027 NFL league championship?",
           "outcome": "No",
-          "their_entry_price": 0.961,
-          "current_price": 0.9705,
-          "fair_value_estimate": 0.9705,
+          "their_entry_price": 0.967,
+          "current_price": 0.9695,
+          "fair_value_estimate": 0.9695,
           "suggested_entry_range": [
-            0.956,
-            0.976
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.96 -> 0.97); replicating their entry is still reasonably representative.",
-          "conviction": 0.0403,
-          "pick_score": 0.0403,
-          "recommended": false,
-          "their_position_value": 4.8525
-        },
-        {
-          "market_title": "Will the Jacksonville Jaguars win the 2027 NFL league championship?",
-          "outcome": "No",
-          "their_entry_price": 0.97,
-          "current_price": 0.9685,
-          "fair_value_estimate": 0.9685,
-          "suggested_entry_range": [
-            0.959,
-            0.979
+            0.958,
+            0.978
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.97 -> 0.97); replicating their entry is still reasonably representative.",
           "conviction": 0.0403,
           "pick_score": 0.0403,
           "recommended": false,
-          "their_position_value": 4.8425
+          "their_position_value": 4.8475
         },
         {
-          "market_title": "Will the Dallas Cowboys win the 2027 NFL league championship?",
+          "market_title": "Will the Jacksonville Jaguars win the 2027 NFL league championship?",
           "outcome": "No",
-          "their_entry_price": 0.951,
-          "current_price": 0.9635,
-          "fair_value_estimate": 0.9635,
+          "their_entry_price": 0.97,
+          "current_price": 0.9695,
+          "fair_value_estimate": 0.9695,
           "suggested_entry_range": [
-            0.947,
-            0.967
+            0.96,
+            0.98
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.95 -> 0.96); replicating their entry is still reasonably representative.",
+          "note": "Price is close to their entry (0.97 -> 0.97); replicating their entry is still reasonably representative.",
           "conviction": 0.0403,
           "pick_score": 0.0403,
           "recommended": false,
-          "their_position_value": 4.8175
+          "their_position_value": 4.8475
+        },
+        {
+          "market_title": "Will the Detroit Lions win the 2027 NFL league championship?",
+          "outcome": "No",
+          "their_entry_price": 0.961,
+          "current_price": 0.9655,
+          "fair_value_estimate": 0.9655,
+          "suggested_entry_range": [
+            0.953,
+            0.973
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.96 -> 0.97); replicating their entry is still reasonably representative.",
+          "conviction": 0.0403,
+          "pick_score": 0.0403,
+          "recommended": false,
+          "their_position_value": 4.8275
         }
       ]
     },
@@ -780,10 +822,10 @@
         "avg_trades_per_day_30d": 9.87
       },
       "radar": {
-        "account_age_days": 33.5,
+        "account_age_days": 33.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2107,
-        "best_leaderboard_rank": 21,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -793,14 +835,14 @@
       "entry_recommendations": []
     },
     {
-      "wallet": "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62",
-      "userName": "raybanman",
-      "display_name": "raybanman",
-      "profile_url": "https://polymarket.com/@raybanman",
+      "wallet": "0xa96274cc1b321afc8cbdc1ba07f7e2d471e6f7c8",
+      "userName": "Takon88",
+      "display_name": "Takon88",
+      "profile_url": "https://polymarket.com/@Takon88",
       "score": {
-        "composite": 0.4513,
-        "score_100": 73,
-        "kelly_edge": 0.3393,
+        "composite": 0.3831,
+        "score_100": 69,
+        "kelly_edge": 0.0997,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -811,32 +853,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0406,
-        "n_clv_with_data": 12,
-        "n_clv_attempted": 12,
-        "sharpe": 2.0884,
-        "roi_lifetime": 0.4179,
-        "roi_180d": 0.4179,
-        "roi_90d": 0.4179,
-        "roi_30d": 0.4179,
-        "max_drawdown_fraction": 0.0026,
-        "n_resolved": 12,
-        "n_distinct_markets": 11,
-        "capital_concentration_hhi": 0.1533,
-        "win_rate_adj": 0.6461,
-        "avg_trades_per_day_30d": 3.83
+        "clv": -0.0078,
+        "n_clv_with_data": 10,
+        "n_clv_attempted": 10,
+        "sharpe": 2.2634,
+        "roi_lifetime": 0.4094,
+        "roi_180d": 0.4094,
+        "roi_90d": 0.4094,
+        "roi_30d": 0.4094,
+        "max_drawdown_fraction": 0.0036,
+        "n_resolved": 10,
+        "n_distinct_markets": 9,
+        "capital_concentration_hhi": 0.2436,
+        "win_rate_adj": 0.5958,
+        "avg_trades_per_day_30d": 1.33
       },
       "radar": {
-        "account_age_days": 101.6,
-        "portfolio_value": 288.49,
-        "capital_efficiency": 0.2125,
-        "best_leaderboard_rank": 32,
+        "account_age_days": 4.6,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.3525,
+        "best_leaderboard_rank": 30,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 10,
+      "open_positions_count": 3,
       "entry_recommendations": []
     }
   ]
