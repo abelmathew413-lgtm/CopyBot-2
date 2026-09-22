@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T04:34:05.797100+00:00",
-  "duration_seconds": 340.6,
-  "n_candidates_discovered": 1403,
+  "generated_at": "2026-09-22T09:54:49.378796+00:00",
+  "duration_seconds": 431.1,
+  "n_candidates_discovered": 1400,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 5,
   "n_errors": 0,
@@ -42,7 +42,7 @@
         "avg_trades_per_day_30d": 3.83
       },
       "radar": {
-        "account_age_days": 158.2,
+        "account_age_days": 158.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.2282,
         "best_leaderboard_rank": 23,
@@ -89,10 +89,10 @@
         "avg_trades_per_day_30d": 3.63
       },
       "radar": {
-        "account_age_days": 105.6,
-        "portfolio_value": 48247.5,
+        "account_age_days": 105.9,
+        "portfolio_value": 49107.92,
         "capital_efficiency": 0.2643,
-        "best_leaderboard_rank": 26,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -104,35 +104,35 @@
           "market_title": "Will Vancouver Whitecaps FC win on 2026-07-16?",
           "outcome": "No",
           "their_entry_price": 0.6091,
-          "current_price": 0.62,
-          "fair_value_estimate": 0.62,
+          "current_price": 0.64,
+          "fair_value_estimate": 0.645,
           "suggested_entry_range": [
-            0.605,
-            0.625
+            0.612,
+            0.643
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.61 -> 0.62); replicating their entry is still reasonably representative.",
-          "conviction": 0.0188,
-          "pick_score": 0.0188,
+          "note": "Price is close to their entry (0.61 -> 0.64); replicating their entry is still reasonably representative.",
+          "conviction": 0.0194,
+          "pick_score": 0.0194,
           "recommended": true,
-          "their_position_value": 42489.4251
+          "their_position_value": 43860.0517
         },
         {
           "market_title": "Will Chicago Fire FC win on 2026-07-16?",
           "outcome": "Yes",
           "their_entry_price": 0.3546,
-          "current_price": 0.395,
-          "fair_value_estimate": 0.37,
+          "current_price": 0.36,
+          "fair_value_estimate": 0.36,
           "suggested_entry_range": [
-            0.342,
-            0.383
+            0.347,
+            0.367
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.35 -> 0.40); replicating their entry is still reasonably representative.",
-          "conviction": 0.0025,
-          "pick_score": 0.0025,
+          "note": "Price is close to their entry (0.35 -> 0.36); replicating their entry is still reasonably representative.",
+          "conviction": 0.0023,
+          "pick_score": 0.0023,
           "recommended": true,
-          "their_position_value": 5758.0739
+          "their_position_value": 5247.8648
         }
       ]
     },
@@ -171,10 +171,10 @@
         "avg_trades_per_day_30d": 5.17
       },
       "radar": {
-        "account_age_days": 61.7,
+        "account_age_days": 61.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2554,
-        "best_leaderboard_rank": 25,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -218,7 +218,7 @@
         "avg_trades_per_day_30d": 9.87
       },
       "radar": {
-        "account_age_days": 34.7,
+        "account_age_days": 34.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2107,
         "best_leaderboard_rank": 31,
@@ -265,7 +265,7 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 23.6,
+        "account_age_days": 23.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.0894,
         "best_leaderboard_rank": 48,
