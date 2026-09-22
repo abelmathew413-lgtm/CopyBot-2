@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T09:54:49.378796+00:00",
-  "duration_seconds": 431.1,
-  "n_candidates_discovered": 1400,
+  "generated_at": "2026-09-22T14:41:58.107459+00:00",
+  "duration_seconds": 327.3,
+  "n_candidates_discovered": 1391,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 5,
   "n_errors": 0,
@@ -42,10 +42,10 @@
         "avg_trades_per_day_30d": 3.83
       },
       "radar": {
-        "account_age_days": 158.4,
+        "account_age_days": 158.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2282,
-        "best_leaderboard_rank": 23,
+        "best_leaderboard_rank": 24,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -89,10 +89,10 @@
         "avg_trades_per_day_30d": 3.63
       },
       "radar": {
-        "account_age_days": 105.9,
-        "portfolio_value": 49107.92,
+        "account_age_days": 106.1,
+        "portfolio_value": 49552.79,
         "capital_efficiency": 0.2643,
-        "best_leaderboard_rank": 25,
+        "best_leaderboard_rank": 26,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -104,35 +104,35 @@
           "market_title": "Will Vancouver Whitecaps FC win on 2026-07-16?",
           "outcome": "No",
           "their_entry_price": 0.6091,
-          "current_price": 0.64,
-          "fair_value_estimate": 0.645,
+          "current_price": 0.655,
+          "fair_value_estimate": 0.655,
           "suggested_entry_range": [
-            0.612,
-            0.643
+            0.609,
+            0.655
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.61 -> 0.64); replicating their entry is still reasonably representative.",
-          "conviction": 0.0194,
-          "pick_score": 0.0194,
+          "note": "Price is close to their entry (0.61 -> 0.66); replicating their entry is still reasonably representative.",
+          "conviction": 0.0199,
+          "pick_score": 0.0199,
           "recommended": true,
-          "their_position_value": 43860.0517
+          "their_position_value": 44888.0217
         },
         {
           "market_title": "Will Chicago Fire FC win on 2026-07-16?",
           "outcome": "Yes",
           "their_entry_price": 0.3546,
-          "current_price": 0.36,
-          "fair_value_estimate": 0.36,
+          "current_price": 0.32,
+          "fair_value_estimate": 0.32,
           "suggested_entry_range": [
-            0.347,
-            0.367
+            0.32,
+            0.355
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.35 -> 0.36); replicating their entry is still reasonably representative.",
-          "conviction": 0.0023,
-          "pick_score": 0.0023,
+          "note": "Price is close to their entry (0.35 -> 0.32); replicating their entry is still reasonably representative.",
+          "conviction": 0.0021,
+          "pick_score": 0.0021,
           "recommended": true,
-          "their_position_value": 5247.8648
+          "their_position_value": 4664.7687
         }
       ]
     },
@@ -171,10 +171,10 @@
         "avg_trades_per_day_30d": 5.17
       },
       "radar": {
-        "account_age_days": 61.9,
+        "account_age_days": 62.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2554,
-        "best_leaderboard_rank": 24,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -218,7 +218,7 @@
         "avg_trades_per_day_30d": 9.87
       },
       "radar": {
-        "account_age_days": 34.9,
+        "account_age_days": 35.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2107,
         "best_leaderboard_rank": 31,
@@ -265,7 +265,7 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 23.8,
+        "account_age_days": 24.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.0894,
         "best_leaderboard_rank": 48,
