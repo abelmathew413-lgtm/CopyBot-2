@@ -437,18 +437,13 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-09-22T22:05:33.067984+00:00",
-  "duration_seconds": 558.4,
-  "n_candidates_discovered": 1391,
+  "generated_at": "2026-09-23T00:22:45.554515+00:00",
+  "duration_seconds": 376.5,
+  "n_candidates_discovered": 1476,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 5,
-  "n_errors": 1,
-  "errors": [
-    {
-      "wallet": "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
-      "error": "GET https://data-api.polymarket.com/closed-positions failed after 3 attempts: 408 Client Error: Request Timeout for url: https://data-api.polymarket.com/closed-positions?user=0x4bff30af91642dc7d2b19a8664378fe55c45fc26&limit=50&offset=50&sortBy=TIMESTAMP&sortDirection=DESC"
-    }
-  ],
+  "n_errors": 0,
+  "errors": [],
   "wallets": [
     {
       "wallet": "0x2dc13c6bda81b202281e796953a7323de675b33c",
@@ -482,20 +477,72 @@
         "n_distinct_markets": 224,
         "capital_concentration_hhi": 0.0072,
         "win_rate_adj": 0.7297,
-        "avg_trades_per_day_30d": 4.0
+        "avg_trades_per_day_30d": 4.27
       },
       "radar": {
-        "account_age_days": 158.9,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.227,
-        "best_leaderboard_rank": 26,
+        "account_age_days": 159.0,
+        "portfolio_value": 114917.29,
+        "capital_efficiency": 0.2226,
+        "best_leaderboard_rank": 23,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 85,
-      "entry_recommendations": []
+      "open_positions_count": 88,
+      "entry_recommendations": [
+        {
+          "market_title": "Cincinnati Reds vs. Atlanta Braves",
+          "outcome": "Atlanta Braves",
+          "their_entry_price": 0.6799,
+          "current_price": 0.585,
+          "fair_value_estimate": 0.525,
+          "suggested_entry_range": [
+            0.555,
+            0.65
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.09 (14%) since their entry of 0.68 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0313,
+          "pick_score": 0.0063,
+          "recommended": true,
+          "their_position_value": 43014.7048
+        },
+        {
+          "market_title": "Milwaukee Brewers vs. Philadelphia Phillies",
+          "outcome": "Philadelphia Phillies",
+          "their_entry_price": 0.6496,
+          "current_price": 0.535,
+          "fair_value_estimate": 0.585,
+          "suggested_entry_range": [
+            0.56,
+            0.675
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.11 (18%) since their entry of 0.65 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0304,
+          "pick_score": 0.0061,
+          "recommended": true,
+          "their_position_value": 41809.9932
+        },
+        {
+          "market_title": "Tampa Bay Rays vs. New York Yankees",
+          "outcome": "New York Yankees",
+          "their_entry_price": 0.5399,
+          "current_price": 0.325,
+          "fair_value_estimate": 0.37,
+          "suggested_entry_range": [
+            0.348,
+            0.562
+          ],
+          "flagged_chasing": true,
+          "note": "Price has moved down 0.21 (40%) since their entry of 0.54 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.0219,
+          "pick_score": 0.0044,
+          "recommended": true,
+          "their_position_value": 30092.5917
+        }
+      ]
     },
     {
       "wallet": "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8",
@@ -503,8 +550,8 @@
       "display_name": "WTSA",
       "profile_url": "https://polymarket.com/@WTSA",
       "score": {
-        "composite": 0.5808,
-        "score_100": 79,
+        "composite": 0.5859,
+        "score_100": 80,
         "kelly_edge": 0.8962,
         "weights_used": {
           "clv": 0.25,
@@ -516,8 +563,8 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0149,
-        "n_clv_with_data": 29,
+        "clv": -0.0098,
+        "n_clv_with_data": 26,
         "n_clv_attempted": 40,
         "sharpe": 3.3429,
         "roi_lifetime": 0.4872,
@@ -532,10 +579,10 @@
         "avg_trades_per_day_30d": 3.3
       },
       "radar": {
-        "account_age_days": 106.4,
-        "portfolio_value": 49960.78,
+        "account_age_days": 106.5,
+        "portfolio_value": 49887.9,
         "capital_efficiency": 0.2643,
-        "best_leaderboard_rank": 27,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -564,18 +611,18 @@
           "market_title": "Will Chicago Fire FC win on 2026-07-16?",
           "outcome": "Yes",
           "their_entry_price": 0.3546,
-          "current_price": 0.395,
-          "fair_value_estimate": 0.395,
+          "current_price": 0.39,
+          "fair_value_estimate": 0.39,
           "suggested_entry_range": [
             0.355,
-            0.395
+            0.39
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.35 -> 0.40); replicating their entry is still reasonably representative.",
+          "note": "Price is close to their entry (0.35 -> 0.39); replicating their entry is still reasonably representative.",
           "conviction": 0.0025,
           "pick_score": 0.0025,
           "recommended": true,
-          "their_position_value": 5758.0739
+          "their_position_value": 5685.1869
         }
       ]
     },
@@ -614,7 +661,7 @@
         "avg_trades_per_day_30d": 5.17
       },
       "radar": {
-        "account_age_days": 62.5,
+        "account_age_days": 62.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2554,
         "best_leaderboard_rank": 24,
@@ -661,7 +708,7 @@
         "avg_trades_per_day_30d": 9.87
       },
       "radar": {
-        "account_age_days": 35.4,
+        "account_age_days": 35.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2107,
         "best_leaderboard_rank": 32,
@@ -708,7 +755,7 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 24.3,
+        "account_age_days": 24.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.0894,
         "best_leaderboard_rank": 50,
