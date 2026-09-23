@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T00:22:45.554515+00:00",
-  "duration_seconds": 376.5,
-  "n_candidates_discovered": 1476,
+  "generated_at": "2026-09-23T05:54:03.819692+00:00",
+  "duration_seconds": 481.4,
+  "n_candidates_discovered": 1492,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 5,
   "n_errors": 0,
@@ -13,9 +13,9 @@
       "display_name": "xifutloong3",
       "profile_url": "https://polymarket.com/@xifutloong3",
       "score": {
-        "composite": 0.7868,
+        "composite": 0.7863,
         "score_100": 89,
-        "kelly_edge": 0.3856,
+        "kelly_edge": 0.3875,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -26,85 +26,33 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.4319,
-        "n_clv_with_data": 25,
+        "clv": 0.4283,
+        "n_clv_with_data": 26,
         "n_clv_attempted": 40,
-        "sharpe": 2.8571,
-        "roi_lifetime": 0.3582,
-        "roi_180d": 0.3582,
-        "roi_90d": 0.4354,
-        "roi_30d": 0.4483,
-        "max_drawdown_fraction": 0.0129,
-        "n_resolved": 226,
-        "n_distinct_markets": 224,
+        "sharpe": 2.851,
+        "roi_lifetime": 0.3581,
+        "roi_180d": 0.3581,
+        "roi_90d": 0.434,
+        "roi_30d": 0.4444,
+        "max_drawdown_fraction": 0.0127,
+        "n_resolved": 227,
+        "n_distinct_markets": 225,
         "capital_concentration_hhi": 0.0072,
-        "win_rate_adj": 0.7297,
+        "win_rate_adj": 0.7308,
         "avg_trades_per_day_30d": 4.27
       },
       "radar": {
-        "account_age_days": 159.0,
-        "portfolio_value": 114917.29,
-        "capital_efficiency": 0.2226,
-        "best_leaderboard_rank": 23,
+        "account_age_days": 159.2,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2247,
+        "best_leaderboard_rank": 29,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 88,
-      "entry_recommendations": [
-        {
-          "market_title": "Cincinnati Reds vs. Atlanta Braves",
-          "outcome": "Atlanta Braves",
-          "their_entry_price": 0.6799,
-          "current_price": 0.585,
-          "fair_value_estimate": 0.525,
-          "suggested_entry_range": [
-            0.555,
-            0.65
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.09 (14%) since their entry of 0.68 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0313,
-          "pick_score": 0.0063,
-          "recommended": true,
-          "their_position_value": 43014.7048
-        },
-        {
-          "market_title": "Milwaukee Brewers vs. Philadelphia Phillies",
-          "outcome": "Philadelphia Phillies",
-          "their_entry_price": 0.6496,
-          "current_price": 0.535,
-          "fair_value_estimate": 0.585,
-          "suggested_entry_range": [
-            0.56,
-            0.675
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.11 (18%) since their entry of 0.65 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0304,
-          "pick_score": 0.0061,
-          "recommended": true,
-          "their_position_value": 41809.9932
-        },
-        {
-          "market_title": "Tampa Bay Rays vs. New York Yankees",
-          "outcome": "New York Yankees",
-          "their_entry_price": 0.5399,
-          "current_price": 0.325,
-          "fair_value_estimate": 0.37,
-          "suggested_entry_range": [
-            0.348,
-            0.562
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.21 (40%) since their entry of 0.54 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0219,
-          "pick_score": 0.0044,
-          "recommended": true,
-          "their_position_value": 30092.5917
-        }
-      ]
+      "open_positions_count": 87,
+      "entry_recommendations": []
     },
     {
       "wallet": "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8",
@@ -141,10 +89,10 @@
         "avg_trades_per_day_30d": 3.3
       },
       "radar": {
-        "account_age_days": 106.5,
-        "portfolio_value": 49887.9,
+        "account_age_days": 106.7,
+        "portfolio_value": 48641.26,
         "capital_efficiency": 0.2643,
-        "best_leaderboard_rank": 25,
+        "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -156,35 +104,35 @@
           "market_title": "Will Vancouver Whitecaps FC win on 2026-07-16?",
           "outcome": "No",
           "their_entry_price": 0.6091,
-          "current_price": 0.645,
-          "fair_value_estimate": 0.645,
+          "current_price": 0.63,
+          "fair_value_estimate": 0.63,
           "suggested_entry_range": [
             0.609,
-            0.645
+            0.63
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.61 -> 0.65); replicating their entry is still reasonably representative.",
-          "conviction": 0.0196,
-          "pick_score": 0.0196,
+          "note": "Price is close to their entry (0.61 -> 0.63); replicating their entry is still reasonably representative.",
+          "conviction": 0.0191,
+          "pick_score": 0.0191,
           "recommended": true,
-          "their_position_value": 44202.7084
+          "their_position_value": 43174.7384
         },
         {
           "market_title": "Will Chicago Fire FC win on 2026-07-16?",
           "outcome": "Yes",
           "their_entry_price": 0.3546,
-          "current_price": 0.39,
-          "fair_value_estimate": 0.39,
+          "current_price": 0.375,
+          "fair_value_estimate": 0.375,
           "suggested_entry_range": [
             0.355,
-            0.39
+            0.375
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.35 -> 0.39); replicating their entry is still reasonably representative.",
-          "conviction": 0.0025,
-          "pick_score": 0.0025,
+          "note": "Price is close to their entry (0.35 -> 0.38); replicating their entry is still reasonably representative.",
+          "conviction": 0.0024,
+          "pick_score": 0.0024,
           "recommended": true,
-          "their_position_value": 5685.1869
+          "their_position_value": 5466.5258
         }
       ]
     },
@@ -223,7 +171,7 @@
         "avg_trades_per_day_30d": 5.17
       },
       "radar": {
-        "account_age_days": 62.6,
+        "account_age_days": 62.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.2554,
         "best_leaderboard_rank": 24,
@@ -270,10 +218,10 @@
         "avg_trades_per_day_30d": 9.87
       },
       "radar": {
-        "account_age_days": 35.5,
+        "account_age_days": 35.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.2107,
-        "best_leaderboard_rank": 32,
+        "best_leaderboard_rank": 27,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -317,10 +265,10 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 24.4,
+        "account_age_days": 24.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.0894,
-        "best_leaderboard_rank": 50,
+        "best_leaderboard_rank": 45,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
