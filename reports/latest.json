@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-09-23T20:12:15.095045+00:00",
-  "duration_seconds": 305.3,
-  "n_candidates_discovered": 1493,
+  "generated_at": "2026-09-23T23:39:33.044484+00:00",
+  "duration_seconds": 412.0,
+  "n_candidates_discovered": 1494,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 3,
-  "n_errors": 0,
-  "errors": [],
+  "n_passed_filters": 4,
+  "n_errors": 1,
+  "errors": [
+    {
+      "wallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+    }
+  ],
   "wallets": [
     {
       "wallet": "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8",
@@ -42,8 +47,8 @@
         "avg_trades_per_day_30d": 3.3
       },
       "radar": {
-        "account_age_days": 107.3,
-        "portfolio_value": 45389.8,
+        "account_age_days": 107.4,
+        "portfolio_value": 43924.51,
         "capital_efficiency": 0.2643,
         "best_leaderboard_rank": 21,
         "profile_views": null,
@@ -57,35 +62,35 @@
           "market_title": "Will Vancouver Whitecaps FC win on 2026-07-16?",
           "outcome": "No",
           "their_entry_price": 0.6091,
-          "current_price": 0.59,
-          "fair_value_estimate": 0.59,
+          "current_price": 0.575,
+          "fair_value_estimate": 0.575,
           "suggested_entry_range": [
-            0.59,
-            0.61
+            0.575,
+            0.609
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.61 -> 0.59); replicating their entry is still reasonably representative.",
-          "conviction": 0.0179,
-          "pick_score": 0.0179,
+          "note": "Price is close to their entry (0.61 -> 0.57); replicating their entry is still reasonably representative.",
+          "conviction": 0.0175,
+          "pick_score": 0.0175,
           "recommended": true,
-          "their_position_value": 40433.4852
+          "their_position_value": 39405.5152
         },
         {
           "market_title": "Will Chicago Fire FC win on 2026-07-16?",
           "outcome": "Yes",
           "their_entry_price": 0.3546,
-          "current_price": 0.34,
-          "fair_value_estimate": 0.34,
+          "current_price": 0.31,
+          "fair_value_estimate": 0.31,
           "suggested_entry_range": [
-            0.337,
-            0.357
+            0.31,
+            0.355
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.35 -> 0.34); replicating their entry is still reasonably representative.",
-          "conviction": 0.0022,
-          "pick_score": 0.0022,
+          "note": "Price is close to their entry (0.35 -> 0.31); replicating their entry is still reasonably representative.",
+          "conviction": 0.002,
+          "pick_score": 0.002,
           "recommended": true,
-          "their_position_value": 4956.3167
+          "their_position_value": 4518.9947
         }
       ]
     },
@@ -124,16 +129,63 @@
         "avg_trades_per_day_30d": 5.17
       },
       "radar": {
-        "account_age_days": 63.4,
+        "account_age_days": 63.5,
         "portfolio_value": 0,
         "capital_efficiency": 0.2554,
-        "best_leaderboard_rank": 24,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 73,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0x397062018dfb77e855608fe23223592bc82c44ce",
+      "userName": "11vsldfdsgfkjgos",
+      "display_name": "11vsldfdsgfkjgos",
+      "profile_url": "https://polymarket.com/@11vsldfdsgfkjgos",
+      "score": {
+        "composite": 0.4776,
+        "score_100": 74,
+        "kelly_edge": 0.0936,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.1672,
+        "n_clv_with_data": 22,
+        "n_clv_attempted": 28,
+        "sharpe": 0.4925,
+        "roi_lifetime": 0.2864,
+        "roi_180d": 0.2864,
+        "roi_90d": 0.2864,
+        "roi_30d": 0.2925,
+        "max_drawdown_fraction": 0.0069,
+        "n_resolved": 28,
+        "n_distinct_markets": 25,
+        "capital_concentration_hhi": 0.0903,
+        "win_rate_adj": 0.6441,
+        "avg_trades_per_day_30d": 9.83
+      },
+      "radar": {
+        "account_age_days": 36.5,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2107,
+        "best_leaderboard_rank": 29,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 15,
       "entry_recommendations": []
     },
     {
@@ -171,10 +223,10 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 25.2,
+        "account_age_days": 25.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.0894,
-        "best_leaderboard_rank": 47,
+        "best_leaderboard_rank": 48,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
