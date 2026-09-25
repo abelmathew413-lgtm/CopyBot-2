@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T18:33:50.582750+00:00",
-  "duration_seconds": 457.4,
-  "n_candidates_discovered": 1515,
+  "generated_at": "2026-09-25T22:16:01.896762+00:00",
+  "duration_seconds": 357.0,
+  "n_candidates_discovered": 1519,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 2,
   "n_errors": 1,
@@ -44,10 +44,10 @@
         "n_distinct_markets": 227,
         "capital_concentration_hhi": 0.0072,
         "win_rate_adj": 0.7331,
-        "avg_trades_per_day_30d": 4.63
+        "avg_trades_per_day_30d": 4.57
       },
       "radar": {
-        "account_age_days": 161.7,
+        "account_age_days": 161.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2256,
         "best_leaderboard_rank": 24,
@@ -94,7 +94,7 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 27.2,
+        "account_age_days": 27.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.0894,
         "best_leaderboard_rank": 45,
