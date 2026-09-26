@@ -1,59 +1,12 @@
 {
-  "generated_at": "2026-09-26T01:28:54.205336+00:00",
-  "duration_seconds": 331.7,
-  "n_candidates_discovered": 1511,
+  "generated_at": "2026-09-26T07:33:00.117806+00:00",
+  "duration_seconds": 414.2,
+  "n_candidates_discovered": 1497,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 2,
+  "n_passed_filters": 1,
   "n_errors": 0,
   "errors": [],
   "wallets": [
-    {
-      "wallet": "0x2dc13c6bda81b202281e796953a7323de675b33c",
-      "userName": "xifutloong3",
-      "display_name": "xifutloong3",
-      "profile_url": "https://polymarket.com/@xifutloong3",
-      "score": {
-        "composite": 0.7879,
-        "score_100": 90,
-        "kelly_edge": 0.3938,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.4313,
-        "n_clv_with_data": 27,
-        "n_clv_attempted": 40,
-        "sharpe": 2.8535,
-        "roi_lifetime": 0.3619,
-        "roi_180d": 0.3619,
-        "roi_90d": 0.4378,
-        "roi_30d": 0.4519,
-        "max_drawdown_fraction": 0.0124,
-        "n_resolved": 229,
-        "n_distinct_markets": 227,
-        "capital_concentration_hhi": 0.0072,
-        "win_rate_adj": 0.7331,
-        "avg_trades_per_day_30d": 4.33
-      },
-      "radar": {
-        "account_age_days": 162.0,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.2256,
-        "best_leaderboard_rank": 26,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 89,
-      "entry_recommendations": []
-    },
     {
       "wallet": "0x2dfa4e79eca44b7c774f40a45535adbc368a6f60",
       "userName": "BillyGating",
@@ -89,10 +42,10 @@
         "avg_trades_per_day_30d": 4.97
       },
       "radar": {
-        "account_age_days": 27.5,
+        "account_age_days": 27.7,
         "portfolio_value": 0,
         "capital_efficiency": 0.0894,
-        "best_leaderboard_rank": 44,
+        "best_leaderboard_rank": 43,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
