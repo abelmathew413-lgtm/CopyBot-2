@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T18:39:32.375447+00:00",
-  "duration_seconds": 415.0,
-  "n_candidates_discovered": 1461,
+  "generated_at": "2026-09-29T23:04:03.878260+00:00",
+  "duration_seconds": 606.3,
+  "n_candidates_discovered": 1482,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 9,
   "n_errors": 1,
@@ -18,7 +18,7 @@
       "display_name": "xifutloong3",
       "profile_url": "https://polymarket.com/@xifutloong3",
       "score": {
-        "composite": 0.788,
+        "composite": 0.7879,
         "score_100": 90,
         "kelly_edge": 0.3983,
         "weights_used": {
@@ -34,10 +34,10 @@
         "clv": 0.4265,
         "n_clv_with_data": 26,
         "n_clv_attempted": 40,
-        "sharpe": 2.9337,
+        "sharpe": 2.933,
         "roi_lifetime": 0.3626,
         "roi_180d": 0.3626,
-        "roi_90d": 0.4384,
+        "roi_90d": 0.4378,
         "roi_30d": 0.446,
         "max_drawdown_fraction": 0.0122,
         "n_resolved": 231,
@@ -47,7 +47,7 @@
         "avg_trades_per_day_30d": 4.07
       },
       "radar": {
-        "account_age_days": 165.7,
+        "account_age_days": 165.9,
         "portfolio_value": 0,
         "capital_efficiency": 0.2257,
         "best_leaderboard_rank": 32,
@@ -85,7 +85,7 @@
         "roi_lifetime": 0.3973,
         "roi_180d": 0.3973,
         "roi_90d": 0.4603,
-        "roi_30d": 0.4732,
+        "roi_30d": 0.4731,
         "max_drawdown_fraction": 0.0135,
         "n_resolved": 202,
         "n_distinct_markets": 193,
@@ -94,17 +94,35 @@
         "avg_trades_per_day_30d": 2.87
       },
       "radar": {
-        "account_age_days": 124.4,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.2222,
+        "account_age_days": 124.6,
+        "portfolio_value": 27250.0,
+        "capital_efficiency": 0.2208,
         "best_leaderboard_rank": 49,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 145,
-      "entry_recommendations": []
+      "open_positions_count": 146,
+      "entry_recommendations": [
+        {
+          "market_title": "Valorant: Team Vitality vs LOUD (BO3) - VCT Champions Group B",
+          "outcome": "LOUD",
+          "their_entry_price": 0.55,
+          "current_price": 0.545,
+          "fair_value_estimate": 0.545,
+          "suggested_entry_range": [
+            0.538,
+            0.558
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.55 -> 0.55); replicating their entry is still reasonably representative.",
+          "conviction": 0.0387,
+          "pick_score": 0.0387,
+          "recommended": true,
+          "their_position_value": 27249.9975
+        }
+      ]
     },
     {
       "wallet": "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa",
@@ -132,25 +150,25 @@
         "roi_lifetime": 0.4955,
         "roi_180d": 0.4955,
         "roi_90d": 0.4955,
-        "roi_30d": 0.5021,
+        "roi_30d": 0.5041,
         "max_drawdown_fraction": 0.0,
         "n_resolved": 82,
         "n_distinct_markets": 82,
         "capital_concentration_hhi": 0.0258,
         "win_rate_adj": 0.9552,
-        "avg_trades_per_day_30d": 4.53
+        "avg_trades_per_day_30d": 4.5
       },
       "radar": {
-        "account_age_days": 69.3,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.2586,
-        "best_leaderboard_rank": 24,
+        "account_age_days": 69.5,
+        "portfolio_value": 28.14,
+        "capital_efficiency": 0.2575,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 75,
+      "open_positions_count": 76,
       "entry_recommendations": []
     },
     {
@@ -159,9 +177,9 @@
       "display_name": "equalsignificance",
       "profile_url": "https://polymarket.com/@equalsignificance",
       "score": {
-        "composite": 0.5643,
+        "composite": 0.5528,
         "score_100": 78,
-        "kelly_edge": 0.5951,
+        "kelly_edge": 0.5965,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -172,26 +190,26 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0644,
+        "clv": 0.052,
         "n_clv_with_data": 39,
         "n_clv_attempted": 40,
-        "sharpe": 1.0063,
-        "roi_lifetime": 0.3579,
-        "roi_180d": 0.3579,
-        "roi_90d": 0.3579,
-        "roi_30d": 0.3579,
-        "max_drawdown_fraction": 0.0218,
-        "n_resolved": 172,
-        "n_distinct_markets": 165,
-        "capital_concentration_hhi": 0.0092,
-        "win_rate_adj": 0.8008,
+        "sharpe": 1.0087,
+        "roi_lifetime": 0.3575,
+        "roi_180d": 0.3575,
+        "roi_90d": 0.3575,
+        "roi_30d": 0.3575,
+        "max_drawdown_fraction": 0.0217,
+        "n_resolved": 173,
+        "n_distinct_markets": 166,
+        "capital_concentration_hhi": 0.0091,
+        "win_rate_adj": 0.8019,
         "avg_trades_per_day_30d": 6.03
       },
       "radar": {
-        "account_age_days": 16.9,
-        "portfolio_value": 3696.8,
-        "capital_efficiency": 0.2337,
-        "best_leaderboard_rank": 35,
+        "account_age_days": 17.1,
+        "portfolio_value": 3692.95,
+        "capital_efficiency": 0.2339,
+        "best_leaderboard_rank": 33,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -211,8 +229,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.52 -> 0.49); replicating their entry is still reasonably representative.",
-          "conviction": 0.0113,
-          "pick_score": 0.0113,
+          "conviction": 0.0103,
+          "pick_score": 0.0103,
           "recommended": true,
           "their_position_value": 2475
         },
@@ -228,8 +246,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.35 -> 0.36); replicating their entry is still reasonably representative.",
-          "conviction": 0.0045,
-          "pick_score": 0.0045,
+          "conviction": 0.0041,
+          "pick_score": 0.0041,
           "recommended": true,
           "their_position_value": 977.8043
         },
@@ -237,69 +255,69 @@
           "market_title": "Will T1 win Worlds 2026?",
           "outcome": "No",
           "their_entry_price": 0.81,
-          "current_price": 0.85,
-          "fair_value_estimate": 0.85,
+          "current_price": 0.855,
+          "fair_value_estimate": 0.855,
           "suggested_entry_range": [
             0.81,
-            0.85
+            0.855
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.81 -> 0.85); replicating their entry is still reasonably representative.",
-          "conviction": 0.0005,
-          "pick_score": 0.0005,
+          "conviction": 0.0004,
+          "pick_score": 0.0004,
           "recommended": true,
-          "their_position_value": 99.6311
+          "their_position_value": 100.2172
         },
         {
           "market_title": "Will Dplus KIA win Worlds 2026?",
           "outcome": "Yes",
           "their_entry_price": 0.0203,
-          "current_price": 0.04,
-          "fair_value_estimate": 0.04,
+          "current_price": 0.0405,
+          "fair_value_estimate": 0.0405,
           "suggested_entry_range": [
             0.02,
-            0.04
+            0.041
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.02 -> 0.04); replicating their entry is still reasonably representative.",
           "conviction": 0.0004,
           "pick_score": 0.0004,
           "recommended": false,
-          "their_position_value": 98.1734
+          "their_position_value": 99.4006
         },
         {
           "market_title": "Counter-Strike: Team Falcons vs TYLOO (BO3) - ESL Pro League Group Stage",
           "outcome": "TYLOO",
           "their_entry_price": 0.15,
-          "current_price": 0.175,
-          "fair_value_estimate": 0.175,
+          "current_price": 0.17,
+          "fair_value_estimate": 0.17,
           "suggested_entry_range": [
             0.15,
-            0.175
+            0.17
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.15 -> 0.17); replicating their entry is still reasonably representative.",
           "conviction": 0.0001,
           "pick_score": 0.0001,
           "recommended": false,
-          "their_position_value": 31.6935
+          "their_position_value": 30.7879
         },
         {
           "market_title": "Will G2 Esports win Worlds 2026?",
           "outcome": "Yes",
           "their_entry_price": 0.04,
-          "current_price": 0.0525,
-          "fair_value_estimate": 0.0525,
+          "current_price": 0.053,
+          "fair_value_estimate": 0.053,
           "suggested_entry_range": [
             0.036,
-            0.056
+            0.057
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.04 -> 0.05); replicating their entry is still reasonably representative.",
           "conviction": 0.0,
           "pick_score": 0.0,
           "recommended": false,
-          "their_position_value": 6.5766
+          "their_position_value": 6.6393
         },
         {
           "market_title": "Counter-Strike: B8 vs Luminosity (BO3) - Stake Ranked Episode 4 Playoffs",
@@ -322,18 +340,18 @@
           "market_title": "Will Anyone's Legend win Worlds 2026?",
           "outcome": "Yes",
           "their_entry_price": 0.024,
-          "current_price": 0.049,
+          "current_price": 0.047,
           "fair_value_estimate": 0.047,
           "suggested_entry_range": [
-            0.023,
-            0.048
+            0.024,
+            0.047
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.02 -> 0.05); replicating their entry is still reasonably representative.",
           "conviction": 0.0,
           "pick_score": 0.0,
           "recommended": false,
-          "their_position_value": 0.6164
+          "their_position_value": 0.5912
         }
       ]
     },
@@ -343,7 +361,7 @@
       "display_name": "Siddhartha1",
       "profile_url": "https://polymarket.com/@Siddhartha1",
       "score": {
-        "composite": 0.5093,
+        "composite": 0.5095,
         "score_100": 76,
         "kelly_edge": 0.5648,
         "weights_used": {
@@ -356,7 +374,7 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0126,
+        "clv": 0.0127,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
         "sharpe": 1.557,
@@ -372,10 +390,10 @@
         "avg_trades_per_day_30d": 1.87
       },
       "radar": {
-        "account_age_days": 12.3,
-        "portfolio_value": 153892.33,
-        "capital_efficiency": 0.2227,
-        "best_leaderboard_rank": 28,
+        "account_age_days": 12.5,
+        "portfolio_value": 138750.56,
+        "capital_efficiency": 0.222,
+        "best_leaderboard_rank": 30,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -387,35 +405,35 @@
           "market_title": "Will Bitcoin reach $130,000 by December 31, 2026?",
           "outcome": "No",
           "their_entry_price": 0.9519,
-          "current_price": 0.9425,
-          "fair_value_estimate": 0.9425,
+          "current_price": 0.943,
+          "fair_value_estimate": 0.943,
           "suggested_entry_range": [
             0.937,
             0.957
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.95 -> 0.94); replicating their entry is still reasonably representative.",
-          "conviction": 0.0754,
-          "pick_score": 0.0754,
+          "conviction": 0.0669,
+          "pick_score": 0.0669,
           "recommended": true,
-          "their_position_value": 47125.677
+          "their_position_value": 47150.6773
         },
         {
           "market_title": "Will Liverpool win the 2026-27 English Premier League (EPL) Championship?",
           "outcome": "No",
           "their_entry_price": 0.933,
-          "current_price": 0.928,
-          "fair_value_estimate": 0.928,
+          "current_price": 0.9255,
+          "fair_value_estimate": 0.9255,
           "suggested_entry_range": [
-            0.921,
-            0.941
+            0.919,
+            0.939
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.93 -> 0.93); replicating their entry is still reasonably representative.",
-          "conviction": 0.0445,
-          "pick_score": 0.0445,
+          "conviction": 0.0394,
+          "pick_score": 0.0394,
           "recommended": true,
-          "their_position_value": 27840
+          "their_position_value": 27765
         },
         {
           "market_title": "Will Bitcoin reach $120,000 by December 31, 2026?",
@@ -429,8 +447,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.94 -> 0.90); replicating their entry is still reasonably representative.",
-          "conviction": 0.0358,
-          "pick_score": 0.0358,
+          "conviction": 0.0317,
+          "pick_score": 0.0317,
           "recommended": true,
           "their_position_value": 22375
         },
@@ -438,18 +456,18 @@
           "market_title": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
           "outcome": "No",
           "their_entry_price": 0.78,
-          "current_price": 0.795,
-          "fair_value_estimate": 0.795,
+          "current_price": 0.805,
+          "fair_value_estimate": 0.805,
           "suggested_entry_range": [
-            0.778,
-            0.798
+            0.78,
+            0.805
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.78 -> 0.80); replicating their entry is still reasonably representative.",
-          "conviction": 0.0318,
-          "pick_score": 0.0318,
+          "note": "Price is close to their entry (0.78 -> 0.81); replicating their entry is still reasonably representative.",
+          "conviction": 0.0286,
+          "pick_score": 0.0286,
           "recommended": false,
-          "their_position_value": 19875
+          "their_position_value": 20125
         },
         {
           "market_title": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
@@ -463,61 +481,27 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.59 -> 0.60); replicating their entry is still reasonably representative.",
-          "conviction": 0.0213,
-          "pick_score": 0.0213,
+          "conviction": 0.0189,
+          "pick_score": 0.0189,
           "recommended": false,
           "their_position_value": 13309.9734
-        },
-        {
-          "market_title": "Will Spain win on 2026-09-29?",
-          "outcome": "No",
-          "their_entry_price": 0.18,
-          "current_price": 0.195,
-          "fair_value_estimate": 0.195,
-          "suggested_entry_range": [
-            0.177,
-            0.198
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.18 -> 0.20); replicating their entry is still reasonably representative.",
-          "conviction": 0.0203,
-          "pick_score": 0.0203,
-          "recommended": false,
-          "their_position_value": 12674.9984
-        },
-        {
-          "market_title": "Spread: Spain (-1.5)",
-          "outcome": "Croatia",
-          "their_entry_price": 0.4,
-          "current_price": 0.415,
-          "fair_value_estimate": 0.415,
-          "suggested_entry_range": [
-            0.397,
-            0.417
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.40 -> 0.41); replicating their entry is still reasonably representative.",
-          "conviction": 0.0133,
-          "pick_score": 0.0133,
-          "recommended": false,
-          "their_position_value": 8299.9764
         },
         {
           "market_title": "Will Portugal win on 2026-10-01?",
           "outcome": "No",
           "their_entry_price": 0.5399,
-          "current_price": 0.545,
-          "fair_value_estimate": 0.545,
+          "current_price": 0.535,
+          "fair_value_estimate": 0.535,
           "suggested_entry_range": [
-            0.532,
-            0.552
+            0.527,
+            0.547
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.54 -> 0.55); replicating their entry is still reasonably representative.",
-          "conviction": 0.0038,
-          "pick_score": 0.0038,
+          "note": "Price is close to their entry (0.54 -> 0.54); replicating their entry is still reasonably representative.",
+          "conviction": 0.0114,
+          "pick_score": 0.0114,
           "recommended": false,
-          "their_position_value": 2391.7005
+          "their_position_value": 8024.9072
         }
       ]
     },
@@ -547,16 +531,16 @@
         "roi_lifetime": 0.2864,
         "roi_180d": 0.2864,
         "roi_90d": 0.2864,
-        "roi_30d": 0.3081,
+        "roi_30d": 0.2987,
         "max_drawdown_fraction": 0.0069,
         "n_resolved": 28,
         "n_distinct_markets": 25,
         "capital_concentration_hhi": 0.0903,
         "win_rate_adj": 0.6441,
-        "avg_trades_per_day_30d": 6.77
+        "avg_trades_per_day_30d": 6.6
       },
       "radar": {
-        "account_age_days": 42.3,
+        "account_age_days": 42.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.2107,
         "best_leaderboard_rank": 29,
@@ -603,10 +587,10 @@
         "avg_trades_per_day_30d": 1.07
       },
       "radar": {
-        "account_age_days": 17.9,
+        "account_age_days": 18.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.4758,
-        "best_leaderboard_rank": 21,
+        "best_leaderboard_rank": 22,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -641,16 +625,16 @@
         "roi_lifetime": 0.0894,
         "roi_180d": 0.0894,
         "roi_90d": 0.0894,
-        "roi_30d": 0.0615,
+        "roi_30d": 0.0217,
         "max_drawdown_fraction": 0.1395,
         "n_resolved": 20,
         "n_distinct_markets": 20,
         "capital_concentration_hhi": 0.0909,
         "win_rate_adj": 0.4329,
-        "avg_trades_per_day_30d": 4.47
+        "avg_trades_per_day_30d": 3.23
       },
       "radar": {
-        "account_age_days": 31.2,
+        "account_age_days": 31.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.0894,
         "best_leaderboard_rank": 43,
