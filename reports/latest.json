@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03T10:24:02.613186+00:00",
-  "duration_seconds": 232.0,
-  "n_candidates_discovered": 1455,
+  "generated_at": "2026-10-03T15:14:07.287097+00:00",
+  "duration_seconds": 455.8,
+  "n_candidates_discovered": 1458,
   "n_candidates_evaluated": 60,
   "n_passed_filters": 6,
   "n_errors": 0,
@@ -42,7 +42,7 @@
         "avg_trades_per_day_30d": 3.7
       },
       "radar": {
-        "account_age_days": 169.4,
+        "account_age_days": 169.6,
         "portfolio_value": 0,
         "capital_efficiency": 0.2257,
         "best_leaderboard_rank": 29,
@@ -89,7 +89,7 @@
         "avg_trades_per_day_30d": 1.53
       },
       "radar": {
-        "account_age_days": 116.9,
+        "account_age_days": 117.1,
         "portfolio_value": 45951.12,
         "capital_efficiency": 0.2643,
         "best_leaderboard_rank": 28,
@@ -137,156 +137,6 @@
       ]
     },
     {
-      "wallet": "0x103721386ec40df5ab93df0bd0964e8fe70b5b09",
-      "userName": "equalsignificance",
-      "display_name": "equalsignificance",
-      "profile_url": "https://polymarket.com/@equalsignificance",
-      "score": {
-        "composite": 0.5527,
-        "score_100": 78,
-        "kelly_edge": 0.6151,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0506,
-        "n_clv_with_data": 39,
-        "n_clv_attempted": 40,
-        "sharpe": 1.0326,
-        "roi_lifetime": 0.3498,
-        "roi_180d": 0.3498,
-        "roi_90d": 0.3498,
-        "roi_30d": 0.3498,
-        "max_drawdown_fraction": 0.0188,
-        "n_resolved": 192,
-        "n_distinct_markets": 184,
-        "capital_concentration_hhi": 0.0081,
-        "win_rate_adj": 0.809,
-        "avg_trades_per_day_30d": 7.03
-      },
-      "radar": {
-        "account_age_days": 20.6,
-        "portfolio_value": 1858.63,
-        "capital_efficiency": 0.2233,
-        "best_leaderboard_rank": 50,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 118,
-      "entry_recommendations": [
-        {
-          "market_title": "Counter-Strike: Legacy vs PARIVISION - Map 2 Winner",
-          "outcome": "Legacy",
-          "their_entry_price": 0.54,
-          "current_price": 0.105,
-          "fair_value_estimate": 0.05,
-          "suggested_entry_range": [
-            0.078,
-            0.513
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.44 (81%) since their entry of 0.54 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0063,
-          "pick_score": 0.0013,
-          "recommended": true,
-          "their_position_value": 1575
-        },
-        {
-          "market_title": "Will Dplus KIA win Worlds 2026?",
-          "outcome": "Yes",
-          "their_entry_price": 0.0203,
-          "current_price": 0.0405,
-          "fair_value_estimate": 0.0405,
-          "suggested_entry_range": [
-            0.02,
-            0.041
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.02 -> 0.04); replicating their entry is still reasonably representative.",
-          "conviction": 0.0004,
-          "pick_score": 0.0004,
-          "recommended": true,
-          "their_position_value": 99.4006
-        },
-        {
-          "market_title": "Will T1 win Worlds 2026?",
-          "outcome": "No",
-          "their_entry_price": 0.81,
-          "current_price": 0.845,
-          "fair_value_estimate": 0.845,
-          "suggested_entry_range": [
-            0.81,
-            0.845
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.81 -> 0.84); replicating their entry is still reasonably representative.",
-          "conviction": 0.0004,
-          "pick_score": 0.0004,
-          "recommended": true,
-          "their_position_value": 99.0451
-        },
-        {
-          "market_title": "Will G2 Esports win Worlds 2026?",
-          "outcome": "Yes",
-          "their_entry_price": 0.049,
-          "current_price": 0.0525,
-          "fair_value_estimate": 0.0525,
-          "suggested_entry_range": [
-            0.041,
-            0.061
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.05 -> 0.05); replicating their entry is still reasonably representative.",
-          "conviction": 0.0001,
-          "pick_score": 0.0001,
-          "recommended": false,
-          "their_position_value": 26.8188
-        },
-        {
-          "market_title": "Counter-Strike: Team Falcons vs TYLOO (BO3) - ESL Pro League Group Stage",
-          "outcome": "TYLOO",
-          "their_entry_price": 0.1422,
-          "current_price": 0.045,
-          "fair_value_estimate": 0.045,
-          "suggested_entry_range": [
-            0.045,
-            0.142
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.10 (68%) since their entry of 0.14 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0002,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 47.8496
-        },
-        {
-          "market_title": "Will Anyone's Legend win Worlds 2026?",
-          "outcome": "Yes",
-          "their_entry_price": 0.024,
-          "current_price": 0.041,
-          "fair_value_estimate": 0.041,
-          "suggested_entry_range": [
-            0.022,
-            0.043
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.02 -> 0.04); replicating their entry is still reasonably representative.",
-          "conviction": 0.0,
-          "pick_score": 0.0,
-          "recommended": false,
-          "their_position_value": 0.5158
-        }
-      ]
-    },
-    {
       "wallet": "0x168a51f1cac0ad3b166797069382495a8aa10d24",
       "userName": "ripley86alien",
       "display_name": "ripley86alien",
@@ -321,7 +171,7 @@
         "avg_trades_per_day_30d": 3.37
       },
       "radar": {
-        "account_age_days": 122.8,
+        "account_age_days": 123.0,
         "portfolio_value": 0,
         "capital_efficiency": 0.2171,
         "best_leaderboard_rank": 23,
@@ -331,6 +181,53 @@
         ]
       },
       "open_positions_count": 15,
+      "entry_recommendations": []
+    },
+    {
+      "wallet": "0x7f7351b5ba33a4be08b7111911b227cdd82414f1",
+      "userName": "qiu3",
+      "display_name": "qiu3",
+      "profile_url": "https://polymarket.com/@qiu3",
+      "score": {
+        "composite": 0.4125,
+        "score_100": 71,
+        "kelly_edge": 0.4218,
+        "weights_used": {
+          "clv": 0.25,
+          "sharpe": 0.2,
+          "roi_lifetime": 0.15,
+          "roi_90d": 0.15,
+          "drawdown": 0.1,
+          "sample_size": 0.1,
+          "win_rate": 0.05
+        },
+        "consistency_adjustment": 0.02,
+        "clv": 0.0104,
+        "n_clv_with_data": 17,
+        "n_clv_attempted": 17,
+        "sharpe": 1.3442,
+        "roi_lifetime": 0.3325,
+        "roi_180d": 0.3325,
+        "roi_90d": 0.3325,
+        "roi_30d": 0.3325,
+        "max_drawdown_fraction": 0.0013,
+        "n_resolved": 17,
+        "n_distinct_markets": 16,
+        "capital_concentration_hhi": 0.1131,
+        "win_rate_adj": 0.7302,
+        "avg_trades_per_day_30d": 4.7
+      },
+      "radar": {
+        "account_age_days": 4.6,
+        "portfolio_value": 0,
+        "capital_efficiency": 0.2925,
+        "best_leaderboard_rank": 25,
+        "profile_views": null,
+        "reasons": [
+          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
+        ]
+      },
+      "open_positions_count": 6,
       "entry_recommendations": []
     },
     {
@@ -368,7 +265,7 @@
         "avg_trades_per_day_30d": 1.07
       },
       "radar": {
-        "account_age_days": 21.6,
+        "account_age_days": 21.8,
         "portfolio_value": 0,
         "capital_efficiency": 0.4758,
         "best_leaderboard_rank": 22,
@@ -407,10 +304,10 @@
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 120.2,
+        "account_age_days": 120.4,
         "portfolio_value": 0,
         "capital_efficiency": null,
-        "best_leaderboard_rank": 43,
+        "best_leaderboard_rank": 42,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
