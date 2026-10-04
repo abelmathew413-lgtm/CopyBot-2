@@ -437,13 +437,18 @@
 </div>
 
 <script id="report-data" type="application/json">{
-  "generated_at": "2026-10-03T22:52:41.992206+00:00",
-  "duration_seconds": 290.4,
-  "n_candidates_discovered": 1445,
+  "generated_at": "2026-10-04T02:34:06.414249+00:00",
+  "duration_seconds": 270.9,
+  "n_candidates_discovered": 1454,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 7,
-  "n_errors": 0,
-  "errors": [],
+  "n_passed_filters": 5,
+  "n_errors": 1,
+  "errors": [
+    {
+      "wallet": "0x27f738fe203827445690339104aae35b20bc44b0",
+      "error": "GET https://data-api.polymarket.com/trades failed after 3 attempts: 400 Client Error: Bad Request for url: https://data-api.polymarket.com/trades?limit=1000&offset=11000&user=0x27f738fe203827445690339104aae35b20bc44b0"
+    }
+  ],
   "wallets": [
     {
       "wallet": "0x2dc13c6bda81b202281e796953a7323de675b33c",
@@ -467,7 +472,7 @@
         "clv": 0.428,
         "n_clv_with_data": 22,
         "n_clv_attempted": 40,
-        "sharpe": 2.9364,
+        "sharpe": 2.9176,
         "roi_lifetime": 0.3626,
         "roi_180d": 0.3626,
         "roi_90d": 0.4406,
@@ -480,63 +485,16 @@
         "avg_trades_per_day_30d": 3.7
       },
       "radar": {
-        "account_age_days": 169.9,
+        "account_age_days": 170.1,
         "portfolio_value": 0,
         "capital_efficiency": 0.2257,
-        "best_leaderboard_rank": 28,
+        "best_leaderboard_rank": 25,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
       "open_positions_count": 90,
-      "entry_recommendations": []
-    },
-    {
-      "wallet": "0xe40ecff63ec661d218a86c048186ac83389a9770",
-      "userName": "lllllllIlll",
-      "display_name": "lllllllIlll",
-      "profile_url": "https://polymarket.com/@lllllllIlll",
-      "score": {
-        "composite": 0.615,
-        "score_100": 81,
-        "kelly_edge": 0.7935,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": 0.0373,
-        "n_clv_with_data": 39,
-        "n_clv_attempted": 40,
-        "sharpe": 1.8175,
-        "roi_lifetime": 0.4352,
-        "roi_180d": 0.4352,
-        "roi_90d": 0.4746,
-        "roi_30d": 0.4886,
-        "max_drawdown_fraction": 0.0023,
-        "n_resolved": 213,
-        "n_distinct_markets": 204,
-        "capital_concentration_hhi": 0.0107,
-        "win_rate_adj": 0.9099,
-        "avg_trades_per_day_30d": 6.03
-      },
-      "radar": {
-        "account_age_days": 128.9,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.226,
-        "best_leaderboard_rank": 24,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 150,
       "entry_recommendations": []
     },
     {
@@ -574,7 +532,7 @@
         "avg_trades_per_day_30d": 1.53
       },
       "radar": {
-        "account_age_days": 117.4,
+        "account_age_days": 117.6,
         "portfolio_value": 46636.43,
         "capital_efficiency": 0.2643,
         "best_leaderboard_rank": 27,
@@ -627,9 +585,9 @@
       "display_name": "equalsignificance",
       "profile_url": "https://polymarket.com/@equalsignificance",
       "score": {
-        "composite": 0.5247,
-        "score_100": 76,
-        "kelly_edge": 0.6268,
+        "composite": 0.5316,
+        "score_100": 77,
+        "kelly_edge": 0.6283,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -640,32 +598,32 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.0204,
+        "clv": 0.0267,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 1.0414,
-        "roi_lifetime": 0.3487,
-        "roi_180d": 0.3487,
-        "roi_90d": 0.3487,
-        "roi_30d": 0.3487,
-        "max_drawdown_fraction": 0.0171,
-        "n_resolved": 206,
-        "n_distinct_markets": 197,
+        "sharpe": 1.0456,
+        "roi_lifetime": 0.3494,
+        "roi_180d": 0.3494,
+        "roi_90d": 0.3494,
+        "roi_30d": 0.3494,
+        "max_drawdown_fraction": 0.0169,
+        "n_resolved": 207,
+        "n_distinct_markets": 198,
         "capital_concentration_hhi": 0.0075,
-        "win_rate_adj": 0.816,
-        "avg_trades_per_day_30d": 7.57
+        "win_rate_adj": 0.8169,
+        "avg_trades_per_day_30d": 7.6
       },
       "radar": {
-        "account_age_days": 21.1,
-        "portfolio_value": 5734.1,
-        "capital_efficiency": 0.225,
-        "best_leaderboard_rank": 43,
+        "account_age_days": 21.3,
+        "portfolio_value": 6025.43,
+        "capital_efficiency": 0.226,
+        "best_leaderboard_rank": 46,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 124,
+      "open_positions_count": 125,
       "entry_recommendations": [
         {
           "market_title": "Map Handicap: TS (-1.5) vs PARIVISION (+1.5)",
@@ -683,6 +641,23 @@
           "pick_score": 0.0185,
           "recommended": true,
           "their_position_value": 5449.9866
+        },
+        {
+          "market_title": "Counter-Strike: 9z vs TYLOO (BO3) - ESL Pro League Group Stage",
+          "outcome": "TYLOO",
+          "their_entry_price": 0.43,
+          "current_price": 0.435,
+          "fair_value_estimate": 0.435,
+          "suggested_entry_range": [
+            0.422,
+            0.443
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.43 -> 0.43); replicating their entry is still reasonably representative.",
+          "conviction": 0.001,
+          "pick_score": 0.001,
+          "recommended": true,
+          "their_position_value": 298.4795
         },
         {
           "market_title": "Will Dplus KIA win Worlds 2026?",
@@ -715,7 +690,7 @@
           "note": "Price is close to their entry (0.81 -> 0.84); replicating their entry is still reasonably representative.",
           "conviction": 0.0003,
           "pick_score": 0.0003,
-          "recommended": true,
+          "recommended": false,
           "their_position_value": 99.0451
         },
         {
@@ -739,8 +714,8 @@
           "market_title": "Will Anyone's Legend win Worlds 2026?",
           "outcome": "Yes",
           "their_entry_price": 0.024,
-          "current_price": 0.044,
-          "fair_value_estimate": 0.044,
+          "current_price": 0.0445,
+          "fair_value_estimate": 0.0445,
           "suggested_entry_range": [
             0.024,
             0.044
@@ -750,7 +725,7 @@
           "conviction": 0.0,
           "pick_score": 0.0,
           "recommended": false,
-          "their_position_value": 0.5535
+          "their_position_value": 0.5598
         }
       ]
     },
@@ -789,10 +764,10 @@
         "avg_trades_per_day_30d": 3.37
       },
       "radar": {
-        "account_age_days": 123.3,
+        "account_age_days": 123.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.2171,
-        "best_leaderboard_rank": 24,
+        "best_leaderboard_rank": 21,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
@@ -800,71 +775,6 @@
       },
       "open_positions_count": 15,
       "entry_recommendations": []
-    },
-    {
-      "wallet": "0x7f7351b5ba33a4be08b7111911b227cdd82414f1",
-      "userName": "qiu3",
-      "display_name": "qiu3",
-      "profile_url": "https://polymarket.com/@qiu3",
-      "score": {
-        "composite": 0.388,
-        "score_100": 70,
-        "kelly_edge": 0.4411,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.02,
-        "clv": -0.0222,
-        "n_clv_with_data": 18,
-        "n_clv_attempted": 18,
-        "sharpe": 1.3812,
-        "roi_lifetime": 0.334,
-        "roi_180d": 0.334,
-        "roi_90d": 0.334,
-        "roi_30d": 0.334,
-        "max_drawdown_fraction": 0.0011,
-        "n_resolved": 18,
-        "n_distinct_markets": 17,
-        "capital_concentration_hhi": 0.1016,
-        "win_rate_adj": 0.7424,
-        "avg_trades_per_day_30d": 6.47
-      },
-      "radar": {
-        "account_age_days": 4.9,
-        "portfolio_value": 18219.82,
-        "capital_efficiency": 0.2554,
-        "best_leaderboard_rank": 22,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 8,
-      "entry_recommendations": [
-        {
-          "market_title": "LoL: Cloud9 vs LYON (BO5) - LCS Playoffs",
-          "outcome": "Cloud9",
-          "their_entry_price": 0.3473,
-          "current_price": 0.17,
-          "fair_value_estimate": 0.17,
-          "suggested_entry_range": [
-            0.17,
-            0.347
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.18 (51%) since their entry of 0.35 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0756,
-          "pick_score": 0.0151,
-          "recommended": true,
-          "their_position_value": 18219.8181
-        }
-      ]
     },
     {
       "wallet": "0x1109da04152c38666464f5adb5d7c55618810b2c",
@@ -893,7 +803,7 @@
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 120.8,
+        "account_age_days": 120.9,
         "portfolio_value": 0,
         "capital_efficiency": null,
         "best_leaderboard_rank": 41,
