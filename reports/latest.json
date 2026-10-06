@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-06T00:51:06.232532+00:00",
-  "duration_seconds": 499.1,
-  "n_candidates_discovered": 1466,
+  "generated_at": "2026-10-06T07:29:43.358121+00:00",
+  "duration_seconds": 269.2,
+  "n_candidates_discovered": 1446,
   "n_candidates_evaluated": 60,
-  "n_passed_filters": 8,
+  "n_passed_filters": 7,
   "n_errors": 0,
   "errors": [],
   "wallets": [
@@ -13,7 +13,7 @@
       "display_name": "xifutloong3",
       "profile_url": "https://polymarket.com/@xifutloong3",
       "score": {
-        "composite": 0.7884,
+        "composite": 0.7889,
         "score_100": 90,
         "kelly_edge": 0.3983,
         "weights_used": {
@@ -26,14 +26,14 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": 0.428,
-        "n_clv_with_data": 22,
+        "clv": 0.4323,
+        "n_clv_with_data": 21,
         "n_clv_attempted": 40,
         "sharpe": 2.9176,
         "roi_lifetime": 0.3626,
         "roi_180d": 0.3626,
         "roi_90d": 0.4406,
-        "roi_30d": 0.4471,
+        "roi_30d": 0.4515,
         "max_drawdown_fraction": 0.0122,
         "n_resolved": 231,
         "n_distinct_markets": 229,
@@ -42,7 +42,7 @@
         "avg_trades_per_day_30d": 3.63
       },
       "radar": {
-        "account_age_days": 172.0,
+        "account_age_days": 172.3,
         "portfolio_value": 0,
         "capital_efficiency": 0.2257,
         "best_leaderboard_rank": 23,
@@ -89,33 +89,67 @@
         "avg_trades_per_day_30d": 8.2
       },
       "radar": {
-        "account_age_days": 23.2,
-        "portfolio_value": 6166.14,
-        "capital_efficiency": 0.2229,
-        "best_leaderboard_rank": 49,
+        "account_age_days": 23.5,
+        "portfolio_value": 16422.7,
+        "capital_efficiency": 0.2216,
+        "best_leaderboard_rank": 51,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 137,
+      "open_positions_count": 140,
       "entry_recommendations": [
+        {
+          "market_title": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+          "outcome": "Aurora Gaming",
+          "their_entry_price": 0.46,
+          "current_price": 0.455,
+          "fair_value_estimate": 0.455,
+          "suggested_entry_range": [
+            0.448,
+            0.468
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.46 -> 0.46); replicating their entry is still reasonably representative.",
+          "conviction": 0.0281,
+          "pick_score": 0.0281,
+          "recommended": true,
+          "their_position_value": 6825
+        },
         {
           "market_title": "Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro League Group Stage",
           "outcome": "G2",
           "their_entry_price": 0.56,
-          "current_price": 0.575,
-          "fair_value_estimate": 0.575,
+          "current_price": 0.615,
+          "fair_value_estimate": 0.615,
           "suggested_entry_range": [
-            0.557,
-            0.578
+            0.56,
+            0.615
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.56 -> 0.57); replicating their entry is still reasonably representative.",
-          "conviction": 0.0138,
-          "pick_score": 0.0138,
+          "note": "Price is close to their entry (0.56 -> 0.61); replicating their entry is still reasonably representative.",
+          "conviction": 0.0179,
+          "pick_score": 0.0179,
           "recommended": true,
-          "their_position_value": 4064.3707
+          "their_position_value": 4347.1096
+        },
+        {
+          "market_title": "Map Handicap: FAL (-1.5) vs Natus Vincere (+1.5)",
+          "outcome": "Team Falcons",
+          "their_entry_price": 0.32,
+          "current_price": 0.315,
+          "fair_value_estimate": 0.315,
+          "suggested_entry_range": [
+            0.307,
+            0.328
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.32 -> 0.32); replicating their entry is still reasonably representative.",
+          "conviction": 0.013,
+          "pick_score": 0.013,
+          "recommended": true,
+          "their_position_value": 3149.9975
         },
         {
           "market_title": "Will the Republicans win the Maine Senate race in 2026?",
@@ -129,9 +163,9 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.58 -> 0.58); replicating their entry is still reasonably representative.",
-          "conviction": 0.0056,
-          "pick_score": 0.0056,
-          "recommended": true,
+          "conviction": 0.0068,
+          "pick_score": 0.0068,
+          "recommended": false,
           "their_position_value": 1648.8364
         },
         {
@@ -146,27 +180,27 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.05 -> 0.05); replicating their entry is still reasonably representative.",
-          "conviction": 0.0007,
-          "pick_score": 0.0007,
-          "recommended": true,
-          "their_position_value": 214.0573
+          "conviction": 0.0009,
+          "pick_score": 0.0009,
+          "recommended": false,
+          "their_position_value": 217.3861
         },
         {
           "market_title": "Will Dplus KIA win Worlds 2026?",
           "outcome": "Yes",
           "their_entry_price": 0.0203,
-          "current_price": 0.0565,
-          "fair_value_estimate": 0.0565,
+          "current_price": 0.0545,
+          "fair_value_estimate": 0.0545,
           "suggested_entry_range": [
             0.02,
-            0.057
+            0.055
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.02 -> 0.06); replicating their entry is still reasonably representative.",
-          "conviction": 0.0005,
-          "pick_score": 0.0005,
+          "note": "Price is close to their entry (0.02 -> 0.05); replicating their entry is still reasonably representative.",
+          "conviction": 0.0006,
+          "pick_score": 0.0006,
           "recommended": false,
-          "their_position_value": 138.67
+          "their_position_value": 133.7613
         },
         {
           "market_title": "Will T1 win Worlds 2026?",
@@ -180,8 +214,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.81 -> 0.85); replicating their entry is still reasonably representative.",
-          "conviction": 0.0003,
-          "pick_score": 0.0003,
+          "conviction": 0.0004,
+          "pick_score": 0.0004,
           "recommended": false,
           "their_position_value": 99.6311
         },
@@ -189,18 +223,18 @@
           "market_title": "Will Anyone's Legend win Worlds 2026?",
           "outcome": "Yes",
           "their_entry_price": 0.024,
-          "current_price": 0.046,
-          "fair_value_estimate": 0.046,
+          "current_price": 0.044,
+          "fair_value_estimate": 0.044,
           "suggested_entry_range": [
             0.024,
-            0.046
+            0.044
           ],
           "flagged_chasing": false,
-          "note": "Price is close to their entry (0.02 -> 0.05); replicating their entry is still reasonably representative.",
+          "note": "Price is close to their entry (0.02 -> 0.04); replicating their entry is still reasonably representative.",
           "conviction": 0.0,
           "pick_score": 0.0,
           "recommended": false,
-          "their_position_value": 0.5787
+          "their_position_value": 0.5535
         }
       ]
     },
@@ -236,20 +270,54 @@
         "n_distinct_markets": 15,
         "capital_concentration_hhi": 0.0909,
         "win_rate_adj": 0.7167,
-        "avg_trades_per_day_30d": 1.03
+        "avg_trades_per_day_30d": 1.1
       },
       "radar": {
-        "account_age_days": 122.4,
-        "portfolio_value": 2521.34,
-        "capital_efficiency": 0.2833,
+        "account_age_days": 122.6,
+        "portfolio_value": 53948.31,
+        "capital_efficiency": 0.2712,
         "best_leaderboard_rank": 23,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 15,
+      "open_positions_count": 18,
       "entry_recommendations": [
+        {
+          "market_title": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+          "outcome": "FURIA",
+          "their_entry_price": 0.5399,
+          "current_price": 0.545,
+          "fair_value_estimate": 0.545,
+          "suggested_entry_range": [
+            0.532,
+            0.552
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.54 -> 0.55); replicating their entry is still reasonably representative.",
+          "conviction": 0.038,
+          "pick_score": 0.038,
+          "recommended": true,
+          "their_position_value": 27027.617
+        },
+        {
+          "market_title": "Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro League Group Stage",
+          "outcome": "G2",
+          "their_entry_price": 0.6098,
+          "current_price": 0.615,
+          "fair_value_estimate": 0.615,
+          "suggested_entry_range": [
+            0.602,
+            0.622
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.61 -> 0.61); replicating their entry is still reasonably representative.",
+          "conviction": 0.0332,
+          "pick_score": 0.0332,
+          "recommended": true,
+          "their_position_value": 23616.5757
+        },
         {
           "market_title": "Valorant: NRG vs T1 (BO3) - VCT Champions Playoffs",
           "outcome": "NRG",
@@ -262,10 +330,27 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.70 -> 0.70); replicating their entry is still reasonably representative.",
-          "conviction": 0.0038,
-          "pick_score": 0.0038,
+          "conviction": 0.0035,
+          "pick_score": 0.0035,
           "recommended": true,
           "their_position_value": 2521.3408
+        },
+        {
+          "market_title": "Counter-Strike: 9z vs BetBoom Team (BO3) - ESL Pro League Group Stage",
+          "outcome": "9z",
+          "their_entry_price": 0.41,
+          "current_price": 0.425,
+          "fair_value_estimate": 0.425,
+          "suggested_entry_range": [
+            0.407,
+            0.427
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.41 -> 0.42); replicating their entry is still reasonably representative.",
+          "conviction": 0.0011,
+          "pick_score": 0.0011,
+          "recommended": false,
+          "their_position_value": 782.7791
         }
       ]
     },
@@ -304,17 +389,35 @@
         "avg_trades_per_day_30d": 4.2
       },
       "radar": {
-        "account_age_days": 88.7,
-        "portfolio_value": 0,
-        "capital_efficiency": 0.1095,
+        "account_age_days": 88.9,
+        "portfolio_value": 36263.88,
+        "capital_efficiency": 0.1086,
         "best_leaderboard_rank": 37,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 91,
-      "entry_recommendations": []
+      "open_positions_count": 92,
+      "entry_recommendations": [
+        {
+          "market_title": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+          "outcome": "Team Falcons",
+          "their_entry_price": 0.5864,
+          "current_price": 0.585,
+          "fair_value_estimate": 0.585,
+          "suggested_entry_range": [
+            0.576,
+            0.596
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.59 -> 0.58); replicating their entry is still reasonably representative.",
+          "conviction": 0.1126,
+          "pick_score": 0.1126,
+          "recommended": true,
+          "their_position_value": 36263.8837
+        }
+      ]
     },
     {
       "wallet": "0x80d5aebbe7a714879177e4dae0014195beb3987e",
@@ -351,7 +454,7 @@
         "avg_trades_per_day_30d": 1.07
       },
       "radar": {
-        "account_age_days": 24.2,
+        "account_age_days": 24.4,
         "portfolio_value": 0,
         "capital_efficiency": 0.4758,
         "best_leaderboard_rank": 25,
@@ -364,96 +467,14 @@
       "entry_recommendations": []
     },
     {
-      "wallet": "0x30c7ac0158499ddc6761047f7f69bcf7d036ac3b",
-      "userName": "Wiretransferxyz",
-      "display_name": "Wiretransferxyz",
-      "profile_url": "https://polymarket.com/@Wiretransferxyz",
-      "score": {
-        "composite": 0.2509,
-        "score_100": 63,
-        "kelly_edge": 0.0684,
-        "weights_used": {
-          "clv": 0.25,
-          "sharpe": 0.2,
-          "roi_lifetime": 0.15,
-          "roi_90d": 0.15,
-          "drawdown": 0.1,
-          "sample_size": 0.1,
-          "win_rate": 0.05
-        },
-        "consistency_adjustment": 0.0,
-        "clv": 0.0374,
-        "n_clv_with_data": 32,
-        "n_clv_attempted": 40,
-        "sharpe": 0.0699,
-        "roi_lifetime": 0.0543,
-        "roi_180d": 0.0553,
-        "roi_90d": 0.0103,
-        "roi_30d": -0.0208,
-        "max_drawdown_fraction": 0.0743,
-        "n_resolved": 1483,
-        "n_distinct_markets": 1469,
-        "capital_concentration_hhi": 0.0012,
-        "win_rate_adj": 0.5499,
-        "avg_trades_per_day_30d": 7.6
-      },
-      "radar": {
-        "account_age_days": 184.7,
-        "portfolio_value": 16963.69,
-        "capital_efficiency": 0.0516,
-        "best_leaderboard_rank": 52,
-        "profile_views": null,
-        "reasons": [
-          "passes: efficient/small portfolio, low view count, not top-ranked publicly"
-        ]
-      },
-      "open_positions_count": 62,
-      "entry_recommendations": [
-        {
-          "market_title": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
-          "outcome": "Natus Vincere",
-          "their_entry_price": 0.3899,
-          "current_price": 0.395,
-          "fair_value_estimate": 0.395,
-          "suggested_entry_range": [
-            0.382,
-            0.402
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.39 -> 0.40); replicating their entry is still reasonably representative.",
-          "conviction": 0.0425,
-          "pick_score": 0.0425,
-          "recommended": true,
-          "their_position_value": 15799.988
-        },
-        {
-          "market_title": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
-          "outcome": "FURIA",
-          "their_entry_price": 0.53,
-          "current_price": 0.535,
-          "fair_value_estimate": 0.535,
-          "suggested_entry_range": [
-            0.522,
-            0.542
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.53 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.0031,
-          "pick_score": 0.0031,
-          "recommended": true,
-          "their_position_value": 1163.6975
-        }
-      ]
-    },
-    {
       "wallet": "0x676c1bb692c76b57b06f1b93817515acfa5ce139",
       "userName": "HidingFromGhosts",
       "display_name": "HidingFromGhosts",
       "profile_url": "https://polymarket.com/@HidingFromGhosts",
       "score": {
-        "composite": 0.2139,
+        "composite": 0.2143,
         "score_100": 61,
-        "kelly_edge": -0.1025,
+        "kelly_edge": -0.1114,
         "weights_used": {
           "clv": 0.25,
           "sharpe": 0.2,
@@ -464,66 +485,83 @@
           "win_rate": 0.05
         },
         "consistency_adjustment": 0.02,
-        "clv": -0.0527,
+        "clv": -0.0497,
         "n_clv_with_data": 40,
         "n_clv_attempted": 40,
-        "sharpe": 0.1259,
-        "roi_lifetime": 0.0914,
-        "roi_180d": 0.0914,
-        "roi_90d": 0.0914,
-        "roi_30d": 0.0914,
+        "sharpe": 0.1154,
+        "roi_lifetime": 0.0911,
+        "roi_180d": 0.0911,
+        "roi_90d": 0.0911,
+        "roi_30d": 0.0911,
         "max_drawdown_fraction": 0.0313,
-        "n_resolved": 137,
-        "n_distinct_markets": 132,
+        "n_resolved": 138,
+        "n_distinct_markets": 133,
         "capital_concentration_hhi": 0.0216,
-        "win_rate_adj": 0.5075,
-        "avg_trades_per_day_30d": 5.97
+        "win_rate_adj": 0.5035,
+        "avg_trades_per_day_30d": 6.0
       },
       "radar": {
-        "account_age_days": 11.7,
-        "portfolio_value": 7129.61,
-        "capital_efficiency": 0.091,
-        "best_leaderboard_rank": 51,
+        "account_age_days": 12.0,
+        "portfolio_value": 20401.59,
+        "capital_efficiency": 0.0897,
+        "best_leaderboard_rank": 54,
         "profile_views": null,
         "reasons": [
           "passes: efficient/small portfolio, low view count, not top-ranked publicly"
         ]
       },
-      "open_positions_count": 8,
+      "open_positions_count": 9,
       "entry_recommendations": [
+        {
+          "market_title": "Map Handicap: FAL (-1.5) vs Natus Vincere (+1.5)",
+          "outcome": "Team Falcons",
+          "their_entry_price": 0.31,
+          "current_price": 0.315,
+          "fair_value_estimate": 0.315,
+          "suggested_entry_range": [
+            0.302,
+            0.323
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.31 -> 0.32); replicating their entry is still reasonably representative.",
+          "conviction": 0.1853,
+          "pick_score": 0.1853,
+          "recommended": true,
+          "their_position_value": 3779.9997
+        },
         {
           "market_title": "Will GEN be number 1 on the end of year Global Power Rankings?",
           "outcome": "No",
           "their_entry_price": 0.6481,
-          "current_price": 0.69,
-          "fair_value_estimate": 0.69,
+          "current_price": 0.685,
+          "fair_value_estimate": 0.685,
           "suggested_entry_range": [
             0.648,
-            0.69
+            0.685
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.65 -> 0.69); replicating their entry is still reasonably representative.",
-          "conviction": 0.4261,
-          "pick_score": 0.4261,
+          "conviction": 0.1478,
+          "pick_score": 0.1478,
           "recommended": true,
-          "their_position_value": 3037.8492
+          "their_position_value": 3015.8358
         },
         {
-          "market_title": "Panthers vs. Kings",
-          "outcome": "Panthers",
-          "their_entry_price": 0.5221,
-          "current_price": 0.525,
-          "fair_value_estimate": 0.525,
+          "market_title": "LoL: HANJIN BRION vs Natus Vincere - Game 1 Winner",
+          "outcome": "Natus Vincere",
+          "their_entry_price": 0.2899,
+          "current_price": 0.455,
+          "fair_value_estimate": 0.465,
           "suggested_entry_range": [
-            0.514,
-            0.534
+            0.295,
+            0.46
           ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.52 -> 0.53); replicating their entry is still reasonably representative.",
-          "conviction": 0.1852,
-          "pick_score": 0.1852,
+          "flagged_chasing": true,
+          "note": "Price has moved up 0.17 (57%) since their entry of 0.29 -- buying now means chasing, not replicating their original risk/reward.",
+          "conviction": 0.3978,
+          "pick_score": 0.0796,
           "recommended": true,
-          "their_position_value": 1320.0946
+          "their_position_value": 8115.9169
         },
         {
           "market_title": "Predators vs. Maple Leafs",
@@ -537,10 +575,44 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.58 -> 0.58); replicating their entry is still reasonably representative.",
-          "conviction": 0.1231,
-          "pick_score": 0.1231,
-          "recommended": true,
-          "their_position_value": 877.305
+          "conviction": 0.0727,
+          "pick_score": 0.0727,
+          "recommended": false,
+          "their_position_value": 1483.0036
+        },
+        {
+          "market_title": "Panthers vs. Kings",
+          "outcome": "Panthers",
+          "their_entry_price": 0.5221,
+          "current_price": 0.525,
+          "fair_value_estimate": 0.525,
+          "suggested_entry_range": [
+            0.514,
+            0.534
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.52 -> 0.53); replicating their entry is still reasonably representative.",
+          "conviction": 0.0655,
+          "pick_score": 0.0655,
+          "recommended": false,
+          "their_position_value": 1336.0415
+        },
+        {
+          "market_title": "Penguins vs. Capitals",
+          "outcome": "Penguins",
+          "their_entry_price": 0.42,
+          "current_price": 0.425,
+          "fair_value_estimate": 0.425,
+          "suggested_entry_range": [
+            0.412,
+            0.432
+          ],
+          "flagged_chasing": false,
+          "note": "Price is close to their entry (0.42 -> 0.42); replicating their entry is still reasonably representative.",
+          "conviction": 0.054,
+          "pick_score": 0.054,
+          "recommended": false,
+          "their_position_value": 1101.008
         },
         {
           "market_title": "Avalanche vs. Jets: O/U 5.5",
@@ -554,10 +626,10 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.57 -> 0.59); replicating their entry is still reasonably representative.",
-          "conviction": 0.0665,
-          "pick_score": 0.0665,
+          "conviction": 0.0498,
+          "pick_score": 0.0498,
           "recommended": false,
-          "their_position_value": 473.947
+          "their_position_value": 1016.747
         },
         {
           "market_title": "Wild vs. Sabres",
@@ -571,8 +643,8 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.47 -> 0.48); replicating their entry is still reasonably representative.",
-          "conviction": 0.041,
-          "pick_score": 0.041,
+          "conviction": 0.0143,
+          "pick_score": 0.0143,
           "recommended": false,
           "their_position_value": 292.3934
         },
@@ -588,44 +660,10 @@
           ],
           "flagged_chasing": false,
           "note": "Price is close to their entry (0.52 -> 0.54); replicating their entry is still reasonably representative.",
-          "conviction": 0.0366,
-          "pick_score": 0.0366,
+          "conviction": 0.0128,
+          "pick_score": 0.0128,
           "recommended": false,
           "their_position_value": 260.6444
-        },
-        {
-          "market_title": "Penguins vs. Capitals",
-          "outcome": "Penguins",
-          "their_entry_price": 0.42,
-          "current_price": 0.425,
-          "fair_value_estimate": 0.425,
-          "suggested_entry_range": [
-            0.412,
-            0.432
-          ],
-          "flagged_chasing": false,
-          "note": "Price is close to their entry (0.42 -> 0.42); replicating their entry is still reasonably representative.",
-          "conviction": 0.0349,
-          "pick_score": 0.0349,
-          "recommended": false,
-          "their_position_value": 248.6632
-        },
-        {
-          "market_title": "Sharks vs. Stars: O/U 5.5",
-          "outcome": "Over",
-          "their_entry_price": 0.59,
-          "current_price": 0.435,
-          "fair_value_estimate": 0.435,
-          "suggested_entry_range": [
-            0.435,
-            0.59
-          ],
-          "flagged_chasing": true,
-          "note": "Price has moved down 0.15 (26%) since their entry of 0.59 -- buying now means chasing, not replicating their original risk/reward.",
-          "conviction": 0.0868,
-          "pick_score": 0.0174,
-          "recommended": false,
-          "their_position_value": 618.7179
         }
       ]
     },
@@ -656,7 +694,7 @@
         "avg_trades_per_day_30d": 0.0
       },
       "radar": {
-        "account_age_days": 122.8,
+        "account_age_days": 123.1,
         "portfolio_value": 0,
         "capital_efficiency": null,
         "best_leaderboard_rank": 44,
